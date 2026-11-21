@@ -1,0 +1,1427 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#. Flash when a spending limit is not a valid amount; the placeholder is the limit's name.
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgid "\"%{permission_name}\" needs a dollar amount of 0 or more."
+msgstr "\"%{permission_name}\" necesita un importe en dólares de 0 o más."
+
+#. Flash when a count or size limit is not a valid number; the placeholder is the limit's name.
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgid "\"%{permission_name}\" needs a whole number of 0 or more."
+msgstr "\"%{permission_name}\" necesita un número entero de 0 o más."
+
+#. Flash when an admin tries to reset their own password here.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgid "Change your own password in Account settings"
+msgstr "Cambia tu propia contraseña en los ajustes de la cuenta"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgid "Change your password in Account settings"
+msgstr "Cambia tu contraseña en los ajustes de la cuenta"
+
+#. Flash when the user account form has errors.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save — see the highlighted fields"
+msgstr "No se pudo guardar: revisa los campos resaltados"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgid "Everyone holds every account; its permissions apply to all users."
+msgstr "Todas las cuentas pertenecen a «Everyone»; sus permisos se aplican a todos los usuarios."
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgid "Only an owner can change an owner's account."
+msgstr "Solo un propietario puede cambiar la cuenta de un propietario."
+
+#. Shown instead of the role field when an admin edits their own account; the placeholder is the role name.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgid "Role: %{role_name}. You can't change your own role."
+msgstr "Rol: %{role_name}. No puedes cambiar tu propio rol."
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a group, or create a new one."
+msgstr "Selecciona un grupo o crea uno nuevo."
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a user, or create a new one."
+msgstr "Selecciona un usuario o crea uno nuevo."
+
+#. Shown to the passwordless auto-login admin on the new-user form; the placeholder links to the account settings page.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgid "Set a password in %{settings_link} before adding users — auto-login stops once a second account exists."
+msgstr "Establece una contraseña en %{settings_link} antes de añadir usuarios: el inicio de sesión automático deja de funcionar cuando existe una segunda cuenta."
+
+#. Flash when a change a system group does not allow is attempted.
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgid "System groups can't be changed that way."
+msgstr "Los grupos del sistema no se pueden cambiar de esa forma."
+
+#. Flash shown when the group open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgid "The group was deleted or moved elsewhere."
+msgstr "El grupo se eliminó o se movió a otro lugar."
+
+#. Flash shown when the user open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgid "The user was deleted or moved elsewhere."
+msgstr "El usuario se eliminó o se movió a otro lugar."
+
+#. Shown on an account that holds a permission the viewer lacks; the placeholder is that permission's name.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgid "This account holds \"%{permission_name}\", which you don't hold, so you can't change its permissions."
+msgstr "Esta cuenta tiene \"%{permission_name}\", que tú no tienes, así que no puedes cambiar sus permisos."
+
+#. Shown on a permission group that holds a permission the viewer lacks; the placeholder is that permission's name.
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgid "This group holds \"%{permission_name}\", which you don't hold, so you can't change it."
+msgstr "Este grupo tiene \"%{permission_name}\", que tú no tienes, así que no puedes cambiarlo."
+
+#. Flash when the viewer may not make a permission change.
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgid "You are not allowed to do that."
+msgstr "No tienes permiso para hacer eso."
+
+#. Flash when saving permissions that include one the viewer lacks; the placeholder is its name.
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgid "You can't change \"%{permission_name}\": you don't hold that permission."
+msgstr "No puedes cambiar \"%{permission_name}\": no tienes ese permiso."
+
+#. Flash when an admin tries to change their own role.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgid "You can't change your own role"
+msgstr "No puedes cambiar tu propio rol"
+
+#. Flash when an admin tries to delete their own account.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgid "You can't delete your own account"
+msgstr "No puedes eliminar tu propia cuenta"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgid "You don't hold this permission."
+msgstr "No tienes este permiso."
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of permission groups"
+msgid "Groups"
+msgstr "Grupos"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of user accounts"
+msgid "Users"
+msgstr "Usuarios"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: search field over the permission list"
+msgid "Search permissions"
+msgstr "Buscar permisos"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: built-in permission group"
+msgid "System"
+msgstr "Sistema"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a permission group"
+msgid "New group"
+msgstr "Nuevo grupo"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a user account"
+msgid "New user"
+msgstr "Nuevo usuario"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete this permission group"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete this user account"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard edits to the permission group"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard edits to the user account"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the ban form on this account's moderation record"
+msgid "Ban"
+msgstr "Bloquear"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open this account's chats and content"
+msgid "Content"
+msgstr "Contenido"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open this account's moderation record"
+msgid "Lookup"
+msgstr "Consultar"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: reset another account's password"
+msgid "Reset password"
+msgstr "Restablecer contraseña"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the account's permission groups"
+msgid "Save groups"
+msgstr "Guardar grupos"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the permission group"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the permission group's members"
+msgid "Save members"
+msgstr "Guardar miembros"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the permission list"
+msgid "Save permissions"
+msgstr "Guardar permisos"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the user account"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: user accounts affected by a bulk action"
+msgid "%{user_count} user"
+msgid_plural "%{user_count} users"
+msgstr[0] "%{user_count} usuario"
+msgstr[1] "%{user_count} usuarios"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no accounts to add to a permission group"
+msgid "No accounts yet"
+msgstr "Aún no hay cuentas"
+
+#: lib/mythweaver_web/live/group_live.ex
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no permission groups"
+msgid "No groups yet"
+msgstr "Aún no hay grupos"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no permission matches the search"
+msgid "No permissions match."
+msgstr "Ningún permiso coincide."
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no user account matches the search"
+msgid "No users match this search"
+msgstr "Ningún usuario coincide con esta búsqueda"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no user accounts"
+msgid "No users yet"
+msgstr "Aún no hay usuarios"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: description of a permission group"
+msgid "Description (optional)"
+msgstr "Descripción (opcional)"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: email address of a user account"
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: handle of a user account"
+msgid "Handle"
+msgstr "Identificador"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: members of a permission group"
+msgid "Members"
+msgstr "Miembros"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a permission group"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: new account password, with its minimum length"
+msgid "Password (at least 12 characters)"
+msgstr "Contraseña (al menos 12 caracteres)"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: new password for another account"
+msgid "New password"
+msgstr "Nueva contraseña"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: nickname of a user account"
+msgid "Nickname (optional)"
+msgstr "Apodo (opcional)"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: permission groups a user account belongs to"
+msgid "Groups"
+msgstr "Grupos"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: repeat the new account's password"
+msgid "Confirm password"
+msgstr "Confirmar contraseña"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: repeat the new password for another account"
+msgid "Confirm new password"
+msgstr "Confirmar nueva contraseña"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: role of a user account"
+msgid "Role"
+msgstr "Rol"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a user account's own permission overrides"
+msgid "Overrides"
+msgstr "Excepciones"
+
+#. Confirm dialog before a permission group is deleted.
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting a permission group"
+msgid "Delete %{group_name}?"
+msgstr "¿Eliminar %{group_name}?"
+
+#. Confirm dialog before a user account is deleted.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting a user account"
+msgid "Delete %{user_name}?"
+msgstr "¿Eliminar %{user_name}?"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form that resets another account's password"
+msgid "Reset password"
+msgstr "Restablecer contraseña"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of permission groups"
+msgid "Groups"
+msgstr "Grupos"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of user accounts"
+msgid "Users"
+msgstr "Usuarios"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: members of a permission group"
+msgid "Members"
+msgstr "Miembros"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: permission group not saved yet"
+msgid "New group"
+msgstr "Nuevo grupo"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: permission groups a user account belongs to"
+msgid "Groups"
+msgstr "Grupos"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: permissions of a permission group"
+msgid "Permissions"
+msgstr "Permisos"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: user account not saved yet"
+msgid "New user"
+msgstr "Nuevo usuario"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: the viewer's account settings page"
+msgid "Account settings"
+msgstr "Ajustes de la cuenta"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a permission's effect"
+msgid "Allow"
+msgstr "Permitir"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a permission's effect"
+msgid "Deny"
+msgstr "Denegar"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a permission's effect"
+msgid "Unset"
+msgstr "Sin definir"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how a permission limit is set"
+msgid "Set"
+msgstr "Definido"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how a permission limit is set"
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how a permission limit is set"
+msgid "Unset"
+msgstr "Sin definir"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: role of a user account"
+msgid "Owner"
+msgstr "Propietario"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: role of a user account"
+msgid "User"
+msgstr "Usuario"
+
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: permission groups editor"
+msgid "Groups"
+msgstr "Grupos"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: user accounts editor"
+msgid "Users"
+msgstr "Usuarios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission category"
+msgid "AI"
+msgstr "IA"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission category"
+msgid "Administration"
+msgstr "Administración"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission category"
+msgid "Content"
+msgstr "Contenido"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission category"
+msgid "Content moderation"
+msgstr "Moderación de contenido"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission category"
+msgid "Limits"
+msgstr "Límites"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission category"
+msgid "MCP"
+msgstr "MCP"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission category"
+msgid "Moderation"
+msgstr "Moderación"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission category"
+msgid "Scripts"
+msgstr "Scripts"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission category"
+msgid "Sharing"
+msgstr "Compartir"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission category"
+msgid "Uploads"
+msgstr "Subidas"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: ai.connections.create"
+msgid "Add AI connections and models that only the user sees and runs."
+msgstr "Añadir conexiones y modelos de IA que solo el usuario ve y ejecuta."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: ai.site_models.use"
+msgid "Run the site's AI connections and models; off, only the user's own models work."
+msgstr "Ejecutar las conexiones y modelos de IA del sitio; si está desactivado, solo funcionan los modelos propios del usuario."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: analytics.all.view"
+msgid "See generation analytics for every account."
+msgstr "Ver las analíticas de generación de todas las cuentas."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: catalog.feature"
+msgid "Feature and unfeature catalog listings."
+msgstr "Destacar y dejar de destacar publicaciones del catálogo."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: catalog.publish"
+msgid "Publish the user's own characters, lore, prompts, scripts and memory items to the catalog for anyone to subscribe to."
+msgstr "Publicar en el catálogo los personajes, el lore, los prompts, los scripts y los elementos de memoria propios del usuario para que cualquiera se suscriba."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: chats.invite"
+msgid "Invite other accounts by handle into the user's chats, as chat editors or guests."
+msgstr "Invitar a otras cuentas por su identificador a los chats del usuario, como editores del chat o invitados."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: content.characters.create"
+msgid "Keep characters only the user sees and edits."
+msgstr "Tener personajes que solo el usuario ve y edita."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: content.lore.create"
+msgid "Keep lore books, entries and pools only the user sees and edits."
+msgstr "Tener libros de lore, entradas y grupos que solo el usuario ve y edita."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: content.memory.create"
+msgid "Keep memory profiles, side prompts and side prompt sets only the user sees and edits."
+msgstr "Tener perfiles de memoria, prompts secundarios y conjuntos de prompts secundarios que solo el usuario ve y edita."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: content.prompts.create"
+msgid "Keep prompts, prompt blocks and outlets only the user sees and edits."
+msgstr "Tener prompts, bloques de prompt y outlets que solo el usuario ve y edita."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: content.scripts.create"
+msgid "Keep scripts only the user sees and edits."
+msgstr "Tener scripts que solo el usuario ve y edita."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: content.tags.create"
+msgid "Keep tags, siblings and parents only the user sees, and tag anything they can see."
+msgstr "Tener etiquetas, hermanas y padres que solo el usuario ve, y etiquetar todo lo que pueda ver."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: content.variables.create"
+msgid "Keep global variables only the user sees and edits."
+msgstr "Tener variables globales que solo el usuario ve y edita."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: groups.manage"
+msgid "Create groups, set their permissions and members, and set users' own permissions."
+msgstr "Crear grupos, definir sus permisos y miembros, y definir los permisos propios de los usuarios."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: mcp.use"
+msgid "Create MCP access tokens and use Mythweaver's tools from outside AI clients (Claude, Cursor and others) with them."
+msgstr "Crear tokens de acceso MCP y usar con ellos las herramientas de Mythweaver desde clientes de IA externos (Claude, Cursor y otros)."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.accounts.sanction"
+msgid "Warn accounts other than owners, suspend them for a time or for good, and lift suspensions."
+msgstr "Advertir a cuentas que no sean de propietarios, suspenderlas temporal o permanentemente y levantar suspensiones."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.ai.permissive"
+msgid "Check this account's AI connections and models against the moderation rules after saving; matches are flagged for review."
+msgstr "Comprobar las conexiones y modelos de IA de esta cuenta con las reglas de moderación después de guardar; las coincidencias se marcan para revisión."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.ai.restrictive"
+msgid "Keep new AI connections and models and their text edits in memory, unsaved, until the rules or a moderator approve them. Wins over scanning."
+msgstr "Mantener las nuevas conexiones y modelos de IA y sus ediciones de texto en memoria, sin guardar, hasta que las reglas o un moderador los aprueben. Tiene prioridad sobre el escaneo."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.characters.permissive"
+msgid "Check this account's characters against the moderation rules after saving; matches are flagged for review."
+msgstr "Comprobar los personajes de esta cuenta con las reglas de moderación después de guardar; las coincidencias se marcan para revisión."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.characters.restrictive"
+msgid "Keep new characters and character text edits in memory, unsaved, until the rules or a moderator approve them. Wins over scanning."
+msgstr "Mantener los nuevos personajes y las ediciones de texto de personajes en memoria, sin guardar, hasta que las reglas o un moderador los aprueben. Tiene prioridad sobre el escaneo."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.chats.permissive"
+msgid "Check this account's chat names and the messages it writes against the moderation rules after saving; matches are flagged for review."
+msgstr "Comprobar los nombres de chat de esta cuenta y los mensajes que escribe con las reglas de moderación después de guardar; las coincidencias se marcan para revisión."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.content.delete"
+msgid "Delete any account's chats, messages and content, take down catalog listings, and move users' lore books to the site (with site content management)."
+msgstr "Eliminar chats, mensajes y contenido de cualquier cuenta, retirar publicaciones del catálogo y mover libros de lore de usuarios al sitio (con gestión del contenido del sitio)."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.content.view"
+msgid "Look up and read any account's chats, messages and content by link, id or handle. Every look is written to the moderation log."
+msgstr "Consultar y leer chats, mensajes y contenido de cualquier cuenta por enlace, id o identificador. Cada consulta se registra en el registro de moderación."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.fingerprints"
+msgid "See an account's IP addresses, browsers, devices and the accounts that share them, and ban devices, browser fingerprints and IP addresses."
+msgstr "Ver las direcciones IP, navegadores y dispositivos de una cuenta y las cuentas que los comparten, y bloquear dispositivos, huellas de navegador y direcciones IP."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.log.view"
+msgid "See every moderation action and every look at private content."
+msgstr "Ver cada acción de moderación y cada consulta de contenido privado."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.lore.permissive"
+msgid "Check this account's lore books and entries against the moderation rules after saving; matches are flagged for review."
+msgstr "Comprobar los libros de lore y las entradas de esta cuenta con las reglas de moderación después de guardar; las coincidencias se marcan para revisión."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.lore.restrictive"
+msgid "Keep new lore entries and lore entry text edits in memory, unsaved, until the rules or a moderator approve them; lore books are scanned. Wins over scanning."
+msgstr "Mantener las nuevas entradas de lore y las ediciones de texto de entradas de lore en memoria, sin guardar, hasta que las reglas o un moderador las aprueben; los libros de lore se escanean. Tiene prioridad sobre el escaneo."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.prompts.permissive"
+msgid "Check this account's prompts, blocks and outlets against the moderation rules after saving; matches are flagged for review."
+msgstr "Comprobar los prompts, bloques y outlets de esta cuenta con las reglas de moderación después de guardar; las coincidencias se marcan para revisión."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.prompts.restrictive"
+msgid "Keep new prompts, blocks and outlets and their text edits in memory, unsaved, until the rules or a moderator approve them. Wins over scanning."
+msgstr "Mantener los nuevos prompts, bloques y outlets y sus ediciones de texto en memoria, sin guardar, hasta que las reglas o un moderador los aprueben. Tiene prioridad sobre el escaneo."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.reports"
+msgid "See reported catalog listings, accounts and messages, and dismiss reports."
+msgstr "Ver las publicaciones del catálogo, cuentas y mensajes denunciados, y descartar denuncias."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.review"
+msgid "See content the moderation rules flagged and content held for review; approve, reject or dismiss it."
+msgstr "Ver el contenido marcado por las reglas de moderación y el contenido retenido para revisión; aprobarlo, rechazarlo o descartarlo."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: moderation.rules.manage"
+msgid "Create, edit and delete the regex and webhook rules every moderated save is checked against."
+msgstr "Crear, editar y eliminar las reglas de regex y webhook con las que se comprueba cada guardado moderado."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: quota.ai_connections"
+msgid "How many AI connections the user may own."
+msgstr "Cuántas conexiones de IA puede tener el usuario."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: quota.ai_models"
+msgid "How many AI models the user may own."
+msgstr "Cuántos modelos de IA puede tener el usuario."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: quota.characters"
+msgid "How many characters the user may own."
+msgstr "Cuántos personajes puede tener el usuario."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: quota.chats"
+msgid "How many chats the user may own."
+msgstr "Cuántos chats puede tener el usuario."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: quota.lore_books"
+msgid "How many lore books the user may own."
+msgstr "Cuántos libros de lore puede tener el usuario."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: quota.pending_invites"
+msgid "How many share and chat invites the user may have waiting for an answer."
+msgstr "Cuántas invitaciones para compartir y a chats puede tener el usuario esperando respuesta."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: quota.prompts"
+msgid "How many prompts the user may own."
+msgstr "Cuántos prompts puede tener el usuario."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: quota.scripts"
+msgid "How many scripts the user may own."
+msgstr "Cuántos scripts puede tener el usuario."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: quota.spend_per_day"
+msgid "Dollars the user's replies, jobs and lore embeddings may cost in any 24 hours on connections the site provides: the connection's reported charge, else an estimate from the model's per-Mtok prices. A run on a model with neither counts as free. Their own connections are never limited."
+msgstr "Dólares que pueden costar las respuestas, tareas y embeddings de lore del usuario en cualquier período de 24 horas en conexiones que proporciona el sitio: el cargo indicado por la conexión o, si no, una estimación a partir de los precios por Mtok del modelo. Una ejecución en un modelo sin ninguno de los dos cuenta como gratuita. Sus propias conexiones nunca se limitan."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: quota.upload_bytes"
+msgid "How much the user's uploaded files may take up in total."
+msgstr "Cuánto espacio pueden ocupar en total los archivos subidos por el usuario."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: reports.create"
+msgid "Report catalog listings, accounts and chat messages to the moderators. Everyone holds it by default; deny it for Everyone to turn reporting off."
+msgstr "Denunciar publicaciones del catálogo, cuentas y mensajes de chat a los moderadores. «Everyone» lo tiene de forma predeterminada; deniégalo para «Everyone» para desactivar las denuncias."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: scripts.characters"
+msgid "Let the user's scripts change characters and their avatars."
+msgstr "Permitir que los scripts del usuario cambien personajes y sus avatares."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: scripts.generation"
+msgid "Let the user's scripts start AI replies."
+msgstr "Permitir que los scripts del usuario inicien respuestas de IA."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: scripts.images"
+msgid "Let the user's scripts caption images and request new ones."
+msgstr "Permitir que los scripts del usuario describan imágenes y soliciten otras nuevas."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: scripts.injections"
+msgid "Let the user's scripts create, edit and delete a chat's injections."
+msgstr "Permitir que los scripts del usuario creen, editen y eliminen las inyecciones de un chat."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: scripts.lore"
+msgid "Let the user's scripts change lore books and entries."
+msgstr "Permitir que los scripts del usuario cambien libros de lore y entradas."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: scripts.memory"
+msgid "Let the user's scripts run memory jobs and change a chat's memory settings."
+msgstr "Permitir que los scripts del usuario ejecuten tareas de memoria y cambien los ajustes de memoria de un chat."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: scripts.messages"
+msgid "Let the user's scripts create, edit and delete messages."
+msgstr "Permitir que los scripts del usuario creen, editen y eliminen mensajes."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: scripts.prompts"
+msgid "Let the user's scripts switch a chat's prompt and toggle its blocks."
+msgstr "Permitir que los scripts del usuario cambien el prompt de un chat y activen o desactiven sus bloques."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: scripts.variables"
+msgid "Let the user's scripts set and delete a chat's variables and the user's own global variables."
+msgstr "Permitir que los scripts del usuario definan y eliminen las variables de un chat y las variables globales propias del usuario."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: sharing.ai.owner_key"
+msgid "Let subscribers' runs on a shared model use this user's own AI connections and spend their key."
+msgstr "Permitir que las ejecuciones de los suscriptores en un modelo compartido usen las conexiones de IA propias de este usuario y gasten su clave."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: sharing.invite"
+msgid "Invite other accounts by handle to edit the user's characters, lore, prompts, scripts and memory items."
+msgstr "Invitar a otras cuentas por su identificador a editar los personajes, el lore, los prompts, los scripts y los elementos de memoria del usuario."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: site.ai.manage"
+msgid "Create and edit the site's shared AI connections and models."
+msgstr "Crear y editar las conexiones y modelos de IA compartidos del sitio."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: site.cleanup.run"
+msgid "Run the message cleanup over every chat in the app, with the site's cleanup settings."
+msgstr "Ejecutar la limpieza de mensajes en todos los chats de la aplicación, con los ajustes de limpieza del sitio."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: site.content.manage"
+msgid "Create and edit the site's shared characters, lore, prompts, scripts, memory and variables."
+msgstr "Crear y editar los personajes, el lore, los prompts, los scripts, la memoria y las variables compartidos del sitio."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: site.hidden.view"
+msgid "See the protected content of site items hidden from users: runtime-only characters, prompts, blocks and scripts, and runtime-only or hidden lore."
+msgstr "Ver el contenido protegido de elementos del sitio ocultos a los usuarios: personajes, prompts, bloques y scripts solo de ejecución, y lore solo de ejecución u oculto."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: site.settings.manage"
+msgid "Change site-wide setting defaults and lock settings users may not override."
+msgstr "Cambiar los valores predeterminados de los ajustes de todo el sitio y bloquear ajustes que los usuarios no pueden modificar."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: uploads.audio"
+msgid "Attach audio clips to messages; models that hear audio get the clip."
+msgstr "Adjuntar clips de audio a mensajes; los modelos que oyen audio reciben el clip."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: uploads.documents"
+msgid "Attach PDFs and text or Markdown files to messages; models read their text, or the PDF itself."
+msgstr "Adjuntar PDF y archivos de texto o Markdown a mensajes; los modelos leen su texto o el propio PDF."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: uploads.files"
+msgid "Attach any other file to messages, offered as a download; models see only its name."
+msgstr "Adjuntar cualquier otro archivo a mensajes, ofrecido como descarga; los modelos solo ven su nombre."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: uploads.images"
+msgid "Attach PNG, JPEG and WebP images to messages, and upload avatars."
+msgstr "Adjuntar imágenes PNG, JPEG y WebP a mensajes y subir avatares."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: uploads.video"
+msgid "Attach video clips to messages, played in the chat; models that watch video get the clip."
+msgstr "Adjuntar clips de vídeo a mensajes, reproducidos en el chat; los modelos que ven vídeo reciben el clip."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission description: users.manage"
+msgid "Create, edit, reset and delete accounts other than owners."
+msgstr "Crear, editar, restablecer y eliminar cuentas que no sean de propietarios."
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: ai.connections.create"
+msgid "Add own AI connections and models"
+msgstr "Añadir conexiones y modelos de IA propios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: ai.site_models.use"
+msgid "Use the site's AI models"
+msgstr "Usar los modelos de IA del sitio"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: analytics.all.view"
+msgid "See every user's analytics"
+msgstr "Ver las analíticas de todos los usuarios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: catalog.feature"
+msgid "Choose featured catalog listings"
+msgstr "Elegir publicaciones destacadas del catálogo"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: catalog.publish"
+msgid "Publish to the catalog"
+msgstr "Publicar en el catálogo"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: chats.invite"
+msgid "Invite others to chats"
+msgstr "Invitar a otros a chats"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: content.characters.create"
+msgid "Create own characters"
+msgstr "Crear personajes propios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: content.lore.create"
+msgid "Create own lore (books, entries, pools)"
+msgstr "Crear lore propio (libros, entradas, grupos)"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: content.memory.create"
+msgid "Create own memory profiles and side prompts"
+msgstr "Crear perfiles de memoria y prompts secundarios propios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: content.prompts.create"
+msgid "Create own prompts, blocks and outlets"
+msgstr "Crear prompts, bloques y outlets propios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: content.scripts.create"
+msgid "Create own scripts"
+msgstr "Crear scripts propios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: content.tags.create"
+msgid "Create own tags"
+msgstr "Crear etiquetas propias"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: content.variables.create"
+msgid "Create own global variables"
+msgstr "Crear variables globales propias"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: groups.manage"
+msgid "Manage groups and permissions"
+msgstr "Gestionar grupos y permisos"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: mcp.use"
+msgid "Connect AI tools over MCP"
+msgstr "Conectar herramientas de IA mediante MCP"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.accounts.sanction"
+msgid "Warn and suspend accounts"
+msgstr "Advertir y suspender cuentas"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.ai.permissive"
+msgid "Scan AI connections and models"
+msgstr "Escanear conexiones y modelos de IA"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.ai.restrictive"
+msgid "Hold AI connections and models for review"
+msgstr "Retener conexiones y modelos de IA para revisión"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.characters.permissive"
+msgid "Scan characters"
+msgstr "Escanear personajes"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.characters.restrictive"
+msgid "Hold characters for review"
+msgstr "Retener personajes para revisión"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.chats.permissive"
+msgid "Scan chats"
+msgstr "Escanear chats"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.content.delete"
+msgid "Remove content"
+msgstr "Eliminar contenido"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.content.view"
+msgid "Look up any content"
+msgstr "Consultar cualquier contenido"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.fingerprints"
+msgid "See and ban devices and networks"
+msgstr "Ver y bloquear dispositivos y redes"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.log.view"
+msgid "Read the moderation log"
+msgstr "Leer el registro de moderación"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.lore.permissive"
+msgid "Scan lore books and entries"
+msgstr "Escanear libros de lore y entradas"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.lore.restrictive"
+msgid "Hold lore entries for review"
+msgstr "Retener entradas de lore para revisión"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.prompts.permissive"
+msgid "Scan prompts, blocks and outlets"
+msgstr "Escanear prompts, bloques y outlets"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.prompts.restrictive"
+msgid "Hold prompts, blocks and outlets for review"
+msgstr "Retener prompts, bloques y outlets para revisión"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.reports"
+msgid "Review reports"
+msgstr "Revisar denuncias"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.review"
+msgid "Review flagged and held content"
+msgstr "Revisar contenido marcado y retenido"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: moderation.rules.manage"
+msgid "Manage moderation rules"
+msgstr "Gestionar reglas de moderación"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: quota.ai_connections"
+msgid "Own AI connections"
+msgstr "Conexiones de IA propias"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: quota.ai_models"
+msgid "Own AI models"
+msgstr "Modelos de IA propios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: quota.characters"
+msgid "Own characters"
+msgstr "Personajes propios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: quota.chats"
+msgid "Own chats"
+msgstr "Chats propios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: quota.lore_books"
+msgid "Own lore books"
+msgstr "Libros de lore propios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: quota.pending_invites"
+msgid "Pending invites"
+msgstr "Invitaciones pendientes"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: quota.prompts"
+msgid "Own prompts"
+msgstr "Prompts propios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: quota.scripts"
+msgid "Own scripts"
+msgstr "Scripts propios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: quota.spend_per_day"
+msgid "Spending per day on the site's AI connections"
+msgstr "Gasto diario en las conexiones de IA del sitio"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: quota.upload_bytes"
+msgid "Upload storage"
+msgstr "Almacenamiento de subidas"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: reports.create"
+msgid "Report content"
+msgstr "Denunciar contenido"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: scripts.characters"
+msgid "Scripts may change characters and avatars"
+msgstr "Los scripts pueden cambiar personajes y avatares"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: scripts.generation"
+msgid "Scripts may start generations"
+msgstr "Los scripts pueden iniciar generaciones"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: scripts.images"
+msgid "Scripts may caption and request images"
+msgstr "Los scripts pueden describir y solicitar imágenes"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: scripts.injections"
+msgid "Scripts may change injections"
+msgstr "Los scripts pueden cambiar inyecciones"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: scripts.lore"
+msgid "Scripts may change lore"
+msgstr "Los scripts pueden cambiar el lore"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: scripts.memory"
+msgid "Scripts may run memory jobs and change memory settings"
+msgstr "Los scripts pueden ejecutar tareas de memoria y cambiar ajustes de memoria"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: scripts.messages"
+msgid "Scripts may change messages"
+msgstr "Los scripts pueden cambiar mensajes"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: scripts.prompts"
+msgid "Scripts may switch prompts and blocks"
+msgstr "Los scripts pueden cambiar prompts y bloques"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: scripts.variables"
+msgid "Scripts may change variables"
+msgstr "Los scripts pueden cambiar variables"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: sharing.ai.owner_key"
+msgid "Share models on own connections"
+msgstr "Compartir modelos en conexiones propias"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: sharing.invite"
+msgid "Share own content with others"
+msgstr "Compartir contenido propio con otros"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: site.ai.manage"
+msgid "Manage site AI connections and models"
+msgstr "Gestionar conexiones y modelos de IA del sitio"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: site.cleanup.run"
+msgid "Clean up every user's chats"
+msgstr "Limpiar los chats de todos los usuarios"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: site.content.manage"
+msgid "Manage site content (characters, lore, prompts, scripts, memory, variables)"
+msgstr "Gestionar el contenido del sitio (personajes, lore, prompts, scripts, memoria, variables)"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: site.hidden.view"
+msgid "See runtime-only and hidden site content"
+msgstr "Ver contenido del sitio solo de ejecución y oculto"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: site.settings.manage"
+msgid "Change site settings and lock user settings"
+msgstr "Cambiar ajustes del sitio y bloquear ajustes de usuario"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: uploads.audio"
+msgid "Upload audio"
+msgstr "Subir audio"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: uploads.documents"
+msgid "Upload documents"
+msgstr "Subir documentos"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: uploads.files"
+msgid "Upload other files"
+msgstr "Subir otros archivos"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: uploads.images"
+msgid "Upload images"
+msgstr "Subir imágenes"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: uploads.video"
+msgid "Upload video"
+msgstr "Subir vídeo"
+
+#: lib/mythweaver/permissions/catalog.ex
+#, elixir-autogen, elixir-format
+msgctxt "permission name: users.manage"
+msgid "Manage accounts"
+msgstr "Gestionar cuentas"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search field over the permission list"
+msgid "Search permissions…"
+msgstr "Buscar permisos…"
+
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search field over the user accounts list"
+msgid "Email, handle or nickname"
+msgstr "Correo, identificador o apodo"
+
+#. Flash after a permission group is deleted.
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a permission group was deleted"
+msgid "%{group_name} deleted"
+msgstr "%{group_name} eliminado"
+
+#. Flash after a permission group is saved.
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a permission group was saved"
+msgid "%{group_name} saved"
+msgstr "%{group_name} guardado"
+
+#. Flash after a permission group's members are saved.
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a permission group's members were saved"
+msgid "Members saved"
+msgstr "Miembros guardados"
+
+#. Flash after a user account is deleted.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a user account was deleted"
+msgid "%{user_name} deleted"
+msgstr "%{user_name} eliminado"
+
+#. Flash after a user account is saved.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a user account was saved"
+msgid "%{user_name} saved"
+msgstr "%{user_name} guardado"
+
+#. Flash after a user account's permission groups are saved.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a user account's permission groups were saved"
+msgid "Groups saved"
+msgstr "Grupos guardados"
+
+#. Flash after an admin resets another account's password.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: an admin reset an account's password"
+msgid "Password reset"
+msgstr "Contraseña restablecida"
+
+#. Flash after permissions are saved.
+#: lib/mythweaver_web/live/group_live.ex
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: permissions were saved"
+msgid "Permissions saved"
+msgstr "Permisos guardados"
+
+#. Flash when the permission group in the link no longer exists.
+#: lib/mythweaver_web/live/group_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the permission group in the link no longer exists"
+msgid "Group not found"
+msgstr "Grupo no encontrado"
+
+#. Flash when the user account in the link no longer exists.
+#: lib/mythweaver_web/live/user_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the user account in the link no longer exists"
+msgid "User not found"
+msgstr "Usuario no encontrado"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: spending limit, in US dollars"
+msgid "USD"
+msgstr "USD"
+
+#: lib/mythweaver_web/components/permission_grid.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: upload storage limit, in mebibytes"
+msgid "MiB"
+msgstr "MiB"

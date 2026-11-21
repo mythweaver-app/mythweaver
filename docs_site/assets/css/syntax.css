@@ -1,0 +1,140 @@
+/* Lumis `:html_linked` code: `pre.lumis` with one `l-<scope>` class per span. Base16 Tomorrow, and
+   Tomorrow Night in dark mode. */
+:root {
+  --base00: #ffffff;
+  --base01: #e0e0e0;
+  --base02: #d6d6d6;
+  --base03: #8e908c;
+  --base04: #969896;
+  --base05: #4d4d4c;
+  --base06: #282a2e;
+  --base07: #1d1f21;
+  --base08: #c82829;
+  --base09: #f5871f;
+  --base0a: #eab700;
+  --base0b: #718c00;
+  --base0c: #3e999f;
+  --base0d: #4271ae;
+  --base0e: #8959a8;
+  --base0f: #a3685a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --base00: #1d1f21;
+    --base01: #282a2e;
+    --base02: #373b41;
+    --base03: #969896;
+    --base04: #b4b7b4;
+    --base05: #c5c8c6;
+    --base06: #e0e0e0;
+    --base07: #ffffff;
+    --base08: #cc6666;
+    --base09: #de935f;
+    --base0a: #f0c674;
+    --base0b: #b5bd68;
+    --base0c: #8abeb7;
+    --base0d: #81a2be;
+    --base0e: #b294bb;
+    --base0f: #a3685a;
+  }
+}
+
+pre.lumis {
+  padding: 0.75em 1em;
+  border: 1px solid var(--base01);
+  border-radius: 0.5rem;
+  background: var(--base00);
+  color: var(--base05);
+  overflow-x: auto;
+  font-family: var(--ff-mono);
+}
+
+[class^="l-attribute"],
+[class^="l-constant"],
+[class^="l-number"],
+[class^="l-boolean"],
+.l-warning {
+  color: var(--base09);
+}
+
+[class^="l-comment"],
+.l-debug,
+.l-hint {
+  color: var(--base03);
+}
+
+[class^="l-comment"] {
+  font-style: italic;
+}
+
+.l-constructor,
+[class^="l-function"],
+.l-info,
+.l-special,
+.l-markup-heading {
+  color: var(--base0d);
+}
+
+.l-diff-delta {
+  color: var(--base09);
+}
+
+.l-diff-minus,
+.l-error,
+.l-markup-list,
+.l-markup-link-label,
+.l-variable {
+  color: var(--base08);
+}
+
+.l-diff-plus,
+[class^="l-string"],
+.l-markup-raw,
+.l-variable-member {
+  color: var(--base0b);
+}
+
+[class^="l-keyword"],
+.l-label,
+.l-namespace,
+.l-property,
+[class^="l-tag"],
+.l-markup-italic {
+  color: var(--base0e);
+}
+
+.l-markup-italic {
+  font-style: italic;
+}
+
+.l-module,
+[class^="l-type"],
+.l-markup-strong {
+  color: var(--base0a);
+}
+
+.l-markup-strong {
+  font-weight: bold;
+}
+
+.l-markup-link-url {
+  color: var(--base09);
+}
+
+.l-operator,
+[class^="l-punctuation"] {
+  color: var(--base05);
+}
+
+/* After the families they refine. */
+.l-tag-attribute {
+  color: var(--base08);
+}
+
+.l-constant-character-escape,
+.l-string-escape,
+.l-markup-quote,
+.l-variable-parameter {
+  color: var(--base0c);
+}

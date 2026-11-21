@@ -1,0 +1,47 @@
+{
+  "name": "mythweaver",
+  "dockerComposeFile": "compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/mythweaver",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/mise:1": {}
+  },
+  "remoteUser": "vscode",
+  "containerEnv": {
+    "MISE_DATA_DIR": "/mnt/mise-data",
+    "MISE_TRUSTED_CONFIG_PATHS": "/workspaces/mythweaver",
+    "DATABASE_HOST": "db",
+    "PHX_BIND_ALL": "true",
+    "FILE_WATCHER_POLL": "true",
+    "MYTHWEAVER_TOKENIZER_CACHE": "/mnt/tokenizer-cache",
+    "MYTHWEAVER_IMAGE_PROXY": "xtandard",
+    "MYTHWEAVER_XI_URL": "/img",
+    "MYTHWEAVER_XI_INTERNAL_URL": "http://nginx/img",
+    "MYTHWEAVER_XI_SOURCE_PREFIX": "xi://uploads/",
+    "MYTHWEAVER_XI_KEY": "6465762d6f6e6c792d696d6770726f78792d6b6579",
+    "MYTHWEAVER_XI_SALT": "6465762d6f6e6c792d696d6770726f78792d73616c74",
+    "MYTHWEAVER_XI_ENCRYPTION_KEY": "6465762d6f6e6c792d7874616e646172642d656e6372797074696f6e2d6b6579",
+    "MYTHWEAVER_TRUSTED_PROXIES": "127.0.0.0/8,::1/128,172.30.251.0/24"
+  },
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:/mnt/mise-data/shims"
+  },
+  "forwardPorts": [4000, 5432, 4081],
+  "portsAttributes": {
+    "4000": { "label": "Phoenix", "onAutoForward": "notify" },
+    "5432": { "label": "Postgres", "onAutoForward": "silent" },
+    "4081": { "label": "App via nginx (images)", "onAutoForward": "notify" }
+  },
+  "postCreateCommand": "sed 's/\\r$//' .devcontainer/post-create.sh | bash -s",
+  "customizations": {
+    "vscode": {
+      "extensions": ["JakeBecker.elixir-ls", "phoenixframework.phoenix", "hverlin.mise-vscode"]
+    },
+    "zed": {
+      "extensions": ["elixir"]
+    }
+  },
+  "mounts": [
+    "source=C:\\Users\\alcho\\Aikobots Code\\Aikobots,target=/workspaces/aikobots,type=bind,readonly"
+  ]
+}

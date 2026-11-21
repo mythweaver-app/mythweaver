@@ -1,0 +1,2164 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#. Shown under the webhook verdict field when the server has no callback URL; the placeholder is an environment variable name.
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgid "Callback mode needs %{env_var} on the server"
+msgstr "Der Callback-Modus braucht %{env_var} auf dem Server"
+
+#. Flash when a moderator submits the ban form without choosing anything to ban.
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgid "Choose the account or at least one device or address"
+msgstr "Wähle das Konto oder mindestens ein Gerät oder eine Adresse"
+
+#. Confirm dialog before a moderator deletes a looked-up item.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgid "Delete %{item_name}? It is removed for its owner and everyone it is shared with."
+msgstr "%{item_name} löschen? Es wird für seinen Eigentümer und alle, mit denen es geteilt ist, entfernt."
+
+#. Confirm dialog before a moderator deletes the chat a looked-up message is in.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgid "Delete the whole chat %{chat_name}? It is removed for its owner and everyone in it."
+msgstr "Den ganzen Chat %{chat_name} löschen? Er wird für seinen Eigentümer und alle Teilnehmer entfernt."
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgid "Devices and addresses seen in the last 30 days"
+msgstr "Geräte und Adressen der letzten 30 Tage"
+
+#. Flash when approved held content could not be saved; the placeholder says why.
+#: lib/mythweaver/moderation/holds.ex
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgid "It could not be saved: %{error_reason}"
+msgstr "Es konnte nicht gespeichert werden: %{error_reason}"
+
+#. Flash when a moderator tries to delete content still used in its owner's chats.
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgid "It is in use in its owner's chats"
+msgstr "Es wird in Chats seines Eigentümers verwendet"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgid "Leave blank to keep the current secret."
+msgstr "Leer lassen, um das aktuelle Geheimnis zu behalten."
+
+#. Flash on the login page when the device, browser or network is banned.
+#: lib/mythweaver/moderation/sanctions.ex
+#, elixir-autogen, elixir-format
+msgid "Logins from this device or network are blocked."
+msgstr "Anmeldungen von diesem Gerät oder Netzwerk sind gesperrt."
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgid "Owners can't be warned or banned."
+msgstr "Eigentümer können nicht verwarnt oder gesperrt werden."
+
+#: lib/mythweaver_web/live/warning_live.ex
+#, elixir-autogen, elixir-format
+msgid "Read these before you go on using the app."
+msgstr "Lies diese, bevor du die App weiter nutzt."
+
+#. Flash when a moderator rejects held content without a reason.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgid "Say why it is rejected; its submitter is told"
+msgstr "Gib an, warum es abgelehnt wird; der Einreicher wird informiert"
+
+#. Flash when a moderator takes a catalog listing down without a reason.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgid "Say why it is taken down; its owner is told"
+msgstr "Gib an, warum es entfernt wird; der Eigentümer wird informiert"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a report to review it."
+msgstr "Wähle eine Meldung aus, um sie zu prüfen."
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a rule, or create a new one."
+msgstr "Wähle eine Regel aus oder erstelle eine neue."
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select held content to review it."
+msgstr "Wähle zurückgehaltene Inhalte aus, um sie zu prüfen."
+
+#. Flash when a moderator tries to delete site content from the moderation panel.
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgid "Site content is managed in the site's editors"
+msgstr "Website-Inhalte werden in den Editoren der Website verwaltet"
+
+#. Flash after someone files a report about a listing, an account or a message.
+#: lib/mythweaver_web/components/report_modal.ex
+#, elixir-autogen, elixir-format
+msgid "Thanks, a moderator will look at it"
+msgstr "Danke, ein Moderator sieht es sich an"
+
+#. Flash when a moderator tries to lift a ban that already ended or was lifted.
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgid "That ban is no longer in force"
+msgstr "Diese Sperre ist nicht mehr in Kraft"
+
+#. Flash when a device or address chosen in the ban form is no longer on record.
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgid "That device or address is no longer on record"
+msgstr "Dieses Gerät bzw. diese Adresse ist nicht mehr erfasst"
+
+#. Flash when the open held content was approved or rejected by another moderator.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgid "That item is already decided"
+msgstr "Über diesen Eintrag wurde bereits entschieden"
+
+#. Flash when the catalog listing being taken down is already gone.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgid "That listing is already gone"
+msgstr "Dieser Katalogeintrag ist bereits weg"
+
+#. Flash when the open report was resolved by another moderator.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgid "That report is already resolved"
+msgstr "Diese Meldung ist bereits erledigt"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgid "This is your own account: you can't warn or ban yourself."
+msgstr "Das ist dein eigenes Konto: Du kannst dich nicht selbst verwarnen oder sperren."
+
+#. Flash when a moderator tries to delete a chat or message while a reply is being generated.
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgid "Wait for the reply to finish"
+msgstr "Warte, bis die Antwort fertig ist"
+
+#: lib/mythweaver_web/components/report_modal.ex
+#, elixir-autogen, elixir-format
+msgid "What is wrong with it?"
+msgstr "Was stimmt damit nicht?"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgid "Why is it taken down? Its owner is told."
+msgstr "Warum wird es entfernt? Der Eigentümer wird informiert."
+
+#. Flash when a moderator tries to warn or ban their own account.
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgid "You can't sanction your own account"
+msgstr "Du kannst dein eigenes Konto nicht sanktionieren"
+
+#. Flash when someone reports a listing, an account or a message they already reported.
+#: lib/mythweaver_web/components/report_modal.ex
+#, elixir-autogen, elixir-format
+msgid "You have already reported this"
+msgstr "Du hast das bereits gemeldet"
+
+#: lib/mythweaver_web/live/warning_live.ex
+#, elixir-autogen, elixir-format
+msgid "You have no warnings to read."
+msgstr "Du hast keine Verwarnungen zu lesen."
+
+#. Flash when a moderator tries to ban a device or address they use themselves.
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgid "You share one of those, so you would ban yourself"
+msgstr "Du nutzt eines davon selbst, du würdest dich also selbst sperren"
+
+#. Flash on the login page when a suspended account signs in or is logged out; the date is when the suspension ends, the reason is what the moderator wrote.
+#: lib/mythweaver/moderation/sanctions.ex
+#, elixir-autogen, elixir-format
+msgid "Your account is suspended until %{ends_at}: %{reason_text}"
+msgstr "Dein Konto ist bis %{ends_at} gesperrt: %{reason_text}"
+
+#. Flash on the login page when a permanently suspended account signs in or is logged out; the reason is what the moderator wrote.
+#: lib/mythweaver/moderation/sanctions.ex
+#, elixir-autogen, elixir-format
+msgid "Your account is suspended: %{reason_text}"
+msgstr "Dein Konto ist gesperrt: %{reason_text}"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of moderation rules"
+msgid "Moderation rules"
+msgstr "Moderationsregeln"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: tab bar of the moderation panel"
+msgid "Moderation"
+msgstr "Moderation"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: tabs choosing a moderation review queue"
+msgid "Review queue"
+msgstr "Prüfwarteschlange"
+
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: tabs choosing which kind of ban is listed"
+msgid "Ban type"
+msgstr "Sperrtyp"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: held content is an edit"
+msgid "Edit"
+msgstr "Bearbeitung"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: held content is an import"
+msgid "Import"
+msgstr "Import"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: held content is new"
+msgid "New"
+msgstr "Neu"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of ban, on a browser fingerprint"
+msgid "Browser fingerprint (identical devices share it)"
+msgstr "Browser-Fingerabdruck (identische Geräte teilen ihn)"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of ban, on a whole account"
+msgid "Account"
+msgstr "Konto"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of ban, on an IP address"
+msgid "IP address"
+msgstr "IP-Adresse"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of ban, on one device"
+msgid "Device"
+msgstr "Gerät"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of value an account was seen with"
+msgid "Browser"
+msgstr "Browser"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of value an account was seen with"
+msgid "Browser fingerprint (identical devices share it)"
+msgstr "Browser-Fingerabdruck (identische Geräte teilen ihn)"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of value an account was seen with"
+msgid "Device"
+msgstr "Gerät"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of value an account was seen with"
+msgid "IP address"
+msgstr "IP-Adresse"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of value an account was seen with"
+msgid "Language"
+msgstr "Sprache"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "AI connection"
+msgstr "KI-Verbindung"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "AI model"
+msgstr "KI-Modell"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Account"
+msgstr "Konto"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Ban"
+msgstr "Sperre"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Catalog listing"
+msgstr "Katalogeintrag"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Character"
+msgstr "Charakter"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Chat"
+msgstr "Chat"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Expression profile"
+msgstr "Ausdrucksprofil"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Import"
+msgstr "Import"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Lore book"
+msgstr "Lore-Buch"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Lore entry"
+msgstr "Lore-Eintrag"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Lore pool"
+msgstr "Lore-Pool"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Memory profile"
+msgstr "Gedächtnisprofil"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Message"
+msgstr "Nachricht"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Moderation rule"
+msgstr "Moderationsregel"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Outlet"
+msgstr "Outlet"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Prompt"
+msgstr "Prompt"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Prompt block"
+msgstr "Prompt-Block"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Report"
+msgstr "Meldung"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Script"
+msgstr "Skript"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Side prompt"
+msgstr "Neben-Prompt"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of moderated item"
+msgid "Side prompt set"
+msgstr "Neben-Prompt-Set"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of reported item"
+msgid "Account"
+msgstr "Konto"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of reported item"
+msgid "Listing"
+msgstr "Katalogeintrag"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: type of reported item"
+msgid "Message"
+msgstr "Nachricht"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: what a moderation rule decided"
+msgid "Approve"
+msgstr "Freigeben"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: what a moderation rule decided"
+msgid "Flag"
+msgstr "Markieren"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: what a moderation rule decided"
+msgid "Reject"
+msgstr "Ablehnen"
+
+#: lib/mythweaver_web/live/warning_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: acknowledge the moderator's warnings"
+msgid "I understand"
+msgstr "Verstanden"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: approve and save the held content"
+msgid "Approve"
+msgstr "Freigeben"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: ban the chosen account, devices and addresses"
+msgid "Ban"
+msgstr "Sperren"
+
+#: lib/mythweaver_web/components/report_modal.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the report dialog without reporting"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a moderation rule"
+msgid "New rule"
+msgstr "Neue Regel"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete one message of the looked-up chat"
+msgid "Delete"
+msgstr "Löschen"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the chat of the looked-up message"
+msgid "Delete chat"
+msgstr "Chat löschen"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the looked-up item"
+msgid "Delete"
+msgstr "Löschen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the reported item"
+msgid "Delete AI connection"
+msgstr "KI-Verbindung löschen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the reported item"
+msgid "Delete AI model"
+msgstr "KI-Modell löschen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the reported item"
+msgid "Delete character"
+msgstr "Charakter löschen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the reported item"
+msgid "Delete chat"
+msgstr "Chat löschen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the reported item"
+msgid "Delete lore book"
+msgstr "Lore-Buch löschen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the reported item"
+msgid "Delete lore entry"
+msgstr "Lore-Eintrag löschen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the reported item"
+msgid "Delete message"
+msgstr "Nachricht löschen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the reported item"
+msgid "Delete outlet"
+msgstr "Outlet löschen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the reported item"
+msgid "Delete prompt"
+msgstr "Prompt löschen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the reported item"
+msgid "Delete prompt block"
+msgstr "Prompt-Block löschen"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete this moderation rule"
+msgid "Delete"
+msgstr "Löschen"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard edits to the moderation rule"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: dismiss the report"
+msgid "Dismiss"
+msgstr "Verwerfen"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: edit this account's settings"
+msgid "Edit account"
+msgstr "Konto bearbeiten"
+
+#: lib/mythweaver_web/components/report_modal.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: file the report from the report dialog"
+msgid "Report"
+msgstr "Melden"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: go back to the lookup form"
+msgid "New lookup"
+msgstr "Neue Suche"
+
+#: lib/mythweaver_web/live/warning_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: leave the warnings page for the app"
+msgid "Back to the app"
+msgstr "Zurück zur App"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: lift this ban"
+msgid "Lift"
+msgstr "Aufheben"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the moderation log filtered to this account"
+msgid "Moderation log"
+msgstr "Moderationsprotokoll"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the owner's record to warn or suspend them"
+msgid "Warn or suspend"
+msgstr "Verwarnen oder sperren"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the reported item"
+msgid "Open"
+msgstr "Öffnen"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open this account's chats and content"
+msgid "Content"
+msgstr "Inhalte"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: reject the held content"
+msgid "Reject"
+msgstr "Ablehnen"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: run the moderation lookup"
+msgid "Look up"
+msgstr "Suchen"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the moderation rule"
+msgid "Save"
+msgstr "Speichern"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: send the warning to the account"
+msgid "Warn"
+msgstr "Verwarnen"
+
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show every ban, not only active ones"
+msgid "Show lifted and expired"
+msgstr "Aufgehobene und abgelaufene anzeigen"
+
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show only bans in force"
+msgid "Show active only"
+msgstr "Nur aktive anzeigen"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: stop filtering the moderation log to one account"
+msgid "Show everyone"
+msgstr "Alle anzeigen"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: take the catalog listing down"
+msgid "Take down"
+msgstr "Entfernen"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: looked-up chat has no messages"
+msgid "No messages"
+msgstr "Keine Nachrichten"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: moderation log"
+msgid "Nothing logged yet"
+msgstr "Noch nichts protokolliert"
+
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no ban is in force"
+msgid "No bans in force"
+msgstr "Keine Sperren in Kraft"
+
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no ban was ever issued"
+msgid "No bans yet"
+msgstr "Noch keine Sperren"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no content held for review"
+msgid "Nothing is waiting for review"
+msgstr "Nichts wartet auf Prüfung"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no devices or addresses on record for the account"
+msgid "Nothing on record"
+msgstr "Nichts erfasst"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no moderation rules"
+msgid "No rules yet"
+msgstr "Noch keine Regeln"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no open reports"
+msgid "No open reports"
+msgstr "Keine offenen Meldungen"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no other account shares a device or address"
+msgid "No other accounts"
+msgstr "Keine anderen Konten"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no reports about the account"
+msgid "No reports"
+msgstr "Keine Meldungen"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: the account has no bans"
+msgid "No bans"
+msgstr "Keine Sperren"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: the account has no warnings"
+msgid "No warnings"
+msgstr "Keine Verwarnungen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: the rules flagged nothing"
+msgid "Nothing flagged"
+msgstr "Nichts markiert"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: URL of a webhook moderation rule"
+msgid "URL"
+msgstr "URL"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: an account's email address"
+msgid "Email"
+msgstr "E-Mail"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: an account's handle"
+msgid "Handle"
+msgstr "Handle"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: an account's role"
+msgid "Role"
+msgstr "Rolle"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: content types a moderation rule checks"
+msgid "Content types"
+msgstr "Inhaltstypen"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how a moderation webhook returns its verdict"
+msgid "Verdict"
+msgstr "Urteil"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how long a ban lasts"
+msgid "For"
+msgstr "Dauer"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how long a moderation webhook callback may take, in minutes"
+msgid "Callback timeout (minutes)"
+msgstr "Callback-Timeout (Minuten)"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: kind of moderation rule"
+msgid "Kind"
+msgstr "Art"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a moderation rule"
+msgid "Name"
+msgstr "Name"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: reason for a ban"
+msgid "Reason"
+msgstr "Grund"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: regex of a moderation rule"
+msgid "Pattern"
+msgstr "Muster"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: secret that signs a moderation webhook request"
+msgid "Signing secret (optional)"
+msgstr "Signaturgeheimnis (optional)"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: text of a warning to send"
+msgid "Warning"
+msgstr "Verwarnung"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: timeout of a moderation webhook request, in milliseconds"
+msgid "Request timeout (ms)"
+msgstr "Anfrage-Timeout (ms)"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: what a regex moderation rule does on a match"
+msgid "On a match"
+msgstr "Bei Treffer"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: what to look up in the moderation panel"
+msgid "Look up"
+msgstr "Suchen"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: when an account was created"
+msgid "Joined"
+msgstr "Beigetreten"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: whether an account is suspended"
+msgid "Status"
+msgstr "Status"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: why a catalog listing is taken down"
+msgid "Why (its owner is told)"
+msgstr "Grund (der Eigentümer wird informiert)"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: why held content is rejected"
+msgid "Why (its submitter is told)"
+msgstr "Grund (der Einreicher wird informiert)"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a field's saved text, before the held edit"
+msgid "Current"
+msgstr "Aktuell"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a field's text in the held edit"
+msgid "Proposed"
+msgstr "Vorgeschlagen"
+
+#. Confirm dialog before a moderation rule is deleted.
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting a moderation rule"
+msgid "Delete %{rule_name}?"
+msgstr "%{rule_name} löschen?"
+
+#. Confirm dialog before a moderator deletes one message of a looked-up chat.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting one chat message"
+msgid "Delete this message?"
+msgstr "Diese Nachricht löschen?"
+
+#. Confirm dialog before a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting the reported item"
+msgid "Delete this AI connection?"
+msgstr "Diese KI-Verbindung löschen?"
+
+#. Confirm dialog before a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting the reported item"
+msgid "Delete this AI model?"
+msgstr "Dieses KI-Modell löschen?"
+
+#. Confirm dialog before a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting the reported item"
+msgid "Delete this character?"
+msgstr "Diesen Charakter löschen?"
+
+#. Confirm dialog before a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting the reported item"
+msgid "Delete this chat?"
+msgstr "Diesen Chat löschen?"
+
+#. Confirm dialog before a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting the reported item"
+msgid "Delete this lore book?"
+msgstr "Dieses Lore-Buch löschen?"
+
+#. Confirm dialog before a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting the reported item"
+msgid "Delete this lore entry?"
+msgstr "Diesen Lore-Eintrag löschen?"
+
+#. Confirm dialog before a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting the reported item"
+msgid "Delete this message?"
+msgstr "Diese Nachricht löschen?"
+
+#. Confirm dialog before a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting the reported item"
+msgid "Delete this outlet?"
+msgstr "Dieses Outlet löschen?"
+
+#. Confirm dialog before a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting the reported item"
+msgid "Delete this prompt block?"
+msgstr "Diesen Prompt-Block löschen?"
+
+#. Confirm dialog before a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting the reported item"
+msgid "Delete this prompt?"
+msgstr "Diesen Prompt löschen?"
+
+#. Confirm dialog before a moderator lifts a ban.
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before lifting a ban"
+msgid "Lift this ban?"
+msgstr "Diese Sperre aufheben?"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: devices and addresses an account was seen with"
+msgid "Seen with"
+msgstr "Gesehen mit"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form that rejects held content"
+msgid "Reject"
+msgstr "Ablehnen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form that takes a reported catalog listing down"
+msgid "Take the listing down"
+msgstr "Katalogeintrag entfernen"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of bans"
+msgid "Bans"
+msgstr "Sperren"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of moderation rules"
+msgid "Rules"
+msgstr "Regeln"
+
+#. Heading of the moderation log filtered to one account; the handle may read "a deleted account".
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: moderation log filtered to one account"
+msgid "Log of %{account_handle}"
+msgstr "Protokoll von %{account_handle}"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: moderation lookup form"
+msgid "Look up"
+msgstr "Suchen"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: moderation rule not saved yet"
+msgid "New rule"
+msgstr "Neue Regel"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: other accounts sharing a device or address with this one"
+msgid "Accounts sharing these"
+msgstr "Konten, die diese teilen"
+
+#: lib/mythweaver_web/live/warning_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: page showing a moderator's warnings to the viewer"
+msgid "A moderator warned you"
+msgstr "Ein Moderator hat dich verwarnt"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: queue of content held for review"
+msgid "Held"
+msgstr "Zurückgehalten"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: queue of content the rules flagged"
+msgid "Flagged"
+msgstr "Markiert"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: queue of users' reports"
+msgid "Reports"
+msgstr "Meldungen"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: reports about the account on its record"
+msgid "Reports about this account"
+msgstr "Meldungen zu diesem Konto"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: script capabilities of the looked-up item"
+msgid "Capabilities"
+msgstr "Fähigkeiten"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the content held for review"
+msgid "Content"
+msgstr "Inhalt"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the edits held for review"
+msgid "Changes"
+msgstr "Änderungen"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the moderation log"
+msgid "Moderation log"
+msgstr "Moderationsprotokoll"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported AI connection"
+msgstr "Gemeldete KI-Verbindung"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported AI model"
+msgstr "Gemeldetes KI-Modell"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported account"
+msgstr "Gemeldetes Konto"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported character"
+msgstr "Gemeldeter Charakter"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported chat"
+msgstr "Gemeldeter Chat"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported listing"
+msgstr "Gemeldeter Katalogeintrag"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported lore book"
+msgstr "Gemeldetes Lore-Buch"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported lore entry"
+msgstr "Gemeldeter Lore-Eintrag"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported message"
+msgstr "Gemeldete Nachricht"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported outlet"
+msgstr "Gemeldetes Outlet"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported prompt"
+msgstr "Gemeldeter Prompt"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the reported item"
+msgid "Reported prompt block"
+msgstr "Gemeldeter Prompt-Block"
+
+#: lib/mythweaver/moderation/gate.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: title of a flagged chat message in the review list"
+msgid "Message"
+msgstr "Nachricht"
+
+#: lib/mythweaver/moderation/gate.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: title of a held import that has no name"
+msgid "Import"
+msgstr "Import"
+
+#. Title of a report: the reported item's type (e.g. "Message"), then the start of its text.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: type and text of the reported item"
+msgid "%{item_type}: %{reported_text}"
+msgstr "%{item_type}: %{reported_text}"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: warnings an account got"
+msgid "Warnings"
+msgstr "Verwarnungen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: what the moderation rules found"
+msgid "Rule findings"
+msgstr "Regelbefunde"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: why the report was filed"
+msgid "Reason"
+msgstr "Grund"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: attachment with no file name"
+msgid "Audio"
+msgstr "Audio"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: attachment with no file name"
+msgid "Document"
+msgstr "Dokument"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: attachment with no file name"
+msgid "File"
+msgstr "Datei"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: attachment with no file name"
+msgid "Image"
+msgstr "Bild"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: attachment with no file name"
+msgid "Video"
+msgstr "Video"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a browser fingerprint to ban"
+msgid "Browser fingerprint (identical devices share it): %{fingerprint}"
+msgstr "Browser-Fingerabdruck (identische Geräte teilen ihn): %{fingerprint}"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a browser language to ban"
+msgid "Language: %{browser_language}"
+msgstr "Sprache: %{browser_language}"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a browser to ban"
+msgid "Browser: %{user_agent}"
+msgstr "Browser: %{user_agent}"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a device to ban"
+msgid "Device: %{device_id}"
+msgstr "Gerät: %{device_id}"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: an IP address to ban"
+msgid "IP address: %{ip_address}"
+msgstr "IP-Adresse: %{ip_address}"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: content type a moderation rule checks"
+msgid "AI connections and models"
+msgstr "KI-Verbindungen und -Modelle"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: content type a moderation rule checks"
+msgid "Characters"
+msgstr "Charaktere"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: content type a moderation rule checks"
+msgid "Chats and messages"
+msgstr "Chats und Nachrichten"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: content type a moderation rule checks"
+msgid "Lore books and entries"
+msgstr "Lore-Bücher und -Einträge"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: content type a moderation rule checks"
+msgid "Prompts, blocks and outlets"
+msgstr "Prompts, Blöcke und Outlets"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how a moderation webhook returns its verdict"
+msgid "In the response (sync)"
+msgstr "In der Antwort (synchron)"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how a moderation webhook returns its verdict"
+msgid "Later, by callback"
+msgstr "Später, per Callback"
+
+#: lib/mythweaver/moderation/sanctions.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how long a ban lasts"
+msgid "%{day_count} day"
+msgid_plural "%{day_count} days"
+msgstr[0] "%{day_count} Tag"
+msgstr[1] "%{day_count} Tage"
+
+#: lib/mythweaver/moderation/sanctions.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how long a ban lasts"
+msgid "1 year"
+msgstr "1 Jahr"
+
+#: lib/mythweaver/moderation/sanctions.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how long a ban lasts"
+msgid "Permanent"
+msgstr "Dauerhaft"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of moderation rule"
+msgid "Regex"
+msgstr "Regex"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of moderation rule"
+msgid "Webhook"
+msgstr "Webhook"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: what a regex moderation rule does on a match"
+msgid "Flag for review"
+msgstr "Zur Prüfung markieren"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: what a regex moderation rule does on a match"
+msgid "Reject"
+msgstr "Ablehnen"
+
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: list of bans"
+msgid "Bans"
+msgstr "Sperren"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: moderation lookup form"
+msgid "Lookup"
+msgstr "Suche"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: moderation rules editor"
+msgid "Moderation rules"
+msgstr "Moderationsregeln"
+
+#: lib/mythweaver_web/live/warning_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: moderator warnings to the viewer"
+msgid "Warnings"
+msgstr "Verwarnungen"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: queue of content held for review"
+msgid "Held content"
+msgstr "Zurückgehaltene Inhalte"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: queue of content the rules flagged"
+msgid "Flagged content"
+msgstr "Markierte Inhalte"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: queue of users' reports"
+msgid "Reports"
+msgstr "Meldungen"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: the moderation log"
+msgid "Moderation log"
+msgstr "Moderationsprotokoll"
+
+#. Title of a looked-up item: its type (e.g. "Character"), then its name.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: type and name of a looked-up item"
+msgid "%{item_type}: %{item_name}"
+msgstr "%{item_type}: %{item_name}"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: what to look up in the moderation panel"
+msgid "Link, id, @handle or email"
+msgstr "Link, ID, @Handle oder E-Mail"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a ban that never ends"
+msgid "Permanent"
+msgstr "Dauerhaft"
+
+#. The placeholder is the last six characters of the browser fingerprint.
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a browser fingerprint two accounts share"
+msgid "Browser fingerprint …%{fingerprint_end}"
+msgstr "Browser-Fingerabdruck …%{fingerprint_end}"
+
+#. The placeholder is the last six characters of the device id.
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a device two accounts share"
+msgid "Device …%{device_id_end}"
+msgstr "Gerät …%{device_id_end}"
+
+#. Flash after a moderation rule is deleted.
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderation rule was deleted"
+msgid "%{rule_name} deleted"
+msgstr "%{rule_name} gelöscht"
+
+#. Flash after a moderation rule is saved.
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderation rule was saved"
+msgid "%{rule_name} saved"
+msgstr "%{rule_name} gespeichert"
+
+#. Flash after a moderator approves held content, which is then saved.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator approved held content"
+msgid "Approved and saved"
+msgstr "Freigegeben und gespeichert"
+
+#. Flash after a moderator deletes one message of a looked-up chat.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted a chat message"
+msgid "Message deleted"
+msgstr "Nachricht gelöscht"
+
+#. Flash after a moderator deletes the looked-up item.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted the looked-up item"
+msgid "Deleted"
+msgstr "Gelöscht"
+
+#. Flash after a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted the reported item"
+msgid "AI connection deleted"
+msgstr "KI-Verbindung gelöscht"
+
+#. Flash after a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted the reported item"
+msgid "AI model deleted"
+msgstr "KI-Modell gelöscht"
+
+#. Flash after a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted the reported item"
+msgid "Character deleted"
+msgstr "Charakter gelöscht"
+
+#. Flash after a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted the reported item"
+msgid "Chat deleted"
+msgstr "Chat gelöscht"
+
+#. Flash after a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted the reported item"
+msgid "Lore book deleted"
+msgstr "Lore-Buch gelöscht"
+
+#. Flash after a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted the reported item"
+msgid "Lore entry deleted"
+msgstr "Lore-Eintrag gelöscht"
+
+#. Flash after a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted the reported item"
+msgid "Message deleted"
+msgstr "Nachricht gelöscht"
+
+#. Flash after a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted the reported item"
+msgid "Outlet deleted"
+msgstr "Outlet gelöscht"
+
+#. Flash after a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted the reported item"
+msgid "Prompt block deleted"
+msgstr "Prompt-Block gelöscht"
+
+#. Flash after a moderator deletes reported content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator deleted the reported item"
+msgid "Prompt deleted"
+msgstr "Prompt gelöscht"
+
+#. Flash after a moderator dismisses a report.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator dismissed a report"
+msgid "Report dismissed"
+msgstr "Meldung verworfen"
+
+#. Flash after a moderator bans an account or its devices and addresses.
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator issued a ban"
+msgid "Banned"
+msgstr "Gesperrt"
+
+#. Flash after a moderator lifts a ban.
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator lifted a ban"
+msgid "Ban lifted"
+msgstr "Sperre aufgehoben"
+
+#. Flash after a moderator rejects held content.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator rejected held content"
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+#. Flash after a moderator sends an account a warning.
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator sent a warning"
+msgid "Warning sent"
+msgstr "Verwarnung gesendet"
+
+#. Flash after a moderator takes a catalog listing down.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator took a catalog listing down"
+msgid "Taken down"
+msgstr "Entfernt"
+
+#. Flash after a moderator takes a reported catalog listing down.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a moderator took a reported catalog listing down"
+msgid "Listing taken down"
+msgstr "Katalogeintrag entfernt"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a readable catalog listing and who published it"
+msgid "Readable · published by %{publisher_handle}"
+msgstr "Lesbar · veröffentlicht von %{publisher_handle}"
+
+#. Flash when a report cannot be filed (reporting is off, or the item is the reporter's own).
+#: lib/mythweaver_web/components/report_modal.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a report could not be filed"
+msgid "You can't report this"
+msgstr "Du kannst das nicht melden"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a reported account and its text"
+msgid "Account: %{reported_text}"
+msgstr "Konto: %{reported_text}"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a reported catalog listing and its text"
+msgid "Listing: %{reported_text}"
+msgstr "Katalogeintrag: %{reported_text}"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a reported chat message and its text"
+msgid "Message: %{reported_text}"
+msgstr "Nachricht: %{reported_text}"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a runtime-only catalog listing and who published it"
+msgid "Runtime-only · published by %{publisher_handle}"
+msgstr "Nur Laufzeit · veröffentlicht von %{publisher_handle}"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: account not suspended"
+msgid "Active"
+msgstr "Aktiv"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: account role"
+msgid "Owner"
+msgstr "Eigentümer"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: account role"
+msgid "User"
+msgstr "Benutzer"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: account suspended for good"
+msgid "Suspended permanently"
+msgstr "Dauerhaft gesperrt"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: account suspended, followed by the date and time it ends"
+msgid "Suspended until"
+msgstr "Gesperrt bis"
+
+#. Accounts in a looked-up chat; the placeholder is a list of @handles.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: accounts in a looked-up chat"
+msgid "Members: %{member_handles}"
+msgstr "Mitglieder: %{member_handles}"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: actor of a moderation log entry made by the rules"
+msgid "Automatic rules"
+msgstr "Automatische Regeln"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: an IP address two accounts share"
+msgid "IP %{ip_address}"
+msgstr "IP %{ip_address}"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: an IP address two accounts share, with its place"
+msgid "IP %{ip_address} (%{place_name})"
+msgstr "IP %{ip_address} (%{place_name})"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: ban"
+msgid "Active"
+msgstr "Aktiv"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: ban"
+msgid "Expired"
+msgstr "Abgelaufen"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: ban"
+msgid "Lifted"
+msgstr "Aufgehoben"
+
+#. Flash when a moderator's delete (of an item or a rule) fails.
+#: lib/mythweaver_web/components/moderation_nav.ex
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: deleting the item failed"
+msgid "Could not delete it"
+msgstr "Konnte nicht gelöscht werden"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: held content the rules are still checking"
+msgid "Checking"
+msgstr "Wird geprüft"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: held content waiting for a moderator"
+msgid "Waiting for review"
+msgstr "Wartet auf Prüfung"
+
+#. Flash when the looked-up item does not exist or is gone.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: looked-up item does not exist"
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Approved held content"
+msgstr "Zurückgehaltene Inhalte freigegeben"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Banned"
+msgstr "Gesperrt"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Changed a moderation rule"
+msgstr "Moderationsregel geändert"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Created a moderation rule"
+msgstr "Moderationsregel erstellt"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Deleted"
+msgstr "Gelöscht"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Deleted a moderation rule"
+msgstr "Moderationsregel gelöscht"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Dismissed a report"
+msgstr "Meldung verworfen"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Lifted a ban"
+msgstr "Sperre aufgehoben"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Rejected held content"
+msgstr "Zurückgehaltene Inhalte abgelehnt"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Took down"
+msgstr "Entfernt"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Viewed"
+msgstr "Angesehen"
+
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation log action"
+msgid "Warned"
+msgstr "Verwarnt"
+
+#. Flash when a moderation lookup matches nothing.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation lookup matched nothing"
+msgid "Nothing found for that"
+msgstr "Dazu wurde nichts gefunden"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderation rule turned off"
+msgid "Off"
+msgstr "Aus"
+
+#. Flash when a moderator who may only open account records looks up content.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moderator may not open content"
+msgid "You can't open content"
+msgstr "Du kannst keine Inhalte öffnen"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: owner of a looked-up chat that has none"
+msgid "Owner: No owner"
+msgstr "Eigentümer: Kein Eigentümer"
+
+#. Who owns a looked-up item; the placeholder is a link to the owner's @handle.
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: owner of a looked-up item"
+msgid "Owner: %{owner_link}"
+msgstr "Eigentümer: %{owner_link}"
+
+#: lib/mythweaver_web/live/moderation_lookup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: owner of a looked-up site item"
+msgid "Owner: Site"
+msgstr "Eigentümer: Website"
+
+#. Flash when a moderator tries to warn or ban an owner.
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: owners cannot be warned or banned"
+msgid "Owners can't be sanctioned"
+msgstr "Eigentümer können nicht sanktioniert werden"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: report"
+msgid "Actioned"
+msgstr "Bearbeitet"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: report"
+msgid "Dismissed"
+msgstr "Verworfen"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: report"
+msgid "Open"
+msgstr "Offen"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: shown in place of the handle of an account that was deleted"
+msgid "a deleted account"
+msgstr "ein gelöschtes Konto"
+
+#. The account a report is about; the placeholder is a link to its @handle.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the account a report is about"
+msgid "Account: %{account_handle}"
+msgstr "Konto: %{account_handle}"
+
+#. Flash when a moderator opens the record of an account that does not exist.
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the account in the link does not exist"
+msgid "Account not found"
+msgstr "Konto nicht gefunden"
+
+#. Flash when the moderation rule in the link no longer exists.
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the moderation rule in the link no longer exists"
+msgid "Rule not found"
+msgstr "Regel nicht gefunden"
+
+#. Flash when the reported content a moderator deletes is already gone.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the reported item is already gone"
+msgid "It is already gone"
+msgstr "Es ist bereits weg"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the rules filed a report"
+msgid "Reported by automated rules"
+msgstr "Von automatischen Regeln gemeldet"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the rules filed a report, followed by when"
+msgid "By automated rules,"
+msgstr "Von automatischen Regeln,"
+
+#. Moderation log row: the type of item an action was about (e.g. "Character"), then its name.
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: type and name of the item a moderation log entry is about"
+msgid "%{item_type} %{item_name}"
+msgstr "%{item_type} %{item_name}"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: warning not read yet"
+msgid "Not yet acknowledged"
+msgstr "Noch nicht bestätigt"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: warning read, followed by the date and time it was read"
+msgid "Acknowledged"
+msgstr "Bestätigt"
+
+#. Moderation log row: what an action was about (e.g. "Character Aqua"), then the account it concerned (an @handle). Both are links.
+#: lib/mythweaver_web/live/moderation_log_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: what a moderation log entry is about, and the account it concerned"
+msgid "%{log_subject} of %{account_handle}"
+msgstr "%{log_subject} von %{account_handle}"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: when a ban ends, followed by its date and time"
+msgid "Ends"
+msgstr "Endet"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: when a device or address was first seen, followed by its date and time"
+msgid "First"
+msgstr "Zuerst"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: when a device or address was last seen, followed by its date and time"
+msgid "Last"
+msgstr "Zuletzt"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: when a device or address was last seen, followed by its date and time"
+msgid "Last seen"
+msgstr "Zuletzt gesehen"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: when two accounts last shared a device or address, followed by its date and time"
+msgid "Last shared"
+msgstr "Zuletzt geteilt"
+
+#. Who filed a report; the placeholder is a link to their @handle, the time follows.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: who filed a report"
+msgid "Reported by %{reporter_handle}"
+msgstr "Gemeldet von %{reporter_handle}"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: who filed a report, followed by when"
+msgid "By @%{reporter_handle},"
+msgstr "Von @%{reporter_handle},"
+
+#. Who issued a ban; the date and time it was issued follow. The handle may read "a deleted account".
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: who issued a ban"
+msgid "Issued by %{account_handle}"
+msgstr "Erteilt von %{account_handle}"
+
+#. Who lifted a ban; the date and time it was lifted follow. The handle may read "a deleted account".
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: who lifted a ban"
+msgid "Lifted by %{account_handle}"
+msgstr "Aufgehoben von %{account_handle}"
+
+#. Who submitted held content; the placeholder is a link to their @handle, the time follows.
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: who submitted held content"
+msgid "Submitted by %{account_handle}"
+msgstr "Eingereicht von %{account_handle}"
+
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: bans on IP addresses"
+msgid "IP addresses"
+msgstr "IP-Adressen"
+
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: bans on browser fingerprints"
+msgid "Browser fingerprints"
+msgstr "Browser-Fingerabdrücke"
+
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: bans on devices"
+msgid "Devices"
+msgstr "Geräte"
+
+#: lib/mythweaver_web/live/moderation_ban_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: bans on whole accounts"
+msgid "Accounts"
+msgstr "Konten"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: moderation section for looking up content"
+msgid "Lookup"
+msgstr "Suche"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: moderation section listing bans"
+msgid "Bans"
+msgstr "Sperren"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: moderation section listing moderation rules"
+msgid "Rules"
+msgstr "Regeln"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: moderation section listing permission groups"
+msgid "Groups"
+msgstr "Gruppen"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: moderation section listing reports"
+msgid "Reports"
+msgstr "Meldungen"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: moderation section listing user accounts"
+msgid "Users"
+msgstr "Benutzer"
+
+#: lib/mythweaver_web/components/moderation_nav.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: moderation section showing the moderation log"
+msgid "Log"
+msgstr "Protokoll"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: queue of content held for review"
+msgid "Held"
+msgstr "Zurückgehalten"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: queue of content the rules flagged"
+msgid "Flagged"
+msgstr "Markiert"
+
+#: lib/mythweaver_web/live/moderation_report_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: queue of users' reports"
+msgid "Reports"
+msgstr "Meldungen"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: ban the whole account"
+msgid "Suspend the account"
+msgstr "Konto sperren"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: moderation rule is on"
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: moderation rule regex matches case"
+msgid "Case sensitive"
+msgstr "Groß-/Kleinschreibung beachten"
+
+#: lib/mythweaver_web/live/moderation_rule_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: remove the moderation webhook's signing secret"
+msgid "Remove the secret"
+msgstr "Geheimnis entfernen"
+
+#: lib/mythweaver_web/live/moderation_account_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: how many times an account was seen with a device or address"
+msgid "%{seen_count}×"
+msgstr "%{seen_count}×"
+
+#. Notification body when content held for moderator review expired unreviewed.
+#: lib/mythweaver/moderation/scanner.ex
+#, elixir-autogen, elixir-format
+msgid "It waited more than %{day_count} day for review and was discarded."
+msgid_plural "It waited more than %{day_count} days for review and was discarded."
+msgstr[0] "Es hat mehr als %{day_count} Tag auf Prüfung gewartet und wurde verworfen."
+msgstr[1] "Es hat mehr als %{day_count} Tage auf Prüfung gewartet und wurde verworfen."
+
+#. Notification body when the moderation rules rejected the user's content; the placeholder lists each rule name with its reason ("rule: reason"), separated by semicolons, as written by moderators.
+#: lib/mythweaver/moderation/scanner.ex
+#, elixir-autogen, elixir-format
+msgid "It was rejected by the moderation rules (%{rule_reasons})."
+msgstr "Es wurde von den Moderationsregeln abgelehnt (%{rule_reasons})."
+
+#: lib/mythweaver/moderation/reports.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: author name of a reported message with no known author"
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: lib/mythweaver/moderation/subject.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: title of a moderated item that has no name"
+msgid "Untitled"
+msgstr "Ohne Titel"
+
+#. Report reason for moderators; the placeholder is one "rule: reason" line per rule finding, as the rules wrote them.
+#: lib/mythweaver/moderation/reports.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: report reason written by the automated moderation rules"
+msgid "Rules recommend removal. %{finding_lines}"
+msgstr "Die Regeln empfehlen die Entfernung. %{finding_lines}"

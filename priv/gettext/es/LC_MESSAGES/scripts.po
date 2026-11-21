@@ -1,0 +1,1272 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "\"new\", \"regenerate\", \"continue\" or \"refine\"."
+msgstr "\"new\", \"regenerate\", \"continue\" o \"refine\"."
+
+#. Flash when a Lua script was saved but writing its tags failed.
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{script_name} saved, but its tags did not"
+msgstr "%{script_name} guardado, pero sus etiquetas no"
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "A button above the chat composer, labelled with the script's name, and a command palette entry \"quick reply: <name>\". Runs when either is clicked or picked, in a chat with a player character. Buttons are ordered by priority (higher first), then name."
+msgstr "Un botón sobre el editor del chat, con el nombre del script, y una entrada de la paleta de comandos \"quick reply: <name>\". Se ejecuta al hacer clic en cualquiera de ellos o al elegirlo, en un chat con personaje del jugador. Los botones se ordenan por prioridad (mayor primero) y luego por nombre."
+
+#. Flash when the Lua script form has errors.
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save — see the highlighted fields"
+msgstr "No se pudo guardar: revisa los campos resaltados"
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Each book with at least one activated entry, once."
+msgstr "Cada libro con al menos una entrada activada, una vez."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Each run gets a global %{event_table} table describing what fired it. Every event has:"
+msgstr "Cada ejecución recibe una tabla global %{event_table} que describe qué la provocó. Todo evento tiene:"
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Every activated entry, with the book it activated from."
+msgstr "Cada entrada activada, con el libro desde el que se activó."
+
+#. Default sample text in the script test form; the asterisks mark a roleplay action.
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Hello there! *waves* How are you today?"
+msgstr "¡Hola! *saluda con la mano* ¿Qué tal estás hoy?"
+
+#. Script reference footer. %{host_tables} and %{regex_functions} are comma-separated lists of Lua function names, %{refusal} and %{print_function} are Lua code, %{replacement_syntax} is the literal replacement syntax; none are translated.
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Host functions: %{host_tables}. A refusal returns %{refusal}; a wrong argument fails the script. Regular expressions (PCRE): %{regex_functions}. Flags: i m s x U. Replacement strings use %{replacement_syntax}. %{print_function} shows its arguments with the run's script errors."
+msgstr "Funciones del host: %{host_tables}. Un rechazo devuelve %{refusal}; un argumento incorrecto hace fallar el script. Expresiones regulares (PCRE): %{regex_functions}. Flags: i m s x U. Las cadenas de reemplazo usan %{replacement_syntax}. %{print_function} muestra sus argumentos junto con los errores de script de la ejecución."
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "Inline script %{block_number} printed: %{printed_text}"
+msgstr "El script en línea %{block_number} imprimió: %{printed_text}"
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "Must be a whole number."
+msgstr "Debe ser un número entero."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "Must be one of: %{choice_list}"
+msgstr "Debe ser uno de: %{choice_list}"
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "Must be true or false."
+msgstr "Debe ser true o false."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "Not a participant of this chat."
+msgstr "No es participante de este chat."
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "Not run: dependency \"%{script_name}\" did not succeed."
+msgstr "No ejecutado: la dependencia \"%{script_name}\" no tuvo éxito."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Ran without errors. This trigger ignores return values."
+msgstr "Se ejecutó sin errores. Este disparador ignora los valores devueltos."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Ran without errors; it shows:"
+msgstr "Se ejecutó sin errores; muestra:"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Ran without errors; no notice."
+msgstr "Se ejecutó sin errores; sin aviso."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Ran without errors; the composer is emptied."
+msgstr "Se ejecutó sin errores; el editor se vacía."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Ran without errors; the composer is left alone."
+msgstr "Se ejecutó sin errores; el editor no se toca."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Ran without errors; the text is unchanged."
+msgstr "Se ejecutó sin errores; el texto no cambia."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Return a string or number to put in the block's place, or nothing (or nil) to remove the block. If the whole message is then blank and has no images, nothing is posted."
+msgstr "Devuelve una cadena o un número para ponerlo en lugar del bloque, o nada (o nil) para quitar el bloque. Si el mensaje entero queda vacío y no tiene imágenes, no se publica nada."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Return a string or number to show it as a notice; nil or nothing shows none. Off a chat page chat_id is nil and mw.messages.*, mw.images.*, mw.generation.*, mw.memory.*, mw.vars.*, mw.injections.* and mw.lore.set_chat_bound return nil, \"no_chat\"."
+msgstr "Devuelve una cadena o un número para mostrarlo como aviso; nil o nada no muestra ninguno. Fuera de una página de chat, chat_id es nil y mw.messages.*, mw.images.*, mw.generation.*, mw.memory.*, mw.vars.*, mw.injections.* y mw.lore.set_chat_bound devuelven nil, \"no_chat\"."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Return a string to put it in the composer in place of what is there. Return {\"message\", text} to send text as if typed and sent: templates, {! !} blocks and user_message scripts run, staged images go with it, and the composer is cleared. Return {\"clear\"} to empty the composer. nil or nothing changes nothing."
+msgstr "Devuelve una cadena para ponerla en el editor en lugar de lo que haya. Devuelve {\"message\", text} para enviar el texto como si se hubiera escrito y enviado: se ejecutan las plantillas, los bloques {! !} y los scripts user_message, las imágenes preparadas se envían con él y el editor se vacía. Devuelve {\"clear\"} para vaciar el editor. nil o nada no cambia nada."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Return a string to replace the saved description, or nil (or nothing) to keep it; blank is ignored. mw.images.set_description here saves without running this trigger again. mw.generation.* is refused here."
+msgstr "Devuelve una cadena para reemplazar la descripción guardada, o nil (o nada) para conservarla; una vacía se ignora. Aquí mw.images.set_description guarda sin volver a ejecutar este disparador. Aquí se rechaza mw.generation.*."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Return a string to replace the saved text, or nil (or nothing) to keep it. The prompt inspector still shows what the model sent. mw.generation.* is refused here."
+msgstr "Devuelve una cadena para reemplazar el texto guardado, o nil (o nada) para conservarlo. El inspector de prompts sigue mostrando lo que envió el modelo. Aquí se rechaza mw.generation.*."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Return a string to replace the text, or nil (or nothing) to keep it. Returning blank text cancels a send unless images are attached; a blank edit is refused."
+msgstr "Devuelve una cadena para reemplazar el texto, o nil (o nada) para conservarlo. Devolver texto vacío cancela un envío salvo que haya imágenes adjuntas; una edición vacía se rechaza."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Return values are ignored. Changes to lore or prompts apply from the next generation, because this one's prompt is already built. mw.generation.* is refused here."
+msgstr "Los valores devueltos se ignoran. Los cambios en el lore o los prompts se aplican desde la siguiente generación, porque el prompt de esta ya está construido. Aquí se rechaza mw.generation.*."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Runs from the command palette (Cmd-P / Ctrl-P) as \"lua: <name>\". Declare its inputs with ---@param lines at the top; see the event reference below."
+msgstr "Se ejecuta desde la paleta de comandos (Cmd-P / Ctrl-P) como \"lua: <name>\". Declara sus entradas con líneas ---@param al principio; consulta la referencia de eventos más abajo."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Runs once when a message containing {! … !} is sent from the composer; the block is never stored. Blocks run in order; a syntax error in any block blocks the send, and a runtime error stops the send at that block."
+msgstr "Se ejecuta una vez cuando se envía desde el editor un mensaje que contiene {! … !}; el bloque nunca se guarda. Los bloques se ejecutan en orden; un error de sintaxis en cualquier bloque impide el envío, y un error de ejecución detiene el envío en ese bloque."
+
+#. Hint in the script test section. The placeholders are Lua code, shown as code and not translated.
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Runs the script above, saved or not, with this text as %{event_text} and empty sample values for the other fields. Nothing is changed: %{mw_functions} functions that need a chat or change data return %{test_run_result}."
+msgstr "Ejecuta el script de arriba, guardado o no, con este texto como %{event_text} y valores de ejemplo vacíos para los demás campos. No se cambia nada: las funciones %{mw_functions} que necesitan un chat o cambian datos devuelven %{test_run_result}."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Runs when a generation activates lore, after the lore is resolved and before the prompt is sent."
+msgstr "Se ejecuta cuando una generación activa lore, después de resolver el lore y antes de enviar el prompt."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Runs when an AI reply finishes successfully, before it is saved. A stopped or failed reply runs no scripts."
+msgstr "Se ejecuta cuando una respuesta de IA termina correctamente, antes de guardarse. Una respuesta detenida o fallida no ejecuta scripts."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Runs when an image in a chat gets a description: from a caption model, typed by a person, or set by a script outside this trigger. Before replies waiting on the caption read it. Avatars run no scripts. Only the chat owner's own descriptions run them; another member's run none."
+msgstr "Se ejecuta cuando una imagen de un chat recibe una descripción: de un modelo de descripción, escrita por una persona o puesta por un script fuera de este disparador. Las respuestas que esperan la descripción la leen después. Los avatares no ejecutan scripts. Solo las descripciones del propio propietario del chat los ejecutan; las de otro miembro no ejecutan ninguno."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Runs when picked from the command palette (Cmd-P / Ctrl-P) as \"lua: <name>\". Declare its inputs with --- comment lines at the very top: \"---@param name type Label\" (name? for an optional one), other \"---\" text is the command's description, and other ---@ tags are ignored. Types: string, integer, number, boolean, character, participant, message, lore_book, lore_entry, prompt, prompt_block, model, chat, script, or choices \"a\"|\"b\". A participant or message parameter offers the command only in a chat. Other scripts can call it with mw.commands.run(name, args); it then runs with the caller's event and trigger, only event.args replaced, and its return values go back to the caller unchanged."
+msgstr "Se ejecuta al elegirlo en la paleta de comandos (Cmd-P / Ctrl-P) como \"lua: <name>\". Declara sus entradas con líneas de comentario --- al principio del todo: \"---@param name type Label\" (name? para una opcional); el resto del texto \"---\" es la descripción del comando, y las demás etiquetas ---@ se ignoran. Tipos: string, integer, number, boolean, character, participant, message, lore_book, lore_entry, prompt, prompt_block, model, chat, script, u opciones \"a\"|\"b\". Un parámetro participant o message ofrece el comando solo en un chat. Otros scripts pueden llamarlo con mw.commands.run(name, args); entonces se ejecuta con el evento y el disparador de quien lo llama, sustituyendo solo event.args, y sus valores devueltos vuelven sin cambios a quien lo llamó."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "Runs when the player sends a message or saves an edit, before it is stored. Blank text with no images skips scripts. Only the chat owner's own messages run them; another member's run none."
+msgstr "Se ejecuta cuando el jugador envía un mensaje o guarda una edición, antes de guardarse. El texto vacío sin imágenes omite los scripts. Solo los mensajes del propio propietario del chat los ejecutan; los de otro miembro no ejecutan ninguno."
+
+#: lib/mythweaver/scripts/sandbox.ex
+#, elixir-autogen, elixir-format
+msgid "Script exceeded its CPU time limit of %{time_limit_ms} ms."
+msgstr "El script superó su límite de tiempo de CPU de %{time_limit_ms} ms."
+
+#: lib/mythweaver/scripts/sandbox.ex
+#, elixir-autogen, elixir-format
+msgid "Script exceeded its memory limit of %{memory_limit}."
+msgstr "El script superó su límite de memoria de %{memory_limit}."
+
+#: lib/mythweaver/scripts/sandbox.ex
+#, elixir-autogen, elixir-format
+msgid "Script exceeded its time limit of %{time_limit_ms} ms."
+msgstr "El script superó su límite de tiempo de %{time_limit_ms} ms."
+
+#: lib/mythweaver/scripts/sandbox.ex
+#, elixir-autogen, elixir-format
+msgid "Script is too complex to parse within the memory limit."
+msgstr "El script es demasiado complejo para analizarlo dentro del límite de memoria."
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "Script must return a string or nil."
+msgstr "El script debe devolver una cadena o nil."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Script reference: the %{event_table} table"
+msgstr "Referencia de scripts: la tabla %{event_table}"
+
+#: lib/mythweaver/scripts/sandbox.ex
+#, elixir-autogen, elixir-format
+msgid "Script took too long to parse."
+msgstr "El análisis del script tardó demasiado."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a script, or create a new one."
+msgstr "Selecciona un script o crea uno nuevo."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "Shows as a button named after this script above the chat composer, and in the command palette as \"quick reply: <name>\". Gets the composer text as event.text; see the event reference below."
+msgstr "Aparece como un botón con el nombre de este script sobre el editor del chat, y en la paleta de comandos como \"quick reply: <name>\". Recibe el texto del editor como event.text; consulta la referencia de eventos más abajo."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "That character no longer exists."
+msgstr "Ese personaje ya no existe."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "That chat no longer exists."
+msgstr "Ese chat ya no existe."
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "That command script no longer exists or is disabled."
+msgstr "Ese script de comando ya no existe o está desactivado."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "That lore book no longer exists."
+msgstr "Ese libro de lore ya no existe."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "That lore entry no longer exists."
+msgstr "Esa entrada de lore ya no existe."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "That message no longer exists."
+msgstr "Ese mensaje ya no existe."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "That model no longer exists."
+msgstr "Ese modelo ya no existe."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "That prompt block no longer exists."
+msgstr "Ese bloque de prompt ya no existe."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "That prompt no longer exists."
+msgstr "Ese prompt ya no existe."
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "That quick reply no longer exists or is disabled."
+msgstr "Esa respuesta rápida ya no existe o está desactivada."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "That script no longer exists."
+msgstr "Ese script ya no existe."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The author: the chat's player for a new message, the message's author for an edit."
+msgstr "El autor: el jugador del chat para un mensaje nuevo, el autor del mensaje para una edición."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The caption model, when by is \"model\"."
+msgstr "El modelo de descripción, cuando by es \"model\"."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The character about to speak."
+msgstr "El personaje que va a hablar."
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "The chat no longer exists."
+msgstr "El chat ya no existe."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The chat the event happened in. `mw.messages.*`, `mw.generation.*`, `mw.memory.*`, `mw.vars.*` and `mw.injections.*` act on it."
+msgstr "El chat en el que ocurrió el evento. `mw.messages.*`, `mw.generation.*`, `mw.memory.*`, `mw.vars.*` y `mw.injections.*` actúan sobre él."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The edited message, or nil for a new message."
+msgstr "El mensaje editado, o nil para un mensaje nuevo."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The ids of the images being sent."
+msgstr "Los ids de las imágenes que se envían."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The ids of the images sent with the message (already stored, so mw.images.get and mw.images.caption work on them), or the edited message's images."
+msgstr "Los ids de las imágenes enviadas con el mensaje (ya guardadas, así que mw.images.get y mw.images.caption funcionan con ellas), o las imágenes del mensaje editado."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The message text after template rendering. A script earlier in the run order may already have rewritten it."
+msgstr "El texto del mensaje tras renderizar las plantillas. Un script anterior en el orden de ejecución puede haberlo reescrito ya."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The message the image belongs to, or nil for an image still in the composer."
+msgstr "El mensaje al que pertenece la imagen, o nil para una imagen que sigue en el editor."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The message the reply is written into."
+msgstr "El mensaje en el que se escribe la respuesta."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The new description. A script earlier in the run order may already have rewritten it."
+msgstr "La nueva descripción. Un script anterior en el orden de ejecución puede haberla reescrito ya."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The opts.data passed alongside the tag, as given, or nil. Held in memory: nil after a server restart."
+msgstr "El opts.data pasado junto con la etiqueta, tal como se dio, o nil. Se guarda en memoria: nil tras reiniciar el servidor."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The parameters by name: text for string and choices, numbers, booleans, and record tables for entities (a character or participant is a character table, a message a message table, a lore book or entry, prompt or prompt block its table, model {id, name, api_model_id, completion_mode}, chat {id, name}, script {id, name, description, trigger, enabled}). A blank optional parameter is nil."
+msgstr "Los parámetros por nombre: texto para string y opciones, números, booleanos y tablas de registro para entidades (un character o participant es una tabla de personaje, un message una tabla de mensaje, un libro o entrada de lore, prompt o bloque de prompt su tabla, model {id, name, api_model_id, completion_mode}, chat {id, name}, script {id, name, description, trigger, enabled}). Un parámetro opcional vacío es nil."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The player character sending the message."
+msgstr "El personaje del jugador que envía el mensaje."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The reply's full text. A continue includes the original text before the new part. A script earlier in the run order may already have rewritten it."
+msgstr "El texto completo de la respuesta. Una continuación incluye el texto original antes de la parte nueva. Un script anterior en el orden de ejecución puede haberlo reescrito ya."
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "The script does not end with return, so it returns nothing and the text stays as it was. End it with return and the new text, or return nil to keep the text on purpose."
+msgstr "El script no termina con return, así que no devuelve nada y el texto se queda como estaba. Termínalo con return y el texto nuevo, o con return nil para conservar el texto a propósito."
+
+#. Flash shown when the script open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "The script was deleted or moved elsewhere."
+msgstr "El script se eliminó o se movió a otro lugar."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The tag passed to mw.images.caption(id, {tag = ...}) or to the mw.images.request(prompt, {tag = ...}) that brought the image, or nil."
+msgstr "La etiqueta pasada a mw.images.caption(id, {tag = ...}) o al mw.images.request(prompt, {tag = ...}) que trajo la imagen, o nil."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "The trigger that ran this script, e.g. \"user_message\"."
+msgstr "El disparador que ejecutó este script, p. ej. \"user_message\"."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "This block's position among the message's {! !} blocks, from 1."
+msgstr "La posición de este bloque entre los bloques {! !} del mensaje, desde 1."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "What is in the composer when it runs; may be blank."
+msgstr "Lo que hay en el editor cuando se ejecuta; puede estar vacío."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgid "What users who are not admins see of this script. Only names: never its body, in the assistant, scripts or exports; it still runs. Admins always see everything."
+msgstr "Lo que ven de este script los usuarios que no son administradores. Solo nombres: nunca su cuerpo, ni en el asistente, los scripts o las exportaciones; sigue ejecutándose. Los administradores siempre lo ven todo."
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "You're not allowed to do that."
+msgstr "No tienes permiso para hacer eso."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon, the script's last run failed"
+msgid "Last run failed"
+msgstr "La última ejecución falló"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of Lua scripts"
+msgid "Scripts"
+msgstr "Scripts"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: script trigger, a palette command"
+msgid "Command"
+msgstr "Comando"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: script trigger, a quick reply button"
+msgid "Quick reply"
+msgstr "Respuesta rápida"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: script trigger, a user message"
+msgid "User message"
+msgstr "Mensaje del usuario"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: script trigger, an AI reply"
+msgid "AI reply"
+msgstr "Respuesta de IA"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: script trigger, an image described"
+msgid "Image"
+msgstr "Imagen"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: script trigger, lore activated"
+msgid "Lore"
+msgstr "Lore"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: this trigger is the open script's"
+msgid "this script"
+msgstr "este script"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: cancel editing the open form"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: check the script for errors"
+msgid "Validate"
+msgstr "Validar"
+
+#. Confirm dialog before deleting a Lua script.
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: confirm dialog, delete a Lua script"
+msgid "Delete %{script_name}?"
+msgstr "¿Eliminar %{script_name}?"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a Lua script"
+msgid "New script"
+msgstr "Nuevo script"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: run the script test"
+msgid "Run test"
+msgstr "Ejecutar prueba"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the open form"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: Lua scripts affected by a bulk action"
+msgid "%{script_count} script"
+msgid_plural "%{script_count} scripts"
+msgstr[0] "%{script_count} script"
+msgstr[1] "%{script_count} scripts"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no Lua scripts exist"
+msgid "No scripts yet"
+msgstr "Aún no hay scripts"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no Lua scripts match the search"
+msgid "No scripts match this search"
+msgstr "Ningún script coincide con esta búsqueda"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no other scripts to depend on"
+msgid "No other scripts"
+msgstr "No hay otros scripts"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: Lua source of a script"
+msgid "Script"
+msgstr "Script"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: description of a Lua script"
+msgid "Description"
+msgstr "Descripción"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: event that runs a Lua script"
+msgid "Trigger"
+msgstr "Disparador"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how much of a site Lua script users see"
+msgid "Visible to users"
+msgstr "Visible para los usuarios"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lines a script test run printed"
+msgid "Printed:"
+msgstr "Impreso:"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a Lua script"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: order of quick reply buttons"
+msgid "Priority (higher shows first)"
+msgstr "Prioridad (mayor aparece primero)"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: run order of a Lua script"
+msgid "Priority"
+msgstr "Prioridad"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: run order of a Lua script"
+msgid "Priority (higher runs first)"
+msgstr "Prioridad (mayor se ejecuta primero)"
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: script event field, the character who spoke"
+msgid "The character who spoke."
+msgstr "El personaje que habló."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: script event field, the image that got a description"
+msgid "The described image."
+msgstr "La imagen descrita."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: script reference, return value of a trigger"
+msgid "Return value:"
+msgstr "Valor devuelto:"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: scripts this script runs after"
+msgid "Runs after"
+msgstr "Se ejecuta después de"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: text a script test run gets as event.text"
+msgid "Sample text"
+msgstr "Texto de ejemplo"
+
+#. Script reference: what a trigger's return value does. The second placeholder is that description.
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: what a script trigger's return value does"
+msgid "%{return_value_label} %{return_description}"
+msgstr "%{return_value_label} %{return_description}"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: when the script last failed"
+msgid "Last error:"
+msgstr "Último error:"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: when the script last ran without error"
+msgid "Last success:"
+msgstr "Último éxito:"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form for a new Lua script"
+msgid "New script"
+msgstr "Nuevo script"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: inline {! !} script blocks in a sent message"
+msgid "Inline, in a sent message"
+msgstr "En línea, en un mensaje enviado"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of Lua scripts"
+msgid "Scripts"
+msgstr "Scripts"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: section that test-runs the script"
+msgid "Test the script"
+msgstr "Probar el script"
+
+#: lib/mythweaver/scripts/script.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: event that runs a script"
+msgid "Command palette"
+msgstr "Paleta de comandos"
+
+#: lib/mythweaver/scripts/script.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: event that runs a script"
+msgid "Image described"
+msgstr "Imagen descrita"
+
+#: lib/mythweaver/scripts/script.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: event that runs a script"
+msgid "Incoming AI generation"
+msgstr "Generación de IA entrante"
+
+#: lib/mythweaver/scripts/script.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: event that runs a script"
+msgid "Lore book activated"
+msgstr "Libro de lore activado"
+
+#: lib/mythweaver/scripts/script.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: event that runs a script"
+msgid "Outgoing user message"
+msgstr "Mensaje saliente del usuario"
+
+#: lib/mythweaver/scripts/script.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: event that runs a script"
+msgid "Quick reply"
+msgstr "Respuesta rápida"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: users see all of a site Lua script"
+msgid "Everything"
+msgstr "Todo"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: users see only a site Lua script's name"
+msgid "Only names (runtime-only)"
+msgstr "Solo nombres (solo en ejecución)"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: list of Lua scripts"
+msgid "Scripts"
+msgstr "Scripts"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search Lua scripts"
+msgid "Name or description"
+msgstr "Nombre o descripción"
+
+#: lib/mythweaver/scripts/sandbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a Lua script printed more lines than are kept"
+msgid "(further print output omitted)"
+msgstr "(se omitió el resto de la salida impresa)"
+
+#. Shown when a Lua script run crashes; the placeholder is the raw Erlang exit reason, untranslated.
+#: lib/mythweaver/scripts/sandbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a Lua script run crashed"
+msgid "Script crashed: %{exit_reason}"
+msgstr "El script falló: %{exit_reason}"
+
+#. Shown when a command or quick reply script fails; the reason is the script's error text, often English from the Lua engine.
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a command or quick reply script failed"
+msgid "Script \"%{script_name}\" failed: %{failure_reason}"
+msgstr "El script \"%{script_name}\" falló: %{failure_reason}"
+
+#. A line a Lua script printed with print(...), shown to the chat owner with the run's errors.
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a line a script printed"
+msgid "Script \"%{script_name}\" printed: %{printed_text}"
+msgstr "El script \"%{script_name}\" imprimió: %{printed_text}"
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a number palette command parameter is not a number"
+msgid "Must be a number."
+msgstr "Debe ser un número."
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a required palette command parameter was left blank"
+msgid "Required."
+msgstr "Obligatorio."
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a script skipped because of a dependency cycle"
+msgid "Not run: dependency cycle."
+msgstr "No ejecutado: ciclo de dependencias."
+
+#. Shown as the test result when the script's test run process crashed; the reason is the raw Erlang exit reason.
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a script test run crashed"
+msgid "Test crashed: %{exit_reason}"
+msgstr "La prueba falló: %{exit_reason}"
+
+#. Flash after a Lua script was saved.
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a Lua script was saved"
+msgid "%{script_name} saved"
+msgstr "%{script_name} guardado"
+
+#. Flash when the script in the address no longer exists or cannot be edited.
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash, the Lua script to edit was not found"
+msgid "Script not found"
+msgstr "Script no encontrado"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: quick reply test result; the message it sends follows"
+msgid "It sends this message:"
+msgstr "Envía este mensaje:"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: quick reply test result; the new composer text follows"
+msgid "The composer becomes:"
+msgstr "El editor pasa a ser:"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: script check found no errors or warnings"
+msgid "No problems found."
+msgstr "No se encontraron problemas."
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: script test result; the rewritten text follows"
+msgid "The text becomes:"
+msgstr "El texto pasa a ser:"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: script test run failed; its error follows"
+msgid "The script failed:"
+msgstr "El script falló:"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: script test run in progress"
+msgid "Running…"
+msgstr "Ejecutando…"
+
+#. Shown in the script editor; the placeholder is the raw Erlang exit reason, untranslated.
+#: lib/mythweaver/scripts/sandbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the Lua parser crashed"
+msgid "Parser crashed: %{exit_reason}"
+msgstr "El analizador falló: %{exit_reason}"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the script has never failed"
+msgid "None"
+msgstr "Ninguno"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the script has never run without error"
+msgid "Never"
+msgstr "Nunca"
+
+#: lib/mythweaver_web/live/script_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: Lua script runs on its trigger"
+msgid "Enabled"
+msgstr "Activado"
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "A prompt block's own switch, in every prompt that holds it."
+msgstr "El interruptor propio de un bloque de prompt, en todos los prompts que lo contienen."
+
+#: lib/mythweaver/scripts/api/characters.ex
+#, elixir-autogen, elixir-format
+msgid "Asks the player for an image that becomes the character's avatar (character is its id or table): the chat shows a dialog with prompt and a Choose image button. Returns true at once; the avatar is set when the image is chosen. The avatar is then described when images.auto_caption is on and the character's Appearance follows its avatar (describe true or false overrides both), and the description fills an appearance nobody wrote. A newer request replaces an open one. Refuses \"not_found\", or \"not_allowed\" in lore_activated."
+msgstr "Pide al jugador una imagen que pasa a ser el avatar del personaje (character es su id o tabla): el chat muestra un diálogo con prompt y un botón Elegir imagen. Devuelve true de inmediato; el avatar se establece cuando se elige la imagen. Después el avatar se describe si images.auto_caption está activado y la Apariencia del personaje sigue a su avatar (describe true o false anula ambas cosas), y la descripción rellena una apariencia que nadie escribió. Una solicitud más reciente reemplaza a una abierta. Rechaza con \"not_found\", o \"not_allowed\" en lore_activated."
+
+#: lib/mythweaver/scripts/api/images.ex
+#, elixir-autogen, elixir-format
+msgid "Asks the player for an image: the chat shows a dialog with prompt and a Choose image button; the image joins the composer like any upload. Returns true at once; the image arrives as an image_described run (once it is described), with opts.tag and opts.data as event.tag and event.data. A newer request replaces an open one. Refuses \"not_allowed\" in lore_activated, or \"data_too_large\"."
+msgstr "Pide al jugador una imagen: el chat muestra un diálogo con prompt y un botón Elegir imagen; la imagen se une al editor como cualquier subida. Devuelve true de inmediato; la imagen llega como una ejecución image_described (una vez descrita), con opts.tag y opts.data como event.tag y event.data. Una solicitud más reciente reemplaza a una abierta. Rechaza con \"not_allowed\" en lore_activated, o \"data_too_large\"."
+
+#: lib/mythweaver/scripts/api/lore.ex
+#, elixir-autogen, elixir-format
+msgid "Binds the book to the current chat, or unbinds it; returns true."
+msgstr "Vincula el libro al chat actual, o lo desvincula; devuelve true."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Changes who wrote the message, without adding a version: author is a participant's character id, {id = character_id}, or {name = \"text\"} for a name with no character (so another message's author table works). Returns the message; refuses \"not_in_chat\", \"blank_name\" or \"generating\"."
+msgstr "Cambia quién escribió el mensaje, sin añadir una versión: author es el id del personaje de un participante, {id = character_id}, o {name = \"text\"} para un nombre sin personaje (así que sirve la tabla de autor de otro mensaje). Devuelve el mensaje; rechaza con \"not_in_chat\", \"blank_name\" o \"generating\"."
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Command palette scripts, called like functions."
+msgstr "Scripts de la paleta de comandos, llamados como funciones."
+
+#: lib/mythweaver/scripts/api/lore.ex
+#, elixir-autogen, elixir-format
+msgid "Creates a book from fields such as {name = \"Places\"}; returns it."
+msgstr "Crea un libro a partir de campos como {name = \"Places\"}; lo devuelve."
+
+#: lib/mythweaver/scripts/api/lore.ex
+#, elixir-autogen, elixir-format
+msgid "Creates an entry in the book from fields such as {name, content, keywords}; returns it."
+msgstr "Crea una entrada en el libro a partir de campos como {name, content, keywords}; la devuelve."
+
+#: lib/mythweaver/scripts/api/injections.ex
+#, elixir-autogen, elixir-format
+msgid "Creates an injection from fields such as {key = \"mood\", content = \"Rain falls.\", uses = 3}; returns it."
+msgstr "Crea una inyección a partir de campos como {key = \"mood\", content = \"Rain falls.\", uses = 3}; la devuelve."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Deletes messages. target is a message id, a message number (as the chat shows #N), a \"first-last\" range of numbers (both ends included), or a list of numbers, ranges and ids. One id or number returns true, or nil, \"not_found\"; a range or list returns how many were deleted. Refuses \"generating\", deleting nothing, if any of them is generating."
+msgstr "Elimina mensajes. target es un id de mensaje, un número de mensaje (como muestra el chat, #N), un rango de números \"first-last\" (ambos extremos incluidos) o una lista de números, rangos e ids. Un id o número devuelve true, o nil, \"not_found\"; un rango o lista devuelve cuántos se eliminaron. Rechaza con \"generating\", sin eliminar nada, si alguno se está generando."
+
+#: lib/mythweaver/scripts/api/lore.ex
+#, elixir-autogen, elixir-format
+msgid "Deletes the book; entries in no other book become unlinked. Returns true."
+msgstr "Elimina el libro; las entradas que no estén en ningún otro libro quedan desvinculadas. Devuelve true."
+
+#: lib/mythweaver/scripts/api/injections.ex
+#, elixir-autogen, elixir-format
+msgid "Deletes the chat's spent injections; returns how many."
+msgstr "Elimina las inyecciones agotadas del chat; devuelve cuántas."
+
+#: lib/mythweaver/scripts/api/lore.ex
+#, elixir-autogen, elixir-format
+msgid "Deletes the entry from every book; returns true."
+msgstr "Elimina la entrada de todos los libros; devuelve true."
+
+#: lib/mythweaver/scripts/api/injections.ex
+#, elixir-autogen, elixir-format
+msgid "Deletes the injection; returns true."
+msgstr "Elimina la inyección; devuelve true."
+
+#: lib/mythweaver/scripts/api/memory.ex
+#, elixir-autogen, elixir-format
+msgid "Enables or disables one global side prompt, or every prompt for the literal \"all\". Returns how many changed."
+msgstr "Activa o desactiva un prompt secundario global, o todos con el literal \"all\". Devuelve cuántos cambiaron."
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Every character. A character is {id, name, description, pronouns, creator, creator_notes, character_version, talkativeness}."
+msgstr "Todos los personajes. Un personaje es {id, name, description, pronouns, creator, creator_notes, character_version, talkativeness}."
+
+#: lib/mythweaver/scripts/api/variables.ex
+#, elixir-autogen, elixir-format
+msgid "Every chat variable, as a table of key = value."
+msgstr "Todas las variables de chat, como una tabla de key = value."
+
+#: lib/mythweaver/scripts/api/variables.ex
+#, elixir-autogen, elixir-format
+msgid "Every global variable your chats read, as a table of key = value."
+msgstr "Todas las variables globales que leen tus chats, como una tabla de key = value."
+
+#: lib/mythweaver/scripts/api/injections.ex
+#, elixir-autogen, elixir-format
+msgid "Every injection in the chat, spent and disabled ones included, in application order."
+msgstr "Todas las inyecciones del chat, incluidas las agotadas y las desactivadas, en orden de aplicación."
+
+#: lib/mythweaver/scripts/api/lore.ex
+#, elixir-autogen, elixir-format
+msgid "Every lore book you may use."
+msgstr "Todos los libros de lore que puedes usar."
+
+#: lib/mythweaver/scripts/api/regex.ex
+#, elixir-autogen, elixir-format
+msgid "Every match (at most limit), as an array of match tables."
+msgstr "Todas las coincidencias (como máximo limit), como un array de tablas de coincidencia."
+
+#: lib/mythweaver/scripts/api/prompts.ex
+#, elixir-autogen, elixir-format
+msgid "Every prompt the user may use (own and site) with its blocks: {id, name, enabled, purpose, site_visibility, blocks = {{id, name, enabled, block_enabled, site_visibility}}}."
+msgstr "Todos los prompts que el usuario puede usar (propios y del sitio) con sus bloques: {id, name, enabled, purpose, site_visibility, blocks = {{id, name, enabled, block_enabled, site_visibility}}}."
+
+#: lib/mythweaver/scripts/api/characters.ex
+#, elixir-autogen, elixir-format
+msgid "Every usable character (your own and the site's), not only this chat's."
+msgstr "Todos los personajes utilizables (los tuyos y los del sitio), no solo los de este chat."
+
+#: lib/mythweaver/scripts/api/images.ex
+#, elixir-autogen, elixir-format
+msgid "Has the chat's caption model describe the image, in the background; returns true. The description arrives as an image_described run, where opts.tag (a string) and opts.data (any value, at most 64 KB) come back as event.tag and event.data. Refuses \"not_found\", \"no_captioner\", \"data_too_large\", or \"same_image\" when an image_described script asks for its own image."
+msgstr "Hace que el modelo de descripción del chat describa la imagen, en segundo plano; devuelve true. La descripción llega como una ejecución image_described, donde opts.tag (una cadena) y opts.data (cualquier valor, como máximo 64 KB) vuelven como event.tag y event.data. Rechaza con \"not_found\", \"no_captioner\", \"data_too_large\" o \"same_image\" cuando un script image_described pide su propia imagen."
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Images attached to the current chat's messages, and the text descriptions non-vision models read in their place."
+msgstr "Imágenes adjuntas a los mensajes del chat actual, y las descripciones de texto que leen en su lugar los modelos sin visión."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Makes version index (from 1, as in versions) the active one; returns the message. Refuses \"not_found\" or \"generating\"."
+msgstr "Hace activa la versión index (desde 1, como en versions); devuelve el mensaje. Rechaza con \"not_found\" o \"generating\"."
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Memory Books for the current chat: queue scene and catch-up jobs, run side prompts, and manage the processed boundary."
+msgstr "Libros de memoria del chat actual: encola tareas de escena y de puesta al día, ejecuta prompts secundarios y gestiona el límite procesado."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Merges two or more consecutive messages into the first: its new active version joins their texts, and the rest are deleted. Returns the merged message; refuses \"not_found\", \"too_few\", \"not_contiguous\" or \"generating\"."
+msgstr "Fusiona dos o más mensajes consecutivos en el primero: su nueva versión activa une sus textos y el resto se elimina. Devuelve el mensaje fusionado; rechaza con \"not_found\", \"too_few\", \"not_contiguous\" o \"generating\"."
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Mythweaver host functions. A malformed call raises; a refusal returns nil, \"<reason>\"."
+msgstr "Funciones del host de Mythweaver. Una llamada mal formada lanza un error; un rechazo devuelve nil, \"<reason>\"."
+
+#: lib/mythweaver/scripts/api/images.ex
+#, elixir-autogen, elixir-format
+msgid "One image, as in mw.images.list, or nil, \"not_found\"."
+msgstr "Una imagen, como en mw.images.list, o nil, \"not_found\"."
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "PCRE regular expressions. A match is {text, start, finish, groups, named} with byte positions; flags are i m s x U."
+msgstr "Expresiones regulares PCRE. Una coincidencia es {text, start, finish, groups, named} con posiciones en bytes; los flags son i m s x U."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Posts text as a new message and returns it. author is the chat's player or a participant (its character id, or {id = character_id}; else nil, \"not_in_chat\"), or {name = \"text\"} for a speaker with no character, such as a narrator (blank is \"blank_name\"). Another message's author table works."
+msgstr "Publica texto como un mensaje nuevo y lo devuelve. author es el jugador del chat o un participante (su id de personaje, o {id = character_id}; si no, nil, \"not_in_chat\"), o {name = \"text\"} para alguien que habla sin personaje, como un narrador (vacío es \"blank_name\"). Sirve la tabla de autor de otro mensaje."
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Prompts and their blocks. A prompt is {id, name, enabled, purpose, blocks}."
+msgstr "Prompts y sus bloques. Un prompt es {id, name, enabled, purpose, blocks}."
+
+#: lib/mythweaver/scripts/api/memory.ex
+#, elixir-autogen, elixir-format
+msgid "Queues a memory for every unprocessed message. Returns its job, or nil, \"empty_scene\" when none remain."
+msgstr "Encola una memoria para todos los mensajes sin procesar. Devuelve su tarea, o nil, \"empty_scene\" cuando no queda ninguno."
+
+#: lib/mythweaver/scripts/api/memory.ex
+#, elixir-autogen, elixir-format
+msgid "Queues a memory for the inclusive display-message range. Returns its job, or nil and a context reason."
+msgstr "Encola una memoria para el rango inclusivo de mensajes visibles. Devuelve su tarea, o nil y un motivo de contexto."
+
+#: lib/mythweaver/scripts/api/generation.ex
+#, elixir-autogen, elixir-format
+msgid "Queues a new version of the last AI reply, steered by the optional guide. true, or nil and a reason such as \"not_last\". user_message, inline, command and quick_reply scripts only."
+msgstr "Encola una nueva versión de la última respuesta de IA, dirigida por la guía opcional. true, o nil y un motivo como \"not_last\". Solo scripts user_message, inline, command y quick_reply."
+
+#: lib/mythweaver/scripts/api/generation.ex
+#, elixir-autogen, elixir-format
+msgid "Queues a reply from a participant, steered by the optional guide. true, or nil and a reason such as \"busy\". user_message, inline, command and quick_reply scripts only."
+msgstr "Encola una respuesta de un participante, dirigida por la guía opcional. true, o nil y un motivo como \"busy\". Solo scripts user_message, inline, command y quick_reply."
+
+#: lib/mythweaver/scripts/api/memory.ex
+#, elixir-autogen, elixir-format
+msgid "Queues a side prompt over the optional inclusive display-message range. Omitted endpoints use its checkpoint/latest defaults; unknown ids return nil, \"not_found\"."
+msgstr "Encola un prompt secundario sobre el rango inclusivo opcional de mensajes visibles. Los extremos omitidos usan sus valores por defecto checkpoint/latest; los ids desconocidos devuelven nil, \"not_found\"."
+
+#: lib/mythweaver/scripts/api/memory.ex
+#, elixir-autogen, elixir-format
+msgid "Queues consecutive memory jobs over the inclusive display-message range; chunk must be 5 through 250. Returns the jobs."
+msgstr "Encola tareas de memoria consecutivas sobre el rango inclusivo de mensajes visibles; chunk debe estar entre 5 y 250. Devuelve las tareas."
+
+#: lib/mythweaver/scripts/api/regex.ex
+#, elixir-autogen, elixir-format
+msgid "Replaces matches (at most limit) with a template ($1, ${name}, $$) or function(m) returning a string, or nil to keep the match. Returns the new string and the count."
+msgstr "Reemplaza las coincidencias (como máximo limit) con una plantilla ($1, ${name}, $$) o una function(m) que devuelve una cadena, o nil para conservar la coincidencia. Devuelve la nueva cadena y el número de reemplazos."
+
+#: lib/mythweaver/scripts/api/injections.ex
+#, elixir-autogen, elixir-format
+msgid "Restores a limited injection's remaining replies to its uses; returns it."
+msgstr "Restaura las respuestas restantes de una inyección limitada a sus usos; la devuelve."
+
+#: lib/mythweaver/scripts/api/dice.ex
+#, elixir-autogen, elixir-format
+msgid "Rolls dice such as \"2d6+1\", \"d6\" or \"D20\" and returns the total."
+msgstr "Tira dados como \"2d6+1\", \"d6\" o \"D20\" y devuelve el total."
+
+#: lib/mythweaver/scripts/api/commands.ex
+#, elixir-autogen, elixir-format
+msgid "Runs the enabled command script with this name as if picked from the command palette, with args a table by ---@param name (an entity is its id or its record table), and returns what it returns. It runs with this script's event, trigger and permissions. nil, \"not_found\" for no such command; nil, \"<param>: <problem>\" for a bad argument; nil, \"too_deep\" past 3 nested calls. A failing command fails this call."
+msgstr "Ejecuta el script de comando activado con este nombre como si se eligiera en la paleta de comandos, con args una tabla por nombre de ---@param (una entidad es su id o su tabla de registro), y devuelve lo que devuelva. Se ejecuta con el evento, el disparador y los permisos de este script. nil, \"not_found\" si no existe ese comando; nil, \"<param>: <problem>\" para un argumento incorrecto; nil, \"too_deep\" pasadas 3 llamadas anidadas. Un comando que falla hace fallar esta llamada."
+
+#: lib/mythweaver/scripts/api/characters.ex
+#, elixir-autogen, elixir-format
+msgid "Saves text as how the character looks (character is its id or table); blank clears it. Returns the character."
+msgstr "Guarda el texto como el aspecto del personaje (character es su id o tabla); vacío lo borra. Devuelve el personaje."
+
+#: lib/mythweaver/scripts/api/images.ex
+#, elixir-autogen, elixir-format
+msgid "Saves text as the image's description, kept over any caption still running; blank clears it. Runs image_described (by \"script\") except from inside it. Returns the image, or nil, \"not_found\"."
+msgstr "Guarda el texto como descripción de la imagen, por encima de cualquier descripción aún en curso; vacío la borra. Ejecuta image_described (by \"script\") salvo desde dentro de él. Devuelve la imagen, o nil, \"not_found\"."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Saves text as the message's new active version; returns the message. Refuses \"generating\"."
+msgstr "Guarda el texto como la nueva versión activa del mensaje; devuelve el mensaje. Rechaza con \"generating\"."
+
+#: lib/mythweaver/scripts/api/variables.ex
+#, elixir-autogen, elixir-format
+msgid "Sets the chat variable, as {% setvar %} does; nil deletes it. Returns true."
+msgstr "Establece la variable de chat, como hace {% setvar %}; nil la elimina. Devuelve true."
+
+#: lib/mythweaver/scripts/api/memory.ex
+#, elixir-autogen, elixir-format
+msgid "Sets the processed boundary from a positive display-message number, or clears it with nil. Returns true."
+msgstr "Establece el límite procesado a partir de un número positivo de mensaje visible, o lo borra con nil. Devuelve true."
+
+#: lib/mythweaver/scripts/api/variables.ex
+#, elixir-autogen, elixir-format
+msgid "Sets your own global variable, as {% setglobalvar %} does; nil deletes it. Returns true."
+msgstr "Establece tu propia variable global, como hace {% setglobalvar %}; nil la elimina. Devuelve true."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Shows messages to the AI's prompt, or hides them; target as for delete. One id or number returns the message, or nil, \"not_found\"; a range or list updates them at once and returns the messages that changed."
+msgstr "Muestra mensajes al prompt de la IA, o los oculta; target como en delete. Un id o número devuelve el mensaje, o nil, \"not_found\"; un rango o lista los actualiza de una vez y devuelve los mensajes que cambiaron."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Splits the message before the first paragraph (after its first) whose text contains match, or before every such paragraph when multi is true, as the split editor's markers do; the pieces keep the author and visibility. Returns the resulting messages, in order; refuses \"no_match\" or \"generating\"."
+msgstr "Divide el mensaje antes del primer párrafo (después del primero) cuyo texto contiene match, o antes de cada uno de esos párrafos cuando multi es true, como hacen los marcadores del editor de división; las partes conservan el autor y la visibilidad. Devuelve los mensajes resultantes, en orden; rechaza con \"no_match\" o \"generating\"."
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Starts AI replies in the current chat. Only user_message, command, quick_reply and inline scripts may start one."
+msgstr "Inicia respuestas de IA en el chat actual. Solo los scripts user_message, command, quick_reply e inline pueden iniciar una."
+
+#: lib/mythweaver/scripts/api/characters.ex
+#, elixir-autogen, elixir-format
+msgid "The character with this id, or nil, \"not_found\"."
+msgstr "El personaje con este id, o nil, \"not_found\"."
+
+#: lib/mythweaver/scripts/api/variables.ex
+#, elixir-autogen, elixir-format
+msgid "The chat variable's value, or nil when it is unset."
+msgstr "El valor de la variable de chat, o nil si no está definida."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "The current chat's message with this id, or nil, \"not_found\"."
+msgstr "El mensaje del chat actual con este id, o nil, \"not_found\"."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "The current chat's messages in order: all of them, or those numbered first..last (inclusive, as the chat shows #N; last defaults to the end)."
+msgstr "Los mensajes del chat actual en orden: todos, o los numerados de first a last (inclusive, como muestra el chat, #N; last es por defecto el final)."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "The current chat's newest message, or nil when it has none; its number is the newest #N."
+msgstr "El mensaje más reciente del chat actual, o nil si no tiene ninguno; su número es el #N más reciente."
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "The current chat's transcript. A message is {id, number, position, character_id, author = {id, name}, author_is_player, text, visible_to_ai, generating, version, version_count, created_at}."
+msgstr "La transcripción del chat actual. Un mensaje es {id, number, position, character_id, author = {id, name}, author_is_player, text, visible_to_ai, generating, version, version_count, created_at}."
+
+#: lib/mythweaver/scripts/api/regex.ex
+#, elixir-autogen, elixir-format
+msgid "The first match at or after byte init, as {text, start, finish, groups, named}; nil when none."
+msgstr "La primera coincidencia en el byte init o después, como {text, start, finish, groups, named}; nil si no hay ninguna."
+
+#: lib/mythweaver/scripts/api/characters.ex
+#, elixir-autogen, elixir-format
+msgid "The first usable character with this name, ignoring case and surrounding spaces (your own before the site's, then the oldest), or nil, \"not_found\"."
+msgstr "El primer personaje utilizable con este nombre, sin distinguir mayúsculas ni espacios alrededor (los tuyos antes que los del sitio, luego el más antiguo), o nil, \"not_found\"."
+
+#: lib/mythweaver/scripts/api/variables.ex
+#, elixir-autogen, elixir-format
+msgid "The global variable's value as your chats read it, or nil when it is unset."
+msgstr "El valor de la variable global tal como lo leen tus chats, o nil si no está definida."
+
+#: lib/mythweaver/scripts/api/images.ex
+#, elixir-autogen, elixir-format
+msgid "The images attached to the current chat's message, in order (else nil, \"not_found\"). Each has id, message_id, content_type, width, height, description, caption_status (\"none\", \"pending\", \"done\", \"failed\") and url (a signed link that expires, within two days by default: fetch it again rather than storing it)."
+msgstr "Las imágenes adjuntas al mensaje del chat actual, en orden (si no, nil, \"not_found\"). Cada una tiene id, message_id, content_type, width, height, description, caption_status (\"none\", \"pending\", \"done\", \"failed\") y url (un enlace firmado que caduca, en dos días por defecto: vuelve a obtenerlo en lugar de guardarlo)."
+
+#: lib/mythweaver/scripts/api/injections.ex
+#, elixir-autogen, elixir-format
+msgid "The injection with this key or id."
+msgstr "La inyección con esta clave o id."
+
+#: lib/mythweaver/scripts/api/lore.ex
+#, elixir-autogen, elixir-format
+msgid "The lore book with this id, with its entries."
+msgstr "El libro de lore con este id, con sus entradas."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "The message's versions (swipes), oldest first: {index, text, active, origin, generating, created_at}. origin is \"original\", \"edit\", \"continue\", \"regenerate\", \"refine\", \"split\", \"merge\" or \"append\"."
+msgstr "Las versiones del mensaje (variantes), de la más antigua a la más reciente: {index, text, active, origin, generating, created_at}. origin es \"original\", \"edit\", \"continue\", \"regenerate\", \"refine\", \"split\", \"merge\" o \"append\"."
+
+#: lib/mythweaver/scripts/api/messages.ex
+#, elixir-autogen, elixir-format
+msgid "The messages target names, as for delete, in order; a list, empty when none match."
+msgstr "Los mensajes que nombra target, como en delete, en orden; una lista, vacía si no coincide ninguno."
+
+#: lib/mythweaver/scripts/api/regex.ex
+#, elixir-autogen, elixir-format
+msgid "The pieces of s between matches (at most limit splits)."
+msgstr "Los fragmentos de s entre coincidencias (como máximo limit divisiones)."
+
+#: lib/mythweaver/scripts/api/memory.ex
+#, elixir-autogen, elixir-format
+msgid "The processed boundary as a display-message number, or nil when it is clear."
+msgstr "El límite procesado como número de mensaje visible, o nil si no hay ninguno."
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "This run's event. Its fields depend on the trigger."
+msgstr "El evento de esta ejecución. Sus campos dependen del disparador."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "True when a script started this generation through mw.generation.*."
+msgstr "True cuando un script inició esta generación mediante mw.generation.*."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgid "True when an existing message is being edited."
+msgstr "True cuando se está editando un mensaje existente."
+
+#: lib/mythweaver/scripts/api/prompts.ex
+#, elixir-autogen, elixir-format
+msgid "Turns a block on or off in every prompt that holds it (its own switch); returns true."
+msgstr "Activa o desactiva un bloque en todos los prompts que lo contienen (su propio interruptor); devuelve true."
+
+#: lib/mythweaver/scripts/api/prompts.ex
+#, elixir-autogen, elixir-format
+msgid "Turns a block on or off in this prompt only (its membership switch); returns true."
+msgstr "Activa o desactiva un bloque solo en este prompt (su interruptor de pertenencia); devuelve true."
+
+#: lib/mythweaver/scripts/api/prompts.ex
+#, elixir-autogen, elixir-format
+msgid "Turns a prompt on or off; returns true."
+msgstr "Activa o desactiva un prompt; devuelve true."
+
+#: lib/mythweaver/scripts/api/lore.ex
+#, elixir-autogen, elixir-format
+msgid "Turns an entry on or off within this book only; returns true."
+msgstr "Activa o desactiva una entrada solo dentro de este libro; devuelve true."
+
+#: lib/mythweaver/scripts/api/injections.ex
+#, elixir-autogen, elixir-format
+msgid "Turns the injection on or off; returns true."
+msgstr "Activa o desactiva la inyección; devuelve true."
+
+#: lib/mythweaver/scripts/api/lore.ex
+#, elixir-autogen, elixir-format
+msgid "Updates the book's given fields; returns it."
+msgstr "Actualiza los campos indicados del libro; lo devuelve."
+
+#: lib/mythweaver/scripts/api/lore.ex
+#, elixir-autogen, elixir-format
+msgid "Updates the entry's given fields; returns it."
+msgstr "Actualiza los campos indicados de la entrada; la devuelve."
+
+#: lib/mythweaver/scripts/api/characters.ex
+#, elixir-autogen, elixir-format
+msgid "Updates the given fields, e.g. {name = \"Ciri\"}; returns the character."
+msgstr "Actualiza los campos indicados, p. ej. {name = \"Ciri\"}; devuelve el personaje."
+
+#: lib/mythweaver/scripts/api/injections.ex
+#, elixir-autogen, elixir-format
+msgid "Updates the injection's given fields; returns it."
+msgstr "Actualiza los campos indicados de la inyección; la devuelve."
+
+#: lib/mythweaver/scripts/api/regex.ex
+#, elixir-autogen, elixir-format
+msgid "Whether pattern matches anywhere in s."
+msgstr "Si pattern coincide en algún lugar de s."
+
+#: lib/mythweaver/scripts/event_reference.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: script event field, who wrote the image description"
+msgid "\"model\", \"person\" or \"script\"."
+msgstr "\"model\", \"person\" o \"script\"."
+
+#: lib/mythweaver/scripts/completions.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: script editor hover text for the mw.lore namespace"
+msgid "Lore books and their entries."
+msgstr "Libros de lore y sus entradas."
+
+#: lib/mythweaver/scripts/api/regex.ex
+#, elixir-autogen, elixir-format
+msgid "The string s with every regex metacharacter escaped, to match it literally."
+msgstr "La cadena s con todos los metacaracteres de regex escapados, para buscarla literalmente."

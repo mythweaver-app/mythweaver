@@ -1,0 +1,2213 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#. Info flash after a personal lore book is moved to the site.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{book_name} is now a site book"
+msgstr "%{book_name} ahora es un libro del sitio"
+
+#. Error flash: a lore book saved, but its tag filter did not.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{book_name} saved, but its tag filter did not"
+msgstr "%{book_name} se guardó, pero su filtro de etiquetas no"
+
+#. Error flash: a lore book saved, but neither its tags nor its tag filter did.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{book_name} saved, but its tags and its tag filter did not"
+msgstr "%{book_name} se guardó, pero sus etiquetas y su filtro de etiquetas no"
+
+#. Error flash: a lore book saved, but its tags did not.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{book_name} saved, but its tags did not"
+msgstr "%{book_name} se guardó, pero sus etiquetas no"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_count} entry · admits %{max_activations}"
+msgid_plural "%{entry_count} entries · admits %{max_activations}"
+msgstr[0] "%{entry_count} entrada · admite %{max_activations}"
+msgstr[1] "%{entry_count} entradas · admite %{max_activations}"
+
+#. Error flash when removing a lore entry from a book it is no longer in.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_name} is not in %{book_name}"
+msgstr "%{entry_name} no está en %{book_name}"
+
+#. Error flash: a lore entry saved, but its book memberships did not.
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_name} saved, but its books did not"
+msgstr "%{entry_name} se guardó, pero sus libros no"
+
+#. Error flash: a lore entry saved, but its memory settings did not because it was folded into a consolidation.
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_name} saved, but its memory settings (it is a source of another consolidation) did not"
+msgstr "%{entry_name} se guardó, pero sus ajustes de memoria no (es fuente de otra consolidación)"
+
+#. Error flash: a lore entry saved, but its memory settings did not because it was folded into the consolidation entry named by parent_name.
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_name} saved, but its memory settings (it is a source of “%{parent_name}”) did not"
+msgstr "%{entry_name} se guardó, pero sus ajustes de memoria no (es fuente de “%{parent_name}”)"
+
+#. Error flash: a lore entry saved, but its Memory Books settings did not.
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_name} saved, but its memory settings did not"
+msgstr "%{entry_name} se guardó, pero sus ajustes de memoria no"
+
+#. Error flash: a lore entry saved, but its pools or filters did not.
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_name} saved, but its pools, character filter or tag filter did not"
+msgstr "%{entry_name} se guardó, pero sus grupos, su filtro de personajes o su filtro de etiquetas no"
+
+#. Error flash: a lore entry saved, but its tags did not.
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_name} saved, but its tags did not"
+msgstr "%{entry_name} se guardó, pero sus etiquetas no"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "%{include}: activates only in chats where a filter character, or a character with a filter tag, takes part. %{exclude}: never in those chats. This checks who is in the chat, not who is replying. %{off} ignores both lists."
+msgstr "%{include}: se activa solo en chats donde participa un personaje del filtro o un personaje con una etiqueta del filtro. %{exclude}: nunca en esos chats. Esto comprueba quién está en el chat, no quién responde. %{off} ignora ambas listas."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "%{keyword} activates when a keyword appears in the scanned messages. %{constant} is always included, subject to its other conditions (probability, delay, cooldown, character filter, budget). %{vector} activates when the scanned messages are close in meaning to the entry's content (Settings › Lore › Vector matching), or on its keywords if it has any."
+msgstr "%{keyword} se activa cuando aparece una palabra clave en los mensajes analizados. %{constant} se incluye siempre, sujeta a sus demás condiciones (probabilidad, retraso, enfriamiento, filtro de personajes, presupuesto). %{vector} se activa cuando los mensajes analizados tienen un significado cercano al contenido de la entrada (Ajustes › Lore › Coincidencia vectorial), o por sus palabras clave si tiene alguna."
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgid "A pool limits how many of its entries can activate in one prompt. When more of them match than it admits, a weighted draw picks the winners; each entry's weight and flags are set in its own editor, under Pools."
+msgstr "Un grupo limita cuántas de sus entradas pueden activarse en un mismo prompt. Cuando coinciden más de las que admite, un sorteo ponderado elige a las ganadoras; el peso y los indicadores de cada entrada se ajustan en su propio editor, en Grupos de lore."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "A scene memory, or a consolidation tier (Arc and up) that summarizes memories one tier below. A source's type is set by what it was consolidated into."
+msgstr "Una memoria de escena, o un nivel de consolidación (Arco y superiores) que resume memorias de un nivel inferior. El tipo de una fuente lo determina aquello en lo que se consolidó."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "A site book cannot be made personal again, and removed links stay removed."
+msgstr "Un libro del sitio no puede volver a ser personal, y los vínculos eliminados no se recuperan."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Activation rule conditions naming chats or personal characters lose their target: %{link_count}."
+msgstr "Las condiciones de reglas de activación que nombran chats o personajes personales pierden su destino: %{link_count}."
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Active in %{book_name} (this book only)"
+msgstr "Activa en %{book_name} (solo este libro)"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Active in every chat whether or not Global is set, and sent with every reply even when a prompt has no slot for it (then as a system section at the top). User lore settings such as the token budget do not apply to it; its own token budget does."
+msgstr "Activo en todos los chats, tenga o no activado Global, y se envía con cada respuesta aunque un prompt no tenga espacio para él (entonces como sección de sistema al principio). Los ajustes de lore del usuario, como el presupuesto de tokens, no se le aplican; sí su propio presupuesto de tokens."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Active in every chat, whatever its bindings. Off, the book applies only through the chats and characters it is bound to below."
+msgstr "Activo en todos los chats, sean cuales sean sus vinculaciones. Desactivado, el libro solo se aplica a través de los chats y personajes a los que está vinculado abajo."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Add the entry to a book you can edit to make it a memory."
+msgstr "Añade la entrada a un libro que puedas editar para convertirla en memoria."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Added to the order of every entry in this book, so you can move the whole book ahead of or behind other books without editing each entry. Within a slot, higher order renders later; within a custom outlet, higher order renders first (as in SillyTavern)."
+msgstr "Se suma al orden de cada entrada de este libro, para que puedas mover todo el libro por delante o por detrás de otros libros sin editar cada entrada. Dentro de un espacio, un orden mayor se muestra más tarde; dentro de un outlet personalizado, un orden mayor se muestra primero (como en SillyTavern)."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "After activating, the entry stays active for this many more messages, even without its keywords. Empty means not sticky."
+msgstr "Tras activarse, la entrada sigue activa durante este número de mensajes más, incluso sin sus palabras clave. Vacío significa que no es persistente."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "After the entry activates (and after its sticky turns end), it cannot activate again for this many messages. Empty means no cooldown."
+msgstr "Después de que la entrada se active (y de que terminen sus turnos persistentes), no puede volver a activarse durante este número de mensajes. Vacío significa sin enfriamiento."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "An optional second keyword list, checked with %{logic} after a primary keyword matches. Leave it empty to activate on the primary keywords alone."
+msgstr "Una segunda lista de palabras clave opcional, comprobada con %{logic} después de que coincida una palabra clave principal. Déjala vacía para activar solo con las palabras clave principales."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Bindings to personal characters are removed: %{link_count}."
+msgstr "Se eliminan las vinculaciones con personajes personales: %{link_count}."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Book name, or entry name, content or keyword"
+msgstr "Nombre del libro, o nombre, contenido o palabra clave de la entrada"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Cannot be activated by recursion"
+msgstr "No se puede activar por recursión"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Character filters on its entries that name personal characters are removed: %{link_count}."
+msgstr "Se eliminan los filtros de personajes de sus entradas que nombran personajes personales: %{link_count}."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Characters with any of these tags count as filter characters."
+msgstr "Los personajes con cualquiera de estas etiquetas cuentan como personajes del filtro."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Content does not feed recursion"
+msgstr "El contenido no alimenta la recursión"
+
+#. Error flash when a lore book's chat and character bindings fail to save.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save the bindings"
+msgstr "No se pudieron guardar las vinculaciones"
+
+#. Flash when saving an editor form fails validation; the invalid fields are highlighted.
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#: lib/mythweaver_web/live/lore_book_live.ex
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save — see the highlighted fields"
+msgstr "No se pudo guardar: revisa los campos resaltados"
+
+#. Error flash when pausing or resuming one lore book binding fails.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not update the binding"
+msgstr "No se pudo actualizar la vinculación"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Delay until recursion level (0 = off)"
+msgstr "Retrasar hasta el nivel de recursión (0 = desactivado)"
+
+#. Confirm dialog before deleting a lore pool.
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgid "Delete %{pool_name}? Its entries stay; they just leave the pool."
+msgstr "¿Eliminar %{pool_name}? Sus entradas se mantienen; solo salen del grupo."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Drag to move (hold Cmd/Ctrl to copy)"
+msgstr "Arrastra para mover (mantén Cmd/Ctrl para copiar)"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Estimated (characters ÷ 3.3): %{model_name} has no tokenizer set"
+msgstr "Estimado (caracteres ÷ 3,3): %{model_name} no tiene tokenizador configurado"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Estimated (characters ÷ 3.3): no default model is set"
+msgstr "Estimado (caracteres ÷ 3,3): no hay un modelo predeterminado configurado"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Every entry in this book is a disabled memory, hidden"
+msgstr "Todas las entradas de este libro son memorias desactivadas y están ocultas"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Every user will be able to use %{book_name} and its entries; only admins will edit them."
+msgstr "Todos los usuarios podrán usar %{book_name} y sus entradas; solo los administradores podrán editarlos."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "For %{at_depth}: how many messages from the end of the chat history the content goes. Empty uses the global %{default_depth_setting}."
+msgstr "Para %{at_depth}: a cuántos mensajes del final del historial del chat va el contenido. Vacío usa el ajuste global %{default_depth_setting}."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Forced (every reply, cannot be turned off)"
+msgstr "Forzado (en cada respuesta, no se puede desactivar)"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Global (active in every chat)"
+msgstr "Global (activo en todos los chats)"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Hide memory entries switched off in this book, such as consolidated sources"
+msgstr "Ocultar las entradas de memoria desactivadas en este libro, como las fuentes consolidadas"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Higher-priority books go first. Their entries claim the lore token budget before lower books' entries, except that the replying character's own books always go first. When one entry sits in several books, the copy in the highest-priority book is the one used."
+msgstr "Los libros de mayor prioridad van primero. Sus entradas ocupan el presupuesto de tokens de lore antes que las de libros inferiores, salvo que los libros propios del personaje que responde siempre van primero. Cuando una entrada está en varios libros, se usa la copia del libro de mayor prioridad."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "How Memory Books treat this entry in %{book_name}: a scene memory, or a consolidation (Arc and up) of memories one tier below. Consolidation offers an entry only as a source for the tier above its own."
+msgstr "Cómo tratan los libros de memoria esta entrada en %{book_name}: una memoria de escena, o una consolidación (Arco y superiores) de memorias de un nivel inferior. La consolidación ofrece una entrada solo como fuente para el nivel superior al suyo."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "How many recent messages this book's entries search for keywords. An entry's own scan depth overrides it; empty uses the global %{scan_depth_setting} setting."
+msgstr "Cuántos mensajes recientes buscan las entradas de este libro en busca de palabras clave. La profundidad de análisis propia de una entrada tiene prioridad; vacío usa el ajuste global %{scan_depth_setting}."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "How many recent messages to search for this entry's keywords, or to compare a vector entry against. Empty uses the book's scan depth, then the global setting."
+msgstr "Cuántos mensajes recientes buscar para las palabras clave de esta entrada, o con los que comparar una entrada vectorial. Vacío usa la profundidad de análisis del libro y luego el ajuste global."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "How the secondary keywords filter a primary match. %{and_any}: at least one also appears. %{and_all}: every one appears. %{not_any}: none appear. %{not_all}: not every one appears. Ignored when there are no secondary keywords."
+msgstr "Cómo filtran las palabras clave secundarias una coincidencia principal. %{and_any}: aparece también al menos una. %{and_all}: aparecen todas. %{not_any}: no aparece ninguna. %{not_all}: no aparecen todas. Se ignora cuando no hay palabras clave secundarias."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Imported from a character card: its entries go first in their slot and skip the lore budget"
+msgstr "Importado de una tarjeta de personaje: sus entradas van primero en su espacio y no cuentan para el presupuesto de lore"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Include: the book's entries activate only in chats where a character with one of these tags takes part. Exclude: never in those chats. Off ignores the list."
+msgstr "Incluir: las entradas del libro se activan solo en chats donde participa un personaje con una de estas etiquetas. Excluir: nunca en esos chats. Desactivado ignora la lista."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Its entries leave other books they are in: %{link_count}."
+msgstr "Sus entradas salen de otros libros en los que están: %{link_count}."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Its entries leave their pools: %{link_count}."
+msgstr "Sus entradas salen de sus grupos: %{link_count}."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Lets this book's entries be activated by the text of other activated entries, not just by chat messages. Off, they match only the chat itself."
+msgstr "Permite que las entradas de este libro se activen con el texto de otras entradas activadas, no solo con los mensajes del chat. Desactivado, solo coinciden con el propio chat."
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Make the selected entries memories of this book (no chat or message range)"
+msgstr "Convertir las entradas seleccionadas en memorias de este libro (sin chat ni rango de mensajes)"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Marked %{marked_count} entries as memories; %{skipped_count} already was a memory."
+msgid_plural "Marked %{marked_count} entries as memories; %{skipped_count} already were memories."
+msgstr[0] "Se marcaron %{marked_count} entradas como memorias; %{skipped_count} ya era una memoria."
+msgstr[1] "Se marcaron %{marked_count} entradas como memorias; %{skipped_count} ya eran memorias."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Marked %{marked_count} entry as a memory."
+msgid_plural "Marked %{marked_count} entries as memories."
+msgstr[0] "Se marcó %{marked_count} entrada como memoria."
+msgstr[1] "Se marcaron %{marked_count} entradas como memorias."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Marked %{marked_count} entry as a memory; %{skipped_count} already was a memory."
+msgid_plural "Marked %{marked_count} entry as a memory; %{skipped_count} already were memories."
+msgstr[0] "Se marcó %{marked_count} entrada como memoria; %{skipped_count} ya era una memoria."
+msgstr[1] "Se marcó %{marked_count} entrada como memoria; %{skipped_count} ya eran memorias."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Never dropped for exceeding the global or book token budget. Its tokens still count toward the global budget, but not its book's."
+msgstr "Nunca se descarta por superar el presupuesto de tokens global o del libro. Sus tokens siguen contando para el presupuesto global, pero no para el de su libro."
+
+#. Info flash after marking the selected lore entries as memories.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "No entries were marked as memories."
+msgstr "No se marcó ninguna entrada como memoria."
+
+#. Info flash after marking the selected lore entries as memories; skipped_count entries already were memories. The plural follows skipped_count.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "No entries were marked as memories; %{skipped_count} already was a memory."
+msgid_plural "No entries were marked as memories; %{skipped_count} already were memories."
+msgstr[0] "No se marcó ninguna entrada como memoria; %{skipped_count} ya era una memoria."
+msgstr[1] "No se marcó ninguna entrada como memoria; %{skipped_count} ya eran memorias."
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgid "No entries yet. Add one from its editor's Pools field."
+msgstr "Aún no hay entradas. Añade una desde el campo Grupos de lore de su editor."
+
+#. Info flash after unmarking the selected lore entries as memories; skipped_count were kept. The plural follows skipped_count.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "No memories were unmarked; %{skipped_count} was kept (consolidated, or not a plain memory)."
+msgid_plural "No memories were unmarked; %{skipped_count} were kept (consolidated, or not plain memories)."
+msgstr[0] "No se desmarcó ninguna memoria; se mantuvo %{skipped_count} (consolidada, o no es una memoria simple)."
+msgstr[1] "No se desmarcó ninguna memoria; se mantuvieron %{skipped_count} (consolidadas, o no son memorias simples)."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "None (imported or marked by hand)"
+msgstr "Ninguno (importado o marcado a mano)"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Notes for you. Activation never reads it and it is never sent to the model."
+msgstr "Notas para ti. La activación nunca las lee y nunca se envían al modelo."
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Order in this book (higher renders later in a slot, earlier in an outlet)"
+msgstr "Orden en este libro (un valor mayor se muestra más tarde en un espacio y antes en un outlet)"
+
+#. Error flash when a lore entry's order in a book is not a valid number.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Order must be a whole number, 0 or more"
+msgstr "El orden debe ser un número entero, 0 o mayor"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Order of %{entry_name} in %{book_name}"
+msgstr "Orden de %{entry_name} en %{book_name}"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Personal book: only you see and use it."
+msgstr "Libro personal: solo tú lo ves y lo usas."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Picked entries count as consolidated into this one. A source you drop is switched back on if consolidating switched it off."
+msgstr "Las entradas elegidas cuentan como consolidadas en esta. Una fuente que quites se vuelve a activar si la consolidación la había desactivado."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Pools limit how many of their entries can activate at once by drawing among the candidates. An entry in several pools must be drawn in each one."
+msgstr "Los grupos limitan cuántas de sus entradas pueden activarse a la vez mediante un sorteo entre las candidatas. Una entrada en varios grupos debe salir sorteada en cada uno."
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Rules only narrow where this book applies: with any enabled rule, its entries activate only where Global, Forced or a binding already puts the book, and at least one enabled rule matches. A rule matches when all its conditions hold; Not inverts one. Template conditions read the chat's stored variables (vars, globals) as lore resolves."
+msgstr "Las reglas solo restringen dónde se aplica este libro: con cualquier regla activada, sus entradas se activan solo donde Global, Forzado o una vinculación ya aplican el libro, y al menos una regla activada coincide. Una regla coincide cuando se cumplen todas sus condiciones; No invierte una. Las condiciones de plantilla leen las variables guardadas del chat (vars, globals) tal como las resuelve el lore."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a lore book or entry, or create a new one."
+msgstr "Selecciona un libro o una entrada de lore, o crea uno nuevo."
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a pool, or create a new one."
+msgstr "Selecciona un grupo o crea uno nuevo."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Side prompts stop writing into this book: %{link_count}."
+msgstr "Los prompts secundarios dejan de escribir en este libro: %{link_count}."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Site book: every user can use it."
+msgstr "Libro del sitio: todos los usuarios pueden usarlo."
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Sort by Activation (view only)"
+msgstr "Ordenar por activación (solo vista)"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Sort by Name (view only)"
+msgstr "Ordenar por nombre (solo vista)"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Sort by On (view only)"
+msgstr "Ordenar por activa (solo vista)"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Sort by Order (view only)"
+msgstr "Ordenar por orden (solo vista)"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Sort by Position (view only)"
+msgstr "Ordenar por posición (solo vista)"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Sort by Trigger (view only)"
+msgstr "Ordenar por activación probable (solo vista)"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Sorted for viewing only, so drag to reorder is off."
+msgstr "Ordenado solo para visualizar, así que arrastrar para reordenar está desactivado."
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "Stop treating the selected entries as memories; the entries stay"
+msgstr "Dejar de tratar las entradas seleccionadas como memorias; las entradas se mantienen"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Tag filters naming personal tags are removed: %{link_count}."
+msgstr "Se eliminan los filtros de etiquetas que nombran etiquetas personales: %{link_count}."
+
+#. Error flash when switching a lore entry on or off in a book it is no longer in.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "That entry is not in %{book_name}"
+msgstr "Esa entrada no está en %{book_name}"
+
+#. Error flash when a dragged lore entry or its target book was deleted meanwhile.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "That entry or book no longer exists"
+msgstr "Esa entrada o ese libro ya no existe"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "The book applies in any chat where a selected character's card is part of the reply. That is the responder only, unless the chat's %{group_cards_setting} setting joins other members' cards. Uncheck a binding in the list below to pause it without removing it."
+msgstr "El libro se aplica en cualquier chat donde la tarjeta de un personaje seleccionado forma parte de la respuesta. Es decir, solo el que responde, a menos que el ajuste %{group_cards_setting} del chat una las tarjetas de otros miembros. Desmarca una vinculación en la lista de abajo para pausarla sin eliminarla."
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgid "The book applies in every chat selected here, for every reply. Bindings add up: a book bound to a chat and to a character applies in that chat and wherever that character appears. Activation rules below can narrow them. Uncheck a binding in the list below to pause it without removing it."
+msgstr "El libro se aplica en todos los chats seleccionados aquí, en cada respuesta. Las vinculaciones se suman: un libro vinculado a un chat y a un personaje se aplica en ese chat y dondequiera que aparezca ese personaje. Las reglas de activación de abajo pueden restringirlas. Desmarca una vinculación en la lista de abajo para pausarla sin eliminarla."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "The book's name in lists and pickers. It is never sent to the model."
+msgstr "El nombre del libro en listas y selectores. Nunca se envía al modelo."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The books this entry belongs to. An entry in no book never activates. Its order and on/off switch are set per book, in each book's entry list."
+msgstr "Los libros a los que pertenece esta entrada. Una entrada sin libro nunca se activa. Su orden y su interruptor se ajustan por libro, en la lista de entradas de cada libro."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The chance, in percent, that the entry is used once its conditions are met. 100 always activates. A sticky entry skips the roll while it sticks."
+msgstr "La probabilidad, en porcentaje, de que la entrada se use una vez cumplidas sus condiciones. 100 se activa siempre. Una entrada persistente se salta la tirada mientras persiste."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The characters the character filter checks for. Unused when the filter is off."
+msgstr "Los personajes que comprueba el filtro de personajes. No se usa cuando el filtro está desactivado."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The entry activates as usual, so its text can trigger other entries and it counts toward its pools, but its text never goes into the prompt or the budget."
+msgstr "La entrada se activa como siempre, así que su texto puede activar otras entradas y cuenta para sus grupos, pero su texto nunca entra en el prompt ni en el presupuesto."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The entry activates only from the chat messages, never from the text of other activated entries."
+msgstr "La entrada se activa solo con los mensajes del chat, nunca con el texto de otras entradas activadas."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The entry activates only on a recursion pass, never from the chat messages alone. A higher level waits until lower levels have activated nothing more."
+msgstr "La entrada se activa solo en una pasada de recursión, nunca solo con los mensajes del chat. Un nivel superior espera hasta que los niveles inferiores no activen nada más."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The entry cannot activate until the chat has at least this many messages."
+msgstr "La entrada no puede activarse hasta que el chat tenga al menos este número de mensajes."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The entry joins the new pool when you save it. Weight and flags are set on its row under Pools."
+msgstr "La entrada se une al nuevo grupo cuando la guardes. El peso y los indicadores se ajustan en su fila, en Grupos de lore."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The entry's name in lists. It is never sent to the model."
+msgstr "El nombre de la entrada en las listas. Nunca se envía al modelo."
+
+#. Flash shown when the lore book open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "The lore book was deleted or moved elsewhere."
+msgstr "El libro de lore se eliminó o se movió a otro lugar."
+
+#. Flash shown when the lore entry open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "The lore entry was deleted or moved elsewhere."
+msgstr "La entrada de lore se eliminó o se movió a otro lugar."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The memories one tier below that this consolidation summarizes."
+msgstr "Las memorias de un nivel inferior que resume esta consolidación."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The message role the content is sent as in the chat history."
+msgstr "El rol de mensaje con el que se envía el contenido en el historial del chat."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "The most tokens this book's entries may add to one prompt. Empty means no per-book cap; the global %{budget_percent_setting} and %{budget_cap_setting} settings still apply. Entries set to %{ignore_budget} are never cut. Ignore-budget entries don't count toward this budget; they still count toward the global one."
+msgstr "El máximo de tokens que las entradas de este libro pueden añadir a un prompt. Vacío significa sin límite por libro; los ajustes globales %{budget_percent_setting} y %{budget_cap_setting} siguen aplicándose. Las entradas con %{ignore_budget} nunca se recortan. Las entradas que ignoran el presupuesto no cuentan para este presupuesto; sí cuentan para el global."
+
+#. Flash shown when the pool open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgid "The pool was deleted or moved elsewhere."
+msgstr "El grupo se eliminó o se movió a otro lugar."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The prompt outlet that collects this entry's content. A prompt block shows it where it reads that outlet."
+msgstr "El outlet del prompt que recoge el contenido de esta entrada. Un bloque de prompt lo muestra donde lee ese outlet."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "The text added to the prompt when the entry activates. It is a Liquid template, so it can read variables and outlets."
+msgstr "El texto que se añade al prompt cuando se activa la entrada. Es una plantilla Liquid, así que puede leer variables y outlets."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "This also changes other lore:"
+msgstr "Esto también cambia otro lore:"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "This entry is a book of %{book_name}. Only the job that writes it changes these settings."
+msgstr "Esta entrada es un libro de %{book_name}. Solo la tarea que la escribe cambia estos ajustes."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "This entry is a chapter of %{book_name}. Only the job that writes it changes these settings."
+msgstr "Esta entrada es un capítulo de %{book_name}. Solo la tarea que la escribe cambia estos ajustes."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "This entry is a clip of %{book_name}. Only the job that writes it changes these settings."
+msgstr "Esta entrada es un fragmento de %{book_name}. Solo la tarea que la escribe cambia estos ajustes."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "This entry is a legend of %{book_name}. Only the job that writes it changes these settings."
+msgstr "Esta entrada es una leyenda de %{book_name}. Solo la tarea que la escribe cambia estos ajustes."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "This entry is a scene memory of %{book_name}. Only the job that writes it changes these settings."
+msgstr "Esta entrada es una memoria de escena de %{book_name}. Solo la tarea que la escribe cambia estos ajustes."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "This entry is a series of %{book_name}. Only the job that writes it changes these settings."
+msgstr "Esta entrada es una serie de %{book_name}. Solo la tarea que la escribe cambia estos ajustes."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "This entry is a side prompt of %{book_name}. Only the job that writes it changes these settings."
+msgstr "Esta entrada es un prompt secundario de %{book_name}. Solo la tarea que la escribe cambia estos ajustes."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "This entry is an arc of %{book_name}. Only the job that writes it changes these settings."
+msgstr "Esta entrada es un arco de %{book_name}. Solo la tarea que la escribe cambia estos ajustes."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "This entry is an epic of %{book_name}. Only the job that writes it changes these settings."
+msgstr "Esta entrada es una épica de %{book_name}. Solo la tarea que la escribe cambia estos ajustes."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "This entry's number among its book's memories of the same type, used in its title. Empty takes the next free number."
+msgstr "El número de esta entrada entre las memorias del mismo tipo de su libro, usado en su título. Vacío toma el siguiente número libre."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "This entry's text is not searched for other entries' keywords, so it cannot activate them."
+msgstr "El texto de esta entrada no se busca en busca de palabras clave de otras entradas, así que no puede activarlas."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Trigger only (activates and triggers other entries, never inserted)"
+msgstr "Solo disparador (se activa y activa otras entradas, nunca se inserta)"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Type a keyword, then Enter or comma"
+msgstr "Escribe una palabra clave y pulsa Intro o coma"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Unmarked %{unmarked_count} memories; %{skipped_count} was kept (consolidated, or not a plain memory)."
+msgid_plural "Unmarked %{unmarked_count} memories; %{skipped_count} were kept (consolidated, or not plain memories)."
+msgstr[0] "Se desmarcaron %{unmarked_count} memorias; se mantuvo %{skipped_count} (consolidada, o no es una memoria simple)."
+msgstr[1] "Se desmarcaron %{unmarked_count} memorias; se mantuvieron %{skipped_count} (consolidadas, o no son memorias simples)."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Unmarked %{unmarked_count} memory; %{skipped_count} was kept (consolidated, or not a plain memory)."
+msgid_plural "Unmarked %{unmarked_count} memory; %{skipped_count} were kept (consolidated, or not plain memories)."
+msgstr[0] "Se desmarcó %{unmarked_count} memoria; se mantuvo %{skipped_count} (consolidada, o no es una memoria simple)."
+msgstr[1] "Se desmarcó %{unmarked_count} memoria; se mantuvieron %{skipped_count} (consolidadas, o no son memorias simples)."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Weight: the draw odds within the pool (0 never drawn). Override: wins over non-override members, by order. Scored: only members matching the most keys stay in the draw."
+msgstr "Peso: las probabilidades del sorteo dentro del grupo (0 nunca sale). Prioritaria: gana a los miembros no prioritarios, por orden. Puntuada: solo los miembros que coinciden con más claves siguen en el sorteo."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "What users who are not admins see of this book. Names only: the book and its entry names, never their text, in the prompt inspector or scripts. Nothing: users cannot see, pick or bind it. Admins always see everything."
+msgstr "Lo que ven de este libro los usuarios que no son administradores. Solo nombres: el libro y los nombres de sus entradas, nunca su texto, en el inspector de prompts o en scripts. Nada: los usuarios no pueden verlo, elegirlo ni vincularlo. Los administradores siempre lo ven todo."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Where the content goes in the prompt: next to the character description, the example dialogue or the author's note, into the chat history at a set depth, or into a custom prompt outlet."
+msgstr "Dónde va el contenido en el prompt: junto a la descripción del personaje, el diálogo de ejemplo o la nota del autor, en el historial del chat a una profundidad fija, o en un outlet de prompt personalizado."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Whether a single-word keyword must match a whole word (%{short_word} won't match %{long_word}). Keywords with spaces always match as plain text. %{default} follows the global setting."
+msgstr "Si una palabra clave de una sola palabra debe coincidir con una palabra completa (%{short_word} no coincidirá con %{long_word}). Las palabras clave con espacios siempre coinciden como texto simple. %{default} sigue el ajuste global."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Whether keywords must match letter case. %{default} follows the global setting. A regular expression's own flags take precedence."
+msgstr "Si las palabras clave deben coincidir en mayúsculas y minúsculas. %{default} sigue el ajuste global. Los indicadores propios de una expresión regular tienen prioridad."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Whether the content goes before or after the outlet's own text. Not used for %{at_depth} or %{custom}."
+msgstr "Si el contenido va antes o después del texto propio del outlet. No se usa para %{at_depth} ni %{custom}."
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "Words that activate the entry when any one appears in the scanned messages. Write %{regex_syntax} for a regular expression. Required for keyword activation; optional for vector."
+msgstr "Palabras que activan la entrada cuando cualquiera de ellas aparece en los mensajes analizados. Escribe %{regex_syntax} para una expresión regular. Obligatorio para la activación por palabra clave; opcional para la vectorial."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "You can move it later from the book's editor."
+msgstr "Puedes moverla más tarde desde el editor del libro."
+
+#. Error flash when the user has too many items waiting for moderator review to save another.
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgid "You have too much waiting for review. Withdraw something on the Submissions page or wait for a decision."
+msgstr "Tienes demasiado pendiente de revisión. Retira algo en la página Envíos o espera una decisión."
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgid "Your own book: only you see and use it"
+msgstr "Tu propio libro: solo tú lo ves y lo usas"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: bulk actions for the selected lore entries"
+msgid "Selected entries"
+msgstr "Entradas seleccionadas"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: collapse this lore entry's row"
+msgid "Collapse %{entry_name}"
+msgstr "Contraer %{entry_name}"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: expand this lore entry's row"
+msgid "Expand %{entry_name}"
+msgstr "Expandir %{entry_name}"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that deletes this lore entry"
+msgid "Delete %{entry_name}"
+msgstr "Eliminar %{entry_name}"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of lore books and entries"
+msgid "Lore"
+msgstr "Lore"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of lore pools"
+msgid "Lore pools"
+msgstr "Grupos de lore"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: pause or resume a lore book's character binding"
+msgid "Toggle character binding %{character_name}"
+msgstr "Alternar vinculación con el personaje %{character_name}"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: pause or resume a lore book's chat binding"
+msgid "Toggle chat binding %{chat_title}"
+msgstr "Alternar vinculación con el chat %{chat_title}"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: remove a condition from a lore rule"
+msgid "Remove condition"
+msgstr "Quitar condición"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: select every lore entry in the table"
+msgid "Select all entries"
+msgstr "Seleccionar todas las entradas"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: select this lore entry for bulk actions"
+msgid "Select %{entry_name}"
+msgstr "Seleccionar %{entry_name}"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: sort lore entries by activation"
+msgid "Sort by Activation"
+msgstr "Ordenar por activación"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: sort lore entries by name"
+msgid "Sort by Name"
+msgstr "Ordenar por nombre"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: sort lore entries by on/off in this book"
+msgid "Sort by On"
+msgstr "Ordenar por activa"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: sort lore entries by order"
+msgid "Sort by Order"
+msgstr "Ordenar por orden"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: sort lore entries by position"
+msgid "Sort by Position"
+msgstr "Ordenar por posición"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: sort lore entries by trigger chance"
+msgid "Sort by Trigger"
+msgstr "Ordenar por probabilidad"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: switch this lore entry on in the book"
+msgid "Active in %{book_name}"
+msgstr "Activa en %{book_name}"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: lore book binding to a character"
+msgid "Character: %{character_name}"
+msgstr "Personaje: %{character_name}"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: lore book binding to a chat"
+msgid "Chat: %{chat_title}"
+msgstr "Chat: %{chat_title}"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: lore book imported from a character card"
+msgid "Card book"
+msgstr "Libro de la tarjeta"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: lore book is personal, not the site's"
+msgid "Personal"
+msgstr "Personal"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: lore entry is a memory clip"
+msgid "Clip"
+msgstr "Fragmento"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: lore entry is written by a side prompt"
+msgid "Side prompt"
+msgstr "Prompt secundario"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: pool entry is scored in the draw"
+msgid "Scored"
+msgstr "Puntuada"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: pool entry overrides the pool limit"
+msgid "Override"
+msgstr "Prioritaria"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: search result is a lore book"
+msgid "Lore book"
+msgstr "Libro de lore"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: short form of the at-depth lore outlet with its depth"
+msgid "@D%{insertion_depth}"
+msgstr "@D%{insertion_depth}"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: short form of the lore outlet by the author's note"
+msgid "AN"
+msgstr "NA"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: short form of the lore outlet by the character description"
+msgid "Char"
+msgstr "Pers"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: short form of the lore outlet by the example messages"
+msgid "EM"
+msgstr "ME"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add a condition to a lore rule"
+msgid "Add condition"
+msgstr "Añadir condición"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add an activation rule to a lore book"
+msgid "Add rule"
+msgstr "Añadir regla"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: bulk-change tags of the selected lore books"
+msgid "Tag books…"
+msgstr "Etiquetar libros…"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: bulk-change tags of the selected lore entries"
+msgid "Tag entries…"
+msgstr "Etiquetar entradas…"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: bulk-edit the selected lore books"
+msgid "Edit books…"
+msgstr "Editar libros…"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: bulk-edit the selected lore entries"
+msgid "Edit entries…"
+msgstr "Editar entradas…"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the dialog without changing anything"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a lore book"
+msgid "New book"
+msgstr "Nuevo libro"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a lore entry"
+msgid "New entry"
+msgstr "Nueva entrada"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a lore pool"
+msgid "Create"
+msgstr "Crear"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a lore pool"
+msgid "New pool"
+msgstr "Nuevo grupo de lore"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete this lore entry"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete this lore pool"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#: lib/mythweaver_web/live/lore_book_live.ex
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard edits to the open form"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: mark the selected lore entries as memories"
+msgid "Mark as memories"
+msgstr "Marcar como memorias"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: move a personal lore book to the site"
+msgid "Make site book"
+msgstr "Convertir en libro del sitio"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the import page"
+msgid "Import"
+msgstr "Importar"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove an activation rule from a lore book"
+msgid "Remove rule"
+msgstr "Quitar regla"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#: lib/mythweaver_web/live/lore_book_live.ex
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the open form"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: shorten a lore entry's text with the model"
+msgid "Compact"
+msgstr "Compactar"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: undo the view-only sort of lore entries"
+msgid "Back to book order"
+msgstr "Volver al orden del libro"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: unmark the selected lore entries as memories"
+msgid "Unmark memories"
+msgstr "Desmarcar memorias"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: lore entry activation"
+msgid "Activation"
+msgstr "Activación"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: lore entry is on in this book"
+msgid "On"
+msgstr "Activa"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: lore entry name"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: lore entry order in this book"
+msgid "Order"
+msgstr "Orden"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: lore entry trigger chance"
+msgid "Trigger"
+msgstr "Probabilidad"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: where a lore entry is inserted"
+msgid "Position"
+msgstr "Posición"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: lore books affected by a bulk action"
+msgid "%{book_count} book"
+msgid_plural "%{book_count} books"
+msgstr[0] "%{book_count} libro"
+msgstr[1] "%{book_count} libros"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: lore entries affected by a bulk action"
+msgid "%{entry_count} entry"
+msgid_plural "%{entry_count} entries"
+msgstr[0] "%{entry_count} entrada"
+msgstr[1] "%{entry_count} entradas"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: lore book has no bindings"
+msgid "Not bound to anything yet"
+msgstr "Aún no está vinculado a nada"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: lore book has no entries"
+msgid "No entries in this book yet"
+msgstr "Aún no hay entradas en este libro"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no characters to bind a lore book to"
+msgid "No characters yet"
+msgstr "Aún no hay personajes"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no characters to pick for a lore filter"
+msgid "No characters yet"
+msgstr "Aún no hay personajes"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no chats to bind a lore book to"
+msgid "No chats yet"
+msgstr "Aún no hay chats"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no lore books exist"
+msgid "No books yet"
+msgstr "Aún no hay libros"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no lore books or entries match the search"
+msgid "Nothing matches this search"
+msgstr "Nada coincide con esta búsqueda"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no lore pools exist"
+msgid "No pools yet"
+msgstr "Aún no hay grupos"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no lore pools match the search"
+msgid "No pools match this search"
+msgstr "Ningún grupo coincide con esta búsqueda"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no memories to pick as consolidation sources"
+msgid "No memories to consolidate"
+msgstr "No hay memorias que consolidar"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: Liquid template a lore rule condition evaluates"
+msgid "Liquid condition"
+msgstr "Condición Liquid"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: amount added to every entry's order in a lore book"
+msgid "Order adjustment"
+msgstr "Ajuste de orden"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: arcs a consolidation summarizes"
+msgid "Sources (arcs)"
+msgstr "Fuentes (arcos)"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: before or after the outlet's text"
+msgid "Placement"
+msgstr "Colocación"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: books a consolidation summarizes"
+msgid "Sources (books)"
+msgstr "Fuentes (libros)"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chance in percent that a lore entry is used"
+msgid "Probability"
+msgstr "Probabilidad"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chance in percent that a lore entry is used"
+msgid "Probability %"
+msgstr "Probabilidad %"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chapters a consolidation summarizes"
+msgid "Sources (chapters)"
+msgstr "Fuentes (capítulos)"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character a lore rule condition names"
+msgid "Character"
+msgstr "Personaje"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character tags a lore book's filter checks"
+msgid "Filter tags"
+msgstr "Etiquetas del filtro"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character tags a lore entry's filter checks"
+msgid "Filter tags"
+msgstr "Etiquetas del filtro"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: characters a lore book is bound to"
+msgid "Characters"
+msgstr "Personajes"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: characters a lore entry's filter checks"
+msgid "Filter characters"
+msgstr "Personajes del filtro"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat a lore rule condition names"
+msgid "Chat"
+msgstr "Chat"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat a memory was written from"
+msgid "Chat"
+msgstr "Chat"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat messages a memory covers"
+msgid "Messages"
+msgstr "Mensajes"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat role a lore entry's text is sent as"
+msgid "Role"
+msgstr "Rol"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat setting that joins members' cards"
+msgid "Group cards"
+msgstr "Tarjetas de grupo"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chats a lore book is bound to"
+msgid "Chats"
+msgstr "Chats"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: consolidation a memory was folded into"
+msgid "Consolidated into"
+msgstr "Consolidada en"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: custom prompt outlet of a lore entry"
+msgid "Custom outlet"
+msgstr "Outlet personalizado"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: description of a lore book"
+msgid "Description"
+msgstr "Descripción"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: description of a lore pool"
+msgid "Description"
+msgstr "Descripción"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: draw weight of an entry in a lore pool"
+msgid "Weight"
+msgstr "Peso"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: global default insertion depth setting"
+msgid "Default insertion depth"
+msgstr "Profundidad de inserción predeterminada"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: global lore budget cap setting"
+msgid "Lore budget cap"
+msgstr "Límite del presupuesto de lore"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: global lore budget setting"
+msgid "Lore budget (% of context)"
+msgstr "Presupuesto de lore (% del contexto)"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: global lore scan depth setting"
+msgid "Scan depth"
+msgstr "Profundidad de análisis"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how a lore entry activates"
+msgid "Activation"
+msgstr "Activación"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how many entries of a lore pool may be active at once"
+msgid "Admits (entries active at once)"
+msgstr "Admite (entradas activas a la vez)"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how many more messages a lore entry stays active"
+msgid "Sticky turns"
+msgstr "Turnos persistentes"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how many recent messages a lore book scans"
+msgid "Scan depth"
+msgstr "Profundidad de análisis"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how many recent messages a lore entry scans"
+msgid "Scan depth"
+msgstr "Profundidad de análisis"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: insertion depth of a lore entry"
+msgid "Depth"
+msgstr "Profundidad"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: invert a lore rule condition"
+msgid "Not"
+msgstr "No"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: kind of condition in a lore activation rule"
+msgid "Condition"
+msgstr "Condición"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: legends a consolidation summarizes"
+msgid "Sources (legends)"
+msgstr "Fuentes (leyendas)"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book activation rule is on"
+msgid "Enabled"
+msgstr "Activada"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book entries can be activated by recursion"
+msgid "Recursive"
+msgstr "Recursivo"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book entries can be activated by recursion"
+msgid "Recursive activation"
+msgstr "Activación recursiva"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book is active in every chat"
+msgid "Global"
+msgstr "Global"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book is sent with every reply"
+msgid "Forced"
+msgstr "Forzado"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book tag filter mode"
+msgid "Tag filter"
+msgstr "Filtro de etiquetas"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore books an entry belongs to"
+msgid "Books"
+msgstr "Libros"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry character filter mode"
+msgid "Character filter"
+msgstr "Filtro de personajes"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry is never dropped for the token budget"
+msgid "Ignore budget"
+msgstr "Ignorar presupuesto"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry secondary key logic"
+msgid "Logic"
+msgstr "Lógica"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore pools an entry belongs to"
+msgid "Pools"
+msgstr "Grupos de lore"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memories a consolidation summarizes"
+msgid "Sources (memories)"
+msgstr "Fuentes (memorias)"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory type of a lore entry"
+msgid "Type"
+msgstr "Tipo"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: messages a chat needs before a lore entry can activate"
+msgid "Delay (messages)"
+msgstr "Retraso (mensajes)"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: messages a lore entry waits before activating again"
+msgid "Cooldown turns"
+msgstr "Turnos de enfriamiento"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a lore book"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a lore entry"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a lore pool"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: number of a memory among its book's memories"
+msgid "Number"
+msgstr "Número"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: pool entry is scored in the draw"
+msgid "Scored"
+msgstr "Puntuada"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: pool entry overrides the pool limit"
+msgid "Override"
+msgstr "Prioritaria"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: primary keywords of a lore entry"
+msgid "Keywords"
+msgstr "Palabras clave"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: priority of a lore book"
+msgid "Priority"
+msgstr "Prioridad"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: secondary keywords of a lore entry"
+msgid "Secondary keywords"
+msgstr "Palabras clave secundarias"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: series a consolidation summarizes"
+msgid "Sources (series)"
+msgstr "Fuentes (series)"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tags a lore rule condition checks"
+msgid "Any of these tags"
+msgstr "Cualquiera de estas etiquetas"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: text of a lore entry"
+msgid "Content"
+msgstr "Contenido"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: token budget of a lore book"
+msgid "Token budget"
+msgstr "Presupuesto de tokens"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: what non-admin users see of a site lore book"
+msgid "Visible to users"
+msgstr "Visible para los usuarios"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: where a lore entry's text is inserted"
+msgid "Outlet"
+msgstr "Outlet"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: whether lore keywords match letter case"
+msgid "Case sensitive"
+msgstr "Distinguir mayúsculas"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: whether lore keywords match whole words only"
+msgid "Whole words"
+msgstr "Palabras completas"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: activation rules of a lore book"
+msgid "Activation rules"
+msgstr "Reglas de activación"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: chats and characters a lore book is bound to"
+msgid "Bindings"
+msgstr "Vinculaciones"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm moving a personal lore book to the site"
+msgid "Make this a site book?"
+msgstr "¿Convertir en libro del sitio?"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: create a lore book"
+msgid "New lore book"
+msgstr "Nuevo libro de lore"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: create a lore entry"
+msgid "New entry"
+msgstr "Nueva entrada"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: create a lore pool"
+msgid "New pool"
+msgstr "Nuevo grupo de lore"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: entries in a lore book, with their number"
+msgid "Entries (%{entry_count})"
+msgstr "Entradas (%{entry_count})"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: entries in a lore pool"
+msgid "Entries"
+msgstr "Entradas"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: folder of lore entries in no book"
+msgid "Unlinked"
+msgstr "Sin vincular"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of lore books and entries"
+msgid "Lore"
+msgstr "Lore"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of lore pools"
+msgid "Pools"
+msgstr "Grupos de lore"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: lore entry form"
+msgid "Entry"
+msgstr "Entrada"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: memory settings group of a lore entry"
+msgid "Memory"
+msgstr "Memoria"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: switch to the lore books list"
+msgid "Books"
+msgstr "Libros"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: switch to the lore pools list"
+msgid "Pools"
+msgstr "Grupos de lore"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a character the viewer can no longer pick"
+msgid "Unavailable character"
+msgstr "Personaje no disponible"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a chat the viewer can no longer pick"
+msgid "Unavailable chat"
+msgstr "Chat no disponible"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat message role"
+msgid "Assistant"
+msgstr "Asistente"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat message role"
+msgid "System"
+msgstr "Sistema"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat message role"
+msgid "User"
+msgstr "Usuario"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore book tag filter mode"
+msgid "Exclude"
+msgstr "Excluir"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore book tag filter mode"
+msgid "Include"
+msgstr "Incluir"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore book tag filter mode"
+msgid "Off"
+msgstr "Desactivado"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry is not a memory"
+msgid "Not a memory"
+msgstr "No es una memoria"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry secondary key logic"
+msgid "AND all"
+msgstr "Y todas"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry secondary key logic"
+msgid "AND any"
+msgstr "Y alguna"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry secondary key logic"
+msgid "NOT all"
+msgstr "NO todas"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry secondary key logic"
+msgid "NOT any"
+msgstr "NO alguna"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore keyword rule is off"
+msgid "No"
+msgstr "No"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore keyword rule is on"
+msgid "Yes"
+msgstr "Sí"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore rule condition kind"
+msgid "Character present"
+msgstr "Personaje presente"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore rule condition kind"
+msgid "Chat has tag"
+msgstr "El chat tiene la etiqueta"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore rule condition kind"
+msgid "Chat is"
+msgstr "El chat es"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore rule condition kind"
+msgid "Present character has tag"
+msgstr "Un personaje presente tiene la etiqueta"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore rule condition kind"
+msgid "Responder is"
+msgstr "Quien responde es"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore rule condition kind"
+msgid "Template"
+msgstr "Plantilla"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no character picked for a lore rule condition"
+msgid "Pick a character"
+msgstr "Elige un personaje"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no chat picked for a lore rule condition"
+msgid "Pick a chat"
+msgstr "Elige un chat"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no custom prompt outlet picked"
+msgid "Choose an outlet"
+msgstr "Elige un outlet"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: use the global setting for this lore keyword rule"
+msgid "Default"
+msgstr "Predeterminado"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: users see all of a site lore book"
+msgid "Everything"
+msgstr "Todo"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: users see nothing of a site lore book"
+msgid "Nothing (hidden)"
+msgstr "Nada (oculto)"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: users see only a site lore book's names"
+msgid "Names only (runtime-only)"
+msgstr "Solo nombres (solo en ejecución)"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: create a lore entry"
+msgid "New entry"
+msgstr "Nueva entrada"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: create a lore pool"
+msgid "New pool"
+msgstr "Nuevo grupo de lore"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: list of lore pools"
+msgid "Lore pools"
+msgstr "Grupos de lore"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: lore books and entries"
+msgid "Lore"
+msgstr "Lore"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: depth applies only to the at-depth outlet"
+msgid "At depth only"
+msgstr "Solo a profundidad"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: empty activation delay"
+msgid "No delay"
+msgstr "Sin retraso"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: empty cooldown turns"
+msgid "No cooldown"
+msgstr "Sin enfriamiento"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: empty memory number takes the next free one"
+msgid "Next free"
+msgstr "Siguiente libre"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: empty scan depth uses the lore book's"
+msgid "Book default"
+msgstr "Valor del libro"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: empty sticky turns"
+msgid "Not sticky"
+msgstr "No persistente"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: empty value uses the global lore setting"
+msgid "Global default"
+msgstr "Valor global"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search lore pools"
+msgid "Name or description"
+msgstr "Nombre o descripción"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: secondary keywords of a lore entry are optional"
+msgid "Optional filter"
+msgstr "Filtro opcional"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: chat message numbers a memory covers"
+msgid "#%{first_message}–#%{last_message}"
+msgstr "#%{first_message}–#%{last_message}"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: chat without a title"
+msgid "Untitled"
+msgstr "Sin título"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: lore entry is a memory clip"
+msgid "Clip"
+msgstr "Fragmento"
+
+#. tier_name is a memory tier name such as Arc or Chapter.
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: lore entry is a numbered consolidation of a memory tier"
+msgid "%{tier_name} #%{memory_number}"
+msgstr "%{tier_name} n.º %{memory_number}"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: lore entry is a numbered scene memory"
+msgid "Scene memory #%{memory_number}"
+msgstr "Memoria de escena n.º %{memory_number}"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: lore entry is a scene memory"
+msgid "Scene memory"
+msgstr "Memoria de escena"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: lore entry is written by a side prompt"
+msgid "Side prompt"
+msgstr "Prompt secundario"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: memory covers no chat messages"
+msgid "None"
+msgstr "Ninguno"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: hide switched-off memory entries in a lore book"
+msgid "Hide disabled memories"
+msgstr "Ocultar memorias desactivadas"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: show changes to a lore entry's text"
+msgid "Diff"
+msgstr "Diferencias"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: a lore entry sits in several books"
+msgid "In %{book_count} book"
+msgid_plural "In %{book_count} books"
+msgstr[0] "En %{book_count} libro"
+msgstr[1] "En %{book_count} libros"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: chance that a lore entry is used"
+msgid "Trigger probability"
+msgstr "Probabilidad de activación"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: delete a lore entry from every book"
+msgid "Delete the entry everywhere"
+msgstr "Eliminar la entrada de todas partes"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: drag handle of an unlinked lore entry"
+msgid "Drag to a book"
+msgstr "Arrastra a un libro"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: lore entry goes into a custom prompt outlet"
+msgid "Custom outlet %{outlet_name}"
+msgstr "Outlet personalizado %{outlet_name}"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: lore entry is inserted at a depth in the chat history"
+msgid "At depth %{insertion_depth}"
+msgstr "A profundidad %{insertion_depth}"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: lore entry position"
+msgid "After author note"
+msgstr "Después de la nota del autor"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: lore entry position"
+msgid "After character"
+msgstr "Después del personaje"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: lore entry position"
+msgid "After examples"
+msgstr "Después de los ejemplos"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: lore entry position"
+msgid "Before author note"
+msgstr "Antes de la nota del autor"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: lore entry position"
+msgid "Before character"
+msgstr "Antes del personaje"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: lore entry position"
+msgid "Before examples"
+msgstr "Antes de los ejemplos"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: remove a lore entry from this book only"
+msgid "Remove from this book"
+msgstr "Quitar de este libro"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: select every lore entry in the table"
+msgid "Select all entries"
+msgstr "Seleccionar todas las entradas"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: select this lore entry for bulk actions"
+msgid "Select for bulk actions"
+msgstr "Seleccionar para acciones masivas"
+
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: draw weight of an entry in a lore pool"
+msgid "weight %{pool_weight}"
+msgstr "peso %{pool_weight}"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: estimated token count of a lore entry's text"
+msgid "≈%{token_count} token"
+msgid_plural "≈%{token_count} tokens"
+msgstr[0] "≈%{token_count} token"
+msgstr[1] "≈%{token_count} tokens"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: exact token count of a lore entry's text"
+msgid "%{token_count} token"
+msgid_plural "%{token_count} tokens"
+msgstr[0] "%{token_count} token"
+msgstr[1] "%{token_count} tokens"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: other books a lore entry also sits in"
+msgid "also in %{book_count} other book"
+msgid_plural "also in %{book_count} other books"
+msgstr[0] "también en %{book_count} libro más"
+msgstr[1] "también en %{book_count} libros más"
+
+#: lib/mythweaver_web/components/lore/book_sections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that removes a lore entry from this book"
+msgid "Remove %{entry_name} from %{book_name}"
+msgstr "Quitar %{entry_name} de %{book_name}"
+
+#. Confirm dialog before deleting a lore book or entry.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: confirm dialog before deleting a lore book or entry"
+msgid "Delete %{item_name}?"
+msgstr "¿Eliminar %{item_name}?"
+
+#. Info flash after a lore pool is created from the entry form.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after creating a lore pool"
+msgid "%{pool_name} created"
+msgstr "%{pool_name} creado"
+
+#. Info flash after a lore entry is deleted.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after deleting a lore entry"
+msgid "%{entry_name} deleted"
+msgstr "%{entry_name} eliminada"
+
+#. Info flash after a lore entry is removed from a book (the entry itself stays).
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after removing a lore entry from a book"
+msgid "%{entry_name} removed from %{book_name}"
+msgstr "%{entry_name} quitada de %{book_name}"
+
+#. Info flash after a lore book is saved.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after saving a lore book"
+msgid "%{book_name} saved"
+msgstr "%{book_name} guardado"
+
+#. Info flash after a lore book's activation rules are saved.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after saving a lore book's activation rules"
+msgid "Activation rules saved"
+msgstr "Reglas de activación guardadas"
+
+#. Info flash after a lore entry is saved.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after saving a lore entry"
+msgid "%{entry_name} saved"
+msgstr "%{entry_name} guardada"
+
+#. Flash after a lore pool is saved.
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after saving a lore pool"
+msgid "%{pool_name} saved"
+msgstr "%{pool_name} guardado"
+
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after unmarking lore entries as memories"
+msgid "Unmarked %{unmarked_count} memory."
+msgid_plural "Unmarked %{unmarked_count} memories."
+msgstr[0] "Se desmarcó %{unmarked_count} memoria."
+msgstr[1] "Se desmarcaron %{unmarked_count} memorias."
+
+#. Info flash after unmarking the selected lore entries as memories.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after unmarking lore entries as memories when none changed"
+msgid "No memories were unmarked."
+msgstr "No se desmarcó ninguna memoria."
+
+#. Error flash when the lore book in the URL does not exist or is not editable.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when the lore book in the URL is not found"
+msgid "Lore book not found"
+msgstr "Libro de lore no encontrado"
+
+#. Error flash when the lore entry in the URL does not exist or is not editable.
+#: lib/mythweaver_web/live/lore_book_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when the lore entry in the URL is not found"
+msgid "Lore entry not found"
+msgstr "Entrada de lore no encontrada"
+
+#. Flash when the lore pool in the URL does not exist or is not visible.
+#: lib/mythweaver_web/live/lore_pool_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when the lore pool in the URL is not found"
+msgid "Pool not found"
+msgstr "Grupo de lore no encontrado"
+
+#: lib/mythweaver_web/components/lore/entry_form.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: lore entry token count counted exactly"
+msgid "Counted with %{model_name}'s tokenizer"
+msgstr "Contado con el tokenizador de %{model_name}"

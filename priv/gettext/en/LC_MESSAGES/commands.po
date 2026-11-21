@@ -1,0 +1,1072 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgid "Choose a PNG, JPEG or WebP image, or paste one"
+msgstr ""
+
+#. Error flash when the palette command "chat: catch up memories" gets a bad Chunk size.
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgid "Chunk size must be 5 to 250 messages."
+msgstr ""
+
+#. Error flash when a palette command gets a message number that is not a whole number from 1 up.
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgid "Message numbers start at 1."
+msgstr ""
+
+#. Error flash when a palette command names a character who is not in the open chat.
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgid "Not a participant of this chat."
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgid "Pick one from the list."
+msgstr ""
+
+#. Error flash when a palette command's Start message number is greater than its End; Start and End are the parameter labels.
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgid "Start must not be after End."
+msgstr ""
+
+#. Error flash when a palette command acts on the last message of a chat that has none.
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgid "This chat has no messages yet."
+msgstr ""
+
+#. Error flash when someone without the site cleanup permission runs "cleanup: all chats".
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgid "You can't clean up every user's chats."
+msgstr ""
+
+#. Error flash when "chat: edit last player message" runs before the player has sent anything.
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgid "You haven't sent a message in this chat yet."
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: the command palette dialog"
+msgid "Command palette"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/suggestions.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: palette suggestion detail, a site-wide tag"
+msgid "Site"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/suggestions.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: palette suggestion detail, the lore entry is in no book"
+msgid "Unlinked"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/suggestions.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: palette suggestion detail, the user's own tag"
+msgid "Personal"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/suggestions.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: palette suggestion detail, this chat participant is muted"
+msgid "Muted"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/suggestions.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: palette suggestion detail, this participant is the player's character"
+msgid "You"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: palette image parameter with no image yet, opens the file picker"
+msgid "Choose an image…"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "ai model: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "ai model: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "ai models: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "ai provider: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "ai provider: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "ai providers: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "character: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "character: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "characters: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: add participants"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: caption image"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: catch up memories"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: change outfit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: classify last message's expression again"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: clear processed boundary"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: consolidate memories"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: continue last reply"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: create memory"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: create next memory"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: create scene memory"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: delete message"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: describe all attachments"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: disable all side prompts"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: disable side prompt"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: edit last message"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: edit last player message"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: enable all side prompts"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: enable side prompt"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: generate reply"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: go to message"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: hide muted participants"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: injections"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: jump to latest"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: memory"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: next swipe"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: play as"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: previous swipe"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: regenerate last reply"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: rewrite last reply with the composer text"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: run side prompt"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: set expression of last message"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: set processed boundary"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: settings"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: show muted participants"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: show processed boundary"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: stop generation"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: switch"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: toggle auto mode"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: toggle message visibility"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: toggle mute"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: toggle mute shown characters"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: toggle muted participants"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: turn queue"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chat: variables"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "chats: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "cleanup: all chats"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "cleanup: my chats"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "export: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "expression rules: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "expression rules: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "import: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "jobs: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "lore book: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "lore book: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "lore entry: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "lore entry: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "lore pool: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "lore pools: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "lore: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "lua: %{script_name}"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "memory profile: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "memory profile: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "memory profiles: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "prompt block: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "prompt block: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "prompt blocks: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "prompt outlet: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "prompt outlet: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "prompt outlets: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "prompt: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "prompt: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "prompts: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "quick reply: %{script_name}"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "script: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "script: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "scripts: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "settings: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "side prompt: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "side prompt: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "side prompts: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "submissions: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "tag: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "tag: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "tags: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "variable: edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "variable: new"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "command palette entry (area: action)"
+msgid "variables: open"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no palette command matches the search"
+msgid "No matching commands"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no suggestion matches a palette parameter's text"
+msgid "No matches"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: palette parameter that takes typed text"
+msgid "Type a value"
+msgstr ""
+
+#. %{parameter_label} is the parameter's own label, e.g. "Start".
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: an optional parameter of a palette command"
+msgid "%{parameter_label} (optional)"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command ai model: edit"
+msgid "Model"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command ai provider: edit"
+msgid "Provider"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command character: edit"
+msgid "Character"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: caption image"
+msgid "Image"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: caption image"
+msgid "Prompt"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: catch up memories"
+msgid "Chunk size"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: catch up memories"
+msgid "End"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: catch up memories"
+msgid "Start"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: change outfit"
+msgid "Character"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: create scene memory"
+msgid "End"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: create scene memory"
+msgid "Start"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: delete message"
+msgid "Message"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: disable side prompt"
+msgid "Side prompt"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: enable side prompt"
+msgid "Side prompt"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: generate reply"
+msgid "Speaker"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: go to message"
+msgid "Message number"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: play as"
+msgid "Character"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: run side prompt"
+msgid "End"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: run side prompt"
+msgid "Side prompt"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: run side prompt"
+msgid "Start"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: set expression of last message"
+msgid "Expression (blank: portrait)"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: set processed boundary"
+msgid "Message number"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: switch"
+msgid "Chat"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: toggle message visibility"
+msgid "Message"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command chat: toggle mute"
+msgid "Participant"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command lore book: edit"
+msgid "Lore book"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command lore entry: edit"
+msgid "Lore entry"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command memory profile: edit"
+msgid "Profile"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command prompt block: edit"
+msgid "Prompt block"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command prompt outlet: edit"
+msgid "Outlet"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command prompt: edit"
+msgid "Prompt"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command script: edit"
+msgid "Script"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command side prompt: edit"
+msgid "Side prompt"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command tag: edit"
+msgid "Tag"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parameter of the palette command variable: edit"
+msgid "Variable"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "keyboard key: enter"
+msgid "enter"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "keyboard key: escape"
+msgid "esc"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "keyboard key: tab"
+msgid "tab"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette/suggestions.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a chat message in the palette picker: its number, author and opening text"
+msgid "#%{message_position} %{author_name}: %{message_excerpt}"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: command palette search box"
+msgid "Execute a command…"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: palette parameter that takes a number"
+msgid "Number"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: palette parameter that takes a whole number"
+msgid "Whole number"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: palette parameter that takes free text"
+msgid "Text"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: palette parameter with suggestions to filter"
+msgid "Type to filter"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error under a palette image parameter whose upload is unfinished"
+msgid "Still uploading."
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error under a required palette parameter left blank"
+msgid "Required."
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: palette image upload in progress"
+msgid "Uploading… %{upload_percent}"
+msgstr ""
+
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon on a palette command used recently"
+msgid "Recently used"
+msgstr ""
+
+#. %{escape_key} is the Escape key's name in a <kbd> chip.
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: palette footer, the key that goes back to the command list"
+msgid "Back %{escape_key}"
+msgstr ""
+
+#. %{tab_key} is the Tab key's name in a <kbd> chip.
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: palette footer, the key that moves to the next parameter"
+msgid "Next %{tab_key}"
+msgstr ""
+
+#. %{enter_key} is the Enter key's name in a <kbd> chip.
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: palette footer, the key that runs the command"
+msgid "Run %{enter_key}"
+msgstr ""
+
+#. Flash after a manual cleanup. Each placeholder is a counted phrase translated on its own: "3 chats", "1 swipe", "2 prompt snapshots".
+#: lib/mythweaver/messages/cleanup.ex
+#, elixir-autogen, elixir-format
+msgid "Cleaned up %{chat_phrase}: merged %{swipe_phrase} and removed %{snapshot_phrase}."
+msgstr ""
+
+#. Error flash when a built-in palette command that runs in the background (a cleanup) crashes.
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a background palette command crashed"
+msgid "The command failed."
+msgstr ""
+
+#. Error flash when a Lua command script run from the command palette crashes.
+#: lib/mythweaver_web/components/command_palette.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a palette command script crashed"
+msgid "The command script crashed."
+msgstr ""
+
+#: lib/mythweaver/messages/cleanup.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: chats a manual cleanup went through"
+msgid "%{chat_count} chat"
+msgid_plural "%{chat_count} chats"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/messages/cleanup.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: prompt snapshots a manual cleanup removed"
+msgid "%{snapshot_count} prompt snapshot"
+msgid_plural "%{snapshot_count} prompt snapshots"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/messages/cleanup.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: swipes a manual cleanup merged"
+msgid "%{swipe_count} swipe"
+msgid_plural "%{swipe_count} swipes"
+msgstr[0] ""
+msgstr[1] ""

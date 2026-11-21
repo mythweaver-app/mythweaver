@@ -1,0 +1,773 @@
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new messages manually only if they're dynamic
+## messages that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here has no
+## effect: edit them in PO (.po) files instead.
+#
+msgid ""
+msgstr ""
+
+#. Notification body under a consolidation-ready title; the book name is a memory book.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{book_name}: enough arcs for a new Chapter."
+msgstr ""
+
+#. Notification body under a consolidation-ready title; the book name is a memory book.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{book_name}: enough books for a new Legend."
+msgstr ""
+
+#. Notification body under a consolidation-ready title; the book name is a memory book.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{book_name}: enough chapters for a new Book."
+msgstr ""
+
+#. Notification body under a consolidation-ready title; the book name is a memory book.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{book_name}: enough legends for a new Series."
+msgstr ""
+
+#. Notification body under a consolidation-ready title; the book name is a memory book.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{book_name}: enough memories for a new Arc."
+msgstr ""
+
+#. Notification body under a consolidation-ready title; the book name is a memory book.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{book_name}: enough series for a new Epic."
+msgstr ""
+
+#. Notification body under “Memory to review”; the placeholder is the memory draft's name.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "%{draft_name} is waiting for your review."
+msgstr ""
+
+#. Notification body under “You now own …”: who handed the item over.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "%{giver_name} (@%{giver_handle}) gave it to you."
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to edit the AI model “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to edit the character “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to edit a chat with them.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to edit the chat “%{chat_title}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to edit the lore book “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to edit the memory profile “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to edit the outlet “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to edit the prompt block “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to edit the prompt “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to edit the script “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to edit the side prompt set “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to edit the side prompt “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to join a chat.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to join the chat “%{chat_title}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the AI model “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the AI model “%{item_name}” (read-only)"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the character “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the character “%{item_name}” (read-only)"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the lore book “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the lore book “%{item_name}” (read-only)"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the memory profile “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the memory profile “%{item_name}” (read-only)"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the outlet “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the outlet “%{item_name}” (read-only)"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the prompt block “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the prompt block “%{item_name}” (read-only)"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the prompt “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the prompt “%{item_name}” (read-only)"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the script “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the script “%{item_name}” (read-only)"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the side prompt set “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the side prompt set “%{item_name}” (read-only)"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the side prompt “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when someone invites the user to share one of their items.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "%{inviter_name} (@%{inviter_handle}) invited you to use the side prompt “%{item_name}” (read-only)"
+msgstr ""
+
+#. Notification body under “Memory to review”, when the draft has no name.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "A memory draft is waiting for your review."
+msgstr ""
+
+#. Notification body: the user lost access to a shared item because it became a site item.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "It moved to the site."
+msgstr ""
+
+#. Notification body: the user lost access to a catalog item because a moderator took it down.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "It was removed by a moderator."
+msgstr ""
+
+#. Notification body: the user lost access to a shared item because its owner's account was deleted.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "Its owner's account was deleted."
+msgstr ""
+
+#. Notification title (popup, inbox, push) when a memory draft of a chat waits for the user's review.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "Memory to review — %{chat_title}"
+msgstr ""
+
+#. Notification title (popup, inbox, push) when a regenerated reply (a swipe) of a character finished.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "New swipe from %{character_name} — %{chat_title}"
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgid "Notifications are blocked for this site. Allow them in the browser's site settings, then reload the page."
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgid "On iPhone and iPad, push works only in the installed app: tap Share, then Add to Home Screen, open %{app_name} from the Home Screen and enable push there."
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgid "Push is off for this browser."
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgid "Push is on for this browser."
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgid "Push needs the app served over HTTPS, or opened on localhost on this computer. The README's Deploying section lists ways to serve it."
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgid "Push notifications reach a device even with %{app_name} closed, for the kinds ticked in the Push column. Enable push on each phone or computer you want them on. Nothing is pushed while you are looking at the app."
+msgstr ""
+
+#. Push notification body sent when the user taps “test” on one of their push devices.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "Push notifications work on %{device_name}."
+msgstr ""
+
+#. Notification title in the inbox when enough memory entries exist to consolidate into the named higher tier.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "Ready to consolidate a Book — %{chat_title}"
+msgstr ""
+
+#. Notification title in the inbox when enough memory entries exist to consolidate into the named higher tier.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "Ready to consolidate a Chapter — %{chat_title}"
+msgstr ""
+
+#. Notification title in the inbox when enough memory entries exist to consolidate into the named higher tier.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "Ready to consolidate a Legend — %{chat_title}"
+msgstr ""
+
+#. Notification title in the inbox when enough memory entries exist to consolidate into the named higher tier.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "Ready to consolidate a Series — %{chat_title}"
+msgstr ""
+
+#. Notification title in the inbox when enough memory entries exist to consolidate into the named higher tier.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "Ready to consolidate an Arc — %{chat_title}"
+msgstr ""
+
+#. Notification title in the inbox when enough memory entries exist to consolidate into the named higher tier.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "Ready to consolidate an Epic — %{chat_title}"
+msgstr ""
+
+#. Confirm dialog before removing a push device from the user's account.
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgid "Stop push notifications on %{device_name}?"
+msgstr ""
+
+#. Notification body when a finished reply is empty.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "The reply has no text."
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgid "This browser does not support push notifications."
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer edit the AI model “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer edit the character “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer edit the lore book “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer edit the memory profile “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer edit the outlet “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer edit the prompt block “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer edit the prompt “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer edit the script “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer edit the side prompt set “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer edit the side prompt “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer use the AI model “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer use the character “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer use the lore book “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer use the memory profile “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer use the outlet “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer use the prompt block “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer use the prompt “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer use the script “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer use the side prompt set “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when the user loses access to a shared item.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You can no longer use the side prompt “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when another user hands an item over to the user.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You now own the AI model “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when another user hands an item over to the user.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You now own the character “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when another user hands an item over to the user.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You now own the lore book “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when another user hands an item over to the user.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You now own the memory profile “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when another user hands an item over to the user.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You now own the outlet “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when another user hands an item over to the user.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You now own the prompt block “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when another user hands an item over to the user.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You now own the prompt “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when another user hands an item over to the user.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You now own the script “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when another user hands an item over to the user.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You now own the side prompt set “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when another user hands an item over to the user.
+#: lib/mythweaver/notifications/text.ex
+#, elixir-autogen, elixir-format
+msgid "You now own the side prompt “%{item_name}”"
+msgstr ""
+
+#. Notification title in the inbox when a moderator takes down the user's catalog listing; the body is the moderator's reason.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgid "Your catalog listing “%{listing_title}” was taken down"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_bell.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: bell button that opens the notification inbox"
+msgid "Notifications"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_bell.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: bell button that opens the notification inbox, with the unread count"
+msgid "Notifications, %{unread_count} new"
+msgid_plural "Notifications, %{unread_count} new"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/components/notification_inbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that dismisses one notification"
+msgid "Dismiss"
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: the push device is the browser in use"
+msgid "This browser"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_inbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: accept an invite to a chat"
+msgid "Accept"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_inbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: accept an invite to share an item"
+msgid "Accept"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_bell.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: bell button that opens the notification inbox"
+msgid "Notifications"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_inbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: decline an invite to a chat"
+msgid "Decline"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_inbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: decline an invite to share an item"
+msgid "Decline"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_inbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: dismiss every notification in the inbox"
+msgid "Clear all"
+msgstr ""
+
+#: lib/mythweaver_web/live/notifications_hook.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open a memory draft waiting for review"
+msgid "Review"
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove a push device"
+msgid "Remove"
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: send a test push to a device"
+msgid "Send test"
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: turn push notifications off for this browser"
+msgid "Disable on this browser"
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: turn push notifications on for this browser"
+msgid "Enable push on this browser"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_inbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: notification inbox"
+msgid "Nothing new."
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: time of the last successful push to a device"
+msgid "Last push"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_inbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: notification inbox panel"
+msgid "Notifications"
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: settings panel listing the user's push devices"
+msgid "Push devices"
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a push device has never received a push"
+msgid "No push yet"
+msgstr ""
+
+#: lib/mythweaver_web/components/push_devices.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: push support of this browser is being checked"
+msgid "Checking this browser…"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_bell.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: bell button that opens the notification inbox"
+msgid "Notifications"
+msgstr ""
+
+#: lib/mythweaver_web/components/notification_inbox.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that dismisses one notification"
+msgid "Dismiss"
+msgstr ""
+
+#. Notification title (popup, inbox, push) when a character finished continuing their reply.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgctxt "notification title: a character finished continuing their reply in a chat"
+msgid "%{character_name} continued — %{chat_title}"
+msgstr ""
+
+#. Notification title (popup, inbox, push) when a character's reply in a chat finished.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgctxt "notification title: a character's reply in a chat finished"
+msgid "%{character_name} replied — %{chat_title}"
+msgstr ""
+
+#. Notification title in the inbox when a moderator warns the user; the body is the moderator's reason.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgctxt "notification title: a moderator warned the user"
+msgid "A moderator warned you"
+msgstr ""
+
+#. Notification title in the inbox when content held for moderator review was approved.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgctxt "notification title: content held for moderator review was approved"
+msgid "“%{content_title}” was approved"
+msgstr ""
+
+#. Notification title in the inbox when content held for moderator review was rejected; the body is the moderator's reason.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgctxt "notification title: content held for moderator review was not approved"
+msgid "“%{content_title}” was not approved"
+msgstr ""
+
+#. Notification body: the user lost access to a catalog item because it was unpublished.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: notification body, a catalog item the user had access to was unpublished"
+msgid "It was unpublished."
+msgstr ""
+
+#. Notification body: the user lost access to a shared item because it was deleted.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: notification body, a shared item the user had access to was deleted"
+msgid "It was deleted."
+msgstr ""
+
+#. Notification body under “… was approved”.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: notification body, approved content held for review is now saved"
+msgid "It is saved now."
+msgstr ""
+
+#. Notification body: the user lost access to a shared item because its owner removed them.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: notification body, the owner of a shared item removed the user from it"
+msgid "The owner removed you."
+msgstr ""
+
+#. Notification body: the user lost access to a shared item because they left the share.
+#: lib/mythweaver/notifications.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: notification body, the user left a shared item"
+msgid "You left it."
+msgstr ""

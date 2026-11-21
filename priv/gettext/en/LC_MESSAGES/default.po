@@ -1,0 +1,2216 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgid "%{done_count} done, %{failed_count} not done:"
+msgstr ""
+
+#. Flash after a bulk action; %{failure_list} is a comma-separated list of item names, each followed by its reason in parentheses.
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgid "%{failed_count} couldn't be deleted: %{failure_list}."
+msgid_plural "%{failed_count} couldn't be deleted: %{failure_list}."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Flash after a bulk action; %{failure_list} is a comma-separated list of item names, each followed by its reason in parentheses.
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgid "%{failed_count} couldn't be tagged: %{failure_list}."
+msgid_plural "%{failed_count} couldn't be tagged: %{failure_list}."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Flash after a bulk action; %{failure_list} is a comma-separated list of item names, each followed by its reason in parentheses.
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgid "%{failed_count} couldn't be updated: %{failure_list}."
+msgid_plural "%{failed_count} couldn't be updated: %{failure_list}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal block is yours alone, unless you share it. A site block can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal book is yours alone, unless you share it. A site book can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal character is yours alone, unless you share it. A site character can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal expression profile is yours alone, unless you share it. A site expression profile can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal memory profile is yours alone, unless you share it. A site memory profile can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal outlet is yours alone, unless you share it. A site outlet can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal pool is yours alone, unless you share it. A site pool can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal prompt is yours alone, unless you share it. A site prompt can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal script is yours alone, unless you share it. A site script can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal side prompt is yours alone, unless you share it. A site side prompt can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal side prompt set is yours alone, unless you share it. A site side prompt set can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgid "A personal variable is yours alone, unless you share it. A site variable can be used by every user, and only site managers edit it."
+msgstr ""
+
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgid "Add or remove at least one tag."
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgid "Ask Mythweaver anything about setting up your stories."
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgid "Ask me to set up a connection, build a character, write lore or start a chat."
+msgstr ""
+
+#: lib/mythweaver_web/field_compaction.ex
+#, elixir-autogen, elixir-format
+msgid "Choose a default model or set one on the memory profile."
+msgstr ""
+
+#: lib/mythweaver_web/components/lineage.ex
+#, elixir-autogen, elixir-format
+msgid "Cloned from a removed item"
+msgstr ""
+
+#. Flash shown when a form field's compaction finished without returning any text.
+#: lib/mythweaver_web/field_compaction.ex
+#, elixir-autogen, elixir-format
+msgid "Compaction failed: no text came back"
+msgstr ""
+
+#. Confirm dialog before deleting every selected row in bulk select mode.
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgid "Delete %{selected_count} selected? This can't be undone."
+msgid_plural "Delete %{selected_count} selected? This can't be undone."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Upload error; the placeholder is a file size with its unit, e.g. "20 MB".
+#: lib/mythweaver_web/uploads.ex
+#, elixir-autogen, elixir-format
+msgid "File is larger than %{size_limit}"
+msgstr ""
+
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgid "Fix the highlighted tags first."
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgid "In AI models and connections"
+msgstr ""
+
+#: lib/mythweaver_web/field_compaction.ex
+#, elixir-autogen, elixir-format
+msgid "No memory profile is set."
+msgstr ""
+
+#: lib/mythweaver_web/field_compaction.ex
+#, elixir-autogen, elixir-format
+msgid "No model is available for compaction."
+msgstr ""
+
+#: lib/mythweaver_web/uploads.ex
+#, elixir-autogen, elixir-format
+msgid "Only PNG, JPEG and WebP images can be attached"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgid "Removes exactly these tags; an item's other tags stay."
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgid "Runs the conversation your next message starts. Change it later in the conversation's settings."
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgid "Showing the first %{match_limit} matches — refine the search to narrow them."
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgid "Site tags go on site rows only; everyone sees them. My tags only you see."
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgid "Summarize the thread so far; Mythweaver then reads the summary instead of the older messages"
+msgstr ""
+
+#: lib/mythweaver_web/uploads.ex
+#, elixir-autogen, elixir-format
+msgid "That file type can't be attached here"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgid "The key goes straight to the connection; Mythweaver never sees it."
+msgstr ""
+
+#: lib/mythweaver_web/field_compaction.ex
+#, elixir-autogen, elixir-format
+msgid "The memory profile has no compaction prompt."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/changed_elsewhere.ex
+#, elixir-autogen, elixir-format
+msgid "This was changed elsewhere while you were editing. Saving writes your version over it."
+msgstr ""
+
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgid "Tick at least one field to change."
+msgstr ""
+
+#: lib/mythweaver_web/uploads.ex
+#, elixir-autogen, elixir-format
+msgid "You don't have permission to upload that kind of file"
+msgstr ""
+
+#. Flash shown when the user's content held for moderator review has reached its limit.
+#: lib/mythweaver_web/flash.ex
+#, elixir-autogen, elixir-format
+msgid "You have too much waiting for review. Withdraw something on the Submissions page or wait for a decision."
+msgstr ""
+
+#. Confirm dialog shown before leaving or closing a form that has unsaved edits.
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgid "You have unsaved changes. Discard them?"
+msgstr ""
+
+#. Flash or form error shown when the user tries an action they lack permission for.
+#: lib/mythweaver_web/flash.ex
+#, elixir-autogen, elixir-format
+msgid "You're not allowed to do that."
+msgstr ""
+
+#. Flash shown when the user has reached a count limit; %{quota_name} is the limit's lowercased permission name, e.g. "characters".
+#: lib/mythweaver_web/flash.ex
+#, elixir-autogen, elixir-format
+msgid "You've reached your limit of %{limit_amount} %{quota_name}."
+msgstr ""
+
+#. Flash shown when the user's daily AI spending limit is used up; the placeholder is a money amount.
+#: lib/mythweaver_web/flash.ex
+#, elixir-autogen, elixir-format
+msgid "You've spent today's %{spend_limit} on the site's AI connections."
+msgstr ""
+
+#. Flash shown when a compaction cannot start because the user's daily AI budget is spent.
+#: lib/mythweaver_web/field_compaction.ex
+#, elixir-autogen, elixir-format
+msgid "You've spent today's budget on the site's AI connections."
+msgstr ""
+
+#: lib/mythweaver_web/uploads.ex
+#, elixir-autogen, elixir-format
+msgid "You've used your upload storage"
+msgstr ""
+
+#. Flash shown when the user's upload storage quota is full.
+#: lib/mythweaver_web/flash.ex
+#, elixir-autogen, elixir-format
+msgid "You've used your upload storage (%{limit_mebibytes} MiB)."
+msgstr ""
+
+#. Flash shown after saving content that now waits for a moderator's decision.
+#: lib/mythweaver_web/flash.ex
+#, elixir-autogen, elixir-format
+msgid "“%{content_title}” is waiting for moderator review. You'll be notified when it is decided."
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "alt text: an attached image"
+msgid "Image"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: an assistant conversation"
+msgid "Mythweaver conversation"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: bulk selection toolbar"
+msgid "Bulk selection"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that opens the chat list"
+msgid "Chats"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that opens the top bar menu on small screens"
+msgid "Menu"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: close the keyboard shortcuts dialog"
+msgid "Close"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: delete the assistant conversation"
+msgid "Delete conversation"
+msgstr ""
+
+#: lib/mythweaver_web/components/multi_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: filter field of a multi-select list"
+msgid "Search %{list_label}"
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/modal.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that closes a dialog"
+msgid "Close"
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that dismisses a flash notice"
+msgid "Close"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: open the assistant conversation settings"
+msgid "Conversation settings"
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/hint.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: question-mark button that shows a help tooltip"
+msgid "Help"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: the account menu"
+msgid "Account"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: the assistant chat landing"
+msgid "Chat with Mythweaver"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: the search dialog"
+msgid "Search"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: toolbar acting on the selected rows"
+msgid "Selected items"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: top bar button that opens the command palette"
+msgid "Command palette"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: top bar navigation to the app's areas"
+msgid "Configuration"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: author line of a thread summary message"
+msgid "Summary"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: author line of the user's own message"
+msgid "You"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: allow the assistant's tool call"
+msgid "Approve"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: apply a bulk change to the selected rows"
+msgid "Apply to %{item_count}"
+msgid_plural "Apply to %{item_count}"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: bulk-change tags of the selected rows"
+msgid "Tags…"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: bulk-edit the selected rows"
+msgid "Edit…"
+msgstr ""
+
+#: lib/mythweaver_web/components/multi_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: check every shown option of a multi-select list"
+msgid "All"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: clear the row selection"
+msgid "Clear"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the form without saving"
+msgid "Cancel"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the settings dialog"
+msgid "Done"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the selected rows"
+msgid "Delete"
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/changed_elsewhere.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: drop the form's unsaved edits and load the row saved elsewhere"
+msgid "Discard my changes and reload"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: enter bulk select mode"
+msgid "Select"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: go create an AI connection"
+msgid "Add a connection"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: go to the model settings"
+msgid "Settings"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: leave bulk select mode"
+msgid "Done"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: load older assistant messages"
+msgid "Load older"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the chat list"
+msgid "Chats"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open what the tool call made or changed"
+msgid "Open"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: refuse the assistant's tool call"
+msgid "Reject"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the open form"
+msgid "Save"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: search limited to characters"
+msgid "In characters"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: search limited to lore"
+msgid "In lore"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: search limited to memory"
+msgid "In memory"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: search limited to prompts"
+msgid "In prompts"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: search limited to scripts"
+msgid "In scripts"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: search limited to the open chat"
+msgid "In this chat"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: search limited to the open lore book"
+msgid "In %{book_name}"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: select every row in bulk mode"
+msgid "Select all"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: stop the assistant's reply"
+msgid "Stop"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: summarize the assistant thread"
+msgid "Compact"
+msgstr ""
+
+#: lib/mythweaver_web/components/multi_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: uncheck every shown option of a multi-select list"
+msgid "None"
+msgstr ""
+
+#: lib/mythweaver_web/components/multi_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: a multi-select list with no options"
+msgid "Nothing to choose from"
+msgstr ""
+
+#: lib/mythweaver_web/components/item_fields.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: an item field with no value"
+msgid "None"
+msgstr ""
+
+#: lib/mythweaver_web/components/multi_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: multi-select list filter matched nothing"
+msgid "No matches"
+msgstr ""
+
+#: lib/mythweaver_web/components/multi_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: multi-select list showing only checked options, none checked"
+msgid "Nothing checked"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: search matched nothing"
+msgid "No matches"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: search with no query yet"
+msgid "Type to search"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: API key of an AI connection"
+msgid "API key"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Api model"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Background deadline seconds"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Background first token seconds"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Background stall seconds"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Caption prompt"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Chat deadline seconds"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Chat first token seconds"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Chat stall seconds"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Completion cost per mtok"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Completion mode"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Context window"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Extra body"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Notes"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Prompt cost per mtok"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Reasoning prefix"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Reasoning suffix"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Sampler"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Supports audio"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Supports files"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Supports images"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Supports thinking"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Supports tools"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Supports video"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai model"
+msgid "Tokenizer"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai provider"
+msgid "Base url"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai provider"
+msgid "Enabled"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai provider"
+msgid "Max concurrency"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: ai provider"
+msgid "Priority"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character"
+msgid "Appearance"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character"
+msgid "Character version"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character"
+msgid "Creator"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character"
+msgid "Creator notes"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character"
+msgid "Description"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character"
+msgid "Pronouns"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character"
+msgid "Talkativeness"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: checkbox that includes this field in a bulk edit"
+msgid "Change %{field_label}"
+msgstr ""
+
+#: lib/mythweaver_web/components/pane.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: filter a pane's list"
+msgid "Search"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book"
+msgid "Description"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Activation"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Case sensitive"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Character filter mode"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Content"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Exclude recursion"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Ignore budget"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Keywords"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Match whole words"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Placement"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Prevent recursion"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Secondary keywords"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entry"
+msgid "Secondary logic"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore pool"
+msgid "Description"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore pool"
+msgid "Max activations"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: model an assistant conversation runs on"
+msgid "Model"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of an assistant conversation"
+msgid "Name"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt"
+msgid "Description"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt block"
+msgid "Content"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt block"
+msgid "Description"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt block"
+msgid "Enabled"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt block"
+msgid "Role"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt outlet"
+msgid "Description"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt outlet"
+msgid "Key"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: script"
+msgid "Body"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: script"
+msgid "Description"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: script"
+msgid "Trigger"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tags a bulk change adds"
+msgid "Add tags"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tags a bulk change removes"
+msgid "Remove tags"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: which tag set a bulk tag change uses"
+msgid "Which tags"
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: who owns a new item"
+msgid "Owner"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: assistant conversation settings dialog"
+msgid "Conversation settings"
+msgstr ""
+
+#. The placeholder is a counted noun phrase such as "3 characters".
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: bulk edit dialog"
+msgid "Edit %{item_totals}"
+msgstr ""
+
+#. The placeholder is a counted noun phrase such as "3 characters".
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: bulk tag dialog"
+msgid "Tag %{item_totals}"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: group of chat keyboard shortcuts"
+msgid "Chat"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: group of general keyboard shortcuts"
+msgid "General"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: group of message composer keyboard shortcuts"
+msgid "Composer"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: keyboard shortcuts help dialog"
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "AI connections"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "AI models"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "Characters"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "Chats"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "Lore books"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "Lore entries"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "Memory profiles"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "Messages"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "Outlets"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "Prompt blocks"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "Prompts"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "Scripts"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: search results group"
+msgid "Side prompts"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the assistant chat landing"
+msgid "Chat with Mythweaver"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "keyboard key: Alt"
+msgid "Alt"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "keyboard key: Control"
+msgid "Ctrl"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "keyboard key: Enter"
+msgid "Enter"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "keyboard key: Enter, lowercase as printed on a key hint"
+msgid "enter"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "keyboard key: Escape"
+msgid "Esc"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "keyboard key: Escape, lowercase as printed on a key hint"
+msgid "esc"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "keyboard key: Shift"
+msgid "Shift"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: account menu, items waiting for moderator review"
+msgid "Submissions"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: account menu, sign out"
+msgid "Log out"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: account menu, the app settings"
+msgid "Settings"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: account menu, the import and export pages"
+msgid "Import/Export"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: account menu, the moderation panel"
+msgid "Moderation"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: account menu, the user's account settings"
+msgid "Account"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: an attached file without a name"
+msgid "File"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to items others shared with me"
+msgid "Shared with me"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the AI providers and models"
+msgid "AI"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the Lua scripts"
+msgid "Scripts"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the characters"
+msgid "Characters"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the chats"
+msgid "Chat"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the generation jobs"
+msgid "Jobs"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the global variables"
+msgid "Variables"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the lore books"
+msgid "Lore"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the memory profiles"
+msgid "Memory"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the prompts"
+msgid "Prompts"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the public catalog"
+msgid "Catalog"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the tags"
+msgid "Tags"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: top bar navigation to the usage analytics"
+msgid "Analytics"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Continue the last reply"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Edit the last message"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Edit your last message"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Find and replace in the focused editor"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "New line"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Next sent message"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Next swipe of the last reply (a new one after the newest)"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Open the command palette"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Previous sent message"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Previous swipe of the last reply (the newest after the first)"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Regenerate the last reply"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Rewrite the last reply with the composer text as instructions"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Save and close a message edit"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Save the form being edited"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Search everything"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Search this page"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Send the message"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Show keyboard shortcuts"
+msgstr ""
+
+#: lib/mythweaver_web/components/shortcuts.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: keyboard shortcut action"
+msgid "Stop generating"
+msgstr ""
+
+#. Error notice title shown while the browser has lost its connection to the server.
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "notification title: the browser lost its connection"
+msgid "We can't find the internet"
+msgstr ""
+
+#. Error notice title shown when the server dropped the page's live connection.
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "notification title: the server dropped the live connection"
+msgid "Something went wrong!"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: ai model completion mode"
+msgid "Chat"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: ai model completion mode"
+msgid "Classifier"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: ai model completion mode"
+msgid "Embedding"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: ai model completion mode"
+msgid "Text"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: ai model image detail"
+msgid "Auto"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: ai model image detail"
+msgid "High"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: ai model image detail"
+msgid "Low"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat group cards"
+msgid "Join"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat group cards"
+msgid "Join all"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat group cards"
+msgid "Swap"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat reply strategy"
+msgid "List"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat reply strategy"
+msgid "Manual"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat reply strategy"
+msgid "Natural"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat reply strategy"
+msgid "Pooled"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry activation"
+msgid "Constant"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry activation"
+msgid "Keyword"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry activation"
+msgid "Vector"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry character filter mode"
+msgid "Exclude"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry character filter mode"
+msgid "Include"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry character filter mode"
+msgid "Off"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry outlet"
+msgid "At depth"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry outlet"
+msgid "Author note"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry outlet"
+msgid "Character"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry outlet"
+msgid "Custom"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry outlet"
+msgid "Examples"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry placement"
+msgid "After"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry placement"
+msgid "Before"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry secondary logic"
+msgid "And all"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry secondary logic"
+msgid "And any"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry secondary logic"
+msgid "Not all"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: lore entry secondary logic"
+msgid "Not any"
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: owner of a new item, the creator alone"
+msgid "Personal (only me)"
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/owner_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: owner of a new item, the whole site"
+msgid "Site (every user)"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt block role"
+msgid "Assistant"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt block role"
+msgid "System"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt block role"
+msgid "User"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: script trigger"
+msgid "Ai generation"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: script trigger"
+msgid "Command"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: script trigger"
+msgid "Image described"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: script trigger"
+msgid "Lore activated"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: script trigger"
+msgid "Quick reply"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: script trigger"
+msgid "User message"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more AI connections"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more AI models"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more characters"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more chats"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more lore books"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more lore entries"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more memory profiles"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more messages"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more outlets"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more prompt blocks"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more prompts"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more scripts"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show more search results"
+msgid "Show more side prompts"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: the site-wide tags"
+msgid "Site tags"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: the user's own tags"
+msgid "My tags"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: use the default model for the assistant"
+msgid "Default"
+msgstr ""
+
+#: lib/mythweaver_web/components/multi_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: filter the options of a multi-select list"
+msgid "Search"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: message to the Mythweaver assistant"
+msgid "Message Mythweaver…"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search AI models and connections"
+msgid "Search AI models and connections…"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search across the whole app"
+msgid "Search everything…"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search characters"
+msgid "Search characters…"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search lore"
+msgid "Search lore…"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search memory"
+msgid "Search memory…"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search prompts"
+msgid "Search prompts…"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search scripts"
+msgid "Search scripts…"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search the open chat"
+msgid "Search this chat…"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search the open lore book"
+msgid "Search %{book_name}…"
+msgstr ""
+
+#. Flash shown while a form field's text is being shortened by the AI (compaction).
+#: lib/mythweaver_web/field_compaction.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: AI compaction of a form field has started"
+msgid "Compacting…"
+msgstr ""
+
+#. Flash shown when a form field's compaction was stopped before it finished.
+#: lib/mythweaver_web/field_compaction.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: AI compaction of a form field was stopped"
+msgid "Compaction stopped."
+msgstr ""
+
+#: lib/mythweaver_web/uploads.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a file upload"
+msgid "Upload failed"
+msgstr ""
+
+#: lib/mythweaver_web/components/item_fields.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a yes/no item field that is off"
+msgid "No"
+msgstr ""
+
+#: lib/mythweaver_web/components/item_fields.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a yes/no item field that is on"
+msgid "Yes"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: assistant messages loading"
+msgid "Loading…"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: assistant tool call"
+msgid "Done"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: assistant tool call"
+msgid "Failed"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: assistant tool call"
+msgid "Needs approval"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: assistant tool call"
+msgid "Needs input"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: assistant tool call"
+msgid "Rejected"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: assistant tool call"
+msgid "Running"
+msgstr ""
+
+#: lib/mythweaver_web/field_compaction.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: compaction refused, the field is empty"
+msgid "Nothing to compact."
+msgstr ""
+
+#. A value's validation errors in a bulk action's failure summary; the first placeholder is a field's internal name or the rejected value.
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: errors of one field in a bulk failure summary"
+msgid "%{field_name}: %{error_messages}"
+msgstr ""
+
+#. Under a character a tool call touched; the placeholder is a comma-separated list of field names.
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: fields a tool call changed on a character"
+msgid "Changed: %{field_list}"
+msgstr ""
+
+#: lib/mythweaver_web/components/multi_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how many options of a multi-select list are checked"
+msgid "%{selected_count} selected"
+msgid_plural "%{selected_count} selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how many rows are selected"
+msgid "%{selected_count} selected"
+msgid_plural "%{selected_count} selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#. One item in a bulk action's failure list: the item's name, then why it failed.
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: one failed item in a bulk failure summary"
+msgid "%{item_title} (%{failure_reason})"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: one failed row of a batch tool call"
+msgid "%{item_title}: %{error_message}"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: position of a message in its chat"
+msgid "#%{message_number}"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: search footer hint, press the key to open the hit"
+msgid "Open %{enter_key}"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: search hit subtitle, chat title then message position"
+msgid "%{chat_title} · %{message_position}"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: search hit without a title"
+msgid "Untitled"
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/form_actions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the form has edits that are not saved yet"
+msgid "Unsaved changes"
+msgstr ""
+
+#. Error notice body under a lost-connection title, while the page tries to connect again.
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the page is reconnecting after a lost connection"
+msgid "Attempting to reconnect"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: tool call whose name can't be read"
+msgid "Unreadable tool call"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: unnamed row of a batch tool call"
+msgid "Item %{item_position}"
+msgstr ""
+
+#: lib/mythweaver_web/uploads.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: upload error, too many files picked"
+msgid "Too many files"
+msgstr ""
+
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a bulk action skipped an item"
+msgid "Failed"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a bulk action skipped an item"
+msgid "In use"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a bulk action skipped an item"
+msgid "Sudo required"
+msgstr ""
+
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a bulk action skipped an item"
+msgid "Too much waiting for review"
+msgstr ""
+
+#: lib/mythweaver_web/enum_labels.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a bulk action skipped an item"
+msgid "Unauthorized"
+msgstr ""
+
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a bulk action skipped an item"
+msgid "Waiting for moderator review"
+msgstr ""
+
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a bulk action skipped an item"
+msgid "Your own account"
+msgstr ""
+
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a bulk action skipped an item"
+msgid "Your own role"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: show a tool call's raw arguments and result"
+msgid "Details"
+msgstr ""
+
+#: lib/mythweaver_web/components/multi_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: show only the checked options of a multi-select list"
+msgid "Checked only"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: show the model's reasoning"
+msgid "Thinking"
+msgstr ""
+
+#: lib/mythweaver_web/components/multi_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: button that closes a list's tag filter"
+msgid "Close tag filter"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: button that enters bulk select mode"
+msgid "Bulk Select"
+msgstr ""
+
+#: lib/mythweaver_web/components/bulk_components.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: button that leaves bulk select mode"
+msgid "Done with Bulk Select"
+msgstr ""
+
+#: lib/mythweaver_web/components/multi_select.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: button that opens a list's tag filter"
+msgid "Filter by tags"
+msgstr ""
+
+#: lib/mythweaver_web/components/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: button that removes the search's limit"
+msgid "Widen the search"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: delete the assistant conversation"
+msgid "Delete conversation"
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/drag_handle.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: grip that drags a list row to reorder it"
+msgid "Drag to reorder"
+msgstr ""
+
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: open the assistant conversation settings"
+msgid "Conversation settings"
+msgstr ""
+
+#: lib/mythweaver_web/components/layouts.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: top bar button that opens the command palette, with its shortcut"
+msgid "Command palette (Ctrl/⌘ P)"
+msgstr ""
+
+#. Confirm dialog before deleting an assistant conversation.
+#: lib/mythweaver_web/components/chat/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: confirm dialog before deleting an assistant conversation"
+msgid "Delete this conversation?"
+msgstr ""
+
+#. Flash after a bulk action; %{item_totals} is a counted noun phrase such as "3 characters".
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a bulk delete"
+msgid "Deleted %{item_totals}."
+msgstr ""
+
+#. Flash after a bulk action; %{item_totals} is a counted noun phrase such as "3 characters".
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a bulk tag change"
+msgid "Tagged %{item_totals}."
+msgstr ""
+
+#. Flash after a bulk action; %{item_totals} is a counted noun phrase such as "3 characters".
+#: lib/mythweaver_web/bulk.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a bulk update"
+msgid "Updated %{item_totals}."
+msgstr ""
+
+#. Flash shown when a form field's compaction failed; the placeholder is the job's error message.
+#: lib/mythweaver_web/field_compaction.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a form field's compaction failed"
+msgid "Compaction failed: %{error_message}"
+msgstr ""
+
+#. Flash shown when the shortened text replaced the form field, still unsaved; "Save" is the form's button.
+#: lib/mythweaver_web/field_compaction.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a form field's text was compacted"
+msgid "Compacted. Review, then Save."
+msgstr ""
+
+#: lib/mythweaver_web/components/lineage.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the item this one was copied from"
+msgid "Cloned from %{source_name}"
+msgstr ""
+
+#: lib/mythweaver/search.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: title of a search hit's chat that has no name"
+msgid "Untitled chat"
+msgstr ""

@@ -1,0 +1,620 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "Could not reach the connection."
+msgstr "No se pudo conectar con la conexión."
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "No enabled connection serves this model."
+msgstr "Ninguna conexión activada ofrece este modelo."
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgid "No jobs match these filters."
+msgstr "Ninguna tarea coincide con estos filtros."
+
+#. Flash after Stop memory jobs on the jobs page when none was queued or running.
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgid "No memory jobs to stop"
+msgstr "No hay tareas de memoria que detener"
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "Not saved: the job was no longer running."
+msgstr "No guardado: la tarea ya no estaba en ejecución."
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "Not saved: the source changed after this was queued."
+msgstr "No guardado: el origen cambió después de ponerse en cola."
+
+#. Error flash when dismissing a job that is still queued or running.
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgid "Only a finished job can be dismissed"
+msgstr "Solo se puede descartar una tarea terminada"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgid "Retry without running the after-memory side prompts"
+msgstr "Reintentar sin ejecutar los prompts secundarios posteriores a la memoria"
+
+#. Confirm dialog before stopping every queued and running job of one chat.
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgid "Stop every queued and running job in %{chat_title}?"
+msgstr "¿Detener todas las tareas en cola y en ejecución de %{chat_title}?"
+
+#. Confirm dialog before stopping every queued and running job.
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgid "Stop every queued and running job?"
+msgstr "¿Detener todas las tareas en cola y en ejecución?"
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "Stopped: no tokens arrived before the first-token timeout."
+msgstr "Detenida: no llegó ningún token antes del tiempo límite del primer token."
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "Stopped: the model kept repeating itself."
+msgstr "Detenida: el modelo se repetía constantemente."
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "Stopped: the reply exceeded the output cap."
+msgstr "Detenida: la respuesta superó el límite de salida."
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "Stopped: the stream went silent."
+msgstr "Detenida: el flujo dejó de enviar datos."
+
+#. Error flash when retrying a job that cannot be retried.
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgid "That job cannot be retried"
+msgstr "Esa tarea no se puede reintentar"
+
+#. Error flash when canceling a job that finished meanwhile.
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgid "That job has already finished"
+msgstr "Esa tarea ya ha terminado"
+
+#. Error flash when retrying a job whose AI model was deleted.
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgid "That job's model no longer exists"
+msgstr "El modelo de esa tarea ya no existe"
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "The connection returned HTTP %{http_status}."
+msgstr "La conexión devolvió HTTP %{http_status}."
+
+#. The provider's own error text (English, verbatim) follows the colon.
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "The connection returned HTTP %{http_status}: %{provider_error}"
+msgstr "La conexión devolvió HTTP %{http_status}: %{provider_error}"
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "The document has no readable text to summarize."
+msgstr "El documento no tiene texto legible que resumir."
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "The owner no longer shares their connection for %{model_name}."
+msgstr "El propietario ya no comparte su conexión para %{model_name}."
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "The user who started this job no longer exists."
+msgstr "El usuario que inició esta tarea ya no existe."
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgid "Today's AI budget is spent."
+msgstr "El presupuesto de IA de hoy se ha agotado."
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: filter jobs by kind"
+msgid "Job kind"
+msgstr "Tipo de tarea"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of chats to filter jobs by"
+msgid "Job scope"
+msgstr "Ámbito de las tareas"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: cancel a queued or running job"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open a held job's result for review"
+msgid "Review"
+msgstr "Revisar"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove a finished job from the list"
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove every finished job from the list"
+msgid "Dismiss all"
+msgstr "Descartar todas"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: run a failed job again"
+msgid "Retry"
+msgstr "Reintentar"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: run a failed scene memory again without its side prompts"
+msgid "Retry memory only"
+msgstr "Reintentar solo la memoria"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: send corrected job output to memory review"
+msgid "Send to review"
+msgstr "Enviar a revisión"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show jobs of every kind"
+msgid "All jobs"
+msgstr "Todas las tareas"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show only memory jobs"
+msgid "Memory only"
+msgstr "Solo memoria"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show the model's raw output of a job"
+msgid "Raw output"
+msgstr "Salida sin procesar"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show the text a running job has received so far"
+msgid "Live output"
+msgstr "Salida en directo"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: stop every queued and running job"
+msgid "Stop all"
+msgstr "Detener todas"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: stop every queued and running memory job"
+msgid "Stop memory jobs"
+msgstr "Detener tareas de memoria"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: filter jobs by status"
+msgid "Status"
+msgstr "Estado"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: hand-corrected job output"
+msgid "Corrected output"
+msgstr "Salida corregida"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how long the job ran; the duration is like 4s or 2m 5s"
+msgid "Took %{duration}"
+msgstr "Duró %{duration}"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt that built the job's request"
+msgid "Prompt: %{prompt_name}"
+msgstr "Prompt: %{prompt_name}"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: when the job finished, a time follows"
+msgid "Finished"
+msgstr "Terminada"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: when the job started, a time follows"
+msgid "Started"
+msgstr "Iniciada"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: when the job was queued, a time follows"
+msgid "Queued"
+msgstr "En cola"
+
+#: lib/mythweaver_web/live/job_live/live_output.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a running job's reasoning text so far, with its length"
+msgid "Reasoning (%{character_count} character)"
+msgid_plural "Reasoning (%{character_count} characters)"
+msgstr[0] "Razonamiento (%{character_count} carácter)"
+msgstr[1] "Razonamiento (%{character_count} caracteres)"
+
+#: lib/mythweaver_web/live/job_live/live_output.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a running job's reply text so far, with its length"
+msgid "Reply (%{character_count} character)"
+msgid_plural "Reply (%{character_count} characters)"
+msgstr[0] "Respuesta (%{character_count} carácter)"
+msgstr[1] "Respuesta (%{character_count} caracteres)"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: generation job queue"
+msgid "Jobs"
+msgstr "Tareas"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: jobs of every chat"
+msgid "All jobs"
+msgstr "Todas las tareas"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: jobs of every chat"
+msgid "All"
+msgstr "Todos"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Assistant"
+msgstr "Asistente"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Caption"
+msgstr "Descripción"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Compaction"
+msgstr "Compactación"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Consolidation"
+msgstr "Consolidación"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Continue"
+msgstr "Continuar"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Expression"
+msgstr "Expresión"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Memory"
+msgstr "Memoria"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Memory assistance"
+msgstr "Asistencia de memoria"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Refine"
+msgstr "Refinamiento"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Regenerate"
+msgstr "Regenerar"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Reply"
+msgstr "Respuesta"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Side prompt"
+msgstr "Prompt secundario"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of generation job"
+msgid "Topical clip"
+msgstr "Fragmento temático"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no job status filter"
+msgid "Any status"
+msgstr "Cualquier estado"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: generation job queue"
+msgid "Jobs"
+msgstr "Tareas"
+
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgctxt "progress: estimated time left while the prompt is read; the duration is a short clock like 1:05"
+msgid "~%{duration} left (est.)"
+msgstr "~%{duration} restante (est.)"
+
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgctxt "progress: prompt tokens read so far out of the total"
+msgid "%{done_tokens} / %{total_tokens} prompt token"
+msgid_plural "%{done_tokens} / %{total_tokens} prompt tokens"
+msgstr[0] "%{done_tokens} / %{total_tokens} token del prompt"
+msgstr[1] "%{done_tokens} / %{total_tokens} tokens del prompt"
+
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgctxt "progress: the prompt is taking longer than the estimate"
+msgid "longer than usual (est.)"
+msgstr "más de lo habitual (est.)"
+
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgctxt "progress: tokens written so far"
+msgid "~%{token_count} token"
+msgid_plural "~%{token_count} tokens"
+msgstr[0] "~%{token_count} token"
+msgstr[1] "~%{token_count} tokens"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: generation job"
+msgid "Awaiting review"
+msgstr "Pendiente de revisión"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: generation job"
+msgid "Canceled"
+msgstr "Cancelada"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: generation job"
+msgid "Completed"
+msgstr "Completada"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: generation job"
+msgid "Failed"
+msgstr "Fallida"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: generation job"
+msgid "Interrupted"
+msgstr "Interrumpida"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: generation job"
+msgid "Pending"
+msgstr "Pendiente"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: generation job"
+msgid "Running"
+msgstr "En ejecución"
+
+#: lib/mythweaver_web/client_strings.ex
+#: lib/mythweaver_web/components/core_components/job_progress.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: generation job waiting in the queue"
+msgid "Queued"
+msgstr "En cola"
+
+#: lib/mythweaver_web/client_strings.ex
+#: lib/mythweaver_web/components/core_components/job_progress.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: generation job waiting in the queue, with its place in line"
+msgid "Queued #%{queue_position}"
+msgstr "En cola n.º %{queue_position}"
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: job not yet assigned a provider"
+msgid "No provider yet"
+msgstr "Aún sin proveedor"
+
+#: lib/mythweaver_web/client_strings.ex
+#: lib/mythweaver_web/components/core_components/job_progress.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: model is reading the prompt before it writes"
+msgid "Reading prompt"
+msgstr "Leyendo el prompt"
+
+#: lib/mythweaver_web/client_strings.ex
+#: lib/mythweaver_web/components/core_components/job_progress.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: model is writing the reply"
+msgid "Writing"
+msgstr "Escribiendo"
+
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: generation speed"
+msgid "%{speed} tok/s"
+msgstr "%{speed} tok/s"
+
+#: lib/mythweaver_web/live/job_live/live_output.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: a running job's live output before any token arrived"
+msgid "No tokens received yet."
+msgstr "Aún no se ha recibido ningún token."
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: jobs list with no jobs at all"
+msgid "No jobs yet."
+msgstr "Aún no hay tareas."
+
+#: lib/mythweaver/attachments/captions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: caption draft the user discarded"
+msgid "Discarded."
+msgstr "Descartada."
+
+#: lib/mythweaver/attachments/captions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error text of a caption job that failed"
+msgid "Caption failed."
+msgstr "La descripción falló."
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error text of a job canceled while it waited for review"
+msgid "Canceled."
+msgstr "Cancelada."
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error text of a job cut off by a server restart"
+msgid "Interrupted."
+msgstr "Interrumpida."
+
+#. The crash's technical error text (English, verbatim) follows the colon.
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error text of a job that crashed"
+msgid "Generation crashed: %{error_detail}"
+msgstr "La generación se bloqueó: %{error_detail}"
+
+#. An internal error term (Elixir syntax, verbatim) follows the colon.
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error text of a job that failed with an internal error"
+msgid "Generation failed: %{error_detail}"
+msgstr "La generación falló: %{error_detail}"
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error text of a job that timed out"
+msgid "Timed out."
+msgstr "Se agotó el tiempo."
+
+#: lib/mythweaver/jobs.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error text of a job that was stopped"
+msgid "Stopped."
+msgstr "Detenida."
+
+#: lib/mythweaver/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error text of a reply cut off by a server restart"
+msgid "Interrupted."
+msgstr "Interrumpida."
+
+#: lib/mythweaver/assistant.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error text of an assistant tool call cut off by the user's next message"
+msgid "Interrupted."
+msgstr "Interrumpida."
+
+#. Flash after a hand-corrected job output is sent to memory review.
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a job's output is sent to memory review"
+msgid "Sent to review"
+msgstr "Enviada a revisión"
+
+#. Flash after Stop all on the jobs page.
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after stopping all jobs"
+msgid "Stopped %{job_count} job"
+msgid_plural "Stopped %{job_count} jobs"
+msgstr[0] "%{job_count} tarea detenida"
+msgstr[1] "%{job_count} tareas detenidas"
+
+#. Flash after Stop all on the jobs page when nothing was queued or running.
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after stopping all jobs when none was running"
+msgid "No jobs to stop"
+msgstr "No hay tareas que detener"
+
+#. Flash after Stop memory jobs on the jobs page.
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after stopping memory jobs"
+msgid "Stopped %{job_count} memory job"
+msgid_plural "Stopped %{job_count} memory jobs"
+msgstr[0] "%{job_count} tarea de memoria detenida"
+msgstr[1] "%{job_count} tareas de memoria detenidas"
+
+#: lib/mythweaver/attachments/captions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: held caption replaced by a newer one"
+msgid "Superseded."
+msgstr "Reemplazada."
+
+#: lib/mythweaver_web/live/job_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: range of chat messages a job covers"
+msgid "Messages #%{first_message}–#%{last_message}"
+msgstr "Mensajes n.º %{first_message}–n.º %{last_message}"

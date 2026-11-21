@@ -1,0 +1,1862 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "Cleans every user's chats now, with the Site values below."
+msgstr "Bereinigt jetzt die Chats aller Benutzer mit den Website-Werten unten."
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "Cleans your chats now, with the values below, whether or not automatic cleanup is on."
+msgstr "Bereinigt jetzt deine Chats mit den Werten unten, egal ob die automatische Bereinigung an ist."
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "Not applied: it loads outside files, which the site no longer allows."
+msgstr "Nicht angewendet: Es lädt externe Dateien, was die Website nicht mehr erlaubt."
+
+#. Flash when a test push finds the device unsubscribed; the device is removed from the list.
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "That device no longer accepts push notifications, so it was removed."
+msgstr "Dieses Gerät nimmt keine Push-Benachrichtigungen mehr an und wurde daher entfernt."
+
+#. Flash when sending a test push notification fails.
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "The test notification could not be sent."
+msgstr "Die Testbenachrichtigung konnte nicht gesendet werden."
+
+#. Flash on the settings page when the server refuses this browser's push subscription.
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "This browser's push subscription was not accepted."
+msgstr "Das Push-Abonnement dieses Browsers wurde nicht angenommen."
+
+#. Flash when a setting change, reset or lock is refused for lack of permission.
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "You can't change that setting."
+msgstr "Du kannst diese Einstellung nicht ändern."
+
+#. Flash when someone without the permission runs the site-wide chat cleanup.
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "You can't clean up every user's chats."
+msgstr "Du kannst die Chats aller Benutzer nicht bereinigen."
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that locks a setting so users read the site value"
+msgid "Lock %{setting_name} for users"
+msgstr "%{setting_name} für Benutzer sperren"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that plays a notification sound preview"
+msgid "Play the %{setting_name} preview"
+msgstr "Vorschau von %{setting_name} abspielen"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that resets a setting to the inherited value"
+msgid "Reset %{setting_name}"
+msgstr "%{setting_name} zurücksetzen"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: settings navigation list"
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: tabs that switch between user and site settings"
+msgid "Settings level"
+msgstr "Einstellungsebene"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: setting overridden at this level"
+msgid "Modified"
+msgstr "Geändert"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: run chat cleanup now"
+msgid "Clean up now"
+msgstr "Jetzt bereinigen"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: settings search found nothing"
+msgid "No matching settings."
+msgstr "Keine passenden Einstellungen."
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: checkbox letting users override a site setting"
+msgid "Users may change"
+msgstr "Benutzer dürfen ändern"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: cleanup of every user's chats"
+msgid "Clean up all chats"
+msgstr "Alle Chats bereinigen"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: cleanup of your own chats"
+msgid "Clean up my chats"
+msgstr "Meine Chats bereinigen"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: settings page"
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: settings search results"
+msgid "Search results"
+msgstr "Suchergebnisse"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no caption prompt, use the built-in instruction"
+msgid "Built-in instruction"
+msgstr "Integrierte Anweisung"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no embedding model"
+msgid "None"
+msgstr "Keines"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no expression classifier model"
+msgid "None (expressions off)"
+msgstr "Keines (Ausdrücke aus)"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no expression rule profile"
+msgid "None (base emotions only)"
+msgstr "Keines (nur Basisemotionen)"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no fixed language, follow the browser"
+msgid "Match my browser"
+msgstr "Wie mein Browser"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no fixed model, pick one automatically"
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no side prompt set"
+msgid "None (individual side prompts)"
+msgstr "Keines (einzelne Neben-Prompts)"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: settings page"
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search field for settings"
+msgid "Search settings…"
+msgstr "Einstellungen durchsuchen…"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: ai.default_model"
+msgid "Runs replies and memory jobs when neither the character, the chat nor the memory profile names a model. Automatic uses the only model that can run, and asks for a pick when there are several."
+msgstr "Führt Antworten und Gedächtnisaufträge aus, wenn weder der Charakter noch der Chat noch das Gedächtnisprofil ein Modell nennt. Automatisch verwendet das einzige Modell, das laufen kann, und fragt nach einer Auswahl, wenn es mehrere gibt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.allow_third_party_fonts"
+msgid "Restricted user stylesheets may still @import a Google Fonts stylesheet, e.g. @import url(\"https://fonts.googleapis.com/css2?family=Inter&display=swap\");. The font service sees each visitor's IP address. Has no effect while user stylesheets are unrestricted."
+msgstr "Eingeschränkte Benutzer-Stylesheets dürfen weiterhin ein Google-Fonts-Stylesheet per @import laden, z. B. @import url(\"https://fonts.googleapis.com/css2?family=Inter&display=swap\");. Der Schriftdienst sieht die IP-Adresse jedes Besuchers. Hat keine Wirkung, solange Benutzer-Stylesheets uneingeschränkt sind."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.avatar_max_height"
+msgid "The tallest, in pixels, a chat message's portrait or expression sprite grows; a portrait keeps its 3:4 shape, so this also narrows it."
+msgstr "Die maximale Höhe in Pixeln, auf die das Porträt oder Ausdrucks-Sprite einer Chatnachricht wächst; ein Porträt behält sein Seitenverhältnis 3:4 und wird dadurch auch schmaler."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.avatar_max_width"
+msgid "The widest, in pixels, a chat message's portrait or expression sprite grows on a wide screen."
+msgstr "Die maximale Breite in Pixeln, auf die das Porträt oder Ausdrucks-Sprite einer Chatnachricht auf einem breiten Bildschirm wächst."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.extra_sources"
+msgid "Origins the site stylesheet may load stylesheets, fonts and images from, besides the app and the allowed font services, separated by spaces or new lines, e.g. https://use.typekit.net https://p.typekit.net. Users' stylesheets may load from them too."
+msgstr "Ursprünge, aus denen das Website-Stylesheet Stylesheets, Schriften und Bilder laden darf, zusätzlich zur App und den erlaubten Schriftdiensten, getrennt durch Leerzeichen oder Zeilenumbrüche, z. B. https://use.typekit.net https://p.typekit.net. Auch Benutzer-Stylesheets dürfen von dort laden."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.primary_hue"
+msgid "The hue every color in the app is tinted with, from 0 to 359 degrees around the color wheel."
+msgstr "Der Farbton, mit dem jede Farbe der App eingefärbt wird, von 0 bis 359 Grad auf dem Farbkreis."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.remote_images"
+msgid "Images a message links from other sites. Through this server, the image's site sees the server's address instead of each reader's. Directly, it sees every reader's address and can tell who read the message."
+msgstr "Bilder, die eine Nachricht von anderen Websites verlinkt. Über diesen Server sieht die Website des Bildes die Adresse des Servers statt die jedes Lesers. Direkt sieht sie die Adresse jedes Lesers und kann erkennen, wer die Nachricht gelesen hat."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.restrict_user_css"
+msgid "Users' stylesheets may not load anything from outside the app: no url(), image-set(), @import or similar, except font stylesheets while third-party fonts are allowed. Turn off to let users write any CSS."
+msgstr "Benutzer-Stylesheets dürfen nichts von außerhalb der App laden: kein url(), image-set(), @import oder Ähnliches, außer Schrift-Stylesheets, solange Schriften von Drittanbietern erlaubt sind. Schalte dies aus, damit Benutzer beliebiges CSS schreiben können."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.site_css"
+msgid "CSS for every page, for everyone, signed-out pages included, applied as written before each user's own."
+msgstr "CSS für jede Seite, für alle, einschließlich abgemeldeter Seiten, unverändert vor dem eigenen jedes Benutzers angewendet."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.tint_strength"
+msgid "How strongly backgrounds, surfaces and borders take on the primary hue, as a percentage of the theme's own: 0 is neutral grey, 100 the default."
+msgstr "Wie stark Hintergründe, Flächen und Rahmen den Primärfarbton annehmen, in Prozent des Themes: 0 ist neutrales Grau, 100 der Standard."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.user_css"
+msgid "CSS for every page you see, applied after the site's. Add ?safe_mode to a page's address to load it without this stylesheet. Where the site allows third-party fonts, you may @import a Google Fonts stylesheet."
+msgstr "CSS für jede Seite, die du siehst, angewendet nach dem der Website. Hänge ?safe_mode an die Adresse einer Seite an, um sie ohne dieses Stylesheet zu laden. Wo die Website Schriften von Drittanbietern erlaubt, kannst du ein Google-Fonts-Stylesheet per @import laden."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: assistant.model"
+msgid "Runs the Mythweaver assistant chat when the conversation names no model of its own. Automatic uses the default model. It must be a chat-mode model; one that supports tools works best, others use a text fallback."
+msgstr "Führt den Mythweaver-Assistenten-Chat aus, wenn das Gespräch kein eigenes Modell nennt. Automatisch verwendet das Standardmodell. Es muss ein Modell im Chat-Modus sein; eines mit Tool-Unterstützung funktioniert am besten, andere nutzen einen Text-Ersatz."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: cleanup.after_messages"
+msgid "Messages further back than this many lose their prompt inspection data, their reasoning text and their inactive swipes' embeddings, and their near-identical swipes are merged."
+msgstr "Nachrichten, die weiter zurückliegen, verlieren ihre Prompt-Inspektionsdaten, ihren Reasoning-Text und die Embeddings ihrer inaktiven Varianten, und ihre nahezu identischen Varianten werden zusammengeführt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: cleanup.automatic"
+msgid "Clean up a chat's old messages on their own as the chat grows. Off, they're cleaned only when you clean up by hand."
+msgstr "Alte Nachrichten eines Chats automatisch bereinigen, während der Chat wächst. Wenn aus, werden sie nur bereinigt, wenn du manuell bereinigst."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: cleanup.every_messages"
+msgid "How many messages a chat gets between automatic cleanups."
+msgstr "Wie viele Nachrichten ein Chat zwischen automatischen Bereinigungen erhält."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: cleanup.swipe_similarity"
+msgid "Two swipes of an old message at least this similar, as the share of their text a word diff finds unchanged, keep only the newer one. The swipe being shown is always kept; a newer near-copy of it goes instead."
+msgstr "Von zwei Varianten einer alten Nachricht, die mindestens so ähnlich sind (als Anteil ihres Textes, den ein Wort-Diff unverändert findet), bleibt nur die neuere. Die angezeigte Variante bleibt immer erhalten; stattdessen entfällt eine neuere Beinahe-Kopie davon."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: expressions.classifier_model"
+msgid "Rates the emotions of each reply and each message you send, for characters that have expression sprites, and shows the matching sprite in place of their portrait. None turns expressions off. A chat or text model is asked once per message and the call shows in Jobs; a classifier model (a GoEmotions sequence classifier served by llama-server) scores it directly in a few milliseconds and rates only the 28 base emotions."
+msgstr "Bewertet die Emotionen jeder Antwort und jeder Nachricht, die du sendest, für Charaktere mit Ausdrucks-Sprites, und zeigt das passende Sprite anstelle ihres Porträts. Keines schaltet Ausdrücke aus. Ein Chat- oder Textmodell wird einmal pro Nachricht gefragt, und der Aufruf erscheint unter Aufträge; ein Klassifikatormodell (ein GoEmotions-Sequenzklassifikator, bereitgestellt von llama-server) bewertet sie direkt in wenigen Millisekunden und nur die 28 Basisemotionen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: expressions.classifier_prompt"
+msgid "What the classifier model is told before the message. Liquid, with labels (the emotions to rate, comma separated) and char (the character's name). It must ask for {\"scores\": {emotion: 0-100}}. Empty uses the built-in instruction."
+msgstr "Was dem Klassifikatormodell vor der Nachricht gesagt wird. Liquid, mit labels (die zu bewertenden Emotionen, kommagetrennt) und char (der Name des Charakters). Es muss nach {\"scores\": {emotion: 0-100}} fragen. Leer verwendet die eingebaute Anweisung."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: expressions.default_profile"
+msgid "The combination and range rules for characters that don't pick their own profile. None uses the base emotions only."
+msgstr "Die Kombinations- und Bereichsregeln für Charaktere, die kein eigenes Profil wählen. Keines verwendet nur die Basisemotionen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: expressions.reroll_if_same"
+msgid "When an expression has several sprites, don't show the one the character's previous message used."
+msgstr "Wenn ein Ausdruck mehrere Sprites hat, nicht das zeigen, das die vorherige Nachricht des Charakters verwendet hat."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: expressions.structured_output"
+msgid "Send a JSON schema with each request, for backends that support response_format."
+msgstr "Mit jeder Anfrage ein JSON-Schema senden, für Backends, die response_format unterstützen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: generation.max_context"
+msgid "Most tokens a reply's prompt may use, its response tokens included; the oldest chat history is left out to fit. The smaller of this and the model's context window applies. 0 uses the model's context window alone; a model with neither is never trimmed. A model with no response tokens set keeps 1024 free for the reply."
+msgstr "Höchstzahl an Tokens, die der Prompt einer Antwort einschließlich der Antwort-Tokens nutzen darf; der älteste Chatverlauf wird weggelassen, damit er passt. Es gilt der kleinere Wert von diesem und dem Kontextfenster des Modells. 0 verwendet nur das Kontextfenster des Modells; ein Modell ohne beides wird nie gekürzt. Ein Modell ohne festgelegte Antwort-Tokens hält 1024 für die Antwort frei."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: generation.names_as_stop_strings"
+msgid "End a reply where it starts another participant's line: a line beginning with their name and a colon, such as \"Bob:\". Text-completion models are also sent the names as stop strings."
+msgstr "Eine Antwort dort beenden, wo sie die Zeile eines anderen Teilnehmers beginnt: eine Zeile, die mit dessen Namen und einem Doppelpunkt anfängt, etwa \"Bob:\". Textvervollständigungsmodelle erhalten die Namen außerdem als Stoppzeichenfolgen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: generation.single_line"
+msgid "End every reply at its first line break. Text-completion models are also sent the line break as a stop string."
+msgstr "Jede Antwort an ihrem ersten Zeilenumbruch beenden. Textvervollständigungsmodelle erhalten den Zeilenumbruch außerdem als Stoppzeichenfolge."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: generation.swipes_per_generation"
+msgid "How many swipes one reply or regenerate produces. Extra swipes are generated one after another as regenerations of the same message, before anyone else replies, and each is a full request. Continue, refine, script-started regenerations and replies written as your own character always make one."
+msgstr "Wie viele Varianten eine Antwort oder ein Neugenerieren erzeugt. Zusätzliche Varianten werden nacheinander als Neugenerierungen derselben Nachricht erzeugt, bevor jemand anderes antwortet, und jede ist eine vollständige Anfrage. Fortsetzen, Überarbeiten, von Skripten gestartete Neugenerierungen und Antworten als dein eigener Charakter erzeugen immer eine."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: generation.trim_own_name"
+msgid "Drop the replying character's name and colon where a reply starts a line with it, such as \"Alice:\" in Alice's reply. Off, replies keep it as written."
+msgstr "Den Namen und Doppelpunkt des antwortenden Charakters entfernen, wo eine Antwort eine Zeile damit beginnt, etwa \"Alice:\" in Alices Antwort. Wenn aus, behalten Antworten ihn wie geschrieben."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: generation.trim_step"
+msgid "When old chat history has to go, it goes this many messages at a time, so the start of the history stays put for several replies. A local model's prompt cache then reuses the unchanged history instead of reading the whole prompt again; the cost is up to this many fewer old messages in the prompt. 1 trims one message at a time."
+msgstr "Wenn alter Chatverlauf weichen muss, geschieht das in Schritten von so vielen Nachrichten, sodass der Anfang des Verlaufs über mehrere Antworten gleich bleibt. Der Prompt-Cache eines lokalen Modells verwendet dann den unveränderten Verlauf wieder, statt den ganzen Prompt neu zu lesen; der Preis sind bis zu so viele alte Nachrichten weniger im Prompt. 1 kürzt jeweils eine Nachricht."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: images.ask_every_time"
+msgid "Before each description someone starts, or that starts as an image is attached or sent, ask for a question to send instead of the caption prompt. Leave it blank for the usual description. Descriptions made in the background use the caption prompt."
+msgstr "Vor jeder Bildbeschreibung, die jemand startet oder die beim Anhängen oder Senden eines Bildes startet, nach einer Frage fragen, die statt des Bildbeschreibungs-Prompts gesendet wird. Leer lassen für die übliche Bildbeschreibung. Im Hintergrund erstellte Bildbeschreibungen verwenden den Beschreibungs-Prompt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: images.auto_caption"
+msgid "Describe chat images, audio and video as they are attached, sent or needed for a reply, older attachments past a model's inline limits, and new avatars. Off, an attachment is described only when someone asks (Describe, Ask…, Describe all attachments, a script)."
+msgstr "Bilder, Audio und Video im Chat beschreiben, sobald sie angehängt, gesendet oder für eine Antwort gebraucht werden, ebenso ältere Anhänge jenseits der Inline-Grenzen eines Modells und neue Avatare. Wenn aus, wird ein Anhang nur beschrieben, wenn jemand darum bittet (Beschreiben, Fragen…, Alle Anhänge beschreiben, ein Skript)."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: images.avatar_caption_prompt"
+msgid "The prompt the default caption model gets to describe an avatar, in place of its own caption prompt: an avatar has no chat, so a prompt written for chat images would describe a scene that isn't there. Built-in instruction sends the plain describing instruction."
+msgstr "Der Prompt, den das Standard-Bildbeschreibungsmodell zum Beschreiben eines Avatars statt seines eigenen Bildbeschreibungs-Prompts erhält: Ein Avatar hat keinen Chat, daher würde ein für Chatbilder geschriebener Prompt eine Szene beschreiben, die es nicht gibt. Integraute Anweisung sendet die einfache Beschreibungsanweisung."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: images.avatar_updates_appearance"
+msgid "Write a new avatar's description into the character's Appearance. In the character editor it fills the field before you save, and Revert puts back what was there; elsewhere (scripts, imports) an Appearance someone wrote is kept. Off, new avatars are not described automatically (Describe avatar still works). Each character can override this."
+msgstr "Die Bildbeschreibung eines neuen Avatars in das Aussehen des Charakters schreiben. Im Charakter-Editor füllt sie das Feld, bevor du speicherst, und Zurücksetzen stellt den vorherigen Inhalt wieder her; anderswo (Skripte, Importe) bleibt ein von jemandem geschriebenes Aussehen erhalten. Wenn aus, werden neue Avatare nicht automatisch beschrieben (Avatar beschreiben funktioniert weiterhin). Jeder Charakter kann dies überschreiben."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: images.caption_template"
+msgid "What a model that can't see an image reads in its place, and what lore and memory read. Liquid, with caption (nil until described), user (who sent it) and char (who is replying). Empty uses the default, [Image: caption] or [Image]."
+msgstr "Was ein Modell, das ein Bild nicht sehen kann, an seiner Stelle liest, und was Lore und Gedächtnis lesen. Liquid, mit caption (nil bis beschrieben), user (wer es gesendet hat) und char (wer antwortet). Leer verwendet den Standard, [Image: caption] oder [Image]."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: images.default_caption_model"
+msgid "Describes avatars, and AI-generated images in chats where no participant has a caption model. Automatic picks the first caption-capable site model by name."
+msgstr "Beschreibt Avatare und KI-generierte Bilder in Chats, in denen kein Teilnehmer ein Bildbeschreibungsmodell hat. Automatisch wählt das erste beschreibungsfähige Website-Modell nach Name."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: images.review_captions"
+msgid "Describe images as they are attached and hold Send until each description is ready to check and edit. Off, images are described in the background after sending."
+msgstr "Bilder beim Anhängen beschreiben und Senden zurückhalten, bis jede Bildbeschreibung zum Prüfen und Bearbeiten bereit ist. Wenn aus, werden Bilder nach dem Senden im Hintergrund beschrieben."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: images.review_results"
+msgid "Hold each finished description of a sent attachment until it is saved, edited or discarded. A reply waiting on one keeps waiting until it is resolved or the reply is stopped."
+msgstr "Jede fertige Bildbeschreibung eines gesendeten Anhangs zurückhalten, bis sie gespeichert, bearbeitet oder verworfen wird. Eine Antwort, die darauf wartet, wartet weiter, bis sie erledigt ist oder die Antwort gestoppt wird."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.case_sensitive"
+msgid "Match keywords case-sensitively when an entry does not say."
+msgstr "Schlüsselwörter unter Beachtung der Groß-/Kleinschreibung abgleichen, wenn ein Eintrag nichts angibt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.default_depth"
+msgid "How many messages from the end an at-depth entry goes when it names no depth."
+msgstr "Wie viele Nachrichten vom Ende ein Eintrag in Tiefe eingefügt wird, wenn er keine Tiefe nennt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.embedding_model"
+msgid "Turns Vector lore entries and recent messages into embeddings, so those entries activate on similar meaning. None leaves Vector entries to their keywords."
+msgstr "Wandelt Vektor-Lore-Einträge und neue Nachrichten in Embeddings um, sodass diese Einträge bei ähnlicher Bedeutung aktiviert werden. Keines überlässt Vektor-Einträge ihren Schlüsselwörtern."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.match_whole_words"
+msgid "Keywords match only whole words when an entry does not say."
+msgstr "Schlüsselwörter treffen nur ganze Wörter, wenn ein Eintrag nichts angibt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.max_recursion_steps"
+msgid "Most activation passes per reply, the first included; entries activated in one pass can trigger more in the next. 0 = no limit: passes continue until one activates nothing (SillyTavern's default)."
+msgstr "Höchstzahl an Aktivierungsdurchläufen pro Antwort, den ersten eingeschlossen; in einem Durchlauf aktivierte Einträge können im nächsten weitere auslösen. 0 = keine Grenze: Durchläufe gehen weiter, bis einer nichts aktiviert (Standard von SillyTavern)."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.overflow"
+msgid "Stop admits nothing more once one entry doesn't fit, except ignore-budget entries (SillyTavern). Fill keeps trying smaller entries."
+msgstr "Stopp nimmt nichts mehr auf, sobald ein Eintrag nicht passt, außer budgetignorierenden Einträgen (SillyTavern). Auffüllen versucht weiter kleinere Einträge."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.scan_depth"
+msgid "Recent messages searched for keywords when neither the entry nor its book sets a scan depth."
+msgstr "Neueste Nachrichten, die nach Schlüsselwörtern durchsucht werden, wenn weder der Eintrag noch sein Buch eine Suchtiefe festlegt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.token_budget"
+msgid "Most tokens of lore in one prompt, whatever the percentage gives. 0 = no cap. When the context limit is unknown, this cap applies, or 15,000 tokens when it is 0."
+msgstr "Höchstzahl an Lore-Tokens in einem Prompt, unabhängig vom Prozentsatz. 0 = keine Obergrenze. Ist das Kontextlimit unbekannt, gilt diese Obergrenze, oder 15.000 Tokens, wenn sie 0 ist."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.token_budget_percent"
+msgid "Share of the reply's context limit (the smaller of the model's context window and Max context) lore may use, as in SillyTavern."
+msgstr "Anteil des Kontextlimits der Antwort (der kleinere Wert von Kontextfenster des Modells und Max. Kontext), den Lore nutzen darf, wie in SillyTavern."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.vector_max_entries"
+msgid "Most Vector entries activated by similarity per reply, most similar first. Entries their keywords activate don't count."
+msgstr "Höchstzahl an Vektor-Einträgen, die pro Antwort durch Ähnlichkeit aktiviert werden, die ähnlichsten zuerst. Durch Schlüsselwörter aktivierte Einträge zählen nicht."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.vector_threshold"
+msgid "How similar, in percent, the scanned messages must be to a Vector entry for it to activate."
+msgstr "Wie ähnlich in Prozent die durchsuchten Nachrichten einem Vektor-Eintrag sein müssen, damit er aktiviert wird."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: lore.word_boundary"
+msgid "What ends a word for whole-word matching. ASCII treats every non-ASCII character as a separator, as SillyTavern does, so Japanese or Chinese keys match inside sentences."
+msgstr "Was beim Abgleich ganzer Wörter ein Wort beendet. ASCII behandelt jedes Nicht-ASCII-Zeichen als Trennzeichen, wie SillyTavern, sodass japanische oder chinesische Schlüsselwörter innerhalb von Sätzen treffen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.allow_overlap"
+msgid "Let a new scene include messages an earlier memory already covers."
+msgstr "Eine neue Szene darf Nachrichten enthalten, die eine frühere Erinnerung bereits abdeckt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.assistance_mode"
+msgid "After each new memory, review the book's clips against the scene. Updates wait in Reviews; Automatic adds clip lines itself and leaves topical clip rewrites for review."
+msgstr "Nach jeder neuen Erinnerung die Clips des Buchs anhand der Szene prüfen. Aktualisierungen warten unter Prüfungen; Automatisch fügt Clip-Zeilen selbst hinzu und lässt Neufassungen von Themen-Clips zur Prüfung."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.auto_buffer"
+msgid "How many of the newest messages an automatic memory leaves out of its scene, so the latest exchange can still change. A chat may set its own."
+msgstr "Wie viele der neuesten Nachrichten eine automatische Erinnerung aus ihrer Szene weglässt, damit sich der letzte Austausch noch ändern kann. Ein Chat kann einen eigenen Wert festlegen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.auto_interval"
+msgid "With the message trigger: how many new messages past the processed boundary, not counting the buffer, make a memory. A chat may set its own."
+msgstr "Beim Nachrichten-Auslöser: wie viele neue Nachrichten jenseits der verarbeiteten Grenze, ohne den Puffer, eine Erinnerung erzeugen. Ein Chat kann einen eigenen Wert festlegen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.auto_reminder_interval"
+msgid "Messages past the automatic interval and buffer before the first reminder, and between reminders."
+msgstr "Nachrichten jenseits des automatischen Intervalls und des Puffers bis zum ersten Hinweis und zwischen Hinweisen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.auto_reminders"
+msgid "Remind me when automatic memories fall behind."
+msgstr "Weise mich darauf hin, wenn automatische Erinnerungen zurückfallen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.auto_token_threshold"
+msgid "With the token trigger: how many tokens of new messages past the processed boundary, not counting the buffer, make a memory. A chat may set its own."
+msgstr "Beim Token-Auslöser: wie viele Tokens neuer Nachrichten jenseits der verarbeiteten Grenze, ohne den Puffer, eine Erinnerung erzeugen. Ein Chat kann einen eigenen Wert festlegen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.auto_trigger"
+msgid "What starts an automatic memory in a chat that has them on: a count of new messages, or the new messages reaching a token threshold. A chat may set its own."
+msgstr "Was in einem Chat, in dem sie aktiviert sind, eine automatische Erinnerung startet: eine Anzahl neuer Nachrichten oder das Erreichen eines Token-Schwellenwerts durch die neuen Nachrichten. Ein Chat kann einen eigenen Wert festlegen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.boundary_indicator"
+msgid "Mark the last message already covered by a memory in the chat."
+msgstr "Die letzte bereits von einer Erinnerung abgedeckte Nachricht im Chat markieren."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.consolidation_max_entries"
+msgid "Most entries one consolidation pass reads; more are split into further passes."
+msgstr "Höchstzahl an Einträgen, die ein Konsolidierungsdurchlauf liest; weitere werden auf zusätzliche Durchläufe verteilt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.consolidation_minimum_1"
+msgid "How many eligible entries make the arc tier ready to consolidate."
+msgstr "Wie viele geeignete Einträge die Stufe Bogen zum Konsolidieren bereit machen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.consolidation_minimum_2"
+msgid "How many eligible entries make the chapter tier ready to consolidate."
+msgstr "Wie viele geeignete Einträge die Stufe Kapitel zum Konsolidieren bereit machen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.consolidation_minimum_3"
+msgid "How many eligible entries make the book tier ready to consolidate."
+msgstr "Wie viele geeignete Einträge die Stufe Buch zum Konsolidieren bereit machen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.consolidation_minimum_4"
+msgid "How many eligible entries make the legend tier ready to consolidate."
+msgstr "Wie viele geeignete Einträge die Stufe Legende zum Konsolidieren bereit machen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.consolidation_minimum_5"
+msgid "How many eligible entries make the series tier ready to consolidate."
+msgstr "Wie viele geeignete Einträge die Stufe Reihe zum Konsolidieren bereit machen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.consolidation_minimum_6"
+msgid "How many eligible entries make the epic tier ready to consolidate."
+msgstr "Wie viele geeignete Einträge die Stufe Epos zum Konsolidieren bereit machen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.consolidation_token_budget"
+msgid "Most tokens of entries one consolidation pass reads; more are split into further passes."
+msgstr "Höchstzahl an Tokens aus Einträgen, die ein Konsolidierungsdurchlauf liest; weitere werden auf zusätzliche Durchläufe verteilt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.consolidation_watch_tiers"
+msgid "Tiers whose readiness to consolidate is announced in the chat, in a notice linking to the Consolidate tab, once a tier has its minimum of eligible entries."
+msgstr "Stufen, deren Bereitschaft zum Konsolidieren im Chat angekündigt wird, mit einem Hinweis, der auf den Tab Konsolidieren verlinkt, sobald eine Stufe ihr Minimum an geeigneten Einträgen erreicht."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.default_previous_count"
+msgid "How many earlier memories accompany a scene when a new memory is written."
+msgstr "Wie viele frühere Erinnerungen eine Szene begleiten, wenn eine neue Erinnerung geschrieben wird."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.include_hidden"
+msgid "Send messages hidden from the AI when writing a memory of their scene."
+msgstr "Vor der KI verborgene Nachrichten senden, wenn eine Erinnerung ihrer Szene geschrieben wird."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.manual_reminder_interval"
+msgid "Unprocessed messages before the first reminder, and between reminders."
+msgstr "Unverarbeitete Nachrichten bis zum ersten Hinweis und zwischen Hinweisen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.manual_reminders"
+msgid "Remind me to make memories when automatic memories are off."
+msgstr "Weise mich darauf hin, Erinnerungen zu erstellen, wenn automatische Erinnerungen aus sind."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.rollback_delete_memories"
+msgid "Delete the memories the rollback covers from the memory book."
+msgstr "Die vom Zurückrollen betroffenen Erinnerungen aus dem Gedächtnisbuch löschen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.rollback_enabled"
+msgid "Deleting a message a memory covers undoes that memory's effects."
+msgstr "Das Löschen einer von einer Erinnerung abgedeckten Nachricht macht die Auswirkungen dieser Erinnerung rückgängig."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.rollback_restore_side_prompts"
+msgid "Restore side-prompt entries to the versions before the rolled-back memories."
+msgstr "Neben-Prompt-Einträge auf die Versionen vor den zurückgerollten Erinnerungen zurücksetzen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.rollback_scope"
+msgid "Which memories a deleted message rolls back."
+msgstr "Welche Erinnerungen eine gelöschte Nachricht zurückrollt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.rollback_update_boundary"
+msgid "Move the processed boundary back to before the deleted message."
+msgstr "Die verarbeitete Grenze vor die gelöschte Nachricht zurückverschieben."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.show_consolidation_previews"
+msgid "Show a consolidated memory for review before it replaces its sources."
+msgstr "Eine zusammengefasste Erinnerung zur Prüfung anzeigen, bevor sie ihre Quellen ersetzt."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.show_previews"
+msgid "Show a generated memory for review before it is saved to the memory book."
+msgstr "Eine generierte Erinnerung zur Prüfung anzeigen, bevor sie im Gedächtnisbuch gespeichert wird."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.side_prompt_set_group"
+msgid "Chats left on Default run this set's rows after memories and on intervals instead of individually enabled side prompts. None runs the enabled side prompts."
+msgstr "Chats auf Standard führen die Zeilen dieses Sets nach Erinnerungen und in Intervallen aus, statt einzeln aktivierter Neben-Prompts. Keines führt die aktivierten Neben-Prompts aus."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.side_prompt_set_solo"
+msgid "Chats left on Default run this set's rows after memories and on intervals instead of individually enabled side prompts. None runs the enabled side prompts."
+msgstr "Chats auf Standard führen die Zeilen dieses Sets nach Erinnerungen und in Intervallen aus, statt einzeln aktivierter Neben-Prompts. Keines führt die aktivierten Neben-Prompts aus."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.side_prompt_versioning"
+msgid "Keep each earlier version of a side-prompt entry when it is rewritten."
+msgstr "Jede frühere Version eines Neben-Prompt-Eintrags behalten, wenn er neu geschrieben wird."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: memory.token_warning_threshold"
+msgid "Ask before sending a memory request estimated at more than this many tokens: the prompt, earlier memories, additional context and the scene together."
+msgstr "Nachfragen, bevor eine Gedächtnisanfrage gesendet wird, die auf mehr als so viele Tokens geschätzt wird: Prompt, frühere Erinnerungen, zusätzlicher Kontext und Szene zusammen."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.continue.popup"
+msgid "A browser notification when a continued message finishes."
+msgstr "Eine Browser-Benachrichtigung, wenn eine fortgesetzte Nachricht fertig ist."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.continue.push"
+msgid "A push notification when a continued message finishes."
+msgstr "Eine Push-Benachrichtigung, wenn eine fortgesetzte Nachricht fertig ist."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.continue.sound"
+msgid "A sound when a continued message finishes."
+msgstr "Ein Ton, wenn eine fortgesetzte Nachricht fertig ist."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.memory_review.popup"
+msgid "A browser notification when a memory draft is waiting for your review."
+msgstr "Eine Browser-Benachrichtigung, wenn ein Gedächtnisentwurf auf deine Prüfung wartet."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.memory_review.push"
+msgid "A push notification when a memory draft is waiting for your review."
+msgstr "Eine Push-Benachrichtigung, wenn ein Gedächtnisentwurf auf deine Prüfung wartet."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.memory_review.sound"
+msgid "A sound when a memory draft is waiting for your review."
+msgstr "Ein Ton, wenn ein Gedächtnisentwurf auf deine Prüfung wartet."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.muted"
+msgid "Silence every notification below: no popups and no sounds. Each kind keeps its own settings for when you unmute. The notifications inbox still lists them."
+msgstr "Alle Benachrichtigungen unten stummschalten: keine Pop-ups und keine Töne. Jede Art behält ihre eigenen Einstellungen für die Zeit nach dem Aufheben der Stummschaltung. Der Benachrichtigungseingang listet sie weiterhin."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.new_message.popup"
+msgid "A browser notification when a character's new reply finishes."
+msgstr "Eine Browser-Benachrichtigung, wenn die neue Antwort eines Charakters fertig ist."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.new_message.push"
+msgid "A push notification when a character's new reply finishes."
+msgstr "Eine Push-Benachrichtigung, wenn die neue Antwort eines Charakters fertig ist."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.new_message.sound"
+msgid "A sound when a character's new reply finishes."
+msgstr "Ein Ton, wenn die neue Antwort eines Charakters fertig ist."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.push_preview"
+msgid "Off, a push notification names the chat and character but not what they wrote, for a lock screen others can see."
+msgstr "Wenn aus, nennt eine Push-Benachrichtigung Chat und Charakter, aber nicht, was geschrieben wurde – für einen Sperrbildschirm, den andere sehen können."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.regenerate.popup"
+msgid "A browser notification when a regenerated swipe or a rewrite finishes."
+msgstr "Eine Browser-Benachrichtigung, wenn eine neu generierte Variante oder eine Überarbeitung fertig ist."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.regenerate.push"
+msgid "A push notification when a regenerated swipe or a rewrite finishes."
+msgstr "Eine Push-Benachrichtigung, wenn eine neu generierte Variante oder eine Überarbeitung fertig ist."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: notifications.regenerate.sound"
+msgid "A sound when a regenerated swipe or a rewrite finishes."
+msgstr "Ein Ton, wenn eine neu generierte Variante oder eine Überarbeitung fertig ist."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: ai.default_model"
+msgid "Default model"
+msgstr "Standardmodell"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.allow_third_party_fonts"
+msgid "Allow third-party fonts"
+msgstr "Schriften von Drittanbietern erlauben"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.avatar_max_height"
+msgid "Largest avatar height"
+msgstr "Maximale Avatarhöhe"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.avatar_max_width"
+msgid "Largest avatar width"
+msgstr "Maximale Avatarbreite"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.extra_sources"
+msgid "Extra stylesheet sources"
+msgstr "Zusätzliche Stylesheet-Quellen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.primary_hue"
+msgid "Primary hue"
+msgstr "Primärfarbton"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.remote_images"
+msgid "Remote images in messages"
+msgstr "Externe Bilder in Nachrichten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.restrict_user_css"
+msgid "Restrict user stylesheets"
+msgstr "Benutzer-Stylesheets einschränken"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.site_css"
+msgid "Site stylesheet"
+msgstr "Website-Stylesheet"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.tint_strength"
+msgid "Tint strength"
+msgstr "Tönungsstärke"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.user_css"
+msgid "Your stylesheet"
+msgstr "Dein Stylesheet"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: assistant.model"
+msgid "Mythweaver model"
+msgstr "Mythweaver-Modell"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: cleanup.after_messages"
+msgid "Clean up messages older than"
+msgstr "Nachrichten bereinigen, die älter sind als"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: cleanup.automatic"
+msgid "Automatic cleanup"
+msgstr "Automatische Bereinigung"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: cleanup.every_messages"
+msgid "Clean up every"
+msgstr "Bereinigen alle"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: cleanup.swipe_similarity"
+msgid "Merge swipes at similarity %"
+msgstr "Varianten ab Ähnlichkeit % zusammenführen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: expressions.classifier_model"
+msgid "Classifier model"
+msgstr "Klassifikatormodell"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: expressions.classifier_prompt"
+msgid "Classifier instruction"
+msgstr "Klassifikator-Anweisung"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: expressions.default_profile"
+msgid "Default rule profile"
+msgstr "Standard-Regelprofil"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: expressions.reroll_if_same"
+msgid "Avoid repeating a sprite"
+msgstr "Sprite-Wiederholung vermeiden"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: expressions.structured_output"
+msgid "Ask for structured output"
+msgstr "Strukturierte Ausgabe anfordern"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: generation.max_context"
+msgid "Max context"
+msgstr "Max. Kontext"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: generation.names_as_stop_strings"
+msgid "Stop at other speakers' names"
+msgstr "Bei Namen anderer Sprecher stoppen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: generation.single_line"
+msgid "Single-line replies"
+msgstr "Einzeilige Antworten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: generation.swipes_per_generation"
+msgid "Swipes per reply"
+msgstr "Varianten pro Antwort"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: generation.trim_own_name"
+msgid "Remove the speaker's own name"
+msgstr "Eigenen Namen des Sprechers entfernen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: generation.trim_step"
+msgid "Trim in steps of"
+msgstr "Kürzen in Schritten von"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: images.ask_every_time"
+msgid "Ask every time"
+msgstr "Jedes Mal fragen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: images.auto_caption"
+msgid "Describe images automatically"
+msgstr "Bilder automatisch beschreiben"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: images.avatar_caption_prompt"
+msgid "Avatar caption prompt"
+msgstr "Avatar-Bildbeschreibungs-Prompt"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: images.avatar_updates_appearance"
+msgid "Update Appearance when the avatar changes"
+msgstr "Aussehen bei Avatarwechsel aktualisieren"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: images.caption_template"
+msgid "Image text"
+msgstr "Bildtext"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: images.default_caption_model"
+msgid "Default caption model"
+msgstr "Standard-Bildbeschreibungsmodell"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: images.review_captions"
+msgid "Review image descriptions before sending"
+msgstr "Bildbeschreibungen vor dem Senden prüfen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: images.review_results"
+msgid "Review captions before saving"
+msgstr "Bildbeschreibungen vor dem Speichern prüfen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.case_sensitive"
+msgid "Case-sensitive keywords"
+msgstr "Groß-/Kleinschreibung bei Schlüsselwörtern beachten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.default_depth"
+msgid "Default insertion depth"
+msgstr "Standard-Einfügetiefe"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.embedding_model"
+msgid "Embedding model"
+msgstr "Embedding-Modell"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.match_whole_words"
+msgid "Match whole words"
+msgstr "Ganze Wörter abgleichen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.max_recursion_steps"
+msgid "Activation passes"
+msgstr "Aktivierungsdurchläufe"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.overflow"
+msgid "After the budget overflows"
+msgstr "Nach Überschreiten des Budgets"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.scan_depth"
+msgid "Scan depth"
+msgstr "Suchtiefe"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.token_budget"
+msgid "Lore budget cap"
+msgstr "Obergrenze des Lore-Budgets"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.token_budget_percent"
+msgid "Lore budget (% of context)"
+msgstr "Lore-Budget (% des Kontexts)"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.vector_max_entries"
+msgid "Most vector activations"
+msgstr "Max. Vektor-Aktivierungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.vector_threshold"
+msgid "Minimum similarity %"
+msgstr "Mindestähnlichkeit %"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: lore.word_boundary"
+msgid "Word boundary"
+msgstr "Wortgrenze"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.allow_overlap"
+msgid "Allow overlapping scenes"
+msgstr "Überlappende Szenen erlauben"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.assistance_mode"
+msgid "Memory assistance"
+msgstr "Gedächtnisunterstützung"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.auto_buffer"
+msgid "Buffer"
+msgstr "Puffer"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.auto_interval"
+msgid "Interval"
+msgstr "Intervall"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.auto_reminder_interval"
+msgid "Automatic reminder interval"
+msgstr "Hinweisintervall (automatisch)"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.auto_reminders"
+msgid "Automatic reminders"
+msgstr "Automatische Hinweise"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.auto_token_threshold"
+msgid "Token threshold"
+msgstr "Token-Schwellenwert"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.auto_trigger"
+msgid "Trigger"
+msgstr "Auslöser"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.boundary_indicator"
+msgid "Processed boundary"
+msgstr "Verarbeitete Grenze"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.consolidation_max_entries"
+msgid "Max entries per pass"
+msgstr "Max. Einträge pro Durchlauf"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.consolidation_minimum_1"
+msgid "Arc minimum"
+msgstr "Minimum Bogen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.consolidation_minimum_2"
+msgid "Chapter minimum"
+msgstr "Minimum Kapitel"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.consolidation_minimum_3"
+msgid "Book minimum"
+msgstr "Minimum Buch"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.consolidation_minimum_4"
+msgid "Legend minimum"
+msgstr "Minimum Legende"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.consolidation_minimum_5"
+msgid "Series minimum"
+msgstr "Minimum Reihe"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.consolidation_minimum_6"
+msgid "Epic minimum"
+msgstr "Minimum Epos"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.consolidation_token_budget"
+msgid "Token budget per pass"
+msgstr "Token-Budget pro Durchlauf"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.consolidation_watch_tiers"
+msgid "Announce when ready"
+msgstr "Bereitschaft ankündigen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.default_previous_count"
+msgid "Previous memories sent by default"
+msgstr "Standardmäßig gesendete frühere Erinnerungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.include_hidden"
+msgid "Include messages hidden from the AI"
+msgstr "Vor der KI verborgene Nachrichten einbeziehen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.manual_reminder_interval"
+msgid "Manual reminder interval"
+msgstr "Hinweisintervall (manuell)"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.manual_reminders"
+msgid "Manual reminders"
+msgstr "Manuelle Hinweise"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.rollback_delete_memories"
+msgid "Delete affected memories"
+msgstr "Betroffene Erinnerungen löschen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.rollback_enabled"
+msgid "Roll back memories when a message is deleted"
+msgstr "Erinnerungen beim Löschen einer Nachricht zurückrollen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.rollback_restore_side_prompts"
+msgid "Restore side-prompt entries"
+msgstr "Neben-Prompt-Einträge wiederherstellen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.rollback_scope"
+msgid "Scope"
+msgstr "Umfang"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.rollback_update_boundary"
+msgid "Move the boundary back"
+msgstr "Grenze zurückverschieben"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.show_consolidation_previews"
+msgid "Review consolidations before saving"
+msgstr "Konsolidierungen vor dem Speichern prüfen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.show_previews"
+msgid "Review memories before saving"
+msgstr "Erinnerungen vor dem Speichern prüfen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.side_prompt_set_group"
+msgid "Default side prompt set (group chats)"
+msgstr "Standard-Neben-Prompt-Set (Gruppenchats)"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.side_prompt_set_solo"
+msgid "Default side prompt set (solo chats)"
+msgstr "Standard-Neben-Prompt-Set (Einzelchats)"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.side_prompt_versioning"
+msgid "Keep side-prompt versions"
+msgstr "Neben-Prompt-Versionen behalten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: memory.token_warning_threshold"
+msgid "Token warning threshold"
+msgstr "Token-Warnschwelle"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.continue.popup"
+msgid "Notify for continues"
+msgstr "Benachrichtigen bei Fortsetzungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.continue.push"
+msgid "Push for continues"
+msgstr "Push bei Fortsetzungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.continue.sound"
+msgid "Sound for continues"
+msgstr "Ton bei Fortsetzungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.memory_review.popup"
+msgid "Notify for memory reviews"
+msgstr "Benachrichtigen bei Gedächtnisprüfungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.memory_review.push"
+msgid "Push for memory reviews"
+msgstr "Push bei Gedächtnisprüfungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.memory_review.sound"
+msgid "Sound for memory reviews"
+msgstr "Ton bei Gedächtnisprüfungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.muted"
+msgid "Mute all notifications"
+msgstr "Alle Benachrichtigungen stummschalten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.new_message.popup"
+msgid "Notify for new messages"
+msgstr "Benachrichtigen bei neuen Nachrichten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.new_message.push"
+msgid "Push for new messages"
+msgstr "Push bei neuen Nachrichten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.new_message.sound"
+msgid "Sound for new messages"
+msgstr "Ton bei neuen Nachrichten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.push_preview"
+msgid "Show message text in push notifications"
+msgstr "Nachrichtentext in Push-Benachrichtigungen anzeigen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.regenerate.popup"
+msgid "Notify for regenerations"
+msgstr "Benachrichtigen bei Neugenerierungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.regenerate.push"
+msgid "Push for regenerations"
+msgstr "Push bei Neugenerierungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: notifications.regenerate.sound"
+msgid "Sound for regenerations"
+msgstr "Ton bei Neugenerierungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: appearance.remote_images"
+msgid "Directly from their site"
+msgstr "Direkt von ihrer Website"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: appearance.remote_images"
+msgid "Off: don't show them"
+msgstr "Aus: nicht anzeigen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: appearance.remote_images"
+msgid "Through this server"
+msgstr "Über diesen Server"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: lore.overflow"
+msgid "Keep filling"
+msgstr "Weiter auffüllen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: lore.overflow"
+msgid "Stop (SillyTavern)"
+msgstr "Stopp (SillyTavern)"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: lore.word_boundary"
+msgid "ASCII (SillyTavern)"
+msgstr "ASCII (SillyTavern)"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: lore.word_boundary"
+msgid "Unicode"
+msgstr "Unicode"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: memory.assistance_mode"
+msgid "Apply clip additions automatically"
+msgstr "Clip-Ergänzungen automatisch anwenden"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: memory.assistance_mode"
+msgid "Off"
+msgstr "Aus"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: memory.assistance_mode"
+msgid "Suggest clip updates"
+msgstr "Clip-Aktualisierungen vorschlagen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: memory.assistance_mode"
+msgid "Suggest new topics"
+msgstr "Neue Themen vorschlagen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: memory.assistance_mode"
+msgid "Suggest updates and new topics"
+msgstr "Aktualisierungen und neue Themen vorschlagen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: memory.auto_trigger"
+msgid "Every N messages"
+msgstr "Alle N Nachrichten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: memory.auto_trigger"
+msgid "Token threshold"
+msgstr "Token-Schwellenwert"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: memory.boundary_indicator"
+msgid "Divider"
+msgstr "Trennlinie"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: memory.boundary_indicator"
+msgid "Off"
+msgstr "Aus"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: memory.rollback_scope"
+msgid "Every later memory"
+msgstr "Jede spätere Erinnerung"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting option: memory.rollback_scope"
+msgid "Memories covering the message"
+msgstr "Erinnerungen, die die Nachricht abdecken"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings category: appearance"
+msgid "Appearance"
+msgstr "Darstellung"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings category: expressions"
+msgid "Expressions"
+msgstr "Ausdrücke"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings category: images"
+msgid "Images"
+msgstr "Bilder"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings category: lore"
+msgid "Lore"
+msgstr "Lore"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings category: memory"
+msgid "Memory"
+msgstr "Gedächtnis"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings category: models"
+msgid "Models"
+msgstr "Modelle"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings category: notifications"
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings grid column: notifications.events.popup"
+msgid "Notification"
+msgstr "Benachrichtigung"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings grid column: notifications.events.push"
+msgid "Push"
+msgstr "Push"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings grid column: notifications.events.sound"
+msgid "Sound"
+msgstr "Ton"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings grid row description: notifications.events.continue"
+msgid "A continued message finishes."
+msgstr "Eine fortgesetzte Nachricht ist fertig."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings grid row description: notifications.events.memory_review"
+msgid "A memory draft is waiting for your review in the chat's Memory → Reviews."
+msgstr "Ein Gedächtnisentwurf wartet im Chat unter Gedächtnis → Prüfungen auf deine Prüfung."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings grid row description: notifications.events.new_message"
+msgid "A character's new reply finishes."
+msgstr "Die neue Antwort eines Charakters ist fertig."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings grid row description: notifications.events.regenerate"
+msgid "A regenerated swipe or a rewrite finishes. Several swipes from one request notify once, after the last."
+msgstr "Eine neu generierte Variante oder eine Überarbeitung ist fertig. Mehrere Varianten aus einer Anfrage benachrichtigen einmal, nach der letzten."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings grid row: notifications.events.continue"
+msgid "Continues"
+msgstr "Fortsetzungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings grid row: notifications.events.memory_review"
+msgid "Memory reviews"
+msgstr "Gedächtnisprüfungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings grid row: notifications.events.new_message"
+msgid "New messages"
+msgstr "Neue Nachrichten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings grid row: notifications.events.regenerate"
+msgid "Regenerations"
+msgstr "Neugenerierungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section description: notifications.events"
+msgid "Notification: a browser notification, unless you are looking at that chat; the browser asks for permission the first time you click in the app. Sound: a sound for each kind, even while you watch."
+msgstr "Benachrichtigung: eine Browser-Benachrichtigung, außer du siehst dir gerade diesen Chat an; der Browser fragt beim ersten Klick in der App um Erlaubnis. Ton: ein Ton für jede Art, auch während du zusiehst."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: appearance.chat_avatars"
+msgid "Chat avatars"
+msgstr "Chat-Avatare"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: appearance.language"
+msgid "Language and region"
+msgstr "Sprache und Region"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: appearance.remote_media"
+msgid "Remote images"
+msgstr "Externe Bilder"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: appearance.stylesheets"
+msgid "Stylesheets"
+msgstr "Stylesheets"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: appearance.theme"
+msgid "Theme"
+msgstr "Theme"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: expressions.classification"
+msgid "Classification"
+msgstr "Klassifizierung"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: expressions.sprites"
+msgid "Sprites"
+msgstr "Sprites"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: images.avatars"
+msgid "Avatars"
+msgstr "Avatare"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: images.captions"
+msgid "Image descriptions"
+msgstr "Bildbeschreibungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: images.text"
+msgid "Image text"
+msgstr "Bildtext"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: lore.limits"
+msgid "Activation limits"
+msgstr "Aktivierungsgrenzen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: lore.matching"
+msgid "Keyword matching"
+msgstr "Schlüsselwort-Abgleich"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: lore.placement"
+msgid "Placement"
+msgstr "Platzierung"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: lore.vector"
+msgid "Vector matching"
+msgstr "Vektor-Abgleich"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: memory.assistance"
+msgid "Memory assistance"
+msgstr "Gedächtnisunterstützung"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: memory.automatic"
+msgid "Automatic memories"
+msgstr "Automatische Erinnerungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: memory.consolidation"
+msgid "Consolidation"
+msgstr "Konsolidierung"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: memory.memories"
+msgid "Memories"
+msgstr "Erinnerungen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: memory.reminders"
+msgid "Reminders"
+msgstr "Hinweise"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: memory.rollback"
+msgid "Rollback on message deletion"
+msgstr "Zurückrollen beim Löschen von Nachrichten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: memory.side_prompts"
+msgid "Side prompts"
+msgstr "Neben-Prompts"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: models.cleanup"
+msgid "Cleanup"
+msgstr "Bereinigung"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: models.context"
+msgid "Context"
+msgstr "Kontext"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: models.defaults"
+msgid "Defaults"
+msgstr "Standards"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: models.reply_text"
+msgid "Reply text"
+msgstr "Antworttext"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: models.stop_strings"
+msgid "Stop strings"
+msgstr "Stoppzeichenfolgen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: models.swipes"
+msgid "Swipes"
+msgstr "Varianten"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: notifications.events"
+msgid "Events"
+msgstr "Ereignisse"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "settings section heading: notifications.general"
+msgid "General"
+msgstr "Allgemein"
+
+#. Flash when a setting value is refused: the setting's name, then the reason, a short lowercase phrase such as "must be at least 1".
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a setting change was refused, with the reason"
+msgid "%{setting_name}: %{error_reason}"
+msgstr "%{setting_name}: %{error_reason}"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: chat cleanup running"
+msgid "Cleaning…"
+msgstr "Wird bereinigt…"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: setting locked by an admin"
+msgid "Locked by an admin"
+msgstr "Von einem Admin gesperrt"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: template setting with no override, built-in text in use"
+msgid "Default"
+msgstr "Standard"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: settings for the whole site"
+msgid "Site"
+msgstr "Website"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: settings for your own account"
+msgid "User"
+msgstr "Benutzer"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: lock button while users may change the setting"
+msgid "Users may change"
+msgstr "Benutzer dürfen ändern"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: lock button while users read the site value"
+msgid "Locked: users read the site value"
+msgstr "Gesperrt: Benutzer sehen den Website-Wert"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: play a notification sound preview"
+msgid "Play this sound"
+msgstr "Diesen Ton abspielen"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: reset a setting to the inherited value"
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#. Flash after sending a test push notification to one of the user's devices.
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after sending a test push notification"
+msgid "Test notification sent."
+msgstr "Testbenachrichtigung gesendet."
+
+#. Flash when a test push is asked for a device that was already removed.
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when testing a push device that was already removed"
+msgid "That device is gone."
+msgstr "Dieses Gerät gibt es nicht mehr."
+
+#. Flash when a chat cleanup started from the settings page crashes.
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when the site-wide chat cleanup crashed"
+msgid "The cleanup failed."
+msgstr "Die Bereinigung ist fehlgeschlagen."
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no fixed regional format, follow the browser"
+msgid "Match my browser"
+msgstr "Wie mein Browser"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no site default language, use the built-in one"
+msgid "Built-in default (%{language_name})"
+msgstr "Integrierter Standard (%{language_name})"
+
+#: lib/mythweaver_web/live/settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no site default regional format, use the built-in one"
+msgid "Built-in default (%{locale_name})"
+msgstr "Integrierter Standard (%{locale_name})"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.default_language"
+msgid "The language of the app's text for anyone whose browser asks for none the app has a translation for, and in notifications to people who have not chosen one."
+msgstr "Die Sprache der App-Texte für alle, deren Browser keine Sprache anfragt, für die die App eine Übersetzung hat, und in Benachrichtigungen an Personen, die keine gewählt haben."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.default_locale"
+msgid "How numbers, dates and money are written for anyone whose browser asks for no supported region, and in notifications to people who have not chosen one."
+msgstr "Wie Zahlen, Datumsangaben und Geldbeträge geschrieben werden für alle, deren Browser keine unterstützte Region anfragt, und in Benachrichtigungen an Personen, die keine gewählt haben."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.language"
+msgid "The language of the app's text. Only languages the app has a translation for are listed; Match my browser uses your browser's preferred one of them."
+msgstr "Die Sprache der App-Texte. Nur Sprachen, für die die App eine Übersetzung hat, werden aufgeführt; Wie mein Browser verwendet die von deinem Browser bevorzugte davon."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting description: appearance.locale"
+msgid "How numbers, dates, times and money are written, whatever the language. Match my browser uses your browser's preferred region."
+msgstr "Wie Zahlen, Datumsangaben, Uhrzeiten und Geldbeträge geschrieben werden, unabhängig von der Sprache. Wie mein Browser verwendet die von deinem Browser bevorzugte Region."
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.default_language"
+msgid "Default language"
+msgstr "Standardsprache"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.default_locale"
+msgid "Default regional format"
+msgstr "Standard-Regionalformat"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.language"
+msgid "Language"
+msgstr "Sprache"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "setting name: appearance.locale"
+msgid "Regional format"
+msgstr "Regionalformat"

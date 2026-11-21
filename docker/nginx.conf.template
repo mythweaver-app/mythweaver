@@ -1,0 +1,63 @@
+# The front door (`compose.yml`'s and the dev container's `nginx` service): one origin for the
+# app and its resized images, so image links are relative (`MYTHWEAVER_XI_URL=/img`) and work
+# from any host that can reach this port: localhost, a LAN address or a tailnet name. Plain HTTP
+# for local use; with `compose.tls.yml` the same nginx also serves HTTPS for a deployment
+# (`docker/nginx/tls.conf.template`). The routes themselves are `docker/nginx/app-locations.conf`.
+#
+# A template: the nginx image substitutes `${APP_UPSTREAM}` (host:port of Phoenix) and
+# `${TRUSTED_UPSTREAM}` from the container's environment at start-up and leaves nginx's own
+# `$variables` alone.
+
+# Caching for xtandard-image (xi), which stores nothing itself: without this every request
+# re-fetches and re-resizes the original. Attachment keys never change and the app asks for a fixed
+# set of presets, but every URL carries its link's expiry (`exp:`), so a URL is new each link window
+# (`link_window_seconds`, a day by default) and dead two windows later. Entries therefore live at
+# most XI_CACHE_HEADERS_TTL (one window) and are dropped after three days unused.
+proxy_cache_path /var/cache/nginx/xi levels=1:2 keys_zone=xi:10m max_size=2g inactive=3d use_temp_path=off;
+
+# xi answers the same URL with AVIF, WebP or the original format depending on `Accept`. Keying on
+# the raw header would store one copy per browser's Accept string; this keys on the only thing xi
+# decides by. Regex entries are tried in order, so AVIF wins when both are accepted, as in xi.
+map $http_accept $xi_format {
+  default "";
+  "~*image/avif" "avif";
+  "~*image/webp" "webp";
+}
+
+# LiveView and live reload run over websockets; plain requests keep a normal `Connection`.
+map $http_upgrade $connection_upgrade {
+  default upgrade;
+  "" close;
+}
+
+upstream app {
+  server ${APP_UPSTREAM};
+}
+
+# The client's address for the app (`MythweaverWeb.ClientIp`). Only a request from
+# `${TRUSTED_UPSTREAM}` (MYTHWEAVER_NGINX_TRUSTED_UPSTREAM) may name the client in X-Forwarded-For.
+# The default, 127.0.0.1/32, never reaches nginx from outside its container, so it trusts nobody:
+# any other peer is the client itself, and whatever X-Forwarded-For it sent is dropped.
+set_real_ip_from ${TRUSTED_UPSTREAM};
+real_ip_header X-Forwarded-For;
+real_ip_recursive on;
+
+# The outer TLS proxy's scheme, trusted only from `${TRUSTED_UPSTREAM}` (as realip trusts its X-Forwarded-For).
+geo $realip_remote_addr $from_trusted_upstream {
+  default 0;
+  ${TRUSTED_UPSTREAM} 1;
+}
+map "$from_trusted_upstream:$http_x_forwarded_proto" $forwarded_proto {
+  default $scheme;
+  "1:https" https;
+  "1:http" http;
+}
+
+server {
+  listen 80;
+
+  # Phoenix enforces its own request limits (`MYTHWEAVER_MAX_UPLOAD_BYTES`, Plug.Parsers).
+  client_max_body_size 0;
+
+  include /etc/nginx/mythweaver/app-locations.conf;
+}

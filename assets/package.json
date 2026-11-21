@@ -1,0 +1,38 @@
+{
+  "name": "assets",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "typecheck:hooks": "tsc --noEmit -p tsconfig.hooks.json",
+    "typecheck:sw": "tsc --noEmit -p tsconfig.sw.json"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/d3": "^7.4.3",
+    "@types/phoenix": "^1.6",
+    "@types/sortablejs": "^1.15.9",
+    "lightningcss": "^1.30.1",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@codemirror/autocomplete": "^6.20.3",
+    "@codemirror/commands": "^6.11.1",
+    "@codemirror/lang-json": "^6.0.2",
+    "@codemirror/lang-liquid": "^6.3.3",
+    "@codemirror/lang-markdown": "^6.5.2",
+    "@codemirror/language": "^6.12.4",
+    "@codemirror/legacy-modes": "^6.5.4",
+    "@codemirror/search": "^6.7.2",
+    "@codemirror/state": "^6.7.6",
+    "@codemirror/view": "^6.43.13",
+    "@lezer/highlight": "^1.2.5",
+    "@lezer/markdown": "^1.7.2",
+    "blurhash": "^2.0.5",
+    "d3": "^7.9.0",
+    "interestfor": "^1.0.10",
+    "katex": "^0.19.1",
+    "sortablejs": "^1.15.7",
+    "topbar": "^3.0.1"
+  }
+}

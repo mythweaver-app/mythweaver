@@ -1,0 +1,46 @@
+name: Docs
+on:
+  push:
+    branches: [master]
+    paths:
+      - "docs/**"
+      - "docs_site/**"
+      - "assets/css/tokens.css"
+      - "assets/css/media.css"
+      - "priv/static/fonts/**"
+      - "priv/static/images/logo.svg"
+      - "mise.toml"
+      - ".github/workflows/docs.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    # Pinned: mise.lock holds precompiled OTP for ubuntu-24.04.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: jdx/mise-action@v3
+      - id: pages
+        uses: actions/configure-pages@v5
+      - run: mise run docs:build
+        env:
+          MYTHWEAVER_DOCS_URL: ${{ steps.pages.outputs.base_url }}
+          MYTHWEAVER_DOCS_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs_site/_site
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

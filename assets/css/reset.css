@@ -1,0 +1,264 @@
+/* The app's reset: Open Props 1.7.23's normalize ported with literal values, minus its
+   `max-inline-size` caps on text elements and the declarations later layers always override. */
+
+:where(html) {
+  -webkit-text-size-adjust: none;
+  accent-color: var(--link);
+  caret-color: var(--link);
+  block-size: 100%;
+  line-height: 1.5;
+  scrollbar-color: #495057 transparent;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+:where(:not(dialog)) {
+  margin: 0;
+}
+
+:where(:not(fieldset, progress, meter)) {
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-width: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :where(html) {
+    scroll-behavior: smooth;
+  }
+}
+
+:where(body) {
+  min-block-size: 100%;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+  text-wrap: balance;
+  font-weight: 900;
+  line-height: 1.25;
+}
+:where(h1) { font-size: 3.5rem; }
+:where(h2) { font-size: 2.5rem; }
+:where(h3) { font-size: 2rem; }
+:where(h4) { font-size: 1.5rem; }
+:where(h5) { font-size: 1.25rem; }
+:where(p, ul, ol, dl, h6) { font-size: 1.1rem; }
+
+:where(a[href]) { color: var(--link); }
+:where(a[href]):where(:visited) { color: #ae3ec9; }
+:where(a, u, ins, abbr) { text-underline-offset: 1px; }
+@supports (-moz-appearance: none) {
+  :where(a, u, ins, abbr) { text-underline-offset: 2px; }
+}
+:where(a):where([href]) { text-decoration-color: #bac8ff; }
+:where(a):where([href]):where(:visited) { text-decoration-color: #eebefa; }
+:where(a):where(:not(:hover)) { text-decoration: inherit; }
+
+:where(a[href], area, button, input:not([type="text"], [type="email"], [type="number"], [type="password"], [type=""], [type="tel"], [type="url"]), label[for], select, summary, [tabindex]:not([tabindex*="-"], pre)) {
+  cursor: pointer;
+}
+:where(a[href], area, button, input, label[for], select, summary, textarea, [tabindex]:not([tabindex*="-"])) {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+:where(img, svg, video, canvas, audio, iframe, embed, object) { display: block; }
+:where(img, svg, video) {
+  block-size: auto;
+  max-inline-size: 100%;
+}
+:where(svg:not([width])) { inline-size: 5rem; }
+
+:where(input, button, textarea, select),
+:where(input[type="file"])::-webkit-file-upload-button {
+  color: inherit;
+  font: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+}
+::placeholder {
+  color: #495057;
+  opacity: 0.75;
+}
+:where(input:not([type="range"]), textarea) {
+  padding-block: 0.25rem;
+  padding-inline: 0.5rem;
+}
+:where(select) {
+  field-sizing: content;
+  padding-block: 0.75ch;
+  padding-inline: 1.25ch 0;
+}
+:where(textarea, select, input:not([type="button"], [type="submit"], [type="reset"])) {
+  background-color: var(--surface-2);
+  border-radius: 5px;
+}
+:where(textarea) {
+  field-sizing: content;
+  min-block-size: 2lh;
+  min-inline-size: 20ch;
+  resize: vertical;
+}
+:where(input[type="checkbox"], input[type="radio"]) {
+  block-size: 1rem;
+  inline-size: 1rem;
+}
+
+:where(code, kbd, samp, pre) { font-family: var(--font-monospace-code), monospace; }
+:where(:not(pre) > code, kbd) { white-space: nowrap; }
+:where(pre) {
+  direction: ltr;
+  max-inline-size: max-content;
+  min-inline-size: 0;
+  white-space: pre;
+  writing-mode: lr;
+}
+:where(:not(pre) > code) {
+  background: var(--surface-2);
+  border-radius: 5px;
+  padding: 0.25rem 0.5rem;
+  writing-mode: lr;
+}
+:where(kbd, var) {
+  border-color: var(--surface-4);
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 0.25rem 0.5rem;
+}
+:where(mark) {
+  border-radius: 5px;
+  padding-inline: 0.25rem;
+}
+
+:where(ol, ul) { padding-inline-start: 3rem; }
+:where(li) { padding-inline-start: 0.5rem; }
+:where(p) { text-wrap: pretty; }
+:where(dt, summary) { font-weight: 700; }
+:where(dt:not(:first-of-type)) { margin-block-start: 1.5rem; }
+:where(small) { font-size: max(0.5em, 0.75rem); }
+:where(hr) {
+  background-color: var(--surface-3);
+  height: 2px;
+  margin-block: max(4rem, min(5vw, 5rem));
+}
+:where(figure) {
+  display: grid;
+  gap: 0.5rem;
+  place-items: center;
+}
+:where(figure) > :where(figcaption) {
+  text-wrap: balance;
+  font-size: 1rem;
+}
+:where(blockquote, :not(blockquote) > cite) { border-inline-start-width: 5px; }
+:where(blockquote) {
+  display: grid;
+  gap: 1rem;
+  padding-block: 1rem;
+  padding-inline: 1.25rem;
+}
+:where(:not(blockquote) > cite) { padding-inline-start: 0.5rem; }
+:where(summary) {
+  background: var(--surface-3);
+  border-radius: 5px;
+  margin: -0.5rem -1rem;
+  padding: 0.5rem 1rem;
+}
+:where(details) {
+  background: var(--surface-2);
+  border-radius: 5px;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+}
+:where(details[open] > summary) {
+  border-end-end-radius: 0;
+  border-end-start-radius: 0;
+  margin-bottom: 0.5rem;
+}
+:where(fieldset) {
+  border: 1px solid var(--surface-4);
+  border-radius: 5px;
+}
+:where(del) { background: #c92a2a; color: #ffc9c9; }
+:where(ins) { background: #2b8a3e; color: #d3f9d8; }
+:where(abbr) { text-decoration-color: #339af0; }
+:where(dialog) {
+  background-color: var(--surface-1);
+  border-radius: 1rem;
+  box-shadow: 0 -1px 2px 0 hsl(220 3% 15% / 3%), 0 3px 2px -2px hsl(220 3% 15% / 4%),
+    0 7px 5px -2px hsl(220 3% 15% / 4%), 0 12px 10px -2px hsl(220 3% 15% / 5%),
+    0 22px 18px -2px hsl(220 3% 15% / 6%), 0 41px 33px -2px hsl(220 3% 15% / 7%),
+    0 100px 80px -2px hsl(220 3% 15% / 8%);
+  color: inherit;
+}
+:where(menu) {
+  display: flex;
+  gap: 1rem;
+  padding-inline-start: 0;
+}
+:where(sup) { font-size: 0.5em; }
+
+:where(table) {
+  background: var(--surface-2);
+  border: 1px solid var(--surface-2);
+  border-radius: 1rem;
+  width: fit-content;
+}
+:where(table:not(:has(tfoot)) tr:last-child td:first-child),
+:where(tfoot tr:last-child th:first-of-type),
+:where(tfoot tr:last-child td:first-of-type) {
+  border-end-start-radius: calc(1rem - 2px);
+}
+:where(table:not(:has(tfoot)) tr:last-child td:last-child),
+:where(tfoot tr:last-child th:last-of-type),
+:where(tfoot tr:last-child td:last-of-type) {
+  border-end-end-radius: calc(1rem - 2px);
+}
+:where(table thead tr:first-child th:first-child) { border-start-start-radius: calc(1rem - 2px); }
+:where(table thead tr:first-child th:last-child) { border-start-end-radius: calc(1rem - 2px); }
+:where(th) {
+  background-color: var(--surface-2);
+  color: #030507;
+}
+:where(td) {
+  text-wrap: pretty;
+  background: var(--surface-1);
+}
+:where(td, th) {
+  padding: 0.5rem;
+  text-align: left;
+}
+:where(td:not([align])) { text-align: center; }
+:where(th:not([align])) { text-align: center; }
+:where(thead) { border-collapse: collapse; }
+:where(table tr:hover td),
+:where(tbody tr:nth-child(2n):hover td) {
+  background-color: var(--surface-3);
+}
+:where(table > caption) { margin: 1rem; }
+:where(tfoot button) {
+  padding-block: 0.25rem;
+  padding-inline: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :where(html) { scrollbar-color: #868e96 transparent; }
+  :where(a[href]):where(:visited) { color: #e599f7; }
+  :where(textarea, select, input:not([type="button"], [type="submit"], [type="reset"])) {
+    background-color: #171a1c;
+  }
+  :where(dialog) {
+    background-color: var(--surface-2);
+    box-shadow: 0 -1px 2px 0 hsl(220 40% 2% / 12%), 0 3px 2px -2px hsl(220 40% 2% / 13%),
+      0 7px 5px -2px hsl(220 40% 2% / 13%), 0 12px 10px -2px hsl(220 40% 2% / 14%),
+      0 22px 18px -2px hsl(220 40% 2% / 15%), 0 41px 33px -2px hsl(220 40% 2% / 16%),
+      0 100px 80px -2px hsl(220 40% 2% / 17%);
+  }
+  ::placeholder { color: #868e96; }
+  :where(th) { color: #f1f3f5; }
+}

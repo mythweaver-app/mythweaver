@@ -1,0 +1,187 @@
+/*Colors and such*/
+
+:root {
+  color-scheme: light;
+
+  /* `--tint-h` and `--tint-strength` (a percentage) come from the settings, set on `<html>` by the root
+     layout; the chroma each scheme tints with is its own base times the strength. */
+  --tint-h: 263;
+  --tint-strength: 100;
+  --tint-c: calc(0.03 * var(--tint-strength) / 100);
+
+  --background: oklch(0.99 var(--tint-c) var(--tint-h));
+  --foreground: oklch(0.145 var(--tint-c) var(--tint-h));
+
+  --intense: oklch(0.9 0.1 var(--tint-h));
+
+  --card: oklch(0.975 var(--tint-c) var(--tint-h) / 0.6);
+  --card-foreground: var(--foreground);
+
+  --muted: oklch(0.955 var(--tint-c) var(--tint-h));
+  --muted-foreground: oklch(0.52 0.001 var(--tint-h));
+
+  /* `--primary` is a fill: a background with `--primary-foreground` text on it, held to WCAG AA
+     (4.5:1) against that text. `--primary-accent` is primary as text, border, tint or indicator on a
+     surface, held to AA against the surfaces. One value cannot pass both in dark mode, so it is
+     overridden there; in light mode the fill already reads on light surfaces. */
+  --primary: oklch(0.48 0.25 var(--tint-h));
+  --primary-foreground: oklch(0.99 0.001 var(--tint-h));
+  --primary-accent: var(--primary);
+  /* Controls a composer guide will steer: the accent rotated a third of the wheel. Declared once: it
+     resolves against whichever `--primary-accent` the color scheme sets on this same element. */
+  --guide: oklch(from var(--primary-accent) l c calc(h - 130));
+
+  /* Editor syntax colors (`assets/js/hooks/rich_input/theme.ts`).
+     resolved against whichever `--primary-accent` the color scheme sets. */
+  --syntax-markup: color-mix(in oklch, var(--muted-foreground) 75%, transparent);
+  --syntax-action: var(--muted-foreground);
+  --syntax-dialogue: var(--primary-accent);
+  --syntax-template: oklch(from var(--primary-accent) l c calc(h + 250));
+  /* Filters (`| roll`) and control flow (`if`/`else`/`for`/`case`…) inside a template. */
+  --syntax-function: oklch(from var(--primary-accent) l c calc(h + 150));
+  --syntax-control: oklch(from var(--primary-accent) l c calc(h + 60));
+  /* A template's own delimiters: `{{ }}` and `{% %}`. */
+  --syntax-delimiter: oklch(from var(--primary-accent) calc(l + 0.3) calc(c - 0.17) calc(h - 60));
+
+  /* Categorical chart colors (the prompt inspector's context bar): the accent turned in eighths of
+     the wheel. Declared once; they resolve against whichever `--primary-accent` the color scheme
+     sets on this same element. */
+  --chart-1: var(--primary-accent);
+  --chart-2: oklch(from var(--primary-accent) l c calc(h + 45));
+  --chart-3: oklch(from var(--primary-accent) l c calc(h + 90));
+  --chart-4: oklch(from var(--primary-accent) l c calc(h + 135));
+  --chart-5: oklch(from var(--primary-accent) l c calc(h + 180));
+  --chart-6: oklch(from var(--primary-accent) l c calc(h + 225));
+  --chart-7: oklch(from var(--primary-accent) l c calc(h + 270));
+  --chart-8: oklch(from var(--primary-accent) l c calc(h + 315));
+
+  /* Rendered message prose (`MythweaverWeb.CoreComponents.Markdown`). Theme hooks: quoted dialogue
+     and `*action*` emphasis. Declared once; they resolve against whichever `--primary-accent` the
+     color scheme sets on this same element. */
+  --prose-dialogue: var(--primary-accent);
+  --prose-action: currentColor;
+
+  --destructive: oklch(0.48 0.2 25);
+  --destructive-foreground: oklch(0.99 0.001 25);
+
+
+  --border: oklch(0.878 var(--tint-c) var(--tint-h));
+  --border-grey: oklch(0.878 0 var(--tint-h));
+
+  --input: var(--border);
+  --ring: oklch(0.65 var(--tint-c) var(--tint-h));
+
+  /* Surfaces, 1 (most recessed: inputs, insets) to 10 (most raised). Each scheme runs from its
+     background outward (darker here, lighter in dark mode), so a step means the same depth in both.
+     Steps widen as they climb; both ends keep `--foreground` text above WCAG AA. */
+  --surface-1: oklch(0.985 var(--tint-c) var(--tint-h));
+  --surface-2: oklch(0.975 var(--tint-c) var(--tint-h));
+  --surface-3: oklch(0.96 var(--tint-c) var(--tint-h));
+  --surface-4: oklch(0.945 var(--tint-c) var(--tint-h));
+  --surface-5: oklch(0.925 var(--tint-c) var(--tint-h));
+  --surface-6: oklch(0.905 var(--tint-c) var(--tint-h));
+  --surface-7: oklch(0.875 var(--tint-c) var(--tint-h));
+  --surface-8: oklch(0.835 var(--tint-c) var(--tint-h));
+  --surface-9: oklch(0.785 var(--tint-c) var(--tint-h));
+  --surface-10: oklch(0.72 var(--tint-c) var(--tint-h));
+
+  --elevation-xs: 0 1px 2px oklch(0 0 0 / 0.05);
+  --elevation-sm: 0 1px 3px oklch(0 0 0 / 0.08), 0 1px 2px oklch(0 0 0 / 0.06);
+  --elevation-md: 0 4px 6px -1px oklch(0 0 0 / 0.08), 0 2px 4px -2px oklch(0 0 0 / 0.06);
+  --elevation-lg: 0 10px 15px -3px oklch(0 0 0 / 0.08), 0 4px 6px -4px oklch(0 0 0 / 0.05);
+  --elevation-xl: 0 20px 25px -5px oklch(0 0 0 / 0.1), 0 8px 10px -6px oklch(0 0 0 / 0.06);
+  --elevation-2xl: 0 25px 50px -12px oklch(0 0 0 / 0.18);
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+
+    --tint-c: calc(0.0175 * var(--tint-strength) / 100);
+
+    --background: oklch(0.19 var(--tint-c) var(--tint-h));
+    --foreground: oklch(0.985 0.001 var(--tint-h));
+
+    --intense: oklch(0.5 0.1 var(--tint-h));
+
+    --card: oklch(0.24 var(--tint-c) var(--tint-h) / 0.6);
+    --card-foreground: var(--foreground);
+
+    --muted: oklch(0.245 var(--tint-c) var(--tint-h));
+    --muted-foreground: oklch(0.725 0.001 var(--tint-h));
+
+    --primary: oklch(0.53 0.2 var(--tint-h));
+    --primary-foreground: oklch(0.99 0.001 var(--tint-h));
+    --primary-accent: oklch(0.72 0.2 var(--tint-h));
+
+    --destructive: oklch(0.72 0.18 25);
+    --destructive-foreground: oklch(0.2 0.03 25);
+
+    --border: oklch(0.85 0.245 var(--tint-h) / 12%);
+    --border-grey: oklch(0.85 0 var(--tint-h) / 12%);
+    --input: oklch(0.85 0.045 var(--tint-h) / 17%);
+    --ring: oklch(0.52 0.008 var(--tint-h));
+
+    --surface-1: oklch(0.15 var(--tint-c) var(--tint-h));
+    --surface-2: oklch(0.18 var(--tint-c) var(--tint-h));
+    --surface-3: oklch(0.21 var(--tint-c) var(--tint-h));
+    --surface-4: oklch(0.24 var(--tint-c) var(--tint-h));
+    --surface-5: oklch(0.275 var(--tint-c) var(--tint-h));
+    --surface-6: oklch(0.31 var(--tint-c) var(--tint-h));
+    --surface-7: oklch(0.35 var(--tint-c) var(--tint-h));
+    --surface-8: oklch(0.4 var(--tint-c) var(--tint-h));
+    --surface-9: oklch(0.455 var(--tint-c) var(--tint-h));
+    --surface-10: oklch(0.52 var(--tint-c) var(--tint-h));
+
+    --elevation-xs: 0 1px 2px oklch(0 0 0 / 0.4);
+    --elevation-sm: 0 1px 3px oklch(0 0 0 / 0.5), 0 1px 2px oklch(0 0 0 / 0.4);
+    --elevation-md: 0 4px 8px -1px oklch(0 0 0 / 0.5), 0 2px 4px -2px oklch(0 0 0 / 0.4);
+    --elevation-lg: 0 10px 20px -3px oklch(0 0 0 / 0.5), 0 4px 8px -4px oklch(0 0 0 / 0.4);
+    --elevation-xl: 0 20px 30px -5px oklch(0 0 0 / 0.6), 0 8px 12px -6px oklch(0 0 0 / 0.4);
+    --elevation-2xl: 0 25px 50px -12px oklch(0 0 0 / 0.7);
+
+
+    --syntax-delimiter: oklch(from var(--primary-accent) calc(l - 0.3) calc(c - 0.15) calc(h - 60));
+  }
+
+  --link: var(--primary);
+}
+
+/*Supplementary Sizing tokens*/
+:root {
+  --panel-gap: 0.75rem;
+  /* Minimum hit area on coarse pointers. */
+  --touch-target: 44px;
+
+  @media (--phone) {
+    --panel-gap: 0.5rem;
+  }
+}
+
+/* Scale tokens (formerly Open Props): spacing, radii, type. */
+:root {
+  --size-1: 0.25rem;
+  --size-2: 0.5rem;
+  --size-3: 1rem;
+  --size-4: 1.25rem;
+  --size-5: 1.5rem;
+  --size-6: 1.75rem;
+  --size-7: 2rem;
+  --size-9: 4rem;
+
+  --radius-1: 2px;
+  --radius-2: 5px;
+  --radius-3: 1rem;
+  --radius-round: 1e5px;
+
+  --font-size-00: 0.5rem;
+  --font-size-0: 0.75rem;
+  --font-size-1: 1rem;
+  --font-size-3: 1.25rem;
+  --font-size-4: 1.5rem;
+  --font-size-5: 2rem;
+  --font-size-6: 2.5rem;
+
+  --font-weight-6: 600;
+
+  --font-monospace-code: Dank Mono, Operator Mono, Inconsolata, Fira Mono, ui-monospace, SF Mono, Monaco,
+    Droid Sans Mono, Source Code Pro, Cascadia Code, Menlo, Consolas, DejaVu Sans Mono, monospace;
+}

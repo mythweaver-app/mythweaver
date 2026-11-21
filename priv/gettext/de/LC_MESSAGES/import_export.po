@@ -1,0 +1,1304 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{item_kind} · %{item_name} — matches %{match_name}"
+msgstr "%{item_kind} · %{item_name} — entspricht %{match_name}"
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{book_name}' couldn't be linked to the lore entry '%{entry_name}'."
+msgstr "'%{book_name}' konnte nicht mit dem Lore-Eintrag '%{entry_name}' verknüpft werden."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{chat_name}' needs at least two of its characters."
+msgstr "'%{chat_name}' braucht mindestens zwei seiner Charaktere."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{chat_name}' needs its player character."
+msgstr "'%{chat_name}' braucht seinen Spielercharakter."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}' couldn't be linked to the lore pool '%{pool_name}'."
+msgstr "'%{entry_name}' konnte nicht mit dem Lore-Pool '%{pool_name}' verknüpft werden."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{item_name}' can't be hidden or forced outside the site's lore; imported readable."
+msgstr "'%{item_name}' kann außerhalb der Lore der Website nicht verborgen oder erzwungen sein; als lesbar importiert."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{item_name}' can't be runtime-only outside the site's content; imported readable."
+msgstr "'%{item_name}' kann außerhalb der Inhalte der Website nicht nur zur Laufzeit sein; als lesbar importiert."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{item_name}' couldn't be linked to its lore books."
+msgstr "'%{item_name}' konnte nicht mit seinen Lore-Büchern verknüpft werden."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{item_name}' couldn't be linked to the lore book '%{book_name}'."
+msgstr "'%{item_name}' konnte nicht mit dem Lore-Buch '%{book_name}' verknüpft werden."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{item_name}' couldn't be linked to the prompt block '%{block_name}'."
+msgstr "'%{item_name}' konnte nicht mit dem Prompt-Block '%{block_name}' verknüpft werden."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{item_name}''s memory settings couldn't be restored."
+msgstr "Die Gedächtniseinstellungen von '%{item_name}' konnten nicht wiederhergestellt werden."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{item_name}''s tags couldn't be set."
+msgstr "Die Tags von '%{item_name}' konnten nicht gesetzt werden."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to AI model '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf das KI-Modell '%{target_name}', das hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to character '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf den Charakter '%{target_name}', der hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to chat '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf den Chat '%{target_name}', der hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to lore book '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf das Lore-Buch '%{target_name}', das hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to lore entry '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf den Lore-Eintrag '%{target_name}', der hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to lore pool '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf den Lore-Pool '%{target_name}', der hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to memory profile '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf das Gedächtnisprofil '%{target_name}', das hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to outlet '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf das Outlet '%{target_name}', das hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to prompt '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf den Prompt '%{target_name}', der hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to prompt block '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf den Prompt-Block '%{target_name}', der hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to script '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf das Skript '%{target_name}', das hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to side prompt '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf den Neben-Prompt '%{target_name}', der hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{owner_name}' links to side prompt set '%{target_name}', which isn't here."
+msgstr "'%{owner_name}' verweist auf das Neben-Prompt-Set '%{target_name}', das hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "A chat needs at least two characters; map another speaker to a character."
+msgstr "Ein Chat braucht mindestens zwei Charaktere; ordne einen weiteren Sprecher einem Charakter zu."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "A file (%{file_name}) couldn't be saved."
+msgstr "Eine Datei (%{file_name}) konnte nicht gespeichert werden."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "A row of '%{set_name}' was dropped: its side prompt isn't here."
+msgstr "Eine Zeile von '%{set_name}' wurde verworfen: Ihr Neben-Prompt ist hier nicht vorhanden."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "Aikobots budget mode %{budget_mode} (%{budget_percent}%) wasn't imported; set the book's token budget by hand."
+msgstr "Aikobots-Budgetmodus %{budget_mode} (%{budget_percent}%) wurde nicht importiert; lege das Token-Budget des Buchs von Hand fest."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "Aikobots settings not imported: %{setting_keys}."
+msgstr "Nicht importierte Aikobots-Einstellungen: %{setting_keys}."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "Bound the existing lore book '%{book_name}' this card links."
+msgstr "Das vorhandene Lore-Buch '%{book_name}', auf das diese Karte verweist, wurde verknüpft."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "Bound the existing lore book '%{book_name}' this card links; its embedded copy wasn't imported."
+msgstr "Das vorhandene Lore-Buch '%{book_name}', auf das diese Karte verweist, wurde verknüpft; seine eingebettete Kopie wurde nicht importiert."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "Choose a character for the player."
+msgstr "Wähle einen Charakter für den Spieler."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "Converted decorators in %{entry_count} entry."
+msgid_plural "Converted decorators in %{entry_count} entries."
+msgstr[0] "Decorators in %{entry_count} Eintrag umgewandelt."
+msgstr[1] "Decorators in %{entry_count} Einträgen umgewandelt."
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgid "Drop files here or choose them"
+msgstr "Dateien hierher ziehen oder auswählen"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgid "File is larger than %{limit_megabytes}"
+msgstr "Datei ist größer als %{limit_megabytes}"
+
+#. Import warning; the placeholder is a comma-separated list of SillyTavern macros like {{user}}.
+#: lib/mythweaver/import/text.ex
+#, elixir-autogen, elixir-format
+msgid "Left as literal text (no equivalent): %{macro_list}"
+msgstr "Als wörtlicher Text belassen (keine Entsprechung): %{macro_list}"
+
+#: lib/mythweaver/import/chat.ex
+#, elixir-autogen, elixir-format
+msgid "Line %{line_number} isn't valid JSON."
+msgstr "Zeile %{line_number} ist kein gültiges JSON."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgid "Nothing was imported: every item was skipped."
+msgstr "Nichts wurde importiert: Alle Elemente wurden übersprungen."
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgid "Only PNG, CHARX, JSON, JSONL and Mythweaver bundle files can be imported"
+msgstr "Nur PNG-, CHARX-, JSON-, JSONL- und Mythweaver-Bundle-Dateien können importiert werden"
+
+#: lib/mythweaver/import.ex
+#, elixir-autogen, elixir-format
+msgid "Only SillyTavern Chat Completion presets can be imported; this looks like a text-completion preset or template."
+msgstr "Nur SillyTavern-Chat-Completion-Presets können importiert werden; dies sieht nach einem Text-Completion-Preset oder einer Vorlage aus."
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgid "Pick items on the left. Everything they depend on comes along."
+msgstr "Wähle links Elemente aus. Alles, wovon sie abhängen, kommt mit."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "Read %{field_count} non-standard field spelling."
+msgid_plural "Read %{field_count} non-standard field spellings."
+msgstr[0] "%{field_count} nicht standardmäßige Feldschreibweise gelesen."
+msgstr[1] "%{field_count} nicht standardmäßige Feldschreibweisen gelesen."
+
+#: lib/mythweaver/import/preset.ex
+#, elixir-autogen, elixir-format
+msgid "Sampler %{sampler_key} = %{sampler_value} is out of range and was skipped."
+msgstr "Sampler %{sampler_key} = %{sampler_value} liegt außerhalb des gültigen Bereichs und wurde übersprungen."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "Shifted orders up by %{order_shift} so none is negative."
+msgstr "Reihenfolgen um %{order_shift} erhöht, damit keine negativ ist."
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgid "SillyTavern characters, chats (.jsonl), lore books and Chat Completion presets, Character Card V1–V3 files (PNG, JSON, CHARX), and Mythweaver bundles (.mythweaver)."
+msgstr "SillyTavern-Charaktere, -Chats (.jsonl), -Lore-Bücher und Chat-Completion-Presets, Character-Card-V1–V3-Dateien (PNG, JSON, CHARX) und Mythweaver-Bundles (.mythweaver)."
+
+#: lib/mythweaver/import/writer_helpers.ex
+#, elixir-autogen, elixir-format
+msgid "Tag '%{tag_text}' wasn't imported: %{reason}."
+msgstr "Tag '%{tag_text}' wurde nicht importiert: %{reason}."
+
+#: lib/mythweaver/import.ex
+#, elixir-autogen, elixir-format
+msgid "That file is from another app; only SillyTavern and Character Card files are supported."
+msgstr "Diese Datei stammt aus einer anderen App; nur SillyTavern- und Character-Card-Dateien werden unterstützt."
+
+#. Flash when the export page is opened for an item the user cannot export.
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgid "That item can't be exported."
+msgstr "Dieses Element kann nicht exportiert werden."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "That model can't be edited."
+msgstr "Dieses Modell kann nicht bearbeitet werden."
+
+#: lib/mythweaver/import/writer_helpers.ex
+#, elixir-autogen, elixir-format
+msgid "That would go over your quota."
+msgstr "Das würde dein Kontingent überschreiten."
+
+#: lib/mythweaver/import/writer_helpers.ex
+#, elixir-autogen, elixir-format
+msgid "The avatar couldn't be saved."
+msgstr "Der Avatar konnte nicht gespeichert werden."
+
+#: lib/mythweaver/import/writer_helpers.ex
+#, elixir-autogen, elixir-format
+msgid "The card's tags couldn't be imported."
+msgstr "Die Tags der Karte konnten nicht importiert werden."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "The embedded book's %{setting_list} weren't applied (SillyTavern ignores them)."
+msgstr "Die Einstellungen %{setting_list} des eingebetteten Buchs wurden nicht übernommen (SillyTavern ignoriert sie)."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "The lore book '%{book_name}' this card links exists but can't be bound to this character."
+msgstr "Das Lore-Buch '%{book_name}', auf das diese Karte verweist, existiert, kann aber nicht mit diesem Charakter verknüpft werden."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "The lore book '%{book_name}' this card links exists but can't be bound to this character; its embedded copy was imported."
+msgstr "Das Lore-Buch '%{book_name}', auf das diese Karte verweist, existiert, kann aber nicht mit diesem Charakter verknüpft werden; seine eingebettete Kopie wurde importiert."
+
+#: lib/mythweaver/import/charx.ex
+#, elixir-autogen, elixir-format
+msgid "This CHARX file has no card.json."
+msgstr "Diese CHARX-Datei enthält keine card.json."
+
+#: lib/mythweaver/import/png.ex
+#, elixir-autogen, elixir-format
+msgid "This PNG has no character card in it."
+msgstr "Dieses PNG enthält keine Charakterkarte."
+
+#: lib/mythweaver/import/png.ex
+#, elixir-autogen, elixir-format
+msgid "This PNG's character card isn't valid JSON."
+msgstr "Die Charakterkarte dieses PNG ist kein gültiges JSON."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "This card also links the lore book '%{book_name}', which isn't here."
+msgstr "Diese Karte verweist außerdem auf das Lore-Buch '%{book_name}', das hier nicht vorhanden ist."
+
+#: lib/mythweaver/import/card.ex
+#, elixir-autogen, elixir-format
+msgid "This card has no name."
+msgstr "Diese Karte hat keinen Namen."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "This card links the lore book '%{book_name}', which isn't here. Import it, then bind it to the character."
+msgstr "Diese Karte verweist auf das Lore-Buch '%{book_name}', das hier nicht vorhanden ist. Importiere es und verknüpfe es dann mit dem Charakter."
+
+#: lib/mythweaver/import/chat.ex
+#, elixir-autogen, elixir-format
+msgid "This chat has no messages."
+msgstr "Dieser Chat hat keine Nachrichten."
+
+#: lib/mythweaver/import.ex
+#, elixir-autogen, elixir-format
+msgid "This file couldn't be read."
+msgstr "Diese Datei konnte nicht gelesen werden."
+
+#: lib/mythweaver/import.ex
+#, elixir-autogen, elixir-format
+msgid "This file is too large to import."
+msgstr "Diese Datei ist zu groß für den Import."
+
+#: lib/mythweaver/import.ex
+#: lib/mythweaver/import/charx.ex
+#, elixir-autogen, elixir-format
+msgid "This file isn't valid JSON."
+msgstr "Diese Datei ist kein gültiges JSON."
+
+#: lib/mythweaver/import.ex
+#, elixir-autogen, elixir-format
+msgid "This file took too long to read."
+msgstr "Das Lesen dieser Datei hat zu lange gedauert."
+
+#: lib/mythweaver/import/embedded.ex
+#, elixir-autogen, elixir-format
+msgid "This file was changed outside Mythweaver, so its Mythweaver-only details weren't imported."
+msgstr "Diese Datei wurde außerhalb von Mythweaver geändert, daher wurden ihre Mythweaver-spezifischen Details nicht importiert."
+
+#: lib/mythweaver/import/charx.ex
+#, elixir-autogen, elixir-format
+msgid "This isn't a valid CHARX file."
+msgstr "Dies ist keine gültige CHARX-Datei."
+
+#: lib/mythweaver/import/png.ex
+#, elixir-autogen, elixir-format
+msgid "This isn't a valid PNG file."
+msgstr "Dies ist keine gültige PNG-Datei."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "Unknown decorator %{decorator_line} in '%{entry_name}'."
+msgstr "Unbekannter Decorator %{decorator_line} in '%{entry_name}'."
+
+#: lib/mythweaver/import.ex
+#, elixir-autogen, elixir-format
+msgid "You have too much waiting for review; withdraw something on the Submissions page first."
+msgstr "Du hast zu viel in der Prüfung; ziehe zuerst etwas auf der Seite Einreichungen zurück."
+
+#: lib/mythweaver/import/writer_helpers.ex
+#, elixir-autogen, elixir-format
+msgid "You're not allowed to create that here."
+msgstr "Du darfst das hier nicht erstellen."
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that removes an item from the export"
+msgid "Remove"
+msgstr "Entfernen"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: tabs choosing the kind of item to export"
+msgid "Kinds"
+msgstr "Arten"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported file"
+msgid "Character card"
+msgstr "Charakterkarte"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported file"
+msgid "Chat"
+msgstr "Chat"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported file"
+msgid "Chat Completion preset"
+msgstr "Chat-Completion-Preset"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported file"
+msgid "Lore book"
+msgstr "Lore-Buch"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported file"
+msgid "Mythweaver bundle"
+msgstr "Mythweaver-Bundle"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "AI model"
+msgstr "KI-Modell"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Character"
+msgstr "Charakter"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Chat"
+msgstr "Chat"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Lore book"
+msgstr "Lore-Buch"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Lore entry"
+msgstr "Lore-Eintrag"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Lore pool"
+msgstr "Lore-Pool"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Memory profile"
+msgstr "Gedächtnisprofil"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Outlet"
+msgstr "Outlet"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Prompt"
+msgstr "Prompt"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Prompt block"
+msgstr "Prompt-Block"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Script"
+msgstr "Skript"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Side prompt"
+msgstr "Neben-Prompt"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of an imported item"
+msgid "Side prompt set"
+msgstr "Neben-Prompt-Set"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: clear the export selection"
+msgid "Clear"
+msgstr "Leeren"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: download the export file"
+msgid "Download"
+msgstr "Herunterladen"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: import this file"
+msgid "Import"
+msgstr "Importieren"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the item just imported"
+msgid "Open"
+msgstr "Öffnen"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove a file from the import list"
+msgid "Remove"
+msgstr "Entfernen"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "date range: first to last message of the imported chat"
+msgid "%{start_date} to %{end_date}"
+msgstr "%{start_date} bis %{end_date}"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no exportable item matches the filter"
+msgid "Nothing matches the filter."
+msgstr "Nichts passt zum Filter."
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no items of this kind to export"
+msgid "Nothing to export here yet."
+msgstr "Hier gibt es noch nichts zu exportieren."
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: also embed Mythweaver's own data in an export"
+msgid "Include Mythweaver data"
+msgstr "Mythweaver-Daten einschließen"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: file format of an export"
+msgid "Format"
+msgstr "Format"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: import decision for a bundle item"
+msgid "%{item_kind} · %{item_name}"
+msgstr "%{item_kind} · %{item_name}"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: imported chat speaker, with how many messages they wrote"
+msgid "%{speaker_name} (%{message_count} message)"
+msgid_plural "%{speaker_name} (%{message_count} messages)"
+msgstr[0] "%{speaker_name} (%{message_count} Nachricht)"
+msgstr[1] "%{speaker_name} (%{message_count} Nachrichten)"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: model whose samplers an exported preset carries"
+msgid "Samplers from"
+msgstr "Sampler von"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: model whose samplers an imported preset overwrites"
+msgid "Model samplers"
+msgstr "Modell-Sampler"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: speaker who is the player in an imported chat"
+msgid "Player"
+msgstr "Spieler"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: export items"
+msgid "Export"
+msgstr "Exportieren"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: import files"
+msgid "Import"
+msgstr "Importieren"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: items chosen for export"
+msgid "Selected"
+msgstr "Ausgewählt"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: open the export page"
+msgid "Export…"
+msgstr "Exportieren…"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: open the import page"
+msgid "Import…"
+msgstr "Importieren…"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: create a character for an imported chat speaker"
+msgid "Create new character"
+msgstr "Neuen Charakter erstellen"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: do not import an item"
+msgid "Skip"
+msgstr "Überspringen"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: export a preset without sampler values"
+msgid "No sampler"
+msgstr "Keine Sampler"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: import a preset without changing any model"
+msgid "Don't change any model's samplers"
+msgstr "Sampler keines Modells ändern"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: import an item as a new copy"
+msgid "Copy"
+msgstr "Kopie"
+
+#: lib/mythweaver/import/review.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: import an item over its existing local match"
+msgid "Replace"
+msgstr "Ersetzen"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: keep an imported chat speaker as a name only"
+msgid "Name only (no character)"
+msgstr "Nur Name (kein Charakter)"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: export items"
+msgid "Export"
+msgstr "Exportieren"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: import files"
+msgid "Import"
+msgstr "Importieren"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: filter exportable items by name"
+msgid "Filter by name"
+msgstr "Nach Name filtern"
+
+#: lib/mythweaver/import/writer_helpers.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: an import failed for an unknown reason"
+msgid "Couldn't import."
+msgstr "Import fehlgeschlagen."
+
+#. Import error; the placeholders are a field name and its validation error.
+#: lib/mythweaver/import/writer_helpers.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: an import failed on an invalid field"
+msgid "Couldn't import: %{field_name} %{field_error}"
+msgstr "Import fehlgeschlagen: %{field_name} %{field_error}"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: export format and why it is unavailable"
+msgid "%{format_name}: %{unavailable_reason}"
+msgstr "%{format_name}: %{unavailable_reason}"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: imported file held for moderation"
+msgid "Waiting for moderator review"
+msgstr "Wartet auf Prüfung durch einen Moderator"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: kind and name of an item chosen for export"
+msgid "%{item_kind} · %{item_name}"
+msgstr "%{item_kind} · %{item_name}"
+
+#. Summary of an imported character card; the placeholders are counts like “3 card entries”.
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: summary of an imported character card"
+msgid "%{character_name}: %{card_entry_total}, %{lore_entry_total}"
+msgstr "%{character_name}: %{card_entry_total}, %{lore_entry_total}"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: summary of an imported chat"
+msgid "%{message_count} message, %{date_range}"
+msgid_plural "%{message_count} messages, %{date_range}"
+msgstr[0] "%{message_count} Nachricht, %{date_range}"
+msgstr[1] "%{message_count} Nachrichten, %{date_range}"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: summary of an imported lore book"
+msgid "%{entry_count} entry"
+msgid_plural "%{entry_count} entries"
+msgstr[0] "%{entry_count} Eintrag"
+msgstr[1] "%{entry_count} Einträge"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: summary of an imported preset"
+msgid "%{block_count} block"
+msgid_plural "%{block_count} blocks"
+msgstr[0] "%{block_count} Block"
+msgstr[1] "%{block_count} Blöcke"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: summary of an imported preset with sampler values"
+msgid "%{block_count} block; samplers: %{sampler_keys}"
+msgid_plural "%{block_count} blocks; samplers: %{sampler_keys}"
+msgstr[0] "%{block_count} Block; Sampler: %{sampler_keys}"
+msgstr[1] "%{block_count} Blöcke; Sampler: %{sampler_keys}"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: upload error"
+msgid "Too many files"
+msgstr "Zu viele Dateien"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: upload error"
+msgid "Upload failed"
+msgstr "Hochladen fehlgeschlagen"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: upload error for one file"
+msgid "%{file_name}: %{upload_error}"
+msgstr "%{file_name}: %{upload_error}"
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: SillyTavern entry feature not imported, with how many entries use it"
+msgid "character filter tags (%{entry_count})"
+msgstr "Charakterfilter-Tags (%{entry_count})"
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: SillyTavern entry feature not imported, with how many entries use it"
+msgid "match* scan sources (%{entry_count} entry)"
+msgid_plural "match* scan sources (%{entry_count} entries)"
+msgstr[0] "match*-Scanquellen (%{entry_count} Eintrag)"
+msgstr[1] "match*-Scanquellen (%{entry_count} Einträge)"
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: SillyTavern entry feature not imported, with how many entries use it"
+msgid "triggers (%{entry_count})"
+msgstr "Auslöser (%{entry_count})"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: card entries in an imported character"
+msgid "%{entry_count} card entry"
+msgid_plural "%{entry_count} card entries"
+msgstr[0] "%{entry_count} Karteneintrag"
+msgstr[1] "%{entry_count} Karteneinträge"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: how many items of one kind an imported bundle holds"
+msgid "%{item_kind}: %{item_total}"
+msgstr "%{item_kind}: %{item_total}"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: how many items of this kind are chosen, after the tab label"
+msgid " (%{selected_count})"
+msgstr " (%{selected_count})"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} AI model"
+msgid_plural "%{item_count} AI models"
+msgstr[0] "%{item_count} KI-Modell"
+msgstr[1] "%{item_count} KI-Modelle"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} avatar"
+msgid_plural "%{item_count} avatars"
+msgstr[0] "%{item_count} Avatar"
+msgstr[1] "%{item_count} Avatare"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} block"
+msgid_plural "%{item_count} blocks"
+msgstr[0] "%{item_count} Block"
+msgstr[1] "%{item_count} Blöcke"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} character"
+msgid_plural "%{item_count} characters"
+msgstr[0] "%{item_count} Charakter"
+msgstr[1] "%{item_count} Charaktere"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} chat"
+msgid_plural "%{item_count} chats"
+msgstr[0] "%{item_count} Chat"
+msgstr[1] "%{item_count} Chats"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} entry"
+msgid_plural "%{item_count} entries"
+msgstr[0] "%{item_count} Eintrag"
+msgstr[1] "%{item_count} Einträge"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} file"
+msgid_plural "%{item_count} files"
+msgstr[0] "%{item_count} Datei"
+msgstr[1] "%{item_count} Dateien"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} lore book"
+msgid_plural "%{item_count} lore books"
+msgstr[0] "%{item_count} Lore-Buch"
+msgstr[1] "%{item_count} Lore-Bücher"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} memory profile"
+msgid_plural "%{item_count} memory profiles"
+msgstr[0] "%{item_count} Gedächtnisprofil"
+msgstr[1] "%{item_count} Gedächtnisprofile"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} message"
+msgid_plural "%{item_count} messages"
+msgstr[0] "%{item_count} Nachricht"
+msgstr[1] "%{item_count} Nachrichten"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} outlet"
+msgid_plural "%{item_count} outlets"
+msgstr[0] "%{item_count} Outlet"
+msgstr[1] "%{item_count} Outlets"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} pool"
+msgid_plural "%{item_count} pools"
+msgstr[0] "%{item_count} Lore-Pool"
+msgstr[1] "%{item_count} Lore-Pools"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} prompt"
+msgid_plural "%{item_count} prompts"
+msgstr[0] "%{item_count} Prompt"
+msgstr[1] "%{item_count} Prompts"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} script"
+msgid_plural "%{item_count} scripts"
+msgstr[0] "%{item_count} Skript"
+msgstr[1] "%{item_count} Skripte"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} side prompt"
+msgid_plural "%{item_count} side prompts"
+msgstr[0] "%{item_count} Neben-Prompt"
+msgstr[1] "%{item_count} Neben-Prompts"
+
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: items in an export"
+msgid "%{item_count} side prompt set"
+msgid_plural "%{item_count} side prompt sets"
+msgstr[0] "%{item_count} Neben-Prompt-Set"
+msgstr[1] "%{item_count} Neben-Prompt-Sets"
+
+#: lib/mythweaver/import/text.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: list item for a template that could not be parsed"
+msgid "unparseable template"
+msgstr "nicht lesbare Vorlage"
+
+#: lib/mythweaver_web/live/import_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: lore entries in an imported character"
+msgid "%{entry_count} lore entry"
+msgid_plural "%{entry_count} lore entries"
+msgstr[0] "%{entry_count} Lore-Eintrag"
+msgstr[1] "%{entry_count} Lore-Einträge"
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_count} entry was marked as a memory (it has no chat or message range)."
+msgid_plural "%{entry_count} entries were marked as memories (they have no chat or message range)."
+msgstr[0] "%{entry_count} Eintrag wurde als Erinnerung markiert (er hat keinen Chat- oder Nachrichtenbereich)."
+msgstr[1] "%{entry_count} Einträge wurden als Erinnerungen markiert (sie haben keinen Chat- oder Nachrichtenbereich)."
+
+#. Export warning; the placeholder is a comma-separated list of lore entry names.
+#: lib/mythweaver/export/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_names}: regex flags x/f aren't supported by SillyTavern; the key will match as plain text."
+msgstr "%{entry_names}: Regex-Flags x/f werden von SillyTavern nicht unterstützt; das Schlüsselwort wird als reiner Text abgeglichen."
+
+#. Export warning; the placeholder is a comma-separated list of lore entry names.
+#: lib/mythweaver/export/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_names}: trigger-only; SillyTavern has no such setting and will insert the content."
+msgstr "%{entry_names}: nur Auslöser; SillyTavern hat keine solche Einstellung und fügt den Inhalt ein."
+
+#: lib/mythweaver/import/preset.ex
+#, elixir-autogen, elixir-format
+msgid "'%{block_name}' was placed after chat history (it was inserted at depth %{depth})."
+msgstr "'%{block_name}' wurde nach dem Chatverlauf platziert (es war in Tiefe %{depth} eingefügt)."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}' character filter tags weren't imported: %{tag_list}."
+msgstr "Die Charakterfilter-Tags von '%{entry_name}' wurden nicht importiert: %{tag_list}."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}' character filter: no character named %{character_names}."
+msgstr "Charakterfilter von '%{entry_name}': kein Charakter namens %{character_names}."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}' had no keywords; imported switched off."
+msgstr "'%{entry_name}' hatte keine Schlüsselwörter; deaktiviert importiert."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}' had no outlet name; imported after the character."
+msgstr "'%{entry_name}' hatte keinen Outlet-Namen; nach dem Charakter importiert."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}' had no usable order; imported at %{order_value}."
+msgstr "'%{entry_name}' hatte keine gültige Reihenfolge; mit %{order_value} importiert."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}' has an unknown position; imported as trigger-only (SillyTavern never inserts it)."
+msgstr "'%{entry_name}' hat eine unbekannte Position; als reiner Auslöser importiert (SillyTavern fügt ihn nie ein)."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}' stored its position as text; read as after the character."
+msgstr "'%{entry_name}' hat seine Position als Text gespeichert; als nach dem Charakter gelesen."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}' stored its position as text; read as before the character."
+msgstr "'%{entry_name}' hat seine Position als Text gespeichert; als vor dem Charakter gelesen."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}' was limited to characters that aren't here; imported switched off."
+msgstr "'%{entry_name}' war auf Charaktere beschränkt, die hier nicht vorhanden sind; deaktiviert importiert."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}': key %{entry_key} is plain text in SillyTavern but a regex here."
+msgstr "'%{entry_name}': Schlüsselwort %{entry_key} ist in SillyTavern reiner Text, hier aber ein Regex."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}': key %{entry_key} isn't a valid regex here and was dropped."
+msgstr "'%{entry_name}': Schlüsselwort %{entry_key} ist hier kein gültiger Regex und wurde verworfen."
+
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgid "'%{entry_name}': key %{entry_key} loses the sticky flag y, so it matches more widely than in SillyTavern."
+msgstr "'%{entry_name}': Schlüsselwort %{entry_key} verliert das Sticky-Flag y und passt daher breiter als in SillyTavern."
+
+#: lib/mythweaver/export/collect.ex
+#, elixir-autogen, elixir-format
+msgid "'%{item_name}' is hidden lore and was left out."
+msgstr "'%{item_name}' ist verborgene Lore und wurde weggelassen."
+
+#: lib/mythweaver/export/collect.ex
+#, elixir-autogen, elixir-format
+msgid "'%{item_name}' is runtime-only and was left out."
+msgstr "'%{item_name}' ist nur zur Laufzeit verfügbar und wurde weggelassen."
+
+#: lib/mythweaver/import/text.ex
+#, elixir-autogen, elixir-format
+msgid "'%{item_name}': %{field_key} was too large to keep."
+msgstr "'%{item_name}': %{field_key} war zu groß, um es zu behalten."
+
+#: lib/mythweaver/export/chat_log.ex
+#, elixir-autogen, elixir-format
+msgid "Attachments aren't part of SillyTavern chats and were left out."
+msgstr "Anhänge sind nicht Teil von SillyTavern-Chats und wurden weggelassen."
+
+#: lib/mythweaver/export/card.ex
+#, elixir-autogen, elixir-format
+msgid "JSON cards carry no avatar; choose PNG or CHARX to keep it."
+msgstr "JSON-Karten enthalten keinen Avatar; wähle PNG oder CHARX, um ihn zu behalten."
+
+#. Export warning; the placeholder is a comma-separated list of the field and entry names whose text keeps Mythweaver templates.
+#: lib/mythweaver/export/macros.ex
+#, elixir-autogen, elixir-format
+msgid "Some text uses Mythweaver templates SillyTavern can't run: %{field_names}."
+msgstr "Einige Texte nutzen Mythweaver-Vorlagen, die SillyTavern nicht ausführen kann: %{field_names}."
+
+#: lib/mythweaver/export.ex
+#: lib/mythweaver/export/collect.ex
+#, elixir-autogen, elixir-format
+msgid "Something you picked is no longer available."
+msgstr "Etwas, das du ausgewählt hast, ist nicht mehr verfügbar."
+
+#: lib/mythweaver/export/card.ex
+#, elixir-autogen, elixir-format
+msgid "The avatar couldn't be made a PNG, so the card shows a blank image; choose CHARX to keep it."
+msgstr "Der Avatar konnte nicht in PNG umgewandelt werden, daher zeigt die Karte ein leeres Bild; wähle CHARX, um ihn zu behalten."
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgid "The avatar isn't a PNG and the image proxy can't convert it; choose CHARX to keep it."
+msgstr "Der Avatar ist kein PNG und der Bild-Proxy kann ihn nicht umwandeln; wähle CHARX, um ihn zu behalten."
+
+#: lib/mythweaver/bundle.ex
+#, elixir-autogen, elixir-format
+msgid "This bundle is too large."
+msgstr "Dieses Bundle ist zu groß."
+
+#: lib/mythweaver/bundle.ex
+#, elixir-autogen, elixir-format
+msgid "This bundle needs a newer Mythweaver."
+msgstr "Dieses Bundle benötigt eine neuere Mythweaver-Version."
+
+#: lib/mythweaver/bundle.ex
+#, elixir-autogen, elixir-format
+msgid "This isn't a valid Mythweaver bundle."
+msgstr "Dies ist kein gültiges Mythweaver-Bundle."
+
+#: lib/mythweaver/export/card.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character card field"
+msgid "Description"
+msgstr "Beschreibung"
+
+#: lib/mythweaver/export/card.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character card field"
+msgid "First message"
+msgstr "Erste Nachricht"
+
+#: lib/mythweaver/export/card.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character card field"
+msgid "Post-history instructions"
+msgstr "Anweisungen nach dem Verlauf"
+
+#: lib/mythweaver/export/card.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character card field"
+msgid "System prompt"
+msgstr "System-Prompt"
+
+#: lib/mythweaver/export/card.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: numbered alternate greeting of a character card"
+msgid "Alternate greeting %{greeting_number}"
+msgstr "Alternative Begrüßung %{greeting_number}"
+
+#: lib/mythweaver/export/card.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: numbered group-only greeting of a character card"
+msgid "Group-only greeting %{greeting_number}"
+msgstr "Begrüßung nur für Gruppen %{greeting_number}"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: file format of an export"
+msgid "Character card (CHARX)"
+msgstr "Charakterkarte (CHARX)"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: file format of an export"
+msgid "Character card (JSON)"
+msgstr "Charakterkarte (JSON)"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: file format of an export"
+msgid "Character card (PNG)"
+msgstr "Charakterkarte (PNG)"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: file format of an export"
+msgid "Mythweaver bundle"
+msgstr "Mythweaver-Bundle"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: file format of an export"
+msgid "SillyTavern chat"
+msgstr "SillyTavern-Chat"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: file format of an export"
+msgid "SillyTavern preset"
+msgstr "SillyTavern-Preset"
+
+#. Flash when the export form is submitted without choosing anything.
+#: lib/mythweaver/export.ex
+#: lib/mythweaver_web/controllers/export_controller.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when an export is submitted with nothing chosen"
+msgid "Choose something to export."
+msgstr "Wähle etwas zum Exportieren aus."
+
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: import error, a chat speaker is mapped to a character that can't be used"
+msgid "That character isn't available."
+msgstr "Dieser Charakter ist nicht verfügbar."
+
+#: lib/mythweaver/import.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: import error, the file's type is not recognized"
+msgid "Unrecognized file."
+msgstr "Unbekannte Datei."
+
+#. Import warning; the placeholder is a comma-separated list of SillyTavern features, each with how many entries use it.
+#: lib/mythweaver/import/world_info.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: import warning, SillyTavern lore entry features not imported"
+msgid "Not imported: %{feature_list}."
+msgstr "Nicht importiert: %{feature_list}."
+
+#: lib/mythweaver/import/preset.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: import warning, SillyTavern preset settings not imported"
+msgid "Not imported: %{setting_keys}"
+msgstr "Nicht importiert: %{setting_keys}"
+
+#: lib/mythweaver/import/charx.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: import warning, a character card's extra assets were ignored"
+msgid "Ignored %{asset_count} extra asset."
+msgid_plural "Ignored %{asset_count} extra assets."
+msgstr[0] "%{asset_count} zusätzliches Asset ignoriert."
+msgstr[1] "%{asset_count} zusätzliche Assets ignoriert."
+
+#: lib/mythweaver/import/bundle_writer.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: import warning, a lore entry was skipped"
+msgid "'%{item_name}' skipped: %{field_errors}"
+msgstr "'%{item_name}' übersprungen: %{field_errors}"
+
+#. What an export contains; the placeholder is a comma-separated list like “2 characters, 1 lore book”.
+#: lib/mythweaver_web/live/export_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: summary of what an export contains"
+msgid "Includes %{item_totals}."
+msgstr "Enthält %{item_totals}."
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: kind of item to export"
+msgid "AI models"
+msgstr "KI-Modelle"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: kind of item to export"
+msgid "Characters"
+msgstr "Charaktere"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: kind of item to export"
+msgid "Chats"
+msgstr "Chats"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: kind of item to export"
+msgid "Lore books"
+msgstr "Lore-Bücher"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: kind of item to export"
+msgid "Memory profiles"
+msgstr "Gedächtnisprofile"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: kind of item to export"
+msgid "Prompts"
+msgstr "Prompts"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: kind of item to export"
+msgid "Scripts"
+msgstr "Skripte"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: kind of item to export"
+msgid "Side prompt sets"
+msgstr "Neben-Prompt-Sets"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: kind of item to export"
+msgid "Side prompts"
+msgstr "Neben-Prompts"
+
+#: lib/mythweaver/export.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error when an export names a format that doesn't exist"
+msgid "Unknown export format."
+msgstr "Unbekanntes Exportformat."
+
+#: lib/mythweaver/import/chat.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: import warning, a chat's images were not imported"
+msgid "%{image_count} image wasn't imported."
+msgid_plural "%{image_count} images weren't imported."
+msgstr[0] "%{image_count} Bild wurde nicht importiert."
+msgstr[1] "%{image_count} Bilder wurden nicht importiert."
+
+#. Import warning; the error is a field name with its validation messages, separated by semicolons.
+#: lib/mythweaver/import/writer.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: import warning, a lore entry skipped for its errors"
+msgid "'%{entry_name}' skipped: %{entry_errors}"
+msgstr "'%{entry_name}' übersprungen: %{entry_errors}"

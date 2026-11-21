@@ -1,0 +1,877 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "%{file_name}: could not be added"
+msgstr "%{file_name}: no se pudo añadir"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "%{file_name}: no expression in the file name"
+msgstr "%{file_name}: no hay ninguna expresión en el nombre del archivo"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "Add sprites (named like joy.png, joy-2.png)"
+msgstr "Añadir sprites (con nombres como joy.png, joy-2.png)"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "Could not import the pack"
+msgstr "No se pudo importar el paquete"
+
+#. Flash when saving an editor form fails validation; the invalid fields are highlighted.
+#: lib/mythweaver_web/live/character_live.ex
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save — see the highlighted fields"
+msgstr "No se pudo guardar: revisa los campos resaltados"
+
+#. Confirm dialog before deleting an expression rule profile.
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "Delete %{profile_name}? Characters using it fall back to the default profile."
+msgstr "¿Eliminar %{profile_name}? Los personajes que lo usan volverán al perfil predeterminado."
+
+#. Confirm dialog before deleting the open outfit tab of a character.
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "Delete outfit %{outfit_name} and its sprites?"
+msgstr "¿Eliminar el atuendo %{outfit_name} y sus sprites?"
+
+#. The list holds the classifier's fixed emotion identifiers (joy, anger, …), which stay untranslated.
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "Emotions the classifier rates: %{emotion_labels}, plus each character's custom expressions."
+msgstr "Emociones que evalúa el clasificador: %{emotion_labels}, además de las expresiones personalizadas de cada personaje."
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "Fallback expression (when nothing matches)"
+msgstr "Expresión de reserva (cuando nada coincide)"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "Max difference between emotions, %"
+msgstr "Diferencia máxima entre emociones, %"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "No characters match this search"
+msgstr "Ningún personaje coincide con esta búsqueda"
+
+#. Flash after Describe avatar when no AI model can read images.
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "No model can describe images."
+msgstr "Ningún modelo puede describir imágenes."
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "Question for Describe avatar (optional)"
+msgstr "Pregunta para Describir avatar (opcional)"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "Remove this expression (its sprites stay until deleted)"
+msgstr "Quitar esta expresión (sus sprites se conservan hasta que se eliminen)"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "Replace the prompt's tagged block"
+msgstr "Reemplazar el bloque etiquetado del prompt"
+
+#. %{original_tag} is template code that inserts the replaced block's text; %{add_option} is the name of the "Add to the prompt" option of Card prompts.
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "Replaces the block tagged Main prompt (%{original_tag} is its text); with no tagged block, or with %{add_option}, it goes before the before-character lore."
+msgstr "Reemplaza el bloque etiquetado como Prompt principal (%{original_tag} es su texto); si no hay bloque etiquetado, o con %{add_option}, se coloca antes del lore previo al personaje."
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "Save the character to add expression sprites."
+msgstr "Guarda el personaje para añadir sprites de expresiones."
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a character, or create a new one."
+msgstr "Selecciona un personaje o crea uno nuevo."
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select an expression profile, or create a new one."
+msgstr "Selecciona un perfil de expresiones o crea uno nuevo."
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "Stop adding to this expression"
+msgstr "Dejar de añadir a esta expresión"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "Talkativeness (0 = only when named, 1 = every turn)"
+msgstr "Locuacidad (0 = solo cuando se le nombra, 1 = cada turno)"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "That file isn't a ZIP archive"
+msgstr "Ese archivo no es un archivo ZIP"
+
+#. Flash when the avatar description job could not be queued.
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "The avatar could not be described."
+msgstr "No se pudo describir el avatar."
+
+#. Flash shown when the character open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "The character was deleted or moved elsewhere."
+msgstr "El personaje se eliminó o se movió a otro lugar."
+
+#. Flash shown when the expression profile open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "The expression profile was deleted or moved elsewhere."
+msgstr "El perfil de expresiones se eliminó o se movió a otro lugar."
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "The outfit could not be created."
+msgstr "No se pudo crear el atuendo."
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "The outfit could not be created: %{error_message}"
+msgstr "No se pudo crear el atuendo: %{error_message}"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "The pack is too large (at most %{file_limit} files, %{size_limit} unpacked)"
+msgstr "El paquete es demasiado grande (como máximo %{file_limit} archivos, %{size_limit} descomprimido)"
+
+#. Flash after Describe avatar on a character without an avatar.
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "This character has no avatar to describe."
+msgstr "Este personaje no tiene avatar que describir."
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "What users who are not admins see of this character. Only names: never its description or appearance, in the prompt inspector, the assistant, scripts or exports; the model still gets them. Admins always see everything."
+msgstr "Lo que ven de este personaje los usuarios que no son administradores. Solo nombres: nunca su descripción ni su apariencia, ni en el inspector de prompts, el asistente, los scripts o las exportaciones; el modelo sí los recibe. Los administradores siempre lo ven todo."
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "You can't edit this character"
+msgstr "No puedes editar este personaje"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "alt text: character's current avatar"
+msgid "Avatar"
+msgstr "Avatar"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "alt text: newly uploaded character avatar"
+msgid "New avatar"
+msgstr "Nuevo avatar"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: delete one expression sprite image"
+msgid "Delete sprite"
+msgstr "Eliminar sprite"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: remove a custom expression label"
+msgid "Remove the %{expression_label} expression"
+msgstr "Quitar la expresión %{expression_label}"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: remove an emotion condition from a rule"
+msgid "Remove emotion"
+msgstr "Quitar emoción"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: remove one alternate greeting"
+msgid "Remove Alternate greeting %{greeting_number}"
+msgstr "Quitar saludo alternativo %{greeting_number}"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: remove one group-only greeting"
+msgid "Remove Group-only greeting %{greeting_number}"
+msgstr "Quitar saludo solo para grupos %{greeting_number}"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: star marking a favorite character"
+msgid "Favorite"
+msgstr "Favorito"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: tabs of a character's sprite outfits"
+msgid "Outfits"
+msgstr "Atuendos"
+
+#: lib/mythweaver/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: background job that picks a character's expression"
+msgid "Expression: %{character_name}"
+msgstr "Expresión: %{character_name}"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: custom expression label of a character"
+msgid "custom"
+msgstr "personalizada"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: expression label from a rule profile"
+msgid "rule"
+msgstr "regla"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add a group-only greeting"
+msgid "Add group-only greeting"
+msgstr "Añadir saludo solo para grupos"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add a rule to an expression profile"
+msgid "Add rule"
+msgstr "Añadir regla"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add a sprite to this expression"
+msgid "Add"
+msgstr "Añadir"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add an alternate greeting"
+msgid "Add alternate greeting"
+msgstr "Añadir saludo alternativo"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add an emotion condition to a rule"
+msgid "Add emotion"
+msgstr "Añadir emoción"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: compact the character description"
+msgid "Compact"
+msgstr "Compactar"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a character"
+msgid "New character"
+msgstr "Nuevo personaje"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a sprite outfit"
+msgid "Add outfit"
+msgstr "Añadir atuendo"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create an expression rule profile"
+msgid "New profile"
+msgstr "Nuevo perfil"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the open sprite outfit"
+msgid "Delete outfit"
+msgstr "Eliminar atuendo"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete this expression rule profile"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: describe the character's avatar"
+msgid "Describe avatar"
+msgstr "Describir avatar"
+
+#: lib/mythweaver_web/live/character_live.ex
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard edits to the open form"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard the newly picked avatar"
+msgid "Keep current"
+msgstr "Conservar el actual"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: favorite the open character"
+msgid "Favorite"
+msgstr "Marcar como favorito"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the import page"
+msgid "Import"
+msgstr "Importar"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove an expression rule"
+msgid "Remove rule"
+msgstr "Quitar regla"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove the character's avatar"
+msgid "Remove avatar"
+msgstr "Quitar avatar"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: revert the appearance text"
+msgid "Revert"
+msgstr "Revertir"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save character expression settings"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the expression rule profile"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the open character"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: unfavorite the open character"
+msgid "Unfavorite"
+msgstr "Quitar de favoritos"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: characters affected by a bulk action"
+msgid "%{character_count} character"
+msgid_plural "%{character_count} characters"
+msgstr[0] "%{character_count} personaje"
+msgstr[1] "%{character_count} personajes"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no characters exist"
+msgid "No characters yet"
+msgstr "Aún no hay personajes"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character appearance"
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character avatar upload"
+msgid "Avatar"
+msgstr "Avatar"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character card post-history instructions"
+msgid "Post-history instructions"
+msgstr "Instrucciones posteriores al historial"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character card system prompt"
+msgid "System prompt"
+msgstr "Prompt de sistema"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character description"
+msgid "Description"
+msgstr "Descripción"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character first message"
+msgid "First message"
+msgstr "Primer mensaje"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character setting to rewrite Appearance from a new avatar"
+msgid "Update Appearance from a new avatar"
+msgstr "Actualizar la apariencia a partir de un avatar nuevo"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character's custom expression labels"
+msgid "Custom expressions"
+msgstr "Expresiones personalizadas"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: creator notes of a character card"
+msgid "Creator notes"
+msgstr "Notas del creador"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: creator of a character card"
+msgid "Creator"
+msgstr "Creador"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: emotion in an expression rule condition"
+msgid "Emotion"
+msgstr "Emoción"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: expression an expression rule produces"
+msgid "Expression"
+msgstr "Expresión"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: expression rule profile of a character"
+msgid "Rule profile"
+msgstr "Perfil de reglas"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how character card prompts are applied"
+msgid "Card prompts"
+msgstr "Prompts de la tarjeta"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how often a character speaks in group chats"
+msgid "Talkativeness"
+msgstr "Locuacidad"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: kind of expression rule"
+msgid "Kind"
+msgstr "Tipo"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: maximum emotion score percent"
+msgid "Max %"
+msgstr "Máx. %"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: minimum emotion score percent"
+msgid "Min %"
+msgstr "Mín. %"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a character"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of an expression rule profile"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: pronouns of a character"
+msgid "Pronouns"
+msgstr "Pronombres"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: upload a zip of sprites"
+msgid "Import sprite pack (.zip)"
+msgstr "Importar paquete de sprites (.zip)"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: version of a character card"
+msgid "Character version"
+msgstr "Versión del personaje"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: what non-admin users see of a site character"
+msgid "Visible to users"
+msgstr "Visible para los usuarios"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: character expression sprites section"
+msgid "Expressions"
+msgstr "Expresiones"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of alternate greetings"
+msgid "Alternate greetings"
+msgstr "Saludos alternativos"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of group-only greetings"
+msgid "Group-only greetings"
+msgstr "Saludos solo para grupos"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: rules of an expression profile"
+msgid "Rules"
+msgstr "Reglas"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: unsaved new character"
+msgid "New character"
+msgstr "Nuevo personaje"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: unsaved new expression profile"
+msgid "New expression profile"
+msgstr "Nuevo perfil de expresiones"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: switch to the characters pane"
+msgid "Characters"
+msgstr "Personajes"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: switch to the expression rule profiles pane"
+msgid "Expression rules"
+msgstr "Reglas de expresiones"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: avatar updates appearance"
+msgid "No"
+msgstr "No"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: avatar updates appearance"
+msgid "Yes"
+msgstr "Sí"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: avatar updates appearance per user settings"
+msgid "Follow my settings"
+msgstr "Seguir mis ajustes"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how character card prompts are applied"
+msgid "Add to the prompt"
+msgstr "Añadir al prompt"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of expression rule"
+msgid "Combination"
+msgstr "Combinación"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of expression rule"
+msgid "Range"
+msgstr "Rango"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: use the expression rule profile from settings"
+msgid "Default (settings)"
+msgstr "Predeterminado (ajustes)"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: what non-admin users see of a site character"
+msgid "Everything"
+msgstr "Todo"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: what non-admin users see of a site character"
+msgid "Only names (runtime-only)"
+msgstr "Solo nombres (solo en ejecución)"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: character list and editor"
+msgid "Characters"
+msgstr "Personajes"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: expression rule profiles"
+msgid "Expression rules"
+msgstr "Reglas de expresiones"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: add a custom expression label"
+msgid "Type a label, then Enter"
+msgstr "Escribe una etiqueta y pulsa Intro"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: example emotion label"
+msgid "e.g. joy"
+msgstr "p. ej., alegría"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: example expression rule name"
+msgid "e.g. elated"
+msgstr "p. ej., eufórico"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: name of a new sprite outfit"
+msgid "New outfit"
+msgstr "Nuevo atuendo"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search characters by name, description, or creator"
+msgid "Name, description, or creator"
+msgstr "Nombre, descripción o creador"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: avatar description in progress"
+msgid "Describing…"
+msgstr "Describiendo…"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: expression label new sprites are added to"
+msgid "Adding to: %{expression_label}"
+msgstr "Añadiendo a: %{expression_label}"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: greeting list has invalid entries"
+msgid "Has errors"
+msgstr "Tiene errores"
+
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: default sprite set of a character"
+msgid "Default"
+msgstr "Predeterminado"
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: expression rule enabled"
+msgid "Enabled"
+msgstr "Activada"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: favorite the open character"
+msgid "Add to favorites"
+msgstr "Añadir a favoritos"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: star marking a favorite character"
+msgid "Favorite"
+msgstr "Favorito"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: unfavorite the open character"
+msgid "Remove from favorites"
+msgstr "Quitar de favoritos"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgid "Or drop or paste an image here."
+msgstr "O suelta o pega una imagen aquí."
+
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: list of expression rule profiles"
+msgid "No expression profiles yet"
+msgstr "Aún no hay perfiles de expresiones"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: one numbered alternate greeting of a character"
+msgid "Alternate greeting %{greeting_number}"
+msgstr "Saludo alternativo %{greeting_number}"
+
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: one numbered group-only greeting of a character"
+msgid "Group-only greeting %{greeting_number}"
+msgstr "Saludo solo para grupos %{greeting_number}"
+
+#. Shown when a new outfit is refused; the error is a validation message such as "can't be blank".
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a new outfit was refused because of its name"
+msgid "Outfit name %{error_message}"
+msgstr "Nombre del atuendo: %{error_message}"
+
+#. Shown under the sprite drop zone when an uploaded file is refused; the error is a sentence fragment such as "File is too large".
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a sprite file upload was refused"
+msgid "%{file_name}: %{upload_error}"
+msgstr "%{file_name}: %{upload_error}"
+
+#. Confirm dialog before deleting a character.
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: confirm dialog before deleting a character"
+msgid "Delete %{character_name}?"
+msgstr "¿Eliminar a %{character_name}?"
+
+#. Shown in the sprite panel after a sprite pack import; %{expression_labels} is a list of expression labels, such as "happy and sad".
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: expression labels added by a sprite pack import"
+msgid "New expressions: %{expression_labels}"
+msgstr "Nuevas expresiones: %{expression_labels}"
+
+#. Shown in the sprite panel after a sprite pack import; %{file_names} is a list of the pack's file names that were not imported.
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: files a sprite pack import skipped"
+msgid "Skipped: %{file_names}"
+msgstr "Omitidos: %{file_names}"
+
+#. Flash when a character avatar upload is refused; the error is a sentence fragment such as "File is too large".
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a character avatar upload was refused"
+msgid "Avatar not uploaded: %{upload_error}"
+msgstr "Avatar no subido: %{upload_error}"
+
+#. Flash when a saved character's new avatar could not be stored.
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a character's new avatar could not be stored"
+msgid "Avatar not saved"
+msgstr "Avatar no guardado"
+
+#. Flash after deleting a shared character hands it to another user; the placeholder is their handle without the @.
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a deleted shared character was handed to another user"
+msgid "Given to @%{user_handle}"
+msgstr "Entregado a @%{user_handle}"
+
+#. Flash after a character is deleted.
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after deleting a character"
+msgid "%{character_name} deleted"
+msgstr "%{character_name} eliminado"
+
+#. Flash after an expression rule profile is deleted.
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after deleting an expression rule profile"
+msgid "%{profile_name} deleted"
+msgstr "%{profile_name} eliminado"
+
+#. Flash after an expression rule profile is saved.
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after saving an expression rule profile"
+msgid "%{profile_name} saved"
+msgstr "%{profile_name} guardado"
+
+#. Flash when the character in the URL does not exist or cannot be edited.
+#: lib/mythweaver_web/live/character_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when a character could not be found"
+msgid "Character not found"
+msgstr "Personaje no encontrado"
+
+#. Flash when the expression profile in the URL does not exist or cannot be edited.
+#: lib/mythweaver_web/live/expression_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when an expression rule profile could not be found"
+msgid "Expression profile not found"
+msgstr "Perfil de expresiones no encontrado"
+
+#. Shown in the sprite panel after a sprite pack import; %{outfit_names} is a list of outfit names, such as "Casual and Formal".
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: outfits created by a sprite pack import"
+msgid "New outfits: %{outfit_names}"
+msgstr "Nuevos atuendos: %{outfit_names}"
+
+#. Shown in the sprite panel when removing an expression label from the character failed.
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: removing an expression label from a character failed"
+msgid "Could not remove %{expression_label}"
+msgstr "No se pudo quitar %{expression_label}"
+
+#. Shown in the sprite panel after a sprite pack ZIP was imported.
+#: lib/mythweaver_web/live/character_live/expressions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: sprites imported from a sprite pack"
+msgid "Imported %{sprite_count} sprite"
+msgid_plural "Imported %{sprite_count} sprites"
+msgstr[0] "%{sprite_count} sprite importado"
+msgstr[1] "%{sprite_count} sprites importados"

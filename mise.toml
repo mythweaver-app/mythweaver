@@ -1,0 +1,46 @@
+min_version = "2026.10.1"
+
+[tools]
+bun = "latest"
+elixir = "latest"
+erlang = "latest"
+# Standalone oxfmt (GitHub release binary, no Node.js); mise's registry `oxfmt` is npm-backed and would need node.
+"github:oxc-project/oxc" = { version = "0.75.0", version_prefix = "oxfmt_v", matching = "oxfmt", rename_exe = "oxfmt" }
+oxlint = "1.90.0"
+
+[settings]
+lockfile = true
+
+[env]
+MIX_OS_DEPS_COMPILE_PARTITION_COUNT = "{{ (num_cpus() | int / 2) | int }}"
+
+# Dev image proxy: the nginx-cached xtandard-image (xi) from `compose.yml` (`docker compose up -d`),
+# served with the app on one origin (http://localhost:4080), so image links are relative. The
+# server fetches images for vision models and blurhashes itself, which needs an absolute URL
+# (`_INTERNAL_URL`). Not secrets, just the assumed local setup. An already-set value wins, so the
+# dev container's `containerEnv` and anything an admin exports are left alone.
+MYTHWEAVER_IMAGE_PROXY = "{{ get_env(name='MYTHWEAVER_IMAGE_PROXY', default='xtandard') }}"
+MYTHWEAVER_XI_URL = "{{ get_env(name='MYTHWEAVER_XI_URL', default='/img') }}"
+MYTHWEAVER_XI_INTERNAL_URL = "{{ get_env(name='MYTHWEAVER_XI_INTERNAL_URL', default='http://localhost:4080/img') }}"
+MYTHWEAVER_XI_SOURCE_PREFIX = "{{ get_env(name='MYTHWEAVER_XI_SOURCE_PREFIX', default='xi://uploads/') }}"
+# Dev-only, public signing pair and encryption key, matching `compose.yml`'s xi. A deployment sets
+# its own.
+MYTHWEAVER_XI_KEY = "{{ get_env(name='MYTHWEAVER_XI_KEY', default='6465762d6f6e6c792d696d6770726f78792d6b6579') }}"
+MYTHWEAVER_XI_SALT = "{{ get_env(name='MYTHWEAVER_XI_SALT', default='6465762d6f6e6c792d696d6770726f78792d73616c74') }}"
+MYTHWEAVER_XI_ENCRYPTION_KEY = "{{ get_env(name='MYTHWEAVER_XI_ENCRYPTION_KEY', default='6465762d6f6e6c792d7874616e646172642d656e6372797074696f6e2d6b6579') }}"
+
+# Proxies whose X-Forwarded-For the app believes (`MythweaverWeb.ClientIp`): loopback and the
+# compose network (`compose.yml`), where the front-door nginx lives. nginx itself only passes on
+# an address it saw or got from its trusted upstream, so trusting it is safe.
+MYTHWEAVER_TRUSTED_PROXIES = "{{ get_env(name='MYTHWEAVER_TRUSTED_PROXIES', default='127.0.0.0/8,::1/128,172.30.250.0/24') }}"
+
+[tasks."docs:server"]
+description = "Serve the user docs on http://localhost:4999 with live reload"
+dir = "{{config_root}}/docs_site"
+run = ["bun install --cwd assets", "mix deps.get", "mix tableau.server"]
+
+[tasks."docs:build"]
+description = "Build the static user docs into docs_site/_site"
+dir = "{{config_root}}/docs_site"
+env = { MIX_ENV = "prod" }
+run = ["bun install --cwd assets --frozen-lockfile", "mix deps.get", "mix build"]

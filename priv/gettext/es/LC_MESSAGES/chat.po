@@ -1,0 +1,4242 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{character_name} removed from this chat"
+msgstr "%{character_name} eliminado de este chat"
+
+#. Shown when a reply was discarded because the model sent back nothing.
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgid "%{character_name} replied with no text."
+msgstr "%{character_name} respondió sin texto."
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{chat_title} saved, but its tags did not"
+msgstr "%{chat_title} se guardó, pero sus etiquetas no"
+
+#. Flash after a new chat was created but its greeting message could not be posted; %{error_reason} is the reason, already a phrase.
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{chat_title} was created, but its greeting was not posted: %{error_reason}"
+msgstr "%{chat_title} se creó, pero no se publicó su saludo: %{error_reason}"
+
+#. Flash after a new chat was created but its greeting message could not be saved.
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{chat_title} was created, but its greeting was not posted: it could not be saved"
+msgstr "%{chat_title} se creó, pero no se publicó su saludo: no se pudo guardar"
+
+#. Flash after a new chat was created but its greeting message could not be posted.
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{chat_title} was created, but its greeting was not posted: there was no greeting to post"
+msgstr "%{chat_title} se creó, pero no se publicó su saludo: no había saludo que publicar"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgid "%{filled_tokens} of %{token_limit} token filled · %{reserved_tokens} reserved for the reply"
+msgid_plural "%{filled_tokens} of %{token_limit} tokens filled · %{reserved_tokens} reserved for the reply"
+msgstr[0] "%{filled_tokens} de %{token_limit} token ocupado · %{reserved_tokens} reservados para la respuesta"
+msgstr[1] "%{filled_tokens} de %{token_limit} tokens ocupados · %{reserved_tokens} reservados para la respuesta"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "%{first_name} and %{second_name} are typing…"
+msgstr "%{first_name} y %{second_name} están escribiendo…"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "%{first_name}, %{second_name} and %{other_count} other are typing…"
+msgid_plural "%{first_name}, %{second_name} and %{other_count} others are typing…"
+msgstr[0] "%{first_name}, %{second_name} y %{other_count} más están escribiendo…"
+msgstr[1] "%{first_name}, %{second_name} y %{other_count} más están escribiendo…"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{message_count} message since the last memory. Open Memory to create one."
+msgid_plural "%{message_count} messages since the last memory. Open Memory to create one."
+msgstr[0] "%{message_count} mensaje desde la última memoria. Abre Memoria para crear una."
+msgstr[1] "%{message_count} mensajes desde la última memoria. Abre Memoria para crear una."
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{message_count} message since the last memory; automatic memories have fallen behind."
+msgid_plural "%{message_count} messages since the last memory; automatic memories have fallen behind."
+msgstr[0] "%{message_count} mensaje desde la última memoria; las memorias automáticas se han retrasado."
+msgstr[1] "%{message_count} mensajes desde la última memoria; las memorias automáticas se han retrasado."
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "%{message_count} message until the next automatic memory"
+msgid_plural "%{message_count} messages until the next automatic memory"
+msgstr[0] "%{message_count} mensaje hasta la próxima memoria automática"
+msgstr[1] "%{message_count} mensajes hasta la próxima memoria automática"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgid "%{token_total} tokens across %{section_count} section"
+msgid_plural "%{token_total} tokens across %{section_count} sections"
+msgstr[0] "%{token_total} tokens en %{section_count} sección"
+msgstr[1] "%{token_total} tokens en %{section_count} secciones"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "A chat needs at least two participants — add one first"
+msgstr "Un chat necesita al menos dos participantes: añade uno primero"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "A consolidation left out %{entry_count} entry. They stay unconsolidated for the next pass."
+msgid_plural "A consolidation left out %{entry_count} entries. They stay unconsolidated for the next pass."
+msgstr[0] "Una consolidación omitió %{entry_count} entrada. Queda sin consolidar para la próxima pasada."
+msgstr[1] "Una consolidación omitió %{entry_count} entradas. Quedan sin consolidar para la próxima pasada."
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "A quick reply is already running."
+msgstr "Ya hay una respuesta rápida en curso."
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "A reply is already being generated — wait for the queue to finish."
+msgstr "Ya se está generando una respuesta: espera a que termine la cola."
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgid "A reply, regenerate or continue click will take the composer's text and attachments as a guide."
+msgstr "Al pulsar responder, regenerar o continuar, el texto y los adjuntos del editor se usarán como guía."
+
+#. %{refine_icon} is replaced by the refine button's pencil icon; keep it where the button is named.
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgid "A reply, regenerate or continue click will take the composer's text and attachments as a guide; the %{refine_icon} button on the last reply rewrites it following the text and attachments."
+msgstr "Al pulsar responder, regenerar o continuar, el texto y los adjuntos del editor se usarán como guía; el botón %{refine_icon} de la última respuesta la reescribe siguiendo el texto y los adjuntos."
+
+#: lib/mythweaver_web/live/main_chat_live/scratchpad_panel.ex
+#, elixir-autogen, elixir-format
+msgid "A scratchpad can't be empty; discard it instead."
+msgstr "Un borrador no puede estar vacío; descártalo en su lugar."
+
+#: lib/mythweaver_web/components/chat/image_request.ex
+#, elixir-autogen, elixir-format
+msgid "A script asks you for an avatar for %{character_name}."
+msgstr "Un script te pide un avatar para %{character_name}."
+
+#: lib/mythweaver_web/components/chat/image_request.ex
+#, elixir-autogen, elixir-format
+msgid "A script asks you to attach an image."
+msgstr "Un script te pide que adjuntes una imagen."
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "About %{token_count} token until the next automatic memory"
+msgid_plural "About %{token_count} tokens until the next automatic memory"
+msgstr[0] "Aproximadamente %{token_count} token hasta la próxima memoria automática"
+msgstr[1] "Aproximadamente %{token_count} tokens hasta la próxima memoria automática"
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Answer the question to describe the images, then send."
+msgstr "Responde la pregunta para describir las imágenes y luego envía."
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Any time: every message may get a reply"
+msgstr "En cualquier momento: cada mensaje puede recibir respuesta"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgid "Append to the end of its message"
+msgstr "Añadir al final de su mensaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Ask about this audio clip"
+msgstr "Preguntar sobre este clip de audio"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Ask the caption model a question about this image"
+msgstr "Hacer una pregunta al modelo de descripción sobre esta imagen"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Assign a player character to this chat to send messages."
+msgstr "Asigna un personaje de jugador a este chat para enviar mensajes."
+
+#. Flash when a quick reply is run in a chat that has no player character.
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Assign a player character to this chat to use quick replies."
+msgstr "Asigna un personaje de jugador a este chat para usar respuestas rápidas."
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "At most %{attachment_limit} attachment per message"
+msgid_plural "At most %{attachment_limit} attachments per message"
+msgstr[0] "Como máximo %{attachment_limit} adjunto por mensaje"
+msgstr[1] "Como máximo %{attachment_limit} adjuntos por mensaje"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Attach files (or drop them, or paste images, into the message)"
+msgstr "Adjuntar archivos (o soltarlos, o pegar imágenes, en el mensaje)"
+
+#: lib/mythweaver_web/components/chat/message_split.ex
+#, elixir-autogen, elixir-format
+msgid "Author of the piece below, or Scratchpad to cut it off"
+msgstr "Autor del fragmento de abajo, o Borrador para separarlo"
+
+#. Flash when an uploaded image could not become a character's avatar; %{upload_error} is the upload error.
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Avatar not set: %{file_name} (%{upload_error})"
+msgstr "Avatar no establecido: %{file_name} (%{upload_error})"
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Avatar not set: the character no longer exists"
+msgstr "Avatar no establecido: el personaje ya no existe"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Change author (does not add a swipe)"
+msgstr "Cambiar autor (no añade una variante)"
+
+#: lib/mythweaver_web/live/main_chat_live/selection.ex
+#, elixir-autogen, elixir-format
+msgid "Check the messages to make a memory of first."
+msgstr "Primero marca los mensajes de los que crear una memoria."
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not add — those characters may already be in this chat"
+msgstr "No se pudo añadir: puede que esos personajes ya estén en este chat"
+
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgid "Could not assign those characters"
+msgstr "No se pudieron asignar esos personajes"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not bring that character into this chat"
+msgstr "No se pudo traer ese personaje a este chat"
+
+#. %{error_reason} is an internal error term, shown verbatim.
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "Could not generate a reply: %{error_reason}"
+msgstr "No se pudo generar una respuesta: %{error_reason}"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save the character's settings"
+msgstr "No se pudieron guardar los ajustes del personaje"
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save the key."
+msgstr "No se pudo guardar la clave."
+
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save the member settings"
+msgstr "No se pudieron guardar los ajustes del miembro"
+
+#. Flash when a chat form has errors; the fields with errors are highlighted.
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save — see the highlighted fields"
+msgstr "No se pudo guardar: revisa los campos resaltados"
+
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgid "Could not set the player character"
+msgstr "No se pudo establecer el personaje de jugador"
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Could not start a conversation."
+msgstr "No se pudo iniciar una conversación."
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not update the participant"
+msgstr "No se pudo actualizar el participante"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Create a memory of the selected span"
+msgstr "Crear una memoria del tramo seleccionado"
+
+#. Confirm dialog before deleting a chat from its settings.
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Delete %{chat_title}? This also deletes its messages."
+msgstr "¿Eliminar %{chat_title}? También se eliminarán sus mensajes."
+
+#. Confirm dialog shown before deleting several selected messages.
+#: lib/mythweaver_web/components/chat/delete_confirm.ex
+#, elixir-autogen, elixir-format
+msgid "Delete the selected messages and all their swipes?"
+msgstr "¿Eliminar los mensajes seleccionados y todas sus variantes?"
+
+#. Confirm dialog shown before deleting a single message.
+#: lib/mythweaver_web/components/chat/delete_confirm.ex
+#, elixir-autogen, elixir-format
+msgid "Delete this message and all its swipes?"
+msgstr "¿Eliminar este mensaje y todas sus variantes?"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Describe every image, audio clip, video and document in this chat that has no description yet (hidden messages are skipped)"
+msgstr "Describir cada imagen, clip de audio, vídeo y documento de este chat que aún no tenga descripción (se omiten los mensajes ocultos)"
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Describing images. Review the descriptions, then send."
+msgstr "Describiendo imágenes. Revisa las descripciones y luego envía."
+
+#: lib/mythweaver_web/components/chat/message_split.ex
+#, elixir-autogen, elixir-format
+msgid "Drag to move the split (arrow keys move it)"
+msgstr "Arrastra para mover la división (las teclas de flecha la mueven)"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgid "Edit %{character_name}'s settings in this chat"
+msgstr "Editar los ajustes de %{character_name} en este chat"
+
+#: lib/mythweaver_web/live/main_chat_live/message_actions.ex
+#, elixir-autogen, elixir-format
+msgid "Enter a name for the author."
+msgstr "Escribe un nombre para el autor."
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Estimated from the model's per-Mtok prices"
+msgstr "Estimado a partir de los precios por Mtok del modelo"
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Every attachment already has a description"
+msgstr "Todos los adjuntos ya tienen descripción"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgid "Every character is already here"
+msgstr "Todos los personajes ya están aquí"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Find messages for a topical clip"
+msgstr "Buscar mensajes para un fragmento temático"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Free switching: players take and release any characters themselves"
+msgstr "Cambio libre: los jugadores toman y sueltan personajes por su cuenta"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Guests may bring their own characters"
+msgstr "Los invitados pueden traer sus propios personajes"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Have the caption model describe this image now"
+msgstr "Hacer que el modelo de descripción describa esta imagen ahora"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Hidden from the AI (click to show)"
+msgstr "Oculto para la IA (haz clic para mostrar)"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Hide selected from the AI"
+msgstr "Ocultar seleccionados a la IA"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgid "Image tokens are estimated by OpenAI's tile rule; other backends count differently"
+msgstr "Los tokens de imagen se estiman con la regla de mosaicos de OpenAI; otros backends cuentan de forma distinta"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Join all: every member's card, muted included"
+msgstr "Unir todas: la tarjeta de cada miembro, incluidos los silenciados"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Join: every unmuted member's card"
+msgstr "Unir: la tarjeta de cada miembro no silenciado"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgid "Lasts for N replies (blank = until removed)"
+msgstr "Dura N respuestas (vacío = hasta que se elimine)"
+
+#: lib/mythweaver_web/live/main_chat_live/selection.ex
+#, elixir-autogen, elixir-format
+msgid "Merge needs a contiguous run of messages."
+msgstr "Para combinar se necesita una serie contigua de mensajes."
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Merge the selected messages into the first"
+msgstr "Combinar los mensajes seleccionados en el primero"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgid "Mute %{character_name} in automatic replies"
+msgstr "Silenciar a %{character_name} en las respuestas automáticas"
+
+#. %{error_reason} is an internal error term, shown verbatim.
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "Mythweaver could not reply: %{error_reason}"
+msgstr "Mythweaver no pudo responder: %{error_reason}"
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "Mythweaver needs a chat-mode model. Pick one in Settings → Models."
+msgstr "Mythweaver necesita un modelo en modo chat. Elige uno en Ajustes → Modelos."
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Newer messages not shown. Jump to latest"
+msgstr "No se muestran mensajes más recientes. Ir a lo último"
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "No AI model is configured. Add a connection and link a model first."
+msgstr "No hay ningún modelo de IA configurado. Añade una conexión y vincula un modelo primero."
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "No emotion scored above %{zero_percent}."
+msgstr "Ninguna emoción superó el %{zero_percent}."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_commands.ex
+#, elixir-autogen, elixir-format
+msgid "No messages have been processed."
+msgstr "No se ha procesado ningún mensaje."
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "No model can run Mythweaver. Add a connection under AI → Connections, or pick a model in Settings → Models."
+msgstr "Ningún modelo puede ejecutar Mythweaver. Añade una conexión en IA → Conexiones o elige un modelo en Ajustes → Modelos."
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "No model in this chat can describe that, and none has a caption model for it"
+msgstr "Ningún modelo de este chat puede describir eso, y ninguno tiene un modelo de descripción para ello"
+
+#: lib/mythweaver_web/live/main_chat_live/selection.ex
+#, elixir-autogen, elixir-format
+msgid "No previous message to merge into."
+msgstr "No hay ningún mensaje anterior con el que combinar."
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "No prompt is bound for this chat."
+msgstr "No hay ningún prompt vinculado a este chat."
+
+#. %{add_sprites_link} is a link to the character's editor, worded by the next entry.
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "No sprites for this character. %{add_sprites_link}"
+msgstr "No hay sprites para este personaje. %{add_sprites_link}"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Nobody else is in this chat yet."
+msgstr "Todavía no hay nadie más en este chat."
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Not embedded yet: vector lore can't match this message"
+msgstr "Aún sin embedding: el lore vectorial no puede coincidir con este mensaje"
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "Nothing new to compact since the last summary."
+msgstr "No hay nada nuevo que compactar desde el último resumen."
+
+#: lib/mythweaver_web/live/main_chat_live/clip_dialog.ex
+#, elixir-autogen, elixir-format
+msgid "Nothing to clip: the text is empty."
+msgstr "Nada que recortar: el texto está vacío."
+
+#. Flash after the chat owner picks a player character whose name is not loaded.
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgid "Now playing as this character"
+msgstr "Ahora juegas como este personaje"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Only the chat's owner chooses models."
+msgstr "Solo el propietario del chat elige los modelos."
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "Only the latest message can be regenerated, continued or refined."
+msgstr "Solo el último mensaje se puede regenerar, continuar o refinar."
+
+#. Flash when the user selects a passage of an older reply to annotate.
+#: lib/mythweaver_web/live/main_chat_live/annotations.ex
+#, elixir-autogen, elixir-format
+msgid "Only the latest reply can be annotated."
+msgstr "Solo se puede anotar la última respuesta."
+
+#: lib/mythweaver_web/live/main_chat_live/split_editor.ex
+#, elixir-autogen, elixir-format
+msgid "Only the newest message can be split to a scratchpad."
+msgstr "Solo el mensaje más reciente se puede dividir en un borrador."
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Pass this round: the reply need not wait for your message"
+msgstr "Pasar esta ronda: la respuesta no tiene que esperar tu mensaje"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgid "Queue a guided reply from %{character_name}"
+msgstr "Poner en cola una respuesta guiada de %{character_name}"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgid "Queue a reply from %{character_name}"
+msgstr "Poner en cola una respuesta de %{character_name}"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgid "Remove %{character_name} from this chat"
+msgstr "Quitar a %{character_name} de este chat"
+
+#. Confirm dialog before removing a character from a chat.
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgid "Remove %{character_name} from this chat?"
+msgstr "¿Quitar a %{character_name} de este chat?"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Rewrite with the composer text as instructions"
+msgstr "Reescribir usando el texto del editor como instrucciones"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Rounds: reply once every player posted or skipped"
+msgstr "Rondas: responder cuando todos los jugadores hayan publicado o pasado"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgid "Save and rewrite the message with all notes"
+msgstr "Guardar y reescribir el mensaje con todas las notas"
+
+#: lib/mythweaver_web/live/main_chat_live/selection.ex
+#, elixir-autogen, elixir-format
+msgid "Select at least two messages to merge."
+msgstr "Selecciona al menos dos mensajes para combinar."
+
+#: lib/mythweaver_web/live/main_chat_live/message_actions.ex
+#, elixir-autogen, elixir-format
+msgid "Set a classifier model in Settings → Expressions first"
+msgstr "Primero define un modelo clasificador en Ajustes → Expresiones"
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "Several models are available — pick one for this character or chat, or set a default model in Settings."
+msgstr "Hay varios modelos disponibles: elige uno para este personaje o chat, o define un modelo predeterminado en Ajustes."
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "Several models are available: pick one with the gear button, or set a Mythweaver model in Settings → Models."
+msgstr "Hay varios modelos disponibles: elige uno con el botón del engranaje o define un modelo de Mythweaver en Ajustes → Modelos."
+
+#: lib/mythweaver_web/live/main_chat_live/message_actions.ex
+#, elixir-autogen, elixir-format
+msgid "Skipped messages that are still being generated."
+msgstr "Se omitieron mensajes que aún se están generando."
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Some selected are hidden (click to hide all)"
+msgstr "Algunos seleccionados están ocultos (haz clic para ocultar todos)"
+
+#: lib/mythweaver_web/live/main_chat_live/selection.ex
+#, elixir-autogen, elixir-format
+msgid "Some selected messages are gone; select again."
+msgstr "Algunos mensajes seleccionados ya no existen; vuelve a seleccionar."
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Split the end into a scratchpad"
+msgstr "Dividir el final en un borrador"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Swap: only the responder's card"
+msgstr "Intercambiar: solo la tarjeta de quien responde"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgid "Take this character (free switching)"
+msgstr "Tomar este personaje (cambio libre)"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgid "Talkativeness (blank = character default, %{default_talkativeness})"
+msgstr "Locuacidad (vacío = predeterminado del personaje, %{default_talkativeness})"
+
+#: lib/mythweaver_web/live/main_chat_live/message_actions.ex
+#, elixir-autogen, elixir-format
+msgid "That character is not in this chat."
+msgstr "Ese personaje no está en este chat."
+
+#: lib/mythweaver_web/live/main_chat_live/clip_dialog.ex
+#, elixir-autogen, elixir-format
+msgid "That clip is gone: pick another or make a new one."
+msgstr "Ese fragmento ya no existe: elige otro o crea uno nuevo."
+
+#: lib/mythweaver_web/live/main_chat_live/message_actions.ex
+#, elixir-autogen, elixir-format
+msgid "That expression has no sprite"
+msgstr "Esa expresión no tiene sprite"
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "That message has no character author."
+msgstr "Ese mensaje no tiene un personaje como autor."
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "That message has no text to continue or refine."
+msgstr "Ese mensaje no tiene texto que continuar o refinar."
+
+#. Flash when the user acts on a message whose reply is still streaming.
+#: lib/mythweaver_web/live/main_chat_live/annotations.ex
+#: lib/mythweaver_web/live/main_chat_live/scratchpad_panel.ex
+#: lib/mythweaver_web/live/main_chat_live/split_editor.ex
+#: lib/mythweaver_web/live/main_chat_live/swipes.ex
+#, elixir-autogen, elixir-format
+msgid "That message is still being generated."
+msgstr "Ese mensaje aún se está generando."
+
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgid "That model isn't available to you."
+msgstr "Ese modelo no está disponible para ti."
+
+#: lib/mythweaver_web/live/main_chat_live/split_editor.ex
+#, elixir-autogen, elixir-format
+msgid "That split is no longer valid; try again."
+msgstr "Esa división ya no es válida; inténtalo de nuevo."
+
+#: lib/mythweaver_web/live/main_chat_live/message_actions.ex
+#, elixir-autogen, elixir-format
+msgid "That swipe no longer exists"
+msgstr "Esa variante ya no existe"
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "That tool call or its connection no longer exists."
+msgstr "Esa llamada a herramienta o su conexión ya no existe."
+
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgid "The assembled prompt was empty."
+msgstr "El prompt ensamblado estaba vacío."
+
+#: lib/mythweaver_web/live/main_chat_live/clip_dialog.ex
+#, elixir-autogen, elixir-format
+msgid "The clip could not be saved (check the text for template tags)."
+msgstr "No se pudo guardar el fragmento (revisa si el texto tiene etiquetas de plantilla)."
+
+#: lib/mythweaver_web/live/main_chat_live/split_editor.ex
+#, elixir-autogen, elixir-format
+msgid "The message changed while you were splitting it; try again."
+msgstr "El mensaje cambió mientras lo dividías; inténtalo de nuevo."
+
+#. Flash when the annotated message was edited before the note was saved.
+#: lib/mythweaver_web/live/main_chat_live/annotations.ex
+#, elixir-autogen, elixir-format
+msgid "The message changed; select the passage again."
+msgstr "El mensaje cambió; vuelve a seleccionar el pasaje."
+
+#. Shown as a reply's error when the prompt cannot fit the model's context window.
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgid "The prompt is too long for the %{token_limit}-token context limit even without chat history: about %{used_tokens} tokens, with %{reserved_tokens} kept free for the reply."
+msgstr "El prompt es demasiado largo para el límite de contexto de %{token_limit} tokens incluso sin el historial del chat: unos %{used_tokens} tokens, con %{reserved_tokens} reservados para la respuesta."
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "The quick reply finished after you left its chat; its result was dropped."
+msgstr "La respuesta rápida terminó después de que salieras de su chat; su resultado se descartó."
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "The quick reply script crashed."
+msgstr "El script de respuesta rápida falló."
+
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgid "They are already in this chat or invited"
+msgstr "Ya están en este chat o invitados"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "This chat has no message #%{message_number}."
+msgstr "Este chat no tiene el mensaje n.º %{message_number}."
+
+#. anchors.guide is a template variable name: keep it as is.
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "This chat's prompt has no block that reads anchors.guide, so the guide would be ignored. Add the Guide block to the prompt."
+msgstr "El prompt de este chat no tiene ningún bloque que lea anchors.guide, así que la guía se ignoraría. Añade el bloque Guía al prompt."
+
+#. anchors.refine is a template variable name: keep it as is.
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "This chat's prompt has no block that reads anchors.refine. Add the Refine block to the prompt."
+msgstr "El prompt de este chat no tiene ningún bloque que lea anchors.refine. Añade el bloque Refinar al prompt."
+
+#: lib/mythweaver_web/live/main_chat_live/split_editor.ex
+#, elixir-autogen, elixir-format
+msgid "This message has no paragraph breaks to split on."
+msgstr "Este mensaje no tiene saltos de párrafo por los que dividir."
+
+#: lib/mythweaver_web/live/main_chat_live/scratchpad_panel.ex
+#, elixir-autogen, elixir-format
+msgid "This scratchpad's message was deleted."
+msgstr "El mensaje de este borrador se eliminó."
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "Type editing instructions in the composer first."
+msgstr "Primero escribe instrucciones de edición en el editor."
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgid "Unmute %{character_name} in automatic replies"
+msgstr "Dejar de silenciar a %{character_name} en las respuestas automáticas"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgid "Visible to the AI (click to hide)"
+msgstr "Visible para la IA (haz clic para ocultar)"
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#: lib/mythweaver_web/live/main_chat_live/message_actions.ex
+#, elixir-autogen, elixir-format
+msgid "Wait for attachments to finish uploading"
+msgstr "Espera a que terminen de subirse los adjuntos"
+
+#. Flash when the user splits or merges messages while replies are still generating.
+#: lib/mythweaver_web/live/main_chat_live/split_editor.ex
+#, elixir-autogen, elixir-format
+msgid "Wait for the reply queue to finish first."
+msgstr "Primero espera a que termine la cola de respuestas."
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Waiting for image descriptions. Review them, then send."
+msgstr "Esperando las descripciones de imágenes. Revísalas y luego envía."
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "Which characters' cards a reply sees besides the responder's and the player's: their descriptions (the Other characters block) and the lore books bound to them, such as an imported card's personality and scenario. SillyTavern's group generation handling mode."
+msgstr "Qué tarjetas de personajes ve una respuesta además de la de quien responde y la del jugador: sus descripciones (el bloque Otros personajes) y los libros de lore vinculados a ellos, como la personalidad y el escenario de una tarjeta importada. El modo de generación de grupo de SillyTavern."
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgid "Write a description or discard it."
+msgstr "Escribe una descripción o descártala."
+
+#: lib/mythweaver_web/live/main_chat_live/annotations.ex
+#, elixir-autogen, elixir-format
+msgid "Write a note, or pick a quick action."
+msgstr "Escribe una nota o elige una acción rápida."
+
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgid "You can't invite people to this chat"
+msgstr "No puedes invitar a personas a este chat"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgid "You have no characters to bring"
+msgstr "No tienes personajes que traer"
+
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgid "You have too many pending invites"
+msgstr "Tienes demasiadas invitaciones pendientes"
+
+#. Flash when the viewer was removed from the open chat or lost access to it.
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgid "You no longer have access to %{chat_title}"
+msgstr "Ya no tienes acceso a %{chat_title}"
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgid "You've spent today's budget on the site's AI connections."
+msgstr "Has gastado el presupuesto de hoy en las conexiones de IA del sitio."
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "alt text: attached image without a file name"
+msgid "Image"
+msgstr "Imagen"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "alt text: image attached to a message"
+msgid "Image"
+msgstr "Imagen"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "alt text: image attached to a swipe's guide"
+msgid "Guide image"
+msgstr "Imagen de guía"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "alt text: image sent inline in a prompt"
+msgid "Image"
+msgstr "Imagen"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "alt text: unnamed document attached to a message"
+msgid "Document"
+msgstr "Documento"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "alt text: unnamed file attached to a message"
+msgid "File"
+msgstr "Archivo"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "alt text: unnamed file attached to a swipe's guide"
+msgid "Attachment"
+msgstr "Adjunto"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: a message's emotion scores"
+msgid "Emotion breakdown"
+msgstr "Desglose de emociones"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: a message's swipe controls"
+msgid "Swipes"
+msgstr "Variantes"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: add characters to the chat"
+msgid "Add characters"
+msgstr "Añadir personajes"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: annotate selected text for a rewrite"
+msgid "Annotate for a rewrite"
+msgstr "Anotar para una reescritura"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: attach files to the edited message"
+msgid "Attach files"
+msgstr "Adjuntar archivos"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: author of a message"
+msgid "Author"
+msgstr "Autor"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button group on a scratchpad card"
+msgid "Scratchpad actions"
+msgstr "Acciones del borrador"
+
+#: lib/mythweaver_web/components/chat/message_split.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that adds a message split below this one"
+msgid "Add a split below"
+msgstr "Añadir una división debajo"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that opens the file picker in the composer"
+msgid "Attach files"
+msgstr "Adjuntar archivos"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that recalls the next sent message"
+msgid "Next sent message"
+msgstr "Siguiente mensaje enviado"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that recalls the previous sent message"
+msgid "Previous sent message"
+msgstr "Mensaje enviado anterior"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that removes an unnamed file from the composer"
+msgid "Remove file"
+msgstr "Quitar archivo"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that removes an unnamed image from the composer"
+msgid "Remove image"
+msgstr "Quitar imagen"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that removes this attachment from the composer"
+msgid "Remove %{file_name}"
+msgstr "Quitar %{file_name}"
+
+#: lib/mythweaver_web/components/chat/message_split.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that removes this message split"
+msgid "Remove this split"
+msgstr "Quitar esta división"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: cancel changing a message's author"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: cancel uploading a file"
+msgid "Remove %{file_name}"
+msgstr "Quitar %{file_name}"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: change this message's author"
+msgid "Change author"
+msgstr "Cambiar autor"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: checkbox selecting a message"
+msgid "Select message"
+msgstr "Seleccionar mensaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: classify a message's expression again"
+msgid "Classify again"
+msgstr "Clasificar de nuevo"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: clip the selected text"
+msgid "Clip the selected text"
+msgstr "Recortar el texto seleccionado"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: close the expression picker"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: close the participant search"
+msgid "Close participant search"
+msgstr "Cerrar búsqueda de participantes"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: collapse the participants rail"
+msgid "Hide participants"
+msgstr "Ocultar participantes"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: composer button group for sending"
+msgid "Send"
+msgstr "Enviar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: continue writing this message"
+msgid "Continue this message"
+msgstr "Continuar este mensaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: delete this message"
+msgid "Delete message"
+msgstr "Eliminar mensaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: describe an attachment again"
+msgid "Describe audio clip again"
+msgstr "Describir de nuevo el clip de audio"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: describe an attachment again"
+msgid "Describe document again"
+msgstr "Describir de nuevo el documento"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: describe an attachment again"
+msgid "Describe image again"
+msgstr "Describir de nuevo la imagen"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: describe an attachment again"
+msgid "Describe video again"
+msgstr "Describir de nuevo el vídeo"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: dock of scratchpad cards"
+msgid "Scratchpads"
+msgstr "Borradores"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: drawer listing a chat's characters"
+msgid "Participants"
+msgstr "Participantes"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: drawer of more chat tools"
+msgid "More chat tools"
+msgstr "Más herramientas del chat"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: edit an attachment's description"
+msgid "Edit description"
+msgstr "Editar descripción"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: edit this message"
+msgid "Edit message"
+msgstr "Editar mensaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: expression of a message"
+msgid "Expression"
+msgstr "Expresión"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: guest brings own character into the chat"
+msgid "Bring a character"
+msgstr "Traer un personaje"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: hide muted characters from the list"
+msgid "Hide muted characters"
+msgstr "Ocultar personajes silenciados"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: hide this message from the AI"
+msgid "Hide from AI"
+msgstr "Ocultar a la IA"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that closes the annotation popup"
+msgid "Close"
+msgstr "Cerrar"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that collapses the chat sidebar"
+msgid "Hide chats"
+msgstr "Ocultar chats"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that creates a role-play chat"
+msgid "New chat"
+msgstr "Nuevo chat"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that deletes this injection"
+msgid "Delete %{injection_key}"
+msgstr "Eliminar %{injection_key}"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that discards this scratchpad"
+msgid "Discard scratchpad"
+msgstr "Descartar borrador"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that edits this injection"
+msgid "Edit %{injection_key}"
+msgstr "Editar %{injection_key}"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that edits this scratchpad"
+msgid "Edit scratchpad"
+msgstr "Editar borrador"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that empties the composer"
+msgid "Clear message"
+msgstr "Vaciar mensaje"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that enlarges the annotation popup"
+msgid "Expand"
+msgstr "Ampliar"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that opens the chat name and tag filter"
+msgid "Search chats"
+msgstr "Buscar chats"
+
+#: lib/mythweaver_web/components/chat/turn_queue.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that removes a character from the reply queue"
+msgid "Remove from queue"
+msgstr "Quitar de la cola"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that removes this rewrite note"
+msgid "Remove note"
+msgstr "Quitar nota"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that restores a spent injection's replies"
+msgid "Re-arm %{injection_key}"
+msgstr "Reactivar %{injection_key}"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that sends the composed message"
+msgid "Send message"
+msgstr "Enviar mensaje"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that starts a chat with the built-in assistant"
+msgid "New Mythweaver conversation"
+msgstr "Nueva conversación con Mythweaver"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon marking a chat with the built-in assistant"
+msgid "Mythweaver conversation"
+msgstr "Conversación con Mythweaver"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: inspect the prompt this reply was sent"
+msgid "Inspect prompt"
+msgstr "Inspeccionar prompt"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of rewrite notes on a message"
+msgid "Rewrite notes"
+msgstr "Notas de reescritura"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of users who play this character"
+msgid "Who plays %{character_name}"
+msgstr "Quién juega a %{character_name}"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: merge this message into the one before"
+msgid "Merge into previous message"
+msgstr "Combinar con el mensaje anterior"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: mute every character in the chat"
+msgid "Mute all characters"
+msgstr "Silenciar a todos los personajes"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: mute every character the search shows"
+msgid "Mute shown characters"
+msgstr "Silenciar a los personajes mostrados"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: name of a message's author"
+msgid "Author name"
+msgstr "Nombre del autor"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: open the chat list drawer"
+msgid "Chats"
+msgstr "Chats"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: open the participant search"
+msgid "Search participants"
+msgstr "Buscar participantes"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: open the participants drawer"
+msgid "Participants"
+msgstr "Participantes"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: open this character's editor"
+msgid "Edit %{character_name}"
+msgstr "Editar %{character_name}"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: open this message's swipe history"
+msgid "Swipe history"
+msgstr "Historial de variantes"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: popup for writing a rewrite note on a selected passage"
+msgid "Annotate passage"
+msgstr "Anotar pasaje"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: post as this character"
+msgid "Play as %{character_name}"
+msgstr "Jugar como %{character_name}"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: progress toward the next automatic memory"
+msgid "Next automatic memory"
+msgstr "Próxima memoria automática"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: prompt inspector view switcher"
+msgid "Prompt views"
+msgstr "Vistas del prompt"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: radial menu of a message"
+msgid "Message by %{author_name}"
+msgstr "Mensaje de %{author_name}"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: regenerate this reply"
+msgid "Regenerate this reply"
+msgstr "Regenerar esta respuesta"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: release a character under free switching"
+msgid "Stop playing %{character_name}"
+msgstr "Dejar de jugar como %{character_name}"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: remove an attachment from the edited message"
+msgid "Remove"
+msgstr "Quitar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: report this message"
+msgid "Report message"
+msgstr "Denunciar mensaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: save a message's expression"
+msgid "Set expression"
+msgstr "Establecer expresión"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: save a message's new author"
+msgid "Save author"
+msgstr "Guardar autor"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: set this message's expression"
+msgid "Set expression"
+msgstr "Establecer expresión"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: show muted characters in the list"
+msgid "Show muted characters"
+msgstr "Mostrar personajes silenciados"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: show this message's next swipe"
+msgid "Next swipe"
+msgstr "Siguiente variante"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: show this message's previous swipe"
+msgid "Previous swipe"
+msgstr "Variante anterior"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: sidebar listing the viewer's chats"
+msgid "Chats"
+msgstr "Chats"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: split this message into several"
+msgid "Split into messages"
+msgstr "Dividir en mensajes"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: stop the reply being written"
+msgid "Stop generating"
+msgstr "Detener generación"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: tab list of a chat's settings"
+msgid "Chat settings"
+msgstr "Ajustes del chat"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: take a character under free switching"
+msgid "Play %{character_name}"
+msgstr "Jugar como %{character_name}"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: the chat's message list"
+msgid "Messages"
+msgstr "Mensajes"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: toggle that switches this injection off"
+msgid "Disable %{injection_key}"
+msgstr "Desactivar %{injection_key}"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: toggle that switches this injection on"
+msgid "Enable %{injection_key}"
+msgstr "Activar %{injection_key}"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: toolbar for selected text"
+msgid "Selection actions"
+msgstr "Acciones de la selección"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: toolbar for the selected messages"
+msgid "Selected messages"
+msgstr "Mensajes seleccionados"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: toolbar of one chat character"
+msgid "Actions for %{character_name}"
+msgstr "Acciones de %{character_name}"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: toolbar of one message"
+msgid "Message actions"
+msgstr "Acciones del mensaje"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: toolbar of quick reply script buttons"
+msgid "Quick replies"
+msgstr "Respuestas rápidas"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: toolbar of reply actions"
+msgid "Reply actions"
+msgstr "Acciones de respuesta"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: toolbar over the chat's character list"
+msgid "Participant tools"
+msgstr "Herramientas de participantes"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: unmute every character in the chat"
+msgid "Unmute all characters"
+msgstr "Dejar de silenciar a todos los personajes"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: unmute every character the search shows"
+msgid "Unmute shown characters"
+msgstr "Dejar de silenciar a los personajes mostrados"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a message's number in the chat"
+msgid "#%{message_number}"
+msgstr "#%{message_number}"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: chat member who has not accepted yet"
+msgid "Invited"
+msgstr "Invitado"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: injection switched off"
+msgid "disabled"
+msgstr "desactivada"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: injection that has used up its replies"
+msgid "spent"
+msgstr "agotada"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: lore entry activated but not placed"
+msgid "not placed"
+msgstr "no colocada"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: lore went over its token budget"
+msgid "overflowed"
+msgstr "desbordado"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: message the viewer sent"
+msgid "You"
+msgstr "Tú"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: place of a character in the reply queue"
+msgid "#%{queue_position}"
+msgstr "#%{queue_position}"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: position of a swipe in its history"
+msgid "#%{swipe_number}"
+msgstr "#%{swipe_number}"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: swipe written with a guide"
+msgid "Guided"
+msgstr "Guiada"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: the character this viewer posts as"
+msgid "You"
+msgstr "Tú"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: the swipe currently shown"
+msgid "Active"
+msgstr "Activa"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add a player to the character assignment"
+msgid "Add player"
+msgstr "Añadir jugador"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add the chosen characters to the chat"
+msgid "Add"
+msgstr "Añadir"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: append a scratchpad to its message"
+msgid "Append"
+msgstr "Añadir al final"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: approve a proposed attachment description"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: ask the caption model about an image"
+msgid "Ask…"
+msgstr "Preguntar…"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: cancel discarding a scratchpad"
+msgid "Keep"
+msgstr "Conservar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: cancel editing a message"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: cancel editing an attachment's description"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: clear the message selection"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close a character's per-chat settings"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close chat settings without saving"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the add-characters modal"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/caption_question.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the image question dialog"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/message_split.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the message split editor"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the new chat dialog"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the scratchpad edit form"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/delete_confirm.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: confirm deleting messages"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: confirm discarding a scratchpad"
+msgid "Discard"
+msgstr "Descartar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a memory of the selected messages"
+msgid "Create memory"
+msgstr "Crear memoria"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create the new chat"
+msgid "Create"
+msgstr "Crear"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete every spent injection"
+msgid "Clean up spent"
+msgstr "Limpiar agotadas"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the selected messages"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete this chat"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: describe an already described image again"
+msgid "Redescribe"
+msgstr "Describir de nuevo"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: describe an attachment again"
+msgid "Redescribe"
+msgstr "Describir de nuevo"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: describe every attachment in the chat"
+msgid "Describe all attachments"
+msgstr "Describir todos los adjuntos"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard a proposed attachment description"
+msgid "Discard"
+msgstr "Descartar"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard every rewrite note on the message"
+msgid "Discard notes"
+msgstr "Descartar notas"
+
+#: lib/mythweaver_web/components/chat/image_request.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: dismiss a script's image request"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: have the caption model describe an image"
+msgid "Describe"
+msgstr "Describir"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: hide the selected messages from the AI"
+msgid "Hide from AI"
+msgstr "Ocultar a la IA"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: invite a user to a chat"
+msgid "Invite"
+msgstr "Invitar"
+
+#: lib/mythweaver_web/components/chat/delete_confirm.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: keep the messages and close the delete dialog"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: make this swipe the shown one"
+msgid "Make active"
+msgstr "Activar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: merge the selected messages"
+msgid "Merge"
+msgstr "Combinar"
+
+#: lib/mythweaver_web/components/chat/message_split.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: move the selected text of a message to a scratchpad"
+msgid "Move to scratchpad"
+msgstr "Mover al borrador"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the chat's injections"
+msgid "Injections"
+msgstr "Inyecciones"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the chat's jobs"
+msgid "Jobs"
+msgstr "Tareas"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the chat's memory"
+msgid "Memory"
+msgstr "Memoria"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the chat's settings"
+msgid "Settings"
+msgstr "Ajustes"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the chat's variables"
+msgid "Variables"
+msgstr "Variables"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the memory tab to consolidate a tier"
+msgid "Consolidate"
+msgstr "Consolidar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the reply queue"
+msgid "Queue"
+msgstr "Cola"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: pass this round"
+msgid "Skip turn"
+msgstr "Pasar turno"
+
+#: lib/mythweaver_web/components/chat/image_request.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: pick an image file for a script's request"
+msgid "Choose image"
+msgstr "Elegir imagen"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove a member from a chat"
+msgid "Remove"
+msgstr "Quitar"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove a player row from the character assignment"
+msgid "Remove"
+msgstr "Quitar"
+
+#: lib/mythweaver_web/components/chat/turn_queue.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove every entry from the reply queue"
+msgid "Clear queue"
+msgstr "Vaciar cola"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: report a chat member"
+msgid "Report"
+msgstr "Denunciar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#: lib/mythweaver_web/components/chat/turn_queue.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: resume the paused reply queue"
+msgid "Resume"
+msgstr "Reanudar"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: rewrite the message following its notes"
+msgid "Rewrite with notes"
+msgstr "Reescribir con notas"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save a character's per-chat settings"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save a message edit as a new swipe"
+msgid "Create new swipe"
+msgstr "Crear nueva variante"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save a message edit over the shown swipe"
+msgid "Save edits"
+msgstr "Guardar cambios"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save an attachment's description"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save chat settings"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save chat settings and keep them open"
+msgid "Apply"
+msgstr "Aplicar"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the injection form"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the note and rewrite the message"
+msgid "Rewrite"
+msgstr "Reescribir"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the rewrite note"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the scratchpad edit form"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: select every loaded message"
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: lib/mythweaver_web/components/chat/caption_question.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: send the question about the image to the caption model"
+msgid "Describe"
+msgstr "Describir"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show a swipe's diff against its source"
+msgid "Show diff"
+msgstr "Mostrar diferencias"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show a swipe's plain text instead of its diff"
+msgid "Show text"
+msgstr "Mostrar texto"
+
+#: lib/mythweaver_web/components/chat/message_split.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: split a message into several"
+msgid "Split"
+msgstr "Dividir"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: start a new injection"
+msgid "New injection"
+msgstr "Nueva inyección"
+
+#: lib/mythweaver_web/components/chat/turn_queue.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: stop the reply being generated"
+msgid "Stop"
+msgstr "Detener"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: stop the reply being written"
+msgid "Stop"
+msgstr "Detener"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: toggle automatic replies"
+msgid "Auto"
+msgstr "Auto"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: chats affected by a bulk action"
+msgid "%{chat_count} chat"
+msgid_plural "%{chat_count} chats"
+msgstr[0] "%{chat_count} chat"
+msgstr[1] "%{chat_count} chats"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: a swipe with no text"
+msgid "(empty)"
+msgstr "(vacío)"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: chat filter matches nothing"
+msgid "No matching chats"
+msgstr "No hay chats que coincidan"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: chat has no messages"
+msgid "No messages yet"
+msgstr "Aún no hay mensajes"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: chat has no participants"
+msgid "No participants"
+msgstr "No hay participantes"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: chat injections list"
+msgid "No injections in this chat"
+msgstr "No hay inyecciones en este chat"
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: composer, the viewer holds no character"
+msgid "Ask the owner for a character."
+msgstr "Pide un personaje al propietario."
+
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: composer, the viewer holds no character"
+msgid "Take a character to post."
+msgstr "Toma un personaje para publicar."
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no activated lore entries"
+msgid "None"
+msgstr "Ninguna"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no characters to add to a chat"
+msgid "No characters yet"
+msgstr "Aún no hay personajes"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no chat is open"
+msgid "Select a chat"
+msgstr "Selecciona un chat"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no lore books to add to a chat"
+msgid "No lore books yet"
+msgstr "Aún no hay libros de lore"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no participant matches the search"
+msgid "No participants match"
+msgstr "Ningún participante coincide"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no rejected lore entries"
+msgid "None"
+msgstr "Ninguna"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: prompt had no injections"
+msgid "No injections"
+msgstr "No hay inyecciones"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: raw request or response not stored"
+msgid "Not recorded."
+msgstr "No registrado."
+
+#: lib/mythweaver_web/components/chat/turn_queue.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: reply queue"
+msgid "Queue is empty"
+msgstr "La cola está vacía"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: reply wrote no variables"
+msgid "No variable writes"
+msgstr "No se escribieron variables"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: viewer has no chats"
+msgid "No chats yet"
+msgstr "Aún no hay chats"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model of a chat"
+msgid "Model"
+msgstr "Modelo"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character the player plays"
+msgid "Player character"
+msgstr "Personaje del jugador"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character the viewer plays in a chat"
+msgid "You play as"
+msgstr "Juegas como"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: characters a player plays"
+msgid "Characters"
+msgstr "Personajes"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: characters in a chat"
+msgid "Participants (at least 2)"
+msgstr "Participantes (al menos 2)"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: characters taking part in a new chat"
+msgid "Participants (pick at least 2)"
+msgstr "Participantes (elige al menos 2)"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: characters to add to a chat"
+msgid "Characters"
+msgstr "Personajes"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat allows a character to answer itself"
+msgid "Allow self responses"
+msgstr "Permitir autorrespuestas"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat auto mode delay"
+msgid "Auto mode delay"
+msgstr "Retraso del modo automático"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat group card handling"
+msgid "Group cards"
+msgstr "Tarjetas de grupo"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat max turns"
+msgid "Max turns"
+msgstr "Turnos máximos"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat reply limit per turn"
+msgid "Maximum replies per turn"
+msgstr "Máximo de respuestas por turno"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat reply strategy"
+msgid "Reply strategy"
+msgstr "Estrategia de respuesta"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: condition template deciding whether an injection applies"
+msgid "Condition (Liquid, optional)"
+msgstr "Condición (Liquid, opcional)"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: context window use of the prompt"
+msgid "Context"
+msgstr "Contexto"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: custom opening narrator message of a new chat"
+msgid "Narrator's message"
+msgstr "Mensaje del narrador"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: delay between automatic replies"
+msgid "Auto mode delay (seconds)"
+msgstr "Retraso del modo automático (segundos)"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: expression set of a chat character"
+msgid "Outfit"
+msgstr "Atuendo"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: handle of a user to invite to a chat"
+msgid "Invite by handle"
+msgstr "Invitar por identificador"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how a chat picks who replies"
+msgid "Reply strategy"
+msgstr "Estrategia de respuesta"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how long a message's reply took"
+msgid "Time"
+msgstr "Tiempo"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: injection insertion depth"
+msgid "Depth (0 = after the last message)"
+msgstr "Profundidad (0 = después del último mensaje)"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: injection text template"
+msgid "Text (Liquid)"
+msgstr "Texto (Liquid)"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore books of a chat"
+msgid "Lore books"
+msgstr "Libros de lore"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: message role of an injection inserted at depth"
+msgid "Role"
+msgstr "Rol"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: messages trimmed from the prompt"
+msgid "Trimmed"
+msgstr "Recortados"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: model a chat character replies with"
+msgid "Model"
+msgstr "Modelo"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: model a chat replies with"
+msgid "Default model"
+msgstr "Modelo predeterminado"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: model this member's replies use"
+msgid "My model"
+msgstr "Mi modelo"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a chat"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of an injection"
+msgid "Key"
+msgstr "Clave"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: opening message of a new chat"
+msgid "Greeting"
+msgstr "Saludo"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: player to add to the character assignment"
+msgid "Add a player"
+msgstr "Añadir un jugador"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt a chat uses"
+msgid "Prompt"
+msgstr "Prompt"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt tokens outside the sections"
+msgid "Template overhead"
+msgstr "Sobrecarga de la plantilla"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt tokens the provider had cached"
+msgid "Cached"
+msgstr "En caché"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: role of a chat member"
+msgid "Role"
+msgstr "Rol"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sort order among injections"
+msgid "Order"
+msgstr "Orden"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tokenizer that counted the prompt"
+msgid "Tokenizer"
+msgstr "Tokenizador"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tokens a message's reply used"
+msgid "Tokens"
+msgstr "Tokens"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tokens in the prompt sent"
+msgid "Prompt tokens"
+msgstr "Tokens del prompt"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tokens in the reply"
+msgid "Completion tokens"
+msgstr "Tokens de respuesta"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tokens of the prompt's sections"
+msgid "Sections"
+msgstr "Secciones"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: what a message's reply cost"
+msgid "Cost"
+msgstr "Coste"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: when a chat's replies come in turns"
+msgid "Turns"
+msgstr "Turnos"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: where an injection's text is inserted"
+msgid "Position"
+msgstr "Posición"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: which character cards a group reply sees"
+msgid "Group cards"
+msgstr "Tarjetas de grupo"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: whose models a chat member spends"
+msgid "Models"
+msgstr "Modelos"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a message's stats and details"
+msgid "Details"
+msgstr "Detalles"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: an attachment's description"
+msgid "Description"
+msgstr "Descripción"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: card holding text cut from a message"
+msgid "Scratchpad"
+msgstr "Borrador"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: chat settings attachments row"
+msgid "Attachments"
+msgstr "Adjuntos"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: chats other people shared with the viewer"
+msgid "Shared with me"
+msgstr "Compartidos conmigo"
+
+#: lib/mythweaver_web/components/chat/caption_question.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog asking the caption model about one image"
+msgid "Ask about this image"
+msgstr "Preguntar sobre esta imagen"
+
+#: lib/mythweaver_web/components/chat/caption_question.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog asking the caption model about several images"
+msgid "Ask about these images"
+msgstr "Preguntar sobre estas imágenes"
+
+#: lib/mythweaver_web/components/chat/delete_confirm.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog confirming deletion of one message"
+msgid "Delete message"
+msgstr "Eliminar mensaje"
+
+#: lib/mythweaver_web/components/chat/delete_confirm.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog confirming deletion of selected messages"
+msgid "Delete %{message_count} message"
+msgid_plural "Delete %{message_count} messages"
+msgstr[0] "Eliminar %{message_count} mensaje"
+msgstr[1] "Eliminar %{message_count} mensajes"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog creating a role-play chat"
+msgid "New chat"
+msgstr "Nuevo chat"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog listing a chat's prompt injections"
+msgid "Injections"
+msgstr "Inyecciones"
+
+#: lib/mythweaver_web/components/chat/turn_queue.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog listing characters waiting to reply"
+msgid "Reply queue"
+msgstr "Cola de respuestas"
+
+#: lib/mythweaver_web/components/chat/image_request.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog where a script asks for a character avatar"
+msgid "Avatar requested"
+msgstr "Avatar solicitado"
+
+#: lib/mythweaver_web/components/chat/image_request.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog where a script asks for an image"
+msgid "Image requested"
+msgstr "Imagen solicitada"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form creating an injection"
+msgid "New injection"
+msgstr "Nueva inyección"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form editing an existing injection"
+msgid "Edit injection"
+msgstr "Editar inyección"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of a chat's characters"
+msgid "Participants"
+msgstr "Participantes"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: lore entries that were activated"
+msgid "Activated"
+msgstr "Activadas"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: lore entries that were rejected"
+msgid "Rejected"
+msgstr "Rechazadas"
+
+#: lib/mythweaver_web/components/chat/delete_confirm.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: memories that deleting messages removes"
+msgid "Memories deleted"
+msgstr "Memorias eliminadas"
+
+#: lib/mythweaver_web/components/chat/delete_confirm.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: memory consolidations that deleting messages removes"
+msgid "Consolidations deleted"
+msgstr "Consolidaciones eliminadas"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: modal adding characters to a chat"
+msgid "Add characters"
+msgstr "Añadir personajes"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: modal listing every swipe of a message"
+msgid "Swipe history"
+msgstr "Historial de variantes"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: modal showing the prompt a reply was sent"
+msgid "Prompt"
+msgstr "Prompt"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: modal where a guest brings a character"
+msgid "Bring a character"
+msgstr "Traer un personaje"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: modal with a chat's settings"
+msgid "Chat settings"
+msgstr "Ajustes del chat"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: per-chat settings of one character"
+msgid "Settings for this character"
+msgstr "Ajustes de este personaje"
+
+#: lib/mythweaver_web/live/main_chat_live/message_actions.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: report dialog for a chat member, with their handle"
+msgid "Report @%{user_handle}"
+msgstr "Denunciar a @%{user_handle}"
+
+#: lib/mythweaver_web/live/main_chat_live/message_actions.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: report dialog for a chat message"
+msgid "Report this message"
+msgstr "Denunciar este mensaje"
+
+#: lib/mythweaver_web/components/chat/delete_confirm.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: side prompt entries that deleting messages restores"
+msgid "Side prompts restored"
+msgstr "Prompts secundarios restaurados"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: sidebar listing the viewer's chats"
+msgid "Chats"
+msgstr "Chats"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the model's reasoning before its reply"
+msgid "Thinking"
+msgstr "Razonamiento"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: users who play this character"
+msgid "Played by"
+msgstr "Jugado por"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: what guests of a chat may do"
+msgid "Guests may"
+msgstr "Los invitados pueden"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: which player plays which chat characters"
+msgid "Who plays which characters"
+msgstr "Quién juega qué personajes"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: open the character editor to add sprites"
+msgid "Add some"
+msgstr "Añade algunos"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: change this message's author"
+msgid "Change author"
+msgstr "Cambiar autor"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: continue writing this message"
+msgid "Continue this message"
+msgstr "Continuar este mensaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: delete this message"
+msgid "Delete message"
+msgstr "Eliminar mensaje"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: edit this character"
+msgid "Edit character"
+msgstr "Editar personaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: edit this message"
+msgid "Edit message"
+msgstr "Editar mensaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: hide this message from the AI"
+msgid "Hide from AI"
+msgstr "Ocultar a la IA"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: inspect the prompt this reply was sent"
+msgid "Inspect prompt"
+msgstr "Inspeccionar prompt"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: merge this message into the one before"
+msgid "Merge into previous message"
+msgstr "Combinar con el mensaje anterior"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: mute this character in automatic replies"
+msgid "Mute in automatic replies"
+msgstr "Silenciar en respuestas automáticas"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: open this message's swipe history"
+msgid "Swipe history"
+msgstr "Historial de variantes"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: post as this character"
+msgid "Play as this character"
+msgstr "Jugar como este personaje"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: queue a reply from this character"
+msgid "Queue a reply"
+msgstr "Poner en cola una respuesta"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: regenerate this reply"
+msgid "Regenerate this reply"
+msgstr "Regenerar esta respuesta"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: remove this character from the chat"
+msgid "Remove from this chat"
+msgstr "Quitar de este chat"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: report this message"
+msgid "Report message"
+msgstr "Denunciar mensaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: set this message's expression"
+msgid "Set expression"
+msgstr "Establecer expresión"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: show this message's next swipe"
+msgid "Next swipe"
+msgstr "Siguiente variante"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: show this message's previous swipe"
+msgid "Previous swipe"
+msgstr "Variante anterior"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: split this message into several"
+msgid "Split into messages"
+msgstr "Dividir en mensajes"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "menu item: this character's per-chat settings"
+msgid "Settings in this chat"
+msgstr "Ajustes en este chat"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a chat member spends the owner's models"
+msgid "Uses my models"
+msgstr "Usa mis modelos"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a chat member spends their own models"
+msgid "Brings their own models"
+msgstr "Trae sus propios modelos"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: author not in the list, type a name"
+msgid "Other…"
+msgstr "Otro…"
+
+#: lib/mythweaver_web/live/main_chat_live/split_editor.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: author of a split piece, the player's own character"
+msgid "%{character_name} (you)"
+msgstr "%{character_name} (tú)"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: character uses the chat's model"
+msgid "Chat default"
+msgstr "Predeterminado del chat"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: character's default outfit"
+msgid "Default"
+msgstr "Predeterminado"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat member role"
+msgid "Editor"
+msgstr "Editor"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat member role"
+msgid "Guest"
+msgstr "Invitado"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat reply strategy"
+msgid "List order"
+msgstr "Orden de la lista"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat reply strategy"
+msgid "Manual"
+msgstr "Manual"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat reply strategy"
+msgid "Natural order"
+msgstr "Orden natural"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat reply strategy"
+msgid "Pooled order"
+msgstr "Orden agrupado"
+
+#: lib/mythweaver_web/components/chat/message_split.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: cut a split message piece off into a scratchpad"
+msgid "Scratchpad"
+msgstr "Borrador"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: greeting of a new chat"
+msgid "A random character"
+msgstr "Un personaje al azar"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: greeting of a new chat"
+msgid "Every character (one message each)"
+msgstr "Todos los personajes (un mensaje cada uno)"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: greeting of a new chat"
+msgid "Narrator (write it below)"
+msgstr "Narrador (escríbelo abajo)"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: greeting of a new chat"
+msgid "No greeting"
+msgstr "Sin saludo"
+
+#: lib/mythweaver_web/components/chat/message_split.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: keep the author of a split message piece"
+msgid "No change"
+msgstr "Sin cambios"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: member uses their default model"
+msgid "My default model"
+msgstr "Mi modelo predeterminado"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: message role of an injection"
+msgid "Assistant"
+msgstr "Asistente"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: message role of an injection"
+msgid "System"
+msgstr "Sistema"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: message role of an injection"
+msgid "User"
+msgstr "Usuario"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: message shows the portrait, no expression"
+msgid "Portrait (no expression)"
+msgstr "Retrato (sin expresión)"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no chat model, use the one from settings"
+msgid "Default model from Settings"
+msgstr "Modelo predeterminado de Ajustes"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no chat prompt, inherit one"
+msgid "Inherit (no chat prompt)"
+msgstr "Heredar (sin prompt de chat)"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no model picked, use the default"
+msgid "Default"
+msgstr "Predeterminado"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no player character"
+msgid "None (spectator)"
+msgstr "Ninguno (espectador)"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: pick the viewer's character later"
+msgid "Choose later"
+msgstr "Elegir más tarde"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: the default model of the assistant"
+msgid "Default"
+msgstr "Predeterminado"
+
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: the default model of the assistant, with its name"
+msgid "Default (%{model_name})"
+msgstr "Predeterminado (%{model_name})"
+
+#: lib/mythweaver/injections/injection.ex
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: where an injection's text is inserted"
+msgid "After author's note"
+msgstr "Después de la nota del autor"
+
+#: lib/mythweaver/injections/injection.ex
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: where an injection's text is inserted"
+msgid "After character"
+msgstr "Después del personaje"
+
+#: lib/mythweaver/injections/injection.ex
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: where an injection's text is inserted"
+msgid "After examples"
+msgstr "Después de los ejemplos"
+
+#: lib/mythweaver/injections/injection.ex
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: where an injection's text is inserted"
+msgid "Before author's note"
+msgstr "Antes de la nota del autor"
+
+#: lib/mythweaver/injections/injection.ex
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: where an injection's text is inserted"
+msgid "Before character"
+msgstr "Antes del personaje"
+
+#: lib/mythweaver/injections/injection.ex
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: where an injection's text is inserted"
+msgid "Before examples"
+msgstr "Antes de los ejemplos"
+
+#: lib/mythweaver/injections/injection.ex
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: where an injection's text is inserted"
+msgid "In chat history, at depth"
+msgstr "En el historial del chat, a una profundidad"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: chat list with no chat open"
+msgid "Chats"
+msgstr "Chats"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: a user handle"
+msgid "@handle"
+msgstr "@identificador"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: chat message composer"
+msgid "Write a message…"
+msgstr "Escribe un mensaje…"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: description of an attached image"
+msgid "Describe this image"
+msgstr "Describe esta imagen"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: description of an attachment"
+msgid "Describe this audio clip"
+msgstr "Describe este clip de audio"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: description of an attachment"
+msgid "Describe this document"
+msgstr "Describe este documento"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: description of an attachment"
+msgid "Describe this image"
+msgstr "Describe esta imagen"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: description of an attachment"
+msgid "Describe this video"
+msgstr "Describe este vídeo"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: filter chats by name"
+msgid "Chat name"
+msgstr "Nombre del chat"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: name of a message's author"
+msgid "Author name"
+msgstr "Nombre del autor"
+
+#: lib/mythweaver/chats/chat.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: name shown for a chat that has no name"
+msgid "Untitled chat"
+msgstr "Chat sin título"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: no reply limit per turn"
+msgid "Unlimited"
+msgstr "Sin límite"
+
+#: lib/mythweaver_web/components/chat/caption_question.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: one-time question to the image caption model"
+msgid "Leave blank for the usual description"
+msgstr "Déjalo vacío para la descripción habitual"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: rewrite note on a selected passage"
+msgid "Add a comment…"
+msgstr "Añade un comentario…"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search participants by character name"
+msgid "Character name"
+msgstr "Nombre del personaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a message on its way to the server"
+msgid "Sending…"
+msgstr "Enviando…"
+
+#. Flash after a passage of a message is saved as a clip lore entry.
+#: lib/mythweaver_web/live/main_chat_live/clip_dialog.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a passage of a message was saved as a clip"
+msgid "Clip saved"
+msgstr "Fragmento guardado"
+
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a reply that was stopped before it finished"
+msgid "Stopped."
+msgstr "Detenida."
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a swipe still being written"
+msgid "Generating…"
+msgstr "Generando…"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a variable that was deleted"
+msgid "deleted"
+msgstr "eliminada"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: attachment description being written"
+msgid "Describing…"
+msgstr "Describiendo…"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: attachment description failed"
+msgid "Description failed"
+msgstr "Falló la descripción"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: attachment description waiting for review"
+msgid "Description ready for review…"
+msgstr "Descripción lista para revisar…"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: author of a message the viewer is sending"
+msgid "You"
+msgstr "Tú"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: author of a message whose character is gone"
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: caption model failed to describe an image"
+msgid "Description failed"
+msgstr "Falló la descripción"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: caption model is describing an image"
+msgid "Describing…"
+msgstr "Describiendo…"
+
+#: lib/mythweaver_web/components/chat/turn_queue.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: character currently generating a reply"
+msgid "Speaking"
+msgstr "Hablando"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: chat settings were applied"
+msgid "Settings applied"
+msgstr "Ajustes aplicados"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: context window tokens used, its limit and the tokens kept for the reply"
+msgid "%{used_tokens}/%{token_limit} · %{reserved_tokens} reserved"
+msgstr "%{used_tokens}/%{token_limit} · %{reserved_tokens} reservados"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: expression was chosen by hand"
+msgid "· set by hand"
+msgstr "· elegida a mano"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about"
+msgid "Continue"
+msgstr "Continuación"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about"
+msgid "Edit"
+msgstr "Edición"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about"
+msgid "Merge"
+msgstr "Combinación"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about"
+msgid "Original"
+msgstr "Original"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about"
+msgid "Refine"
+msgstr "Refinamiento"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about"
+msgid "Regeneration"
+msgstr "Regeneración"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about"
+msgid "Scratchpad append"
+msgstr "Anexo de borrador"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about"
+msgid "Split"
+msgstr "División"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about, with the swipe number it came from"
+msgid "Continue of #%{swipe_number}"
+msgstr "Continuación de #%{swipe_number}"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about, with the swipe number it came from"
+msgid "Edit of #%{swipe_number}"
+msgstr "Edición de #%{swipe_number}"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about, with the swipe number it came from"
+msgid "Merge of #%{swipe_number}"
+msgstr "Combinación de #%{swipe_number}"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about, with the swipe number it came from"
+msgid "Refine of #%{swipe_number}"
+msgstr "Refinamiento de #%{swipe_number}"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about, with the swipe number it came from"
+msgid "Scratchpad append of #%{swipe_number}"
+msgstr "Anexo de borrador de #%{swipe_number}"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a swipe came about, with the swipe number it came from"
+msgid "Split of #%{swipe_number}"
+msgstr "División de #%{swipe_number}"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how full the context window is"
+msgid "%{context_share} full"
+msgstr "%{context_share} lleno"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how many messages are selected"
+msgid "%{message_count} selected"
+msgid_plural "%{message_count} selected"
+msgstr[0] "%{message_count} seleccionado"
+msgstr[1] "%{message_count} seleccionados"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: injection inserted in the chat history at a depth"
+msgid "In chat history, at depth · depth %{message_depth}"
+msgstr "En el historial del chat, a una profundidad · profundidad %{message_depth}"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: injection that has used up its replies"
+msgid "spent"
+msgstr "agotada"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: injection that lasts until removed"
+msgid "until removed"
+msgstr "hasta que se elimine"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: inline prompt image and its estimated tokens"
+msgid "Image %{image_number} · ≈%{token_count} token"
+msgid_plural "Image %{image_number} · ≈%{token_count} tokens"
+msgstr[0] "Imagen %{image_number} · ≈%{token_count} token"
+msgstr[1] "Imagen %{image_number} · ≈%{token_count} tokens"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: inline prompt image, its estimated tokens, the image is now deleted"
+msgid "Image %{image_number} · ≈%{token_count} token · since deleted"
+msgid_plural "Image %{image_number} · ≈%{token_count} tokens · since deleted"
+msgstr[0] "Imagen %{image_number} · ≈%{token_count} token · eliminada desde entonces"
+msgstr[1] "Imagen %{image_number} · ≈%{token_count} tokens · eliminada desde entonces"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: last message memory has processed"
+msgid "Processed through #%{message_number}"
+msgstr "Procesado hasta el n.º %{message_number}"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: lore activation passes"
+msgid "%{pass_count} pass"
+msgid_plural "%{pass_count} passes"
+msgstr[0] "%{pass_count} pasada"
+msgstr[1] "%{pass_count} pasadas"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: lore token budget used of its limit"
+msgid "Budget %{used_tokens}/%{token_limit} token"
+msgid_plural "Budget %{used_tokens}/%{token_limit} tokens"
+msgstr[0] "Presupuesto %{used_tokens}/%{token_limit} token"
+msgstr[1] "Presupuesto %{used_tokens}/%{token_limit} tokens"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: message a scratchpad was cut from, by number and author"
+msgid "from #%{message_number} · %{author_name}"
+msgstr "de #%{message_number} · %{author_name}"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: message shows the portrait, no expression"
+msgid "Portrait (no expression)"
+msgstr "Retrato (sin expresión)"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: messages or tokens done toward the next automatic memory"
+msgid "(%{done_amount}/%{total_amount})"
+msgstr "(%{done_amount}/%{total_amount})"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: no tokenizer, counts estimated"
+msgid "none (estimated)"
+msgstr "ninguno (estimado)"
+
+#: lib/mythweaver_web/components/chat/turn_queue.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: queued character who has left the chat"
+msgid "Removed character"
+msgstr "Personaje eliminado"
+
+#. Flash after the user asks to re-classify a message's character expression.
+#: lib/mythweaver_web/live/main_chat_live/message_actions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: re-classifying a message's character expression"
+msgid "Classifying expression…"
+msgstr "Clasificando expresión…"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: replies an injection has left"
+msgid "%{remaining_replies} of %{total_replies} left"
+msgstr "Quedan %{remaining_replies} de %{total_replies}"
+
+#: lib/mythweaver_web/components/chat/turn_queue.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: reply queue"
+msgid "Queue paused"
+msgstr "Cola en pausa"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: rewrite note kind, a free comment"
+msgid "Note"
+msgstr "Nota"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: rewrite note kind, drop the passage"
+msgid "Reject entirely"
+msgstr "Rechazar por completo"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: rewrite note kind, keep the passage word for word"
+msgid "Keep verbatim"
+msgstr "Mantener literal"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: rewrite note kind, lengthen the passage"
+msgid "Expand"
+msgstr "Ampliar"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: rewrite note kind, shorten the passage"
+msgid "Shorten"
+msgstr "Acortar"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: rewrite note kind, stress the passage"
+msgid "Emphasize"
+msgstr "Enfatizar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: shown swipe out of all swipes"
+msgid "%{swipe_number} / %{swipe_count}"
+msgstr "%{swipe_number} / %{swipe_count}"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the chat's messages are loading"
+msgid "Loading messages…"
+msgstr "Cargando mensajes…"
+
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the viewer's turn was skipped"
+msgid "Turn skipped"
+msgstr "Turno pasado"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: chat settings, basic options"
+msgid "Basics"
+msgstr "Básico"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: chat settings, characters in the chat"
+msgid "Participants"
+msgstr "Participantes"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: chat settings, how replies are made"
+msgid "Replies"
+msgstr "Respuestas"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: chat settings, lore books of the chat"
+msgid "Lore books"
+msgstr "Libros de lore"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: chat settings, people in the chat"
+msgid "Members"
+msgstr "Miembros"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: prompt inspector, activated lore"
+msgid "Lore"
+msgstr "Lore"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: prompt inspector, injections"
+msgid "Injections"
+msgstr "Inyecciones"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: prompt inspector, the prompt's sections"
+msgid "Sections"
+msgstr "Secciones"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: prompt inspector, the raw request"
+msgid "Request"
+msgstr "Solicitud"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: prompt inspector, the raw response"
+msgid "Response"
+msgstr "Respuesta"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: prompt inspector, variable writes"
+msgid "Variables"
+msgstr "Variables"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: a character may reply to itself"
+msgid "Allow self responses"
+msgstr "Permitir autorrespuestas"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: guests may attach files"
+msgid "Attach files"
+msgstr "Adjuntar archivos"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: guests may delete their own messages"
+msgid "Delete their own messages"
+msgstr "Eliminar sus propios mensajes"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: guests may edit their own messages"
+msgid "Edit their own messages"
+msgstr "Editar sus propios mensajes"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: guests may regenerate and swipe replies"
+msgid "Regenerate and swipe replies"
+msgstr "Regenerar respuestas y cambiar variantes"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: guests may run scripts"
+msgid "Run scripts"
+msgstr "Ejecutar scripts"
+
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: guests may trigger replies"
+msgid "Trigger replies"
+msgstr "Provocar respuestas"
+
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: whether an injection is active"
+msgid "Enabled"
+msgstr "Activada"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: add characters to the chat"
+msgid "Add characters"
+msgstr "Añadir personajes"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: annotate selected text for a rewrite"
+msgid "Annotate"
+msgstr "Anotar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: attach files to the edited message"
+msgid "Attach files"
+msgstr "Adjuntar archivos"
+
+#: lib/mythweaver_web/components/chat/message_split.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: button that adds a message split below this one"
+msgid "Add a split below"
+msgstr "Añadir una división debajo"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: button that removes an attachment from the composer"
+msgid "Remove"
+msgstr "Quitar"
+
+#: lib/mythweaver_web/components/chat/message_split.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: button that removes this message split"
+msgid "Remove this split"
+msgstr "Quitar esta división"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: classify a message's expression again"
+msgid "Classify again"
+msgstr "Clasificar de nuevo"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: clear the message selection"
+msgid "Uncheck all"
+msgstr "Desmarcar todo"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: clip the selected text"
+msgid "Clip"
+msgstr "Recortar"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: close the participant search"
+msgid "Close search"
+msgstr "Cerrar búsqueda"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: collapse the participants rail"
+msgid "Hide participants"
+msgstr "Ocultar participantes"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: context tokens kept free for the reply"
+msgid "Reserved for the reply"
+msgstr "Reservado para la respuesta"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: continue writing this message"
+msgid "Continue (adds a swipe)"
+msgstr "Continuar (añade una variante)"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: delete this message"
+msgid "Delete message"
+msgstr "Eliminar mensaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: edit an attachment's description"
+msgid "Edit description"
+msgstr "Editar descripción"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: edit this message"
+msgid "Edit"
+msgstr "Editar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: find messages for a topical clip"
+msgid "Extract"
+msgstr "Extraer"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: guest brings own character into the chat"
+msgid "Bring a character of your own"
+msgstr "Traer un personaje propio"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that closes the annotation popup"
+msgid "Close"
+msgstr "Cerrar"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that closes the chat filter"
+msgid "Close search"
+msgstr "Cerrar búsqueda"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that collapses the chat sidebar"
+msgid "Hide chats"
+msgstr "Ocultar chats"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that creates a role-play chat"
+msgid "New chat"
+msgstr "Nuevo chat"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that discards this scratchpad"
+msgid "Discard"
+msgstr "Descartar"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that edits this scratchpad"
+msgid "Edit"
+msgstr "Editar"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that empties the composer"
+msgid "Clear message"
+msgstr "Vaciar mensaje"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that enlarges the annotation popup"
+msgid "Expand"
+msgstr "Ampliar"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that opens the chat name and tag filter"
+msgid "Search chats"
+msgstr "Buscar chats"
+
+#: lib/mythweaver_web/components/chat/message_annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that removes this rewrite note"
+msgid "Remove note"
+msgstr "Quitar nota"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon button that starts a chat with the built-in assistant"
+msgid "New Mythweaver conversation"
+msgstr "Nueva conversación con Mythweaver"
+
+#: lib/mythweaver_web/components/chat/chat_picker.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: icon marking a chat with the built-in assistant"
+msgid "Mythweaver conversation"
+msgstr "Conversación con Mythweaver"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: inspect the prompt this reply was sent"
+msgid "Inspect prompt"
+msgstr "Inspeccionar prompt"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: merge this message into the one before"
+msgid "Merge into previous message"
+msgstr "Combinar con el mensaje anterior"
+
+#: lib/mythweaver_web/components/chat/participants.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: open the participant search"
+msgid "Search participants by name or tag"
+msgstr "Buscar participantes por nombre o etiqueta"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: open this message's swipe history"
+msgid "Swipe history"
+msgstr "Historial de variantes"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: regenerate this reply"
+msgid "Regenerate this reply"
+msgstr "Regenerar esta respuesta"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: remove an attachment from the edited message"
+msgid "Remove"
+msgstr "Quitar"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: report this message"
+msgid "Report message"
+msgstr "Denunciar mensaje"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: save a message edit over the shown swipe"
+msgid "Overwrite the shown swipe"
+msgstr "Sobrescribir la variante mostrada"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: select every loaded message"
+msgid "Select every loaded message"
+msgstr "Seleccionar todos los mensajes cargados"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: set this message's expression"
+msgid "Set expression"
+msgstr "Establecer expresión"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: split this message into several"
+msgid "Split into messages"
+msgstr "Dividir en mensajes"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: stop the reply being written, with its shortcut"
+msgid "Stop generating (Esc)"
+msgstr "Detener generación (Esc)"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: tokens of a prompt chart segment and its share"
+msgid "%{token_count} token · %{token_share}"
+msgid_plural "%{token_count} tokens · %{token_share}"
+msgstr[0] "%{token_count} token · %{token_share}"
+msgstr[1] "%{token_count} tokens · %{token_share}"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: activation pass of a lore entry"
+msgid "pass %{pass_number}"
+msgstr "pasada %{pass_number}"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: depth an injection was inserted at"
+msgid "depth %{injection_depth}"
+msgstr "profundidad %{injection_depth}"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: insertion order of a lore entry"
+msgid "order %{lore_order}"
+msgstr "orden %{lore_order}"
+
+#: lib/mythweaver_web/components/chat/delete_confirm.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: range of message numbers a memory covers"
+msgid "#%{first_message}–#%{last_message}"
+msgstr "#%{first_message}–#%{last_message}"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: tokens a swipe's reply used"
+msgid "%{token_count} tok"
+msgstr "%{token_count} tok"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: tokens of a lore entry"
+msgid "%{token_count} token"
+msgid_plural "%{token_count} tokens"
+msgstr[0] "%{token_count} token"
+msgstr[1] "%{token_count} tokens"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: tokens of a prompt section"
+msgid "%{token_count} token"
+msgid_plural "%{token_count} tokens"
+msgstr[0] "%{token_count} token"
+msgstr[1] "%{token_count} tokens"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that asks the caption model about a document attachment"
+msgid "Ask about this document"
+msgstr "Preguntar sobre este documento"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that asks the caption model about a video attachment"
+msgid "Ask about this video"
+msgstr "Preguntar sobre este vídeo"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that asks the caption model about an image attachment"
+msgid "Ask about this image"
+msgstr "Preguntar sobre esta imagen"
+
+#: lib/mythweaver/attachments/captions.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that captions an image"
+msgid "Caption image"
+msgstr "Describir imagen"
+
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that continues a character's reply"
+msgid "Continue — %{character_name}"
+msgstr "Continuar — %{character_name}"
+
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that continues a character's reply, started by a script"
+msgid "Continue — %{character_name} (script)"
+msgstr "Continuar — %{character_name} (script)"
+
+#: lib/mythweaver/attachments/captions.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that describes a video clip"
+msgid "Describe video"
+msgstr "Describir vídeo"
+
+#: lib/mythweaver/attachments/captions.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that describes an audio clip"
+msgid "Describe audio"
+msgstr "Describir audio"
+
+#: lib/mythweaver/attachments/captions.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that describes an avatar"
+msgid "Describe avatar"
+msgstr "Describir avatar"
+
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that regenerates a character's reply"
+msgid "Regenerate — %{character_name}"
+msgstr "Regenerar — %{character_name}"
+
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that regenerates a character's reply, started by a script"
+msgid "Regenerate — %{character_name} (script)"
+msgstr "Regenerar — %{character_name} (script)"
+
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that rewrites a character's reply"
+msgid "Refine — %{character_name}"
+msgstr "Refinar — %{character_name}"
+
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that rewrites a character's reply, started by a script"
+msgid "Refine — %{character_name} (script)"
+msgstr "Refinar — %{character_name} (script)"
+
+#: lib/mythweaver/attachments/captions.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that summarizes a document"
+msgid "Summarize document"
+msgstr "Resumir documento"
+
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that writes a character's reply"
+msgid "Reply — %{character_name}"
+msgstr "Respuesta — %{character_name}"
+
+#: lib/mythweaver/generation/server.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that writes a character's reply, started by a script"
+msgid "Reply — %{character_name} (script)"
+msgstr "Respuesta — %{character_name} (script)"
+
+#. %{expression_name} is the expression label, shown in bold.
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: character expression shown on a message"
+msgid "Expression: %{expression_name}"
+msgstr "Expresión: %{expression_name}"
+
+#. %{character_name} is the character the viewer posts as, shown in bold.
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: character the viewer's next message is posted as"
+msgid "Posting as %{character_name}"
+msgstr "Publicando como %{character_name}"
+
+#: lib/mythweaver_web/live/main_chat_live/clip_dialog.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: clip dialog error when a new clip has no title"
+msgid "Name the new clip."
+msgstr "Pon nombre al nuevo fragmento."
+
+#. Clip save error; %{error_reason} is an internal error term, shown verbatim.
+#: lib/mythweaver_web/live/main_chat_live/clip_dialog.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: clip dialog error when saving the clip failed"
+msgid "Failed: %{error_reason}"
+msgstr "Error: %{error_reason}"
+
+#. Confirm dialog shown before deleting a chat injection; the placeholder is its key.
+#: lib/mythweaver_web/components/chat/injections.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: confirm dialog before deleting a chat injection"
+msgid "Delete %{injection_key}?"
+msgstr "¿Eliminar %{injection_key}?"
+
+#. Confirm dialog before removing a member from a shared chat.
+#: lib/mythweaver_web/components/chat/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: confirm dialog before removing a member from a shared chat"
+msgid "Remove %{member_name} from %{chat_title}?"
+msgstr "¿Quitar a %{member_name} de %{chat_title}?"
+
+#. Inline confirmation shown on a scratchpad card after its Discard button is pressed.
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: confirm question before discarding a scratchpad"
+msgid "Discard this scratchpad?"
+msgstr "¿Descartar este borrador?"
+
+#. Error shown when the Mythweaver assistant is asked to act while it is still replying.
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error when the Mythweaver assistant is still replying"
+msgid "Mythweaver is still replying."
+msgstr "Mythweaver aún está respondiendo."
+
+#. Flash after an uploaded image is set as a character's avatar.
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a character's avatar is set"
+msgid "Avatar set for %{character_name}"
+msgstr "Avatar establecido para %{character_name}"
+
+#. Flash after a chat invite is sent; %{user_handle} is the invited user's handle, without the @.
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a chat invite is sent"
+msgid "Invite sent to @%{user_handle}"
+msgstr "Invitación enviada a @%{user_handle}"
+
+#. Flash after the viewer deletes a chat.
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a chat is deleted"
+msgid "%{chat_title} deleted"
+msgstr "%{chat_title} eliminado"
+
+#. Flash after a chat or its settings are saved.
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a chat or its settings are saved"
+msgid "%{chat_title} saved"
+msgstr "%{chat_title} guardado"
+
+#. Flash after a guest brings their own characters into a shared chat.
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a guest brings their own characters into a shared chat"
+msgid "Brought %{character_count} character"
+msgid_plural "Brought %{character_count} characters"
+msgstr[0] "Has traído %{character_count} personaje"
+msgstr[1] "Has traído %{character_count} personajes"
+
+#. Flash after the user disables a side prompt.
+#: lib/mythweaver_web/live/main_chat_live/memory_commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a side prompt is disabled"
+msgid "%{side_prompt_name} disabled."
+msgstr "%{side_prompt_name} desactivado."
+
+#. Flash after the user enables a side prompt.
+#: lib/mythweaver_web/live/main_chat_live/memory_commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a side prompt is enabled"
+msgid "%{side_prompt_name} enabled."
+msgstr "%{side_prompt_name} activado."
+
+#. Flash after characters are added to a chat.
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after characters are added to a chat"
+msgid "Added %{character_count} character"
+msgid_plural "Added %{character_count} characters"
+msgstr[0] "Se añadió %{character_count} personaje"
+msgstr[1] "Se añadieron %{character_count} personajes"
+
+#. Flash after every side prompt is disabled from the command palette.
+#: lib/mythweaver_web/live/main_chat_live/memory_commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after every side prompt is disabled"
+msgid "%{side_prompt_count} side prompt disabled."
+msgid_plural "%{side_prompt_count} side prompts disabled."
+msgstr[0] "%{side_prompt_count} prompt secundario desactivado."
+msgstr[1] "%{side_prompt_count} prompts secundarios desactivados."
+
+#. Flash after every side prompt is enabled from the command palette.
+#: lib/mythweaver_web/live/main_chat_live/memory_commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after every side prompt is enabled"
+msgid "%{side_prompt_count} side prompt enabled."
+msgid_plural "%{side_prompt_count} side prompts enabled."
+msgstr[0] "%{side_prompt_count} prompt secundario activado."
+msgstr[1] "%{side_prompt_count} prompts secundarios activados."
+
+#. Flash after the user cleans up injections that have already fired.
+#: lib/mythweaver_web/live/main_chat_live/injections_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after spent injections are removed"
+msgid "Removed %{injection_count} spent injection"
+msgid_plural "Removed %{injection_count} spent injections"
+msgstr[0] "Se eliminó %{injection_count} inyección agotada"
+msgstr[1] "Se eliminaron %{injection_count} inyecciones agotadas"
+
+#. Flash after the chat owner picks which character they play.
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after the chat owner picks the character they play"
+msgid "Now playing as %{character_name}"
+msgstr "Ahora juegas como %{character_name}"
+
+#. Flash after the user clears the marker of how far memory has processed the chat.
+#: lib/mythweaver_web/live/main_chat_live/memory_commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after the memory processed boundary is cleared"
+msgid "Processed boundary cleared."
+msgstr "Límite de procesado borrado."
+
+#. Flash after a member claims a character to play in a shared chat.
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after the viewer claims a character to play"
+msgid "You now play %{character_name}"
+msgstr "Ahora juegas como %{character_name}"
+
+#. Appended to the flash after enabling or disabling every side prompt; %{side_prompt_names} is a list of the side prompt names that failed, like "A, B, and C".
+#: lib/mythweaver_web/live/main_chat_live/memory_commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash listing side prompts that could not be enabled or disabled"
+msgid "Could not update %{side_prompt_names}."
+msgstr "No se pudo actualizar %{side_prompt_names}."
+
+#. Flash showing the last chat message that memory has processed; %{message_number} is its position in the chat.
+#: lib/mythweaver_web/live/main_chat_live/memory_commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash showing the last message memory has processed"
+msgid "Processed through #%{message_number}."
+msgstr "Procesado hasta el n.º %{message_number}."
+
+#. Flash when the handle typed into a chat invite matches no user.
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when a chat invite names an unknown handle"
+msgid "Nobody has that handle"
+msgstr "Nadie tiene ese identificador"
+
+#. Flash when a composer message is refused; %{script_error} is the reason an inline script or template failed, a lowercase phrase.
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when a composer message is refused by a script error"
+msgid "Message not sent: %{script_error}"
+msgstr "Mensaje no enviado: %{script_error}"
+
+#. Flash when a message from the composer could not be saved.
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when a message could not be sent"
+msgid "Could not send message"
+msgstr "No se pudo enviar el mensaje"
+
+#. Flash when a message edit is refused; %{template_error} is the reason its template failed to render.
+#: lib/mythweaver_web/live/main_chat_live/message_actions.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when a message edit is refused by a template error"
+msgid "Edit not saved: %{template_error}"
+msgstr "Edición no guardada: %{template_error}"
+
+#. Flash when the user disables a side prompt that is already disabled.
+#: lib/mythweaver_web/live/main_chat_live/memory_commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when a side prompt is already disabled"
+msgid "%{side_prompt_name} is already disabled."
+msgstr "%{side_prompt_name} ya está desactivado."
+
+#. Flash when the user enables a side prompt that is already enabled.
+#: lib/mythweaver_web/live/main_chat_live/memory_commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when a side prompt is already enabled"
+msgid "%{side_prompt_name} is already enabled."
+msgstr "%{side_prompt_name} ya está activado."
+
+#. Flash when the API key form the Mythweaver assistant asked for is submitted empty.
+#: lib/mythweaver_web/live/main_chat_live/assistant_chat.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when an API key submitted to the assistant is empty"
+msgid "Enter a key."
+msgstr "Escribe una clave."
+
+#. Flash when an uploaded file could not be attached; %{upload_error} is the upload error.
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when an uploaded file could not be attached"
+msgid "Not attached: %{file_name} (%{upload_error})"
+msgstr "No adjuntado: %{file_name} (%{upload_error})"
+
+#. Flash after the user asks for every undescribed attachment in the chat to be described.
+#: lib/mythweaver_web/live/main_chat_live/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when attachments start being described"
+msgid "Describing %{attachment_count} attachment"
+msgid_plural "Describing %{attachment_count} attachments"
+msgstr[0] "Describiendo %{attachment_count} adjunto"
+msgstr[1] "Describiendo %{attachment_count} adjuntos"
+
+#. Flash when enabling or disabling one side prompt failed.
+#: lib/mythweaver_web/live/main_chat_live/memory_commands.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when enabling or disabling a side prompt failed"
+msgid "Could not update %{side_prompt_name}."
+msgstr "No se pudo actualizar %{side_prompt_name}."
+
+#. Flash when the open chat was deleted, by its owner or in another window.
+#: lib/mythweaver_web/live/main_chat_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when the open chat was deleted elsewhere"
+msgid "%{chat_title} was deleted"
+msgstr "%{chat_title} se eliminó"
+
+#. Flash when the viewer types their own handle into a chat invite.
+#: lib/mythweaver_web/live/main_chat_live/members.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when the viewer tries to invite themselves to a chat"
+msgid "You can't invite yourself"
+msgstr "No puedes invitarte a ti mismo"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: guidance the user gave for a swipe"
+msgid "Guide: %{swipe_guide}"
+msgstr "Guía: %{swipe_guide}"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: images counted in a prompt section's token total"
+msgid "(incl. %{image_count} image ≈%{image_tokens})"
+msgid_plural "(incl. %{image_count} images ≈%{image_tokens})"
+msgstr[0] "(incl. %{image_count} imagen ≈%{image_tokens})"
+msgstr[1] "(incl. %{image_count} imágenes ≈%{image_tokens})"
+
+#: lib/mythweaver/messages/prompt_snapshot.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: name shown for a lore book hidden from the viewer"
+msgid "Hidden book"
+msgstr "Libro oculto"
+
+#: lib/mythweaver/messages/prompt_snapshot.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: name shown for a lore entry hidden from the viewer"
+msgid "Hidden entry"
+msgstr "Entrada oculta"
+
+#: lib/mythweaver_web/components/chat/prompt_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: older messages trimmed from the prompt to fit the context window"
+msgid "%{message_count} older message"
+msgid_plural "%{message_count} older messages"
+msgstr[0] "%{message_count} mensaje anterior"
+msgstr[1] "%{message_count} mensajes anteriores"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: one person is typing in the chat"
+msgid "%{person_name} is typing…"
+msgstr "%{person_name} está escribiendo…"
+
+#: lib/mythweaver_web/components/chat/swipe_inspector.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: refine instructions the user gave for a swipe"
+msgid "Instructions: %{refine_instructions}"
+msgstr "Instrucciones: %{refine_instructions}"
+
+#: lib/mythweaver_web/live/main_chat_live/annotations.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: rewrite request error when no note was added"
+msgid "Write a note first."
+msgstr "Primero escribe una nota."
+
+#: lib/mythweaver/messages/prompt_snapshot.ex
+#: lib/mythweaver/prompts/builder.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: stands in for a hidden prompt block's text"
+msgid "[Hidden block: %{block_name}]"
+msgstr "[Bloque oculto: %{block_name}]"
+
+#: lib/mythweaver/messages/prompt_snapshot.ex
+#: lib/mythweaver/prompts/builder.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: stands in for hidden lore's text"
+msgid "[Hidden lore: %{book_name}]"
+msgstr "[Lore oculto: %{book_name}]"
+
+#: lib/mythweaver/messages/prompt_snapshot.ex
+#: lib/mythweaver/prompts/builder.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: stands in for hidden lore's text"
+msgid "[Hidden lore]"
+msgstr "[Lore oculto]"
+
+#: lib/mythweaver_web/components/chat/scratchpads.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the message a scratchpad was cut from was deleted"
+msgid "Its message was deleted"
+msgstr "Su mensaje se eliminó"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: automatic memory is due to run for this chat"
+msgid "Automatic memory due"
+msgstr "Memoria automática pendiente"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: button that recalls the next sent message"
+msgid "Next sent message (Alt+↓)"
+msgstr "Siguiente mensaje enviado (Alt+↓)"
+
+#: lib/mythweaver_web/components/chat/composer.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: button that recalls the previous sent message"
+msgid "Previous sent message (Alt+↑)"
+msgstr "Mensaje enviado anterior (Alt+↑)"
+
+#: lib/mythweaver_web/components/chat/messages.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: message is embedded for vector lore matching"
+msgid "Embedded for vector lore"
+msgstr "Con embedding para lore vectorial"

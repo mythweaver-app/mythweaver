@@ -1,0 +1,72 @@
+/* Make LiveView wrapper divs transparent for layout */
+[data-phx-session],
+[data-phx-teleported-src] {
+  display: contents;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  /* `viewport-fit=cover` (root layout) lets the page run under the notch and home indicator; the
+     insets keep content clear of them. */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom)
+    env(safe-area-inset-left);
+}
+
+:root {
+  font-size: 14px;
+  font-family: var(--ff-base);
+  color: var(--foreground);
+
+  --gradient-background: radial-gradient(ellipse 60% 45% at 0% 50%, color-mix(in oklch, var(--intense) 15%, transparent), transparent 100%), radial-gradient(ellipse 50% 40% at 100% 50%, color-mix(in oklch, var(--intense) 10%, transparent), transparent 100%), radial-gradient(ellipse 40% 35% at 50% 0%, color-mix(in oklch, var(--intense) 8%, transparent), transparent 100%);
+
+  --background-highlight: radial-gradient(50% 50% at center -25px, var(--intense) 0%, transparent 100%);
+
+  @media (prefers-color-scheme: dark) {
+    --background-highlight: radial-gradient(50% 50% at center -25px, color-mix(in oklch, var(--intense) 35%, transparent) 0%, transparent 100%);
+  }
+
+  background: var(--background-highlight), var(--gradient-background);
+  background-color: var(--background);
+}
+
+/* Phones read at arm's length, and iOS Safari zooms into any focused input under 16px. `<.input>`,
+   `<.editor>` (CodeMirror `fontSize: "inherit"`) and every rem size follow.
+
+   A pull down from the top reveals the hidden top bar (the `EdgeReveal` hook), so the browser's
+   own pull-to-refresh must not also reload the page. */
+@media (--phone) {
+  :root {
+    font-size: 16px;
+    overscroll-behavior-y: none;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+/* Style iconex icons. Never squeezed by a crowded flex row: the size is the font's, always. */
+.iconex {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+
+/* Page transitions (`assets/js/page_transitions.ts` for LiveView navigation, `@view-transition`
+   for full page loads): a quick whole-page crossfade. */
+::view-transition-group(*) {
+  animation-duration: 150ms;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}

@@ -1,0 +1,1576 @@
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new messages manually only if they're dynamic
+## messages that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here has no
+## effect: edit them in PO (.po) files instead.
+#
+msgid ""
+msgstr ""
+
+#. Flash after a block created from a prompt's editor was saved and added to that prompt.
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{block_name} created and added to %{prompt_name}"
+msgstr ""
+
+#. Flash when the block chosen to add is already part of the open prompt.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{block_name} is already in this prompt"
+msgstr ""
+
+#. Flash when a block created from a prompt's editor was saved but could not join that prompt.
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{block_name} saved, but could not be added to %{prompt_name}"
+msgstr ""
+
+#. Flash when a prompt block was saved but writing its tags failed.
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{block_name} saved, but its tags did not"
+msgstr ""
+
+#. Flash when a prompt was saved but writing its tags failed.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{prompt_name} saved, but its tags did not"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgid "A custom outlet is a named injection point. A lore entry set to the Custom outlet targets one by key, and a prompt block renders whatever activated into it."
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Bindings — the most specific match wins"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Character in chat beats chat, which beats character, model, connection, and finally global."
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "Chat and global variables: any JSON value, nil when unset. Write them with %{setvar_tag} or %{setglobalvar_tag}."
+msgstr ""
+
+#. Flash when adding a prompt binding failed for no specific reason.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not add the binding"
+msgstr ""
+
+#. Flash when saving an editor form fails validation; the invalid fields are highlighted.
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#: lib/mythweaver_web/live/prompt_live.ex
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save — see the highlighted fields"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgid "Create a chat to preview against."
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Disable %{block_name} in this prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Enable %{block_name} in this prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Every block is already in this prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "Fixed: characters as the assistant, the player as the user, every line named"
+msgstr ""
+
+#. Hint under a prompt's Thinking select. %{backend_default} and %{off} are the select's option names, emphasized.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "How hard a reasoning model thinks for this prompt. Never above the model's own Thinking level; on a model left at %{backend_default}, this level is sent as it is. %{off} suits mechanical work such as compaction."
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "Lore that activated into the %{outlet_name} outlet, rendered."
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "Main prompt (a card's system prompt replaces it)"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgid "No injections in this chat."
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Not bound to anything yet"
+msgstr ""
+
+#. Flash when binding a prompt whose purpose is not roleplay.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Only a roleplay prompt can be bound"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "Post-history instructions (a card's replace them)"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Remove %{block_name} from this prompt"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgid "Rendered for %{chat_name}; lore is not committed and variable writes are discarded."
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgid "Renders nothing for this chat."
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "Responder: its own lines as the assistant, everyone else's named"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a block, or create a new one."
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a prompt, or create a new one."
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select an outlet, or create a new one."
+msgstr ""
+
+#: lib/mythweaver/templates.ex
+#, elixir-autogen, elixir-format
+msgid "Template exceeded its memory limit."
+msgstr ""
+
+#: lib/mythweaver/templates.ex
+#, elixir-autogen, elixir-format
+msgid "Template took longer than %{time_limit_ms} ms."
+msgstr ""
+
+#. Flash shown when the block open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "The block was deleted or moved elsewhere."
+msgstr ""
+
+#. Flash shown when the outlet open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgid "The outlet was deleted or moved elsewhere."
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgid "The prompt as one text-completion string"
+msgstr ""
+
+#. Flash shown when the prompt open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "The prompt was deleted or moved elsewhere."
+msgstr ""
+
+#: lib/mythweaver/templates/set_var_tag.ex
+#, elixir-autogen, elixir-format
+msgid "Variable name must be a plain identifier of at most %{max_characters} characters"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgid "What users who are not admins see of this block. Only names: never its content, in any prompt, in the prompt inspector, the assistant, scripts or exports; the model still gets it. Admins always see everything."
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "What users who are not admins see of this prompt. Only names: never the content of its blocks, in the prompt inspector, the assistant, scripts or exports; the model still gets it. Admins always see everything."
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: buttons that switch the prompt preview view"
+msgid "Preview mode"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon link that edits this block of the prompt"
+msgid "Edit %{block_name}"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of custom prompt outlets"
+msgid "Custom outlets"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of prompt blocks"
+msgid "Prompt blocks"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of prompts"
+msgid "Prompts"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: toolbar of a block row in a prompt"
+msgid "Actions for %{block_name}"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: block is turned off in this prompt"
+msgid "disabled"
+msgstr ""
+
+#: lib/mythweaver/prompts/block.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of prompt block, a Liquid template"
+msgid "template"
+msgstr ""
+
+#: lib/mythweaver/prompts/block.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of prompt block, the chat transcript marker"
+msgid "chat history"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: prompt block is turned off"
+msgid "disabled"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: prompt block role, assistant message"
+msgid "assistant"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: prompt block role, system message"
+msgid "system"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: prompt block role, user message"
+msgid "user"
+msgstr ""
+
+#. Badge on a preview injection: its position code (untranslated, e.g. at_depth) and its depth.
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: where a prompt injection is inserted, with its depth"
+msgid "%{injection_position} · depth %{injection_depth}"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add a binding to the open prompt"
+msgid "Bind"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add the chosen block to the prompt"
+msgid "Add"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#: lib/mythweaver_web/live/prompt_live.ex
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: cancel editing the open form"
+msgid "Cancel"
+msgstr ""
+
+#. Confirm dialog before deleting a custom outlet.
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: confirm dialog, delete a custom outlet"
+msgid "Delete %{outlet_name}?"
+msgstr ""
+
+#. Confirm dialog before deleting a prompt.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: confirm dialog, delete a prompt"
+msgid "Delete %{prompt_name}?"
+msgstr ""
+
+#. Confirm dialog before deleting a prompt block.
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: confirm dialog, delete a prompt block"
+msgid "Delete %{block_name}?"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a block and add it to the open prompt"
+msgid "Create new block"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a custom prompt outlet"
+msgid "New outlet"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a prompt"
+msgid "New prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a prompt block"
+msgid "New block"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: duplicate the open prompt"
+msgid "Duplicate"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the import page"
+msgid "Import"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: prompt preview view, each injection's outcome"
+msgid "Injections"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: prompt preview view, one card per block"
+msgid "Blocks"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: prompt preview view, the flat prompt text"
+msgid "Text"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove this prompt binding"
+msgid "Unbind"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: render the prompt preview"
+msgid "Preview"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#: lib/mythweaver_web/live/prompt_live.ex
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the open form"
+msgid "Save"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: prompts affected by a bulk action"
+msgid "%{prompt_count} prompt"
+msgid_plural "%{prompt_count} prompts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no custom prompt outlets exist"
+msgid "No custom outlets yet"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no custom prompt outlets match the search"
+msgid "No outlets match this search"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no prompt blocks exist"
+msgid "No prompt blocks yet"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no prompt blocks match the search"
+msgid "No blocks match this search"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no prompts exist"
+msgid "No prompts yet"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no prompts match the filter"
+msgid "No prompts match this filter"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: the open prompt has no blocks"
+msgid "No blocks yet"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI connection a prompt is bound to"
+msgid "Connection"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model a prompt is bound to"
+msgid "Model"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: Liquid template text of a prompt block"
+msgid "Template"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: block to add to the open prompt"
+msgid "Block"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character a prompt is bound to"
+msgid "Character"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character a prompt preview replies as"
+msgid "Reply as"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat a prompt is bound to"
+msgid "Chat"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat a prompt preview renders against"
+msgid "Chat"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat role a prompt block is sent as"
+msgid "Role"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: description of a custom prompt outlet"
+msgid "Description"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: description of a prompt"
+msgid "Description"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: description of a prompt block"
+msgid "Description"
+msgstr ""
+
+#. Template reference: the fields of each item in a list value. The placeholder is a comma-separated list like "name (string), id (string)" of untranslated field names and types.
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: fields of each item in a template reference list value"
+msgid "Each item: %{field_list}."
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: filter prompts by purpose"
+msgid "Type"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how much of a site prompt block users see"
+msgid "Visible to users"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how much of a site prompt users see"
+msgid "Visible to users"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: kind of prompt block"
+msgid "Kind"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a custom prompt outlet"
+msgid "Name"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a prompt"
+msgid "Name"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a prompt block"
+msgid "Name"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: reasoning level a prompt asks the model for"
+msgid "Thinking"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: roles a chat history block gives each turn"
+msgid "Speaker roles"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: scope of a new prompt binding"
+msgid "Scope"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: stable key of a custom prompt outlet"
+msgid "Key (stable id: lowercase, numbers, underscores)"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: what a prompt is used for"
+msgid "Purpose"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: which character card prompt replaces this block"
+msgid "Character override"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: add a block to the open prompt"
+msgid "Add a block"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: chat without a name"
+msgid "Untitled"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form for a new custom prompt outlet"
+msgid "New outlet"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form for a new prompt"
+msgid "New prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form for a new prompt block"
+msgid "New block"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: item without a name"
+msgid "Untitled"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of custom prompt outlets"
+msgid "Custom outlets"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of prompt blocks"
+msgid "Prompt blocks"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of prompts"
+msgid "Prompts"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of values a block template can read"
+msgid "Template reference"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: ordered blocks of the open prompt"
+msgid "Blocks in this prompt"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: preview section of a block that has no name yet"
+msgid "Unsaved block"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: rendered preview of the block or prompt"
+msgid "Preview"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: switch to the custom outlets list"
+msgid "Outlets"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: switch to the prompt blocks list"
+msgid "Blocks"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: switch to the prompts list"
+msgid "Prompts"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of prompt block, a Liquid template"
+msgid "Template"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of prompt block, the chat transcript marker"
+msgid "Chat history"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no AI connection chosen yet for a prompt binding"
+msgid "Choose a connection"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no AI model chosen yet for a prompt binding"
+msgid "Choose a model"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no block chosen yet to add to the prompt"
+msgid "Choose a block"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no character card prompt replaces this block"
+msgid "None"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no character chosen yet for a prompt binding"
+msgid "Choose a character"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no chat chosen yet for a prompt binding"
+msgid "Choose a chat"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: preview replies as the chat's default responder"
+msgid "Default responder"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt binding scope, every chat"
+msgid "Global"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt binding scope, one AI connection"
+msgid "Connection"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt binding scope, one AI model"
+msgid "Model"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt binding scope, one character"
+msgid "Character"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt binding scope, one character in one chat"
+msgid "Character in chat"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt binding scope, one chat"
+msgid "Chat"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt purpose"
+msgid "Caption"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt purpose"
+msgid "Clip review"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt purpose"
+msgid "Clip suggestions"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt purpose"
+msgid "Combine clips"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt purpose"
+msgid "Compaction"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt purpose"
+msgid "Consolidation"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt purpose"
+msgid "Memory"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt purpose"
+msgid "Roleplay"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt purpose"
+msgid "Side prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: prompt purpose"
+msgid "Topical clip"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: show prompts of every purpose"
+msgid "All types"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: the chat's player character, by name"
+msgid "%{character_name} (player)"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: thinking level, leave it to the backend"
+msgid "Backend default"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: thinking level, no reasoning"
+msgid "Off"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: use the model's own thinking level"
+msgid "Model's level"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: users see all of a site prompt block"
+msgid "Everything"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: users see only a site prompt block's name"
+msgid "Only names (runtime-only)"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: list of custom prompt outlets"
+msgid "Custom outlets"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: list of prompt blocks"
+msgid "Prompt blocks"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: list of prompts"
+msgid "Prompts"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search custom prompt outlets"
+msgid "Name, key, or description"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search prompt blocks"
+msgid "Name, description, or content"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search prompts"
+msgid "Name or description"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a prompt binding's target was deleted"
+msgid "(deleted)"
+msgstr ""
+
+#. Shown in the prompt preview and inspector. The placeholder is the parser's detail: a line and column and the engine's own (English) reason.
+#: lib/mythweaver/templates.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a template does not parse"
+msgid "Template syntax error: %{syntax_detail}"
+msgstr ""
+
+#. The placeholder is the raw Erlang exit reason, untranslated.
+#: lib/mythweaver/templates.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a template's render process crashed"
+msgid "Template failed: %{exit_reason}"
+msgstr ""
+
+#. Flash after a block was added to the open prompt.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a block was added to a prompt"
+msgid "%{block_name} added"
+msgstr ""
+
+#. Flash after a block was removed from the open prompt.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a block was removed from a prompt"
+msgid "%{block_name} removed"
+msgstr ""
+
+#. Flash after a custom outlet was saved.
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a custom outlet was saved"
+msgid "%{outlet_name} saved"
+msgstr ""
+
+#. Flash after a binding was added to the open prompt.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a prompt binding was added"
+msgid "Binding added"
+msgstr ""
+
+#. Flash after a binding was removed from the open prompt.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a prompt binding was removed"
+msgid "Binding removed"
+msgstr ""
+
+#. Flash after a prompt block was saved.
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a prompt block was saved"
+msgid "%{block_name} saved"
+msgstr ""
+
+#. Flash after a prompt was duplicated; the name is the copy's.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a prompt copy was created"
+msgid "%{prompt_name} created"
+msgstr ""
+
+#. Flash after a prompt was saved.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a prompt was saved"
+msgid "%{prompt_name} saved"
+msgstr ""
+
+#. Flash when duplicating a prompt failed.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash, duplicating a prompt failed"
+msgid "Could not duplicate %{prompt_name}"
+msgstr ""
+
+#. Flash when the outlet in the address no longer exists or cannot be edited.
+#: lib/mythweaver_web/live/prompt_outlet_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash, the custom outlet to edit was not found"
+msgid "Outlet not found"
+msgstr ""
+
+#. Flash when the prompt block in the address no longer exists or cannot be edited.
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash, the prompt block to edit was not found"
+msgid "Block not found"
+msgstr ""
+
+#. Flash when the prompt in the address no longer exists or cannot be edited.
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash, the prompt to edit was not found"
+msgid "Prompt not found"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: list row detail of a chat history prompt block"
+msgid "Chat history"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: number of blocks in a prompt"
+msgid "%{block_count} block"
+msgid_plural "%{block_count} blocks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: target of a character-in-chat prompt binding"
+msgid "%{character_name} in %{chat_name}"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: target of a global prompt binding"
+msgid "every chat"
+msgstr ""
+
+#. A lore entry's template error in the prompt preview; the error is the template engine's message.
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: template error of a lore entry in the prompt preview"
+msgid "%{entry_name}: %{template_error}"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: keep this block's text even when a character card has its own prompt"
+msgid "Ignore character overrides"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_block_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: prompt block is included in prompts"
+msgid "Enabled"
+msgstr ""
+
+#: lib/mythweaver_web/live/prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: prompt is in use"
+msgid "Enabled"
+msgstr ""
+
+#: lib/mythweaver_web/components/prompt_preview.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: estimated token count of prompt text"
+msgid "≈%{token_count} token"
+msgid_plural "≈%{token_count} tokens"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "A \"random\" element that stays the same for a given chat, template text, and position, so a regenerated reply gets the same choice"
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "A chat variable, falling back to a global variable with the same key."
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "A random element on every render; `nil` for an empty list"
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Appends a value to a list; on `nil` it starts a new list"
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Chat, characters and lore for this render."
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Dice such as \"2d6+1\" or \"d6\": up to 999 dice (default 1) with 1–9999 sides and a ±9999 modifier. A malformed roll is reported as an error"
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Joins an array as English: `[\"a\", \"b\", \"c\", \"d\"]` → `a, b, c, and d`; two items → `a and b`; one → `a`; `[]` or `nil` → empty. A non-array is reported as an error"
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Removes the last occurrence of search"
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Rendered custom-outlet lore by key."
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Replaces the last occurrence of search"
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "SillyTavern's {{char}}: anchors.character.name; in a typed message, the AI character (the author when a character speaks)."
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "The text, Base64-encoded with the URL-safe alphabet"
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Trims the text and collapses each run of whitespace to one space"
+msgstr ""
+
+#: lib/mythweaver/prompts/builder.ex
+#, elixir-autogen, elixir-format
+msgid "Variable writes in messages are ignored."
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Writes a chat variable; nil deletes it."
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgid "Writes a global variable; nil deletes it."
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: template editor hover text for the base64_decode filter"
+msgid "Decodes Base64 text"
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: template editor hover text for the base64_encode filter"
+msgid "The text, Base64-encoded"
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: template editor hover text for the base64_url_safe_decode filter"
+msgid "Decodes URL-safe Base64 text"
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: template editor hover text for the globals namespace"
+msgid "A global variable only."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "A character memory copy's target character name(s), comma separated."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Earlier memories sent as reference only, oldest first."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Every character whose card the chat's Group cards setting gives this reply, the responder included and the player left out (they are anchors.player), in participant order. The same list whoever replies, unless with swap."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Every participant in speaking order."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Every participant's name but the player's, in speaking order. In a typed message this names the AI characters: | join: \", \"."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Every participant's name, player first, comma separated."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Every participant's name, player first. Join it for prose: | join: \", \"."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Everyone but the responder and the player whose card the chat's Group cards setting joins (none with swap), as \"Name: description\" paragraphs. Card text, not a list of names: use anchors.chat.characters for names."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "How many clips the chat's memory book holds; 0 when it has no book."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "How many side-prompt entries the chat's memory book holds; 0 when it has no book."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "How many tier-0 memories the chat's memory book holds; 0 when it has no book."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "How many tier-1 consolidations (Arcs) the chat's memory book holds; 0 when it has no book."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "How many tier-2 consolidations (Chapters) the chat's memory book holds; 0 when it has no book."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "How many tier-3 consolidations (Books) the chat's memory book holds; 0 when it has no book."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "How many tier-4 consolidations (Legends) the chat's memory book holds; 0 when it has no book."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "How many tier-5 consolidations (Series) the chat's memory book holds; 0 when it has no book."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "How many tier-6 consolidations (Epics) the chat's memory book holds; 0 when it has no book."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "How the player character looks."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "How the responding character looks; filled from their avatar's description, editable."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Lore that activated into the %{slot_name} slot, rendered."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Memory assistance: the clips under review (uid is their batch index, \"001\"; type \"ordinary\" or \"topical\"), or the existing topical clips for topic suggestions."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "That entry's content."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "That entry's record kind: \"memory\", \"consolidation\", \"clip\", \"topical_clip\" or \"side_prompt\"."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The AI-visible transcript, oldest first. role is \"user\" or \"assistant\"."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The characters who speak in the scene, player excluded, comma separated."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The chat's Additional Context lore entries as \"### name\" then content blocks."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The chat's name."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The chat's tags, siblings resolved and parents implied."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The consolidation's target tier, 1 to 6. anchors.memory.target_tier is nil outside consolidation."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The current UTC time (ISO 8601)."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The current text of the message being rewritten."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The entries being consolidated or clipped. id is their zero-padded batch index (\"001\")."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The existing entry being compacted or updated. anchors.memory.entry is nil when there is none."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The job: \"memory\", \"consolidation\", \"compaction\", \"topical_clip\", \"side_prompt\" or \"memory_assistance\"."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The newest entry already at the target tier, as canon. anchors.memory.previous_summary is nil when there is none."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The player character's description, rendered."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The player character's name; nil when the chat has no player."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The player character's pronouns."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The player character's tags, siblings resolved and parents implied."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The responding character's description, rendered."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The responding character's name; in a typed message, the message's author (use anchors.chat.characters or char for the AI characters); nil when there is no responder."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The responding character's pronouns."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The responding character's tags, siblings resolved and parents implied (e.g. \"species:dragon\"); nil when there is no responder."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The scene's first display number."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The scene's last display number."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The scene's messages as \"[#N] Name: text\" lines, separated by blank lines."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The scene's messages, oldest first. number is the message's display number."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The target tier's name: Arc, Chapter, Book, Legend, Series or Epic."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The topical clip's keywords, comma separated."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The topical clip's topic."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The user's editing instructions for a refine, verbatim, then one line per attachment sent with them (an image's description; a clip's or document's text unless the model receives it natively). anchors.refine is nil unless the generation rewrites the last message."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "The user's outline for this one generation, verbatim, then one line per attachment sent with the guide (an image's description; a clip's or document's text unless the model receives it natively). anchors.guide is nil when the generation has no guide."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Those clips as pretty-printed JSON."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Those previous memories as \"### title\" then content blocks."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Those sources as \"[id] title\" then content blocks."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "True when the guided generation continues the last message instead of writing a new one."
+msgstr ""
+
+#: lib/mythweaver/prompts/anchor.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: what a template anchor path holds"
+msgid "Whether the responder is the player: true when the AI speaks for the player, and in the player's own typed messages; nil when there is no responder."
+msgstr ""
+
+#: lib/mythweaver/prompts/completions.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: template editor hover text for the user variable"
+msgid "SillyTavern's {{user}}: anchors.player.name."
+msgstr ""

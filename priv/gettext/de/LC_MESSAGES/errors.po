@@ -1,0 +1,1197 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#: lib/mythweaver/variables/variable.ex
+#, elixir-autogen
+msgid "can't be blank"
+msgstr "darf nicht leer sein"
+
+#: lib/mythweaver/permissions/group.ex
+#, elixir-autogen
+msgid "has already been taken"
+msgstr "ist bereits vergeben"
+
+#: lib/mythweaver/characters/character.ex
+#: lib/mythweaver/chats/chat.ex
+#: lib/mythweaver/lore/lore_book.ex
+#: lib/mythweaver/lore/lore_entry.ex
+#, elixir-autogen
+msgid "is invalid"
+msgstr "ist ungültig"
+
+msgid "must be accepted"
+msgstr "muss akzeptiert werden"
+
+msgid "has invalid format"
+msgstr "hat ein ungültiges Format"
+
+msgid "has an invalid entry"
+msgstr "enthält einen ungültigen Eintrag"
+
+msgid "is reserved"
+msgstr "ist reserviert"
+
+msgid "does not match confirmation"
+msgstr "stimmt nicht mit der Bestätigung überein"
+
+msgid "is still associated with this entry"
+msgstr "ist noch mit diesem Eintrag verknüpft"
+
+msgid "are still associated with this entry"
+msgstr "sind noch mit diesem Eintrag verknüpft"
+
+msgid "should have %{count} item(s)"
+msgid_plural "should have %{count} item(s)"
+msgstr[0] "sollte %{count} Element haben"
+msgstr[1] "sollte %{count} Elemente haben"
+
+msgid "should be %{count} character(s)"
+msgid_plural "should be %{count} character(s)"
+msgstr[0] "sollte %{count} Zeichen lang sein"
+msgstr[1] "sollte %{count} Zeichen lang sein"
+
+msgid "should be %{count} byte(s)"
+msgid_plural "should be %{count} byte(s)"
+msgstr[0] "sollte %{count} Byte groß sein"
+msgstr[1] "sollte %{count} Byte groß sein"
+
+msgid "should have at least %{count} item(s)"
+msgid_plural "should have at least %{count} item(s)"
+msgstr[0] "sollte mindestens %{count} Element haben"
+msgstr[1] "sollte mindestens %{count} Elemente haben"
+
+msgid "should be at least %{count} character(s)"
+msgid_plural "should be at least %{count} character(s)"
+msgstr[0] "sollte mindestens %{count} Zeichen lang sein"
+msgstr[1] "sollte mindestens %{count} Zeichen lang sein"
+
+msgid "should be at least %{count} byte(s)"
+msgid_plural "should be at least %{count} byte(s)"
+msgstr[0] "sollte mindestens %{count} Byte groß sein"
+msgstr[1] "sollte mindestens %{count} Byte groß sein"
+
+msgid "should have at most %{count} item(s)"
+msgid_plural "should have at most %{count} item(s)"
+msgstr[0] "sollte höchstens %{count} Element haben"
+msgstr[1] "sollte höchstens %{count} Elemente haben"
+
+msgid "should be at most %{count} character(s)"
+msgid_plural "should be at most %{count} character(s)"
+msgstr[0] "sollte höchstens %{count} Zeichen lang sein"
+msgstr[1] "sollte höchstens %{count} Zeichen lang sein"
+
+msgid "should be at most %{count} byte(s)"
+msgid_plural "should be at most %{count} byte(s)"
+msgstr[0] "sollte höchstens %{count} Byte groß sein"
+msgstr[1] "sollte höchstens %{count} Byte groß sein"
+
+msgid "must be less than %{number}"
+msgstr "muss kleiner als %{number} sein"
+
+msgid "must be greater than %{number}"
+msgstr "muss größer als %{number} sein"
+
+msgid "must be less than or equal to %{number}"
+msgstr "muss kleiner oder gleich %{number} sein"
+
+msgid "must be greater than or equal to %{number}"
+msgstr "muss größer oder gleich %{number} sein"
+
+msgid "must be equal to %{number}"
+msgstr "muss gleich %{number} sein"
+
+#: lib/mythweaver/ai.ex
+#, elixir-autogen, elixir-format
+msgid "%{binding_count} prompt binding"
+msgid_plural "%{binding_count} prompt bindings"
+msgstr[0] "%{binding_count} Prompt-Bindung"
+msgstr[1] "%{binding_count} Prompt-Bindungen"
+
+#: lib/mythweaver/ai.ex
+#, elixir-autogen, elixir-format
+msgid "%{chat_count} chat"
+msgid_plural "%{chat_count} chats"
+msgstr[0] "%{chat_count} Chat"
+msgstr[1] "%{chat_count} Chats"
+
+#: lib/mythweaver/ai.ex
+#, elixir-autogen, elixir-format
+msgid "%{conversation_count} Mythweaver conversation"
+msgid_plural "%{conversation_count} Mythweaver conversations"
+msgstr[0] "%{conversation_count} Mythweaver-Unterhaltung"
+msgstr[1] "%{conversation_count} Mythweaver-Unterhaltungen"
+
+#: lib/mythweaver/ai.ex
+#, elixir-autogen, elixir-format
+msgid "%{model_count} model as its caption model"
+msgid_plural "%{model_count} models as their caption model"
+msgstr[0] "%{model_count} Modell als Bildbeschreibungsmodell"
+msgstr[1] "%{model_count} Modelle als Bildbeschreibungsmodell"
+
+#: lib/mythweaver/ai.ex
+#, elixir-autogen, elixir-format
+msgid "%{participant_count} chat participant"
+msgid_plural "%{participant_count} chat participants"
+msgstr[0] "%{participant_count} Chat-Teilnehmer"
+msgstr[1] "%{participant_count} Chat-Teilnehmer"
+
+#: lib/mythweaver/ai.ex
+#, elixir-autogen, elixir-format
+msgid "%{profile_count} memory profile"
+msgid_plural "%{profile_count} memory profiles"
+msgstr[0] "%{profile_count} Gedächtnisprofil"
+msgstr[1] "%{profile_count} Gedächtnisprofile"
+
+#. A typed stylesheet source that is not a bare web origin; the example origin stays as is.
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "%{typed_origin} isn't an origin like https://fonts.example.com"
+msgstr "%{typed_origin} ist kein Ursprung wie https://fonts.example.com"
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgid "* must be a namespace wildcard like series:*"
+msgstr "* muss ein Namensraum-Platzhalter wie series:* sein"
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Already shared with them."
+msgstr "Bereits mit dieser Person geteilt."
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "No account has that handle."
+msgstr "Kein Konto hat dieses Handle."
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "That's you."
+msgstr "Das bist du."
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Too many invites are waiting for an answer."
+msgstr "Zu viele Einladungen warten auf eine Antwort."
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "You can't publish this."
+msgstr "Du kannst das nicht veröffentlichen."
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "You can't share this."
+msgstr "Du kannst das nicht teilen."
+
+#: lib/mythweaver/prompts/binding.ex
+#, elixir-autogen, elixir-format
+msgid "a %{binding_scope} binding must not set %{column_name}"
+msgstr "eine %{binding_scope}-Bindung darf %{column_name} nicht setzen"
+
+#: lib/mythweaver/prompts/binding.ex
+#, elixir-autogen, elixir-format
+msgid "a %{binding_scope} binding needs %{column_name}"
+msgstr "eine %{binding_scope}-Bindung braucht %{column_name}"
+
+#: lib/mythweaver/expressions/rule.ex
+#, elixir-autogen, elixir-format
+msgid "a combination needs at least two different emotions"
+msgstr "eine Kombination braucht mindestens zwei verschiedene Emotionen"
+
+#: lib/mythweaver/lore/lore_entry.ex
+#, elixir-autogen, elixir-format
+msgid "a custom outlet entry needs an outlet"
+msgstr "ein benutzerdefinierter Outlet-Eintrag braucht ein Outlet"
+
+#: lib/mythweaver/memory/profile.ex
+#: lib/mythweaver/memory/side_prompt.ex
+#, elixir-autogen, elixir-format
+msgid "a custom outlet needs an outlet"
+msgstr "ein benutzerdefiniertes Outlet braucht ein Outlet"
+
+#: lib/mythweaver/scripts/inline.ex
+#, elixir-autogen, elixir-format
+msgid "a message may hold at most %{max_scripts} inline scripts"
+msgstr "eine Nachricht darf höchstens %{max_scripts} Inline-Skripte enthalten"
+
+#: lib/mythweaver/expressions/rule.ex
+#, elixir-autogen, elixir-format
+msgid "a range rule needs at least one emotion"
+msgstr "eine Bereichsregel braucht mindestens eine Emotion"
+
+#: lib/mythweaver/lore/book_rule.ex
+#, elixir-autogen, elixir-format
+msgid "add at least one condition"
+msgstr "füge mindestens eine Bedingung hinzu"
+
+#: lib/mythweaver/lore/book_rule_condition.ex
+#, elixir-autogen, elixir-format
+msgid "add at least one tag"
+msgstr "füge mindestens ein Tag hinzu"
+
+#: lib/mythweaver/prompts/binding.ex
+#, elixir-autogen, elixir-format
+msgid "already binds this prompt at this scope"
+msgstr "bindet diesen Prompt bereits in diesem Bereich"
+
+#: lib/mythweaver/tags/tag.ex
+#, elixir-autogen, elixir-format
+msgid "already exists; make one a sibling of the other instead"
+msgstr "existiert bereits; mache stattdessen eines zum Geschwister des anderen"
+
+#. Shown under a model's mode select. %{blockers} is a list of phrases such as "2 chats" or "the Embedding model setting".
+#: lib/mythweaver/ai.ex
+#, elixir-autogen, elixir-format
+msgid "can't change to this mode while it is used by %{blockers}"
+msgstr "kann nicht in diesen Modus wechseln, solange es verwendet wird von: %{blockers}"
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgid "can't contain *"
+msgstr "darf kein * enthalten"
+
+#. A CSS construct such as url() or @import, verbatim.
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "can't load outside files: %{css_construct} isn't allowed"
+msgstr "darf keine externen Dateien laden: %{css_construct} ist nicht erlaubt"
+
+#. A CSS construct such as url() or @import, verbatim; the font services are brand names joined as an "or" list.
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "can't load outside files: %{css_construct} isn't allowed, except a %{font_services} stylesheet"
+msgstr "darf keine externen Dateien laden: %{css_construct} ist nicht erlaubt, außer einem Stylesheet von %{font_services}"
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgid "can't start with -"
+msgstr "darf nicht mit - beginnen"
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "cannot include the script itself"
+msgstr "darf das Skript selbst nicht enthalten"
+
+#: lib/mythweaver/moderation/rule.ex
+#, elixir-autogen, elixir-format
+msgid "choose at least one content type"
+msgstr "wähle mindestens einen Inhaltstyp"
+
+#: lib/mythweaver/ai.ex
+#: lib/mythweaver/memory.ex
+#, elixir-autogen, elixir-format
+msgid "does not exist"
+msgstr "existiert nicht"
+
+#: lib/mythweaver/accounts/user.ex
+#, elixir-autogen, elixir-format
+msgid "does not match password"
+msgstr "stimmt nicht mit dem Passwort überein"
+
+#: lib/mythweaver/expressions/rule.ex
+#, elixir-autogen, elixir-format
+msgid "each range condition needs a minimum or maximum"
+msgstr "jede Bereichsbedingung braucht ein Minimum oder Maximum"
+
+#: lib/mythweaver/templates.ex
+#, elixir-autogen, elixir-format
+msgid "entry %{index} has invalid template syntax: %{detail}"
+msgstr "Eintrag %{index} hat ungültige Template-Syntax: %{detail}"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "extra must be a JSON object"
+msgstr "extra muss ein JSON-Objekt sein"
+
+#: lib/mythweaver/accounts.ex
+#, elixir-autogen, elixir-format
+msgid "has been tried too often, try again in %{count} minutes"
+msgstr "wurde zu oft versucht, versuche es in %{count} Minuten erneut"
+
+#: lib/mythweaver/accounts.ex
+#, elixir-autogen, elixir-format
+msgid "has been tried too often, try again in %{count} seconds"
+msgstr "wurde zu oft versucht, versuche es in %{count} Sekunden erneut"
+
+#: lib/mythweaver/templates.ex
+#, elixir-autogen, elixir-format
+msgid "has invalid template syntax: %{detail}"
+msgstr "hat ungültige Template-Syntax: %{detail}"
+
+#: lib/mythweaver/expressions/profile.ex
+#, elixir-autogen, elixir-format
+msgid "has two rules named %{rule_name}"
+msgstr "hat zwei Regeln namens %{rule_name}"
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "includes a script that no longer exists"
+msgstr "enthält ein Skript, das nicht mehr existiert"
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "includes a script you can't depend on"
+msgstr "enthält ein Skript, von dem du nicht abhängen darfst"
+
+#: lib/mythweaver/scripts/inline.ex
+#, elixir-autogen, elixir-format
+msgid "inline script %{script_number} has no closing !}"
+msgstr "Inline-Skript %{script_number} hat kein schließendes !}"
+
+#. lua_errors is the Lua parser's own error text, joined with semicolons
+#: lib/mythweaver/scripts/inline.ex
+#, elixir-autogen, elixir-format
+msgid "inline script %{script_number}: %{lua_errors}"
+msgstr "Inline-Skript %{script_number}: %{lua_errors}"
+
+#: lib/mythweaver/chats/participant.ex
+#, elixir-autogen, elixir-format
+msgid "is already a participant of this chat"
+msgstr "ist bereits Teilnehmer dieses Chats"
+
+#: lib/mythweaver/expressions/outfit.ex
+#, elixir-autogen, elixir-format
+msgid "is already an outfit of this character"
+msgstr "ist bereits ein Outfit dieses Charakters"
+
+#: lib/mythweaver/lore/book_character.ex
+#, elixir-autogen, elixir-format
+msgid "is already bound to this character"
+msgstr "ist bereits an diesen Charakter gebunden"
+
+#: lib/mythweaver/lore/book_chat.ex
+#, elixir-autogen, elixir-format
+msgid "is already bound to this chat"
+msgstr "ist bereits an diesen Chat gebunden"
+
+#: lib/mythweaver/lore/entry_character.ex
+#, elixir-autogen, elixir-format
+msgid "is already filtered on this character"
+msgstr "wird bereits nach diesem Charakter gefiltert"
+
+#: lib/mythweaver/lore/book_filter_tag.ex
+#: lib/mythweaver/lore/entry_filter_tag.ex
+#, elixir-autogen, elixir-format
+msgid "is already filtered on this tag"
+msgstr "wird bereits nach diesem Tag gefiltert"
+
+#: lib/mythweaver/lore/book_entry.ex
+#, elixir-autogen, elixir-format
+msgid "is already in this book"
+msgstr "ist bereits in diesem Buch"
+
+#: lib/mythweaver/lore/pool_entry.ex
+#, elixir-autogen, elixir-format
+msgid "is already in this pool"
+msgstr "ist bereits in diesem Lore-Pool"
+
+#: lib/mythweaver/prompts/prompt_block.ex
+#, elixir-autogen, elixir-format
+msgid "is already in this prompt"
+msgstr "ist bereits in diesem Prompt"
+
+#: lib/mythweaver/ai/provider_model.ex
+#, elixir-autogen, elixir-format
+msgid "is already linked to this provider"
+msgstr "ist bereits mit diesem Anbieter verknüpft"
+
+#: lib/mythweaver/catalog/listing.ex
+#, elixir-autogen, elixir-format
+msgid "is already published"
+msgstr "ist bereits veröffentlicht"
+
+#: lib/mythweaver/injections/injection.ex
+#: lib/mythweaver/variables/variable.ex
+#, elixir-autogen, elixir-format
+msgid "is already taken"
+msgstr "ist bereits vergeben"
+
+#: lib/mythweaver/mcp/token.ex
+#, elixir-autogen, elixir-format
+msgid "is already used by another token"
+msgstr "wird bereits von einem anderen Token verwendet"
+
+#: lib/mythweaver/permissions/grant.ex
+#, elixir-autogen, elixir-format
+msgid "is not a permission"
+msgstr "ist keine Berechtigung"
+
+#: lib/mythweaver/chats.ex
+#, elixir-autogen, elixir-format
+msgid "is not a roleplay prompt"
+msgstr "ist kein Rollenspiel-Prompt"
+
+#: lib/mythweaver/templates.ex
+#, elixir-autogen, elixir-format
+msgid "is not a valid Liquid condition: %{detail}"
+msgstr "ist keine gültige Liquid-Bedingung: %{detail}"
+
+#: lib/mythweaver/moderation/sanctions.ex
+#, elixir-autogen, elixir-format
+msgid "is not a valid duration"
+msgstr "ist keine gültige Dauer"
+
+#: lib/mythweaver/lore/lore_entry.ex
+#, elixir-autogen, elixir-format
+msgid "is not a valid regex: %{keyword}"
+msgstr "ist kein gültiger Regex: %{keyword}"
+
+#: lib/mythweaver/moderation/rule.ex
+#, elixir-autogen, elixir-format
+msgid "is not a valid regular expression: %{regex_error}"
+msgstr "ist kein gültiger regulärer Ausdruck: %{regex_error}"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "is not a valid template: %{parse_error}"
+msgstr "ist kein gültiges Template: %{parse_error}"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "is not an option"
+msgstr "ist keine Option"
+
+#: lib/mythweaver/expressions.ex
+#, elixir-autogen, elixir-format
+msgid "is not available to this character"
+msgstr "ist für diesen Charakter nicht verfügbar"
+
+#: lib/mythweaver/chats.ex
+#, elixir-autogen, elixir-format
+msgid "is not this character's outfit"
+msgstr "ist kein Outfit dieses Charakters"
+
+#: lib/mythweaver/accounts/user.ex
+#, elixir-autogen, elixir-format
+msgid "is not valid"
+msgstr "ist nicht gültig"
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgid "is too long"
+msgstr "ist zu lang"
+
+#: lib/mythweaver/lore/lore_entry.ex
+#, elixir-autogen, elixir-format
+msgid "keyword entries need at least one keyword"
+msgstr "Schlüsselwort-Einträge brauchen mindestens ein Schlüsselwort"
+
+#: lib/mythweaver/prompts/outlet.ex
+#, elixir-autogen, elixir-format
+msgid "may only contain lowercase letters, numbers, and underscores"
+msgstr "darf nur Kleinbuchstaben, Ziffern und Unterstriche enthalten"
+
+#: lib/mythweaver/accounts/user.ex
+#, elixir-autogen, elixir-format
+msgid "may only use letters, numbers and underscores"
+msgstr "darf nur Buchstaben, Ziffern und Unterstriche verwenden"
+
+#: lib/mythweaver/lore/lore_book.ex
+#: lib/mythweaver/lore/lore_entry.ex
+#, elixir-autogen, elixir-format
+msgid "must be 1 or more (leave blank to inherit)"
+msgstr "muss 1 oder mehr sein (leer lassen zum Erben)"
+
+#: lib/mythweaver/ai/model.ex
+#, elixir-autogen, elixir-format
+msgid "must be a Hugging Face repo id like owner/name"
+msgstr "muss eine Hugging-Face-Repo-ID wie owner/name sein"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "must be a JSON object"
+msgstr "muss ein JSON-Objekt sein"
+
+#: lib/mythweaver/ai.ex
+#, elixir-autogen, elixir-format
+msgid "must be a caption prompt"
+msgstr "muss ein Bildbeschreibungs-Prompt sein"
+
+#: lib/mythweaver/ai.ex
+#, elixir-autogen, elixir-format
+msgid "must be a chat model that supports images, audio or video"
+msgstr "muss ein Chatmodell sein, das Bilder, Audio oder Video unterstützt"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "must be a list"
+msgstr "muss eine Liste sein"
+
+#: lib/mythweaver/chats.ex
+#: lib/mythweaver/chats/chat.ex
+#, elixir-autogen, elixir-format
+msgid "must be a participant of the chat"
+msgstr "muss Teilnehmer des Chats sein"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "must be a whole number"
+msgstr "muss eine ganze Zahl sein"
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "must be a whole number above 0"
+msgstr "muss eine ganze Zahl über 0 sein"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "must be at least %{minimum}"
+msgstr "muss mindestens %{minimum} sein"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#: lib/mythweaver/expressions/condition.ex
+#, elixir-autogen, elixir-format
+msgid "must be at least the minimum"
+msgstr "muss mindestens dem Minimum entsprechen"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "must be at most %{character_limit} character"
+msgid_plural "must be at most %{character_limit} characters"
+msgstr[0] "darf höchstens %{character_limit} Zeichen lang sein"
+msgstr[1] "darf höchstens %{character_limit} Zeichen lang sein"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "must be at most %{maximum}"
+msgstr "darf höchstens %{maximum} sein"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "must be at most %{origin_limit} origin"
+msgid_plural "must be at most %{origin_limit} origins"
+msgstr[0] "darf höchstens %{origin_limit} Ursprung enthalten"
+msgstr[1] "darf höchstens %{origin_limit} Ursprünge enthalten"
+
+#: lib/mythweaver/permissions/grant.ex
+#, elixir-autogen, elixir-format
+msgid "must be blank"
+msgstr "muss leer sein"
+
+#: lib/mythweaver/messages/message.ex
+#, elixir-autogen, elixir-format
+msgid "must be blank for a character author"
+msgstr "muss bei einem Charakter als Autor leer sein"
+
+#: lib/mythweaver/messages/message.ex
+#, elixir-autogen, elixir-format
+msgid "must be blank for a string author"
+msgstr "muss bei einem Text als Autor leer sein"
+
+#: lib/mythweaver/memory/record.ex
+#, elixir-autogen, elixir-format
+msgid "must be empty for this kind"
+msgstr "muss für diese Art leer sein"
+
+#: lib/mythweaver/chats/chat.ex
+#, elixir-autogen, elixir-format
+msgid "must be one of the chat's characters other than the player"
+msgstr "muss einer der Charaktere des Chats außer dem Spieler sein"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgid "must be set together with the dynamic temperature maximum"
+msgstr "muss zusammen mit dem Maximum der dynamischen Temperatur gesetzt werden"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgid "must be set together with the dynamic temperature minimum"
+msgstr "muss zusammen mit dem Minimum der dynamischen Temperatur gesetzt werden"
+
+#: lib/mythweaver/ai/model.ex
+#, elixir-autogen, elixir-format
+msgid "must be set together with the reasoning prefix"
+msgstr "muss zusammen mit dem Reasoning-Präfix gesetzt werden"
+
+#: lib/mythweaver/ai/model.ex
+#, elixir-autogen, elixir-format
+msgid "must be set together with the reasoning suffix"
+msgstr "muss zusammen mit dem Reasoning-Suffix gesetzt werden"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "must be text"
+msgstr "muss Text sein"
+
+#: lib/mythweaver/settings.ex
+#, elixir-autogen, elixir-format
+msgid "must be true or false"
+msgstr "muss wahr oder falsch sein"
+
+#: lib/mythweaver/chats.ex
+#: lib/mythweaver/chats/chat.ex
+#, elixir-autogen, elixir-format
+msgid "must have at least 2 participants"
+msgstr "muss mindestens 2 Teilnehmer haben"
+
+#: lib/mythweaver/messages/message.ex
+#, elixir-autogen, elixir-format
+msgid "must have exactly one active body"
+msgstr "muss genau einen aktiven Inhalt haben"
+
+#: lib/mythweaver/messages/message.ex
+#, elixir-autogen, elixir-format
+msgid "must have exactly one initial body"
+msgstr "muss genau einen anfänglichen Inhalt haben"
+
+#: lib/mythweaver/accounts/user.ex
+#, elixir-autogen, elixir-format
+msgid "must have the @ sign and no spaces"
+msgstr "muss das @-Zeichen und keine Leerzeichen enthalten"
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "must share this script's trigger: %{script_names}"
+msgstr "muss den Auslöser dieses Skripts teilen: %{script_names}"
+
+#: lib/mythweaver/injections/injection.ex
+#: lib/mythweaver/variables/variable.ex
+#, elixir-autogen, elixir-format
+msgid "must start with a letter or underscore and contain only letters, digits, and underscores"
+msgstr "muss mit einem Buchstaben oder Unterstrich beginnen und darf nur Buchstaben, Ziffern und Unterstriche enthalten"
+
+#: lib/mythweaver/ai/provider.ex
+#, elixir-autogen, elixir-format
+msgid "must start with http:// or https://"
+msgstr "muss mit http:// oder https:// beginnen"
+
+#: lib/mythweaver/moderation/rule.ex
+#, elixir-autogen, elixir-format
+msgid "needs MODERATION_CALLBACK_URL set on the server"
+msgstr "braucht MODERATION_CALLBACK_URL auf dem Server"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgid "needs a dynamic temperature range"
+msgstr "braucht einen Bereich für die dynamische Temperatur"
+
+#: lib/mythweaver/tags.ex
+#: lib/mythweaver/tags/tag.ex
+#, elixir-autogen, elixir-format
+msgid "needs a name"
+msgstr "braucht einen Namen"
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgid "needs a tag"
+msgstr "braucht ein Tag"
+
+#: lib/mythweaver/permissions/grant.ex
+#, elixir-autogen, elixir-format
+msgid "needs exactly one holder"
+msgstr "braucht genau einen Inhaber"
+
+#: lib/mythweaver/lore/lore_book.ex
+#, elixir-autogen, elixir-format
+msgid "only site books can be forced"
+msgstr "nur Website-Bücher können erzwungen werden"
+
+#: lib/mythweaver/lore/lore_book.ex
+#, elixir-autogen, elixir-format
+msgid "only site books can be hidden from users"
+msgstr "nur Website-Bücher können vor Benutzern verborgen werden"
+
+#: lib/mythweaver/characters/character.ex
+#: lib/mythweaver/prompts/block.ex
+#: lib/mythweaver/prompts/prompt.ex
+#: lib/mythweaver/scripts/script.ex
+#, elixir-autogen, elixir-format
+msgid "only site items can be runtime-only"
+msgstr "nur Website-Elemente können reine Laufzeit-Elemente sein"
+
+#: lib/mythweaver/ai/model.ex
+#, elixir-autogen, elixir-format
+msgid "only site models can be runtime-only"
+msgstr "nur Website-Modelle können reine Laufzeit-Modelle sein"
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "other scripts depend on this one: %{script_names}"
+msgstr "andere Skripte hängen von diesem ab: %{script_names}"
+
+#: lib/mythweaver/memory/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "pick a set"
+msgstr "wähle ein Set"
+
+#. %{setting_name} is the translated name of a model setting, e.g. Embedding model.
+#: lib/mythweaver/ai.ex
+#, elixir-autogen, elixir-format
+msgid "the %{setting_name} setting"
+msgstr "die Einstellung %{setting_name}"
+
+#: lib/mythweaver/scripts/inline.ex
+#, elixir-autogen, elixir-format
+msgid "the message contains the reserved character U+%{codepoint_hex}"
+msgstr "die Nachricht enthält das reservierte Zeichen U+%{codepoint_hex}"
+
+#: lib/mythweaver/ai/scalar_map.ex
+#, elixir-autogen, elixir-format
+msgid "values must be JSON (scalars, lists, or objects)"
+msgstr "Werte müssen JSON sein (Skalare, Listen oder Objekte)"
+
+#: lib/mythweaver/ai/scalar_map.ex
+#, elixir-autogen, elixir-format
+msgid "values must be scalars or lists of scalars"
+msgstr "Werte müssen Skalare oder Listen von Skalaren sein"
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "would create a dependency cycle"
+msgstr "würde einen Abhängigkeitszyklus erzeugen"
+
+#: lib/mythweaver/chats/chat.ex
+#, elixir-autogen, elixir-format
+msgid "write the narrator's message"
+msgstr "schreibe die Nachricht des Erzählers"
+
+#: lib/mythweaver/lore/book_rule_condition.ex
+#, elixir-autogen, elixir-format
+msgid "“%{tag_text}” can't contain *"
+msgstr "„%{tag_text}“ darf kein * enthalten"
+
+#: lib/mythweaver/lore/book_rule_condition.ex
+#, elixir-autogen, elixir-format
+msgid "“%{tag_text}” can't start with -"
+msgstr "„%{tag_text}“ darf nicht mit - beginnen"
+
+#: lib/mythweaver/lore/book_rule_condition.ex
+#, elixir-autogen, elixir-format
+msgid "“%{tag_text}” is too long"
+msgstr "„%{tag_text}“ ist zu lang"
+
+#: lib/mythweaver/lore/book_rule_condition.ex
+#, elixir-autogen, elixir-format
+msgid "“%{tag_text}” needs a name"
+msgstr "„%{tag_text}“ braucht einen Namen"
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgid "%{tag_text} would loop back to this tag"
+msgstr "%{tag_text} würde auf dieses Tag zurückführen"
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "a command takes at most %{max_parameters} parameters"
+msgstr "ein Befehl hat höchstens %{max_parameters} Parameter"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "book budget %{token_budget}"
+msgstr "Buch-Budget %{token_budget}"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "book tag filter exclude"
+msgstr "Tag-Filter des Buchs: ausschließen"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "book tag filter include"
+msgstr "Tag-Filter des Buchs: einschließen"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "book tag filter off"
+msgstr "Tag-Filter des Buchs: aus"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgid "breakers must be non-empty strings"
+msgstr "Trenner müssen nicht leere Zeichenketten sein"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "budget closed after an overflow"
+msgstr "Budget nach einem Überlauf geschlossen"
+
+#: lib/mythweaver/chats.ex
+#, elixir-autogen, elixir-format
+msgid "can only be changed by the chat's owner"
+msgstr "kann nur vom Eigentümer des Chats geändert werden"
+
+#: lib/mythweaver/ai/model.ex
+#, elixir-autogen, elixir-format
+msgid "can't caption for itself"
+msgstr "kann nicht für sich selbst beschreiben"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "character filter exclude"
+msgstr "Charakterfilter: ausschließen"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "character filter include"
+msgstr "Charakterfilter: einschließen"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "character filter off"
+msgstr "Charakterfilter: aus"
+
+#: lib/mythweaver/characters/character.ex
+#, elixir-autogen, elixir-format
+msgid "contains an invalid label"
+msgstr "enthält ein ungültiges Label"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "cooling down until message %{message_number}"
+msgstr "Abklingzeit bis Nachricht %{message_number}"
+
+#. %{error_detail} is the network error's own text, in English.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "could not reach the provider (%{error_detail})"
+msgstr "konnte den Anbieter nicht erreichen (%{error_detail})"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "entry not embedded yet"
+msgstr "Eintrag noch nicht eingebettet"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "excluded from recursion"
+msgstr "von der Rekursion ausgeschlossen"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "global budget %{token_budget}"
+msgstr "globales Budget %{token_budget}"
+
+#. Shown when an inline {! !} Lua block fails; the reason is the script's error text, often English from the Lua engine.
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "inline script %{block_number} failed: %{failure_reason}"
+msgstr "Inline-Skript %{block_number} fehlgeschlagen: %{failure_reason}"
+
+#. Shown when an inline {! !} Lua block fails; the reason is the script's error text, often English from the Lua engine.
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "inline script %{block_number} failed: %{failure_reason} Inline scripts before it already ran."
+msgstr "Inline-Skript %{block_number} fehlgeschlagen: %{failure_reason} Inline-Skripte davor wurden bereits ausgeführt."
+
+#. Shown when a message's {! !} inline Lua blocks ran out of their shared time limit.
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "inline script %{block_number} not run: the message's inline scripts used up their time budget."
+msgstr "Inline-Skript %{block_number} nicht ausgeführt: Die Inline-Skripte der Nachricht haben ihr Zeitbudget aufgebraucht."
+
+#. Shown when a message's {! !} inline Lua blocks ran out of their shared time limit.
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "inline script %{block_number} not run: the message's inline scripts used up their time budget. Inline scripts before it already ran."
+msgstr "Inline-Skript %{block_number} nicht ausgeführt: Die Inline-Skripte der Nachricht haben ihr Zeitbudget aufgebraucht. Inline-Skripte davor wurden bereits ausgeführt."
+
+#: lib/mythweaver/expressions/rule.ex
+#, elixir-autogen, elixir-format
+msgid "is a built-in label"
+msgstr "ist ein eingebautes Label"
+
+#: lib/mythweaver/lore/book_rule_condition.ex
+#, elixir-autogen, elixir-format
+msgid "is not a character this book may name"
+msgstr "ist kein Charakter, den dieses Buch nennen darf"
+
+#: lib/mythweaver/lore/book_rule_condition.ex
+#, elixir-autogen, elixir-format
+msgid "is not a chat this book may name"
+msgstr "ist kein Chat, den dieses Buch nennen darf"
+
+#: lib/mythweaver/characters/character.ex
+#, elixir-autogen, elixir-format
+msgid "is not a valid label"
+msgstr "ist kein gültiges Label"
+
+#: lib/mythweaver/notifications/push_subscription.ex
+#, elixir-autogen, elixir-format
+msgid "is not a valid push key"
+msgstr "ist kein gültiger Push-Schlüssel"
+
+#: lib/mythweaver/chats.ex
+#: lib/mythweaver/memory.ex
+#, elixir-autogen, elixir-format
+msgid "is not available"
+msgstr "ist nicht verfügbar"
+
+#: lib/mythweaver/notifications/push_subscription.ex
+#, elixir-autogen, elixir-format
+msgid "is not url-safe base64"
+msgstr "ist kein URL-sicheres Base64"
+
+#: lib/mythweaver/moderation/holds.ex
+#, elixir-autogen, elixir-format
+msgid "its account was deleted"
+msgstr "sein Konto wurde gelöscht"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "keyword entry has no keywords"
+msgstr "Schlüsselwort-Eintrag hat keine Schlüsselwörter"
+
+#: lib/mythweaver/templates.ex
+#, elixir-autogen, elixir-format
+msgid "line %{line_number}, column %{column_number}: %{parser_reason}"
+msgstr "Zeile %{line_number}, Spalte %{column_number}: %{parser_reason}"
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "line %{line_number}: \"%{parameter_name}\" is declared twice"
+msgstr "Zeile %{line_number}: „%{parameter_name}“ ist doppelt deklariert"
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "line %{line_number}: choices cannot be blank"
+msgstr "Zeile %{line_number}: Auswahlwerte dürfen nicht leer sein"
+
+#. Shown in the script editor. %{type_list} is the fixed list of Lua parameter type names, not translated.
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "line %{line_number}: unknown type \"%{type_name}\" (use %{type_list})"
+msgstr "Zeile %{line_number}: unbekannter Typ „%{type_name}“ (verwende %{type_list})"
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "line %{line_number}: write @param as \"---@param name type Label\""
+msgstr "Zeile %{line_number}: schreibe @param als \"---@param name type Label\""
+
+#: lib/mythweaver/scripts/command.ex
+#, elixir-autogen, elixir-format
+msgid "line %{line_number}: write choices as \"a\"|\"b\""
+msgstr "Zeile %{line_number}: schreibe Auswahlwerte als \"a\"|\"b\""
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "lower keyword score in pool %{pool_name}"
+msgstr "niedrigere Schlüsselwort-Punktzahl in Lore-Pool %{pool_name}"
+
+#: lib/mythweaver/expressions/condition.ex
+#: lib/mythweaver/expressions/rule.ex
+#, elixir-autogen, elixir-format
+msgid "may use only a-z, 0-9 and _ (at most 40)"
+msgstr "darf nur a-z, 0-9 und _ verwenden (höchstens 40)"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "membership disabled in %{book_name}"
+msgstr "Mitgliedschaft in %{book_name} deaktiviert"
+
+#: lib/mythweaver/moderation/rule.ex
+#, elixir-autogen, elixir-format
+msgid "must be an http(s) URL"
+msgstr "muss eine http(s)-URL sein"
+
+#: lib/mythweaver/notifications/push_subscription.ex
+#, elixir-autogen, elixir-format
+msgid "must be an https URL"
+msgstr "muss eine https-URL sein"
+
+#: lib/mythweaver/memory/side_prompt.ex
+#, elixir-autogen, elixir-format
+msgid "must be lowercase letters, digits and underscores"
+msgstr "muss aus Kleinbuchstaben, Ziffern und Unterstrichen bestehen"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgid "must list every sampler exactly once"
+msgstr "muss jeden Sampler genau einmal aufführen"
+
+#: lib/mythweaver/memory/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "must map characters to books"
+msgstr "muss Charaktere Büchern zuordnen"
+
+#: lib/mythweaver/memory/side_prompt_set_row.ex
+#, elixir-autogen, elixir-format
+msgid "must map macro names to text"
+msgstr "muss Makronamen Text zuordnen"
+
+#: lib/mythweaver/memory/chat_settings.ex
+#, elixir-autogen, elixir-format
+msgid "must map side prompts to books"
+msgstr "muss Neben-Prompts Büchern zuordnen"
+
+#: lib/mythweaver/notifications/push_subscription.ex
+#, elixir-autogen, elixir-format
+msgid "must name a push service host"
+msgstr "muss einen Push-Dienst-Host nennen"
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "must return a string, a number or nil."
+msgstr "muss einen String, eine Zahl oder nil zurückgeben."
+
+#: lib/mythweaver/scripts.ex
+#, elixir-autogen, elixir-format
+msgid "must return a string, {\"message\", text}, {\"clear\"} or nil."
+msgstr "muss einen String, {\"message\", text}, {\"clear\"} oder nil zurückgeben."
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "needs %{required_messages} messages, chat has %{message_count}"
+msgstr "braucht %{required_messages} Nachrichten, der Chat hat %{message_count}"
+
+#: lib/mythweaver/mcp.ex
+#, elixir-autogen, elixir-format
+msgid "needs site administration permissions"
+msgstr "braucht Berechtigungen zur Website-Verwaltung"
+
+#: lib/mythweaver/lore/rules.ex
+#, elixir-autogen, elixir-format
+msgid "no activation rule matched"
+msgstr "keine Aktivierungsregel hat gepasst"
+
+#. The placeholder is the template engine's own error texts, separated by semicolons.
+#: lib/mythweaver/lore/rules.ex
+#, elixir-autogen, elixir-format
+msgid "no activation rule matched; template error: %{template_errors}"
+msgstr "keine Aktivierungsregel hat gepasst; Template-Fehler: %{template_errors}"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "no comparable message vector"
+msgstr "kein vergleichbarer Nachrichtenvektor"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "no embedding model set (Settings › Lore › Vector matching)"
+msgstr "kein Embedding-Modell festgelegt (Einstellungen › Lore › Vektorabgleich)"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "no primary keyword in the scan window"
+msgstr "kein primäres Schlüsselwort im Scanfenster"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "no site embedding model set"
+msgstr "kein Website-Embedding-Modell festgelegt"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "not compared"
+msgstr "nicht verglichen"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "nothing to compare: the scan window is empty"
+msgstr "nichts zu vergleichen: das Scanfenster ist leer"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "pool %{pool_name} admits %{activation_limit}"
+msgstr "Lore-Pool %{pool_name} lässt %{activation_limit} zu"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "pool %{pool_name}: an override member won"
+msgstr "Lore-Pool %{pool_name}: ein Override-Mitglied hat gewonnen"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "recent messages not embedded yet"
+msgstr "neueste Nachrichten noch nicht eingebettet"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "rolled above %{probability_percent}"
+msgstr "Wurf über %{probability_percent}"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "secondary logic and_all not satisfied"
+msgstr "sekundäre Logik and_all nicht erfüllt"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "secondary logic and_any not satisfied"
+msgstr "sekundäre Logik and_any nicht erfüllt"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "secondary logic not_all not satisfied"
+msgstr "sekundäre Logik not_all nicht erfüllt"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "secondary logic not_any not satisfied"
+msgstr "sekundäre Logik not_any nicht erfüllt"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "similarity %{similarity_percent} below %{threshold_percent}"
+msgstr "Ähnlichkeit %{similarity_percent} unter %{threshold_percent}"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "similarity %{similarity_percent} outside the top %{entry_limit}"
+msgstr "Ähnlichkeit %{similarity_percent} außerhalb der besten %{entry_limit}"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "the provider answered HTTP %{http_status}"
+msgstr "der Anbieter antwortete mit HTTP %{http_status}"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "the provider's /models reply was unreadable"
+msgstr "die /models-Antwort des Anbieters war unlesbar"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "the request crashed"
+msgstr "die Anfrage ist abgestürzt"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgid "values must be numbers from -100 to 100, or false to ban"
+msgstr "Werte müssen Zahlen von -100 bis 100 sein, oder false zum Sperren"
+
+#: lib/mythweaver/lore/activation.ex
+#, elixir-autogen, elixir-format
+msgid "waits for recursion level %{recursion_level}"
+msgstr "wartet auf Rekursionsebene %{recursion_level}"
+
+#: lib/mythweaver/moderation/holds.ex
+#, elixir-autogen, elixir-format
+msgid "what it changed no longer exists"
+msgstr "was es geändert hat, existiert nicht mehr"
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgid "would loop back to this tag"
+msgstr "würde auf dieses Tag zurückführen"
+
+#: lib/mythweaver/moderation/holds.ex
+#, elixir-autogen, elixir-format
+msgid "you are at your limit"
+msgstr "du hast dein Limit erreicht"
+
+#: lib/mythweaver/moderation/holds.ex
+#, elixir-autogen, elixir-format
+msgid "you may no longer do that"
+msgstr "das darfst du nicht mehr"
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgid "you may not create tags here"
+msgstr "du darfst hier keine Tags erstellen"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "you're not allowed to do that"
+msgstr "das darfst du nicht"

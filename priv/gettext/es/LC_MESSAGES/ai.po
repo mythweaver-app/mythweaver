@@ -1,0 +1,2895 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "\"Don't repeat yourself\": penalizes a token that would extend a phrase already in the context, growing with the phrase's length. The strongest cure for loops on local models; 0 turns it off, 0.8 is a common start. llama.cpp and TabbyAPI."
+msgstr "«No te repitas»: penaliza un token que alargaría una frase ya presente en el contexto, con más fuerza cuanto más larga es la frase. El mejor remedio contra los bucles en modelos locales; 0 lo desactiva, 0.8 es un valor inicial habitual. llama.cpp y TabbyAPI."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "\"Exclude top choices\": when several tokens are at least this likely, all but the least likely of them are removed, steering away from the most predictable wording. 0.1 is a common start. llama.cpp and TabbyAPI."
+msgstr "«Excluir las opciones principales»: cuando varios tokens tienen al menos esta probabilidad, se eliminan todos salvo el menos probable, alejándose de la redacción más predecible. 0.1 es un valor inicial habitual. llama.cpp y TabbyAPI."
+
+#. %{chat}, %{text_completion}, %{embedding} and %{classifier} are the mode option names in bold; %{chat_endpoint}, %{text_endpoint} and %{server_flags} are code.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{chat} sends the prompt as role-tagged messages to %{chat_endpoint}, and the backend applies the model's chat template. %{text_completion} sends one flat prompt to %{text_endpoint}, for base models or a template written into the prompt itself. %{embedding} turns text into vectors for Vector lore entries; it can't reply in chats. %{classifier} is a GoEmotions sequence classifier served like an embedding model (llama-server %{server_flags}), for the Expressions classifier setting; it can't reply in chats either. A model switches modes only while nothing uses it in a way the new mode can't serve."
+msgstr "%{chat} envía el prompt como mensajes etiquetados por rol a %{chat_endpoint}, y el backend aplica la plantilla de chat del modelo. %{text_completion} envía un único prompt plano a %{text_endpoint}, para modelos base o una plantilla escrita en el propio prompt. %{embedding} convierte texto en vectores para las entradas de lore vectoriales; no puede responder en chats. %{classifier} es un clasificador de secuencias GoEmotions servido como un modelo de embedding (llama-server %{server_flags}), para el ajuste de clasificador de expresiones; tampoco puede responder en chats. Un modelo solo cambia de modo mientras nada lo use de una forma que el nuevo modo no pueda atender."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{model_count} model · priority %{priority}"
+msgid_plural "%{model_count} models · priority %{priority}"
+msgstr[0] "%{model_count} modelo · prioridad %{priority}"
+msgstr[1] "%{model_count} modelos · prioridad %{priority}"
+
+#. Flash when a model's test message got an answer. %{reply_excerpt} is the start of the reply, in quotes.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{model_name} answered HTTP 200: %{reply_excerpt}"
+msgstr "%{model_name} respondió HTTP 200: %{reply_excerpt}"
+
+#. Flash when an embedding model's test request succeeds.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{model_name} answered HTTP 200: a %{dimension_count}-dimension embedding"
+msgstr "%{model_name} respondió HTTP 200: un embedding de %{dimension_count} dimensiones"
+
+#. Flash when a model's test message got an answer with no text in it.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{model_name} answered HTTP 200: no reply text within the token cap"
+msgstr "%{model_name} respondió HTTP 200: sin texto de respuesta dentro del límite de tokens"
+
+#. Flash when an AI model saved but its tags could not be written.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{model_name} saved, but its tags did not"
+msgstr "%{model_name} se guardó, pero sus etiquetas no"
+
+#. Flash when a model link's test message fails. %{error_detail} is the network error's own text, in English.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{model_name} test failed: could not reach the provider (%{error_detail})"
+msgstr "La prueba de %{model_name} falló: no se pudo contactar con el proveedor (%{error_detail})"
+
+#. Flash when a model link's test message fails.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{model_name} test failed: the provider answered HTTP %{http_status}"
+msgstr "La prueba de %{model_name} falló: el proveedor respondió HTTP %{http_status}"
+
+#. Flash when a model link's test message fails.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{model_name} test failed: the reply carried no completion"
+msgstr "La prueba de %{model_name} falló: la respuesta no traía ninguna completion"
+
+#. Flash when a model link's test message fails.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{model_name} test failed: you're not allowed to do that"
+msgstr "La prueba de %{model_name} falló: no tienes permiso para hacer eso"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{model_repo} has no tokenizer.json, and neither does its base model."
+msgstr "%{model_repo} no tiene tokenizer.json, y su modelo base tampoco."
+
+#. Flash after a personal AI connection or model was moved to the site.
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "%{row_name} is now the site's"
+msgstr "%{row_name} ahora es del sitio"
+
+#. %{example_key} is a request body key, as code.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "A JSON object merged into every request body, for backend-specific keys this form has no field for, such as %{example_key}. The connection's extra body overrides it, then the link's."
+msgstr "Un objeto JSON que se fusiona en el cuerpo de cada solicitud, para claves específicas del backend que este formulario no tiene, como %{example_key}. El cuerpo extra de la conexión lo sobrescribe, y luego el del enlace."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "A JSON object of sampler keys passed to the backend verbatim, for knobs this form lacks (mirostat, adaptive-P, grammar). A key here wins over the matching field above."
+msgstr "Un objeto JSON de claves de sampler que se pasa tal cual al backend, para ajustes que faltan en este formulario (mirostat, adaptive-P, grammar). Una clave aquí prevalece sobre el campo correspondiente de arriba."
+
+#. The placeholders are the code markers the model reads instead of each attachment.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "A model that describes images, audio and video this one can't take; it reads the descriptions instead. With none, they appear as %{image_marker}, %{audio_marker} or %{video_marker}."
+msgstr "Un modelo que describe las imágenes, el audio y el vídeo que este no puede recibir; este lee las descripciones en su lugar. Sin ninguno, aparecen como %{image_marker}, %{audio_marker} o %{video_marker}."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "A personal connection is yours alone: no other user, admin or not, sees or runs it. A site connection is there for every user allowed to use the site's AI, and only site managers edit it. You can make a personal one the site's later from its editor."
+msgstr "Una conexión personal es solo tuya: ningún otro usuario, sea administrador o no, la ve ni la usa. Una conexión del sitio está disponible para todos los usuarios con permiso para usar la IA del sitio, y solo los gestores del sitio la editan. Más adelante puedes convertir una personal en del sitio desde su editor."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "A personal model is yours alone: no other user, admin or not, sees or runs it. A site model is there for every user allowed to use the site's AI, and only site managers edit it. You can make a personal one the site's later from its editor."
+msgstr "Un modelo personal es solo tuyo: ningún otro usuario, sea administrador o no, lo ve ni lo usa. Un modelo del sitio está disponible para todos los usuarios con permiso para usar la IA del sitio, y solo los gestores del sitio lo editan. Más adelante puedes convertir uno personal en del sitio desde su editor."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "A site connection cannot be made personal again."
+msgstr "Una conexión del sitio no puede volver a ser personal."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "A site model cannot be made personal again."
+msgstr "Un modelo del sitio no puede volver a ser personal."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "API key (leave blank to keep the stored key)"
+msgstr "Clave de API (déjala en blanco para conservar la clave guardada)"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "API model id override (blank uses the model's own id)"
+msgstr "ID de modelo de API alternativo (en blanco usa el ID propio del modelo)"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Add it as a classifier model, for Expressions: a GoEmotions classifier served with --pooling rank"
+msgstr "Añádelo como modelo clasificador, para expresiones: un clasificador GoEmotions servido con --pooling rank"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Add it as an embedding model, for Vector lore, when the server doesn't say it embeds"
+msgstr "Añádelo como modelo de embedding, para lore vectorial, cuando el servidor no indica que genera embeddings"
+
+#. Flash after applying Hugging Face values to the model form, not yet saved.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Applied %{field_count} field from Hugging Face — Save to keep them"
+msgid_plural "Applied %{field_count} fields from Hugging Face — Save to keep them"
+msgstr[0] "Se aplicó %{field_count} campo de Hugging Face: guarda para conservarlo"
+msgstr[1] "Se aplicaron %{field_count} campos de Hugging Face: guarda para conservarlos"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "As for chat, for memory and caption jobs, whose prompts are often larger."
+msgstr "Igual que en el chat, para tareas de memoria y de descripción, cuyos prompts suelen ser más grandes."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "As for chat, for memory and caption jobs."
+msgstr "Igual que en el chat, para tareas de memoria y de descripción."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Audio clips are sent to the model. Off, it sees only [Audio: name]."
+msgstr "Los clips de audio se envían al modelo. Desactivado, solo ve [Audio: nombre]."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Cached and uncached prompt tokens per day"
+msgstr "Tokens de prompt en caché y sin caché por día"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Cached prompt tokens are the ones the backend served from its prompt cache instead of processing them again."
+msgstr "Los tokens de prompt en caché son los que el backend sirvió desde su caché de prompts en lugar de procesarlos de nuevo."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "Caption model choices that are not the site's are cleared: %{model_count}."
+msgid_plural "Caption model choices that are not the site's are cleared: %{model_count}."
+msgstr[0] "Se borran las elecciones de modelo de descripción que no son del sitio: %{model_count}."
+msgstr[1] "Se borran las elecciones de modelo de descripción que no son del sitio: %{model_count}."
+
+#. %{k} is the sampler's variable name k, in italics.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Chooses only among the %{k} likeliest tokens. 0 turns it off; small values are safer but more repetitive."
+msgstr "Elige solo entre los %{k} tokens más probables. 0 lo desactiva; los valores pequeños son más seguros pero más repetitivos."
+
+#. Flash when the Test connection button's check succeeds.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Connected: /models answered HTTP 200 with %{model_count} model"
+msgid_plural "Connected: /models answered HTTP 200 with %{model_count} models"
+msgstr[0] "Conectado: /models respondió HTTP 200 con %{model_count} modelo"
+msgstr[1] "Conectado: /models respondió HTTP 200 con %{model_count} modelos"
+
+#. Flash when the Test connection button's check fails. %{error_detail} is the network error's own text, in English.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Connection test failed: could not reach the provider (%{error_detail})"
+msgstr "La prueba de conexión falló: no se pudo contactar con el proveedor (%{error_detail})"
+
+#. Flash when the Test connection button's check fails.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Connection test failed: the provider answered HTTP %{http_status}"
+msgstr "La prueba de conexión falló: el proveedor respondió HTTP %{http_status}"
+
+#. Flash when the Test connection button's check fails.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Connection test failed: the provider's /models reply was unreadable"
+msgstr "La prueba de conexión falló: la respuesta de /models del proveedor era ilegible"
+
+#. Flash when the Test connection button's check fails.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Connection test failed: you're not allowed to do that"
+msgstr "La prueba de conexión falló: no tienes permiso para hacer eso"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Continue sends the unfinished message as a trailing assistant turn for the model to extend word for word, instead of instructing it to carry on. Chat models only, and the backend must continue a final assistant message (llama.cpp and Claude do)."
+msgstr "Continuar envía el mensaje inacabado como turno final del asistente para que el modelo lo prolongue palabra por palabra, en lugar de indicarle que siga. Solo modelos de chat, y el backend debe continuar un mensaje final del asistente (llama.cpp y Claude lo hacen)."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Cost known for %{costed_runs} of %{total_runs} run."
+msgid_plural "Cost known for %{costed_runs} of %{total_runs} runs."
+msgstr[0] "Coste conocido para %{costed_runs} de %{total_runs} ejecución."
+msgstr[1] "Coste conocido para %{costed_runs} de %{total_runs} ejecuciones."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Cost known for %{costed_runs} of %{total_runs} run; %{estimated_runs} estimated from model prices."
+msgid_plural "Cost known for %{costed_runs} of %{total_runs} runs; %{estimated_runs} estimated from model prices."
+msgstr[0] "Coste conocido para %{costed_runs} de %{total_runs} ejecución; %{estimated_runs} estimadas a partir de los precios del modelo."
+msgstr[1] "Coste conocido para %{costed_runs} de %{total_runs} ejecuciones; %{estimated_runs} estimadas a partir de los precios del modelo."
+
+#. Flash when adding a discovered model was rejected. %{field_name} is the internal field name, %{error_messages} its validation errors.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not add %{model_name}: %{field_name} %{error_messages}"
+msgstr "No se pudo añadir %{model_name}: %{field_name} %{error_messages}"
+
+#. Flash when adding a discovered model was rejected.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not add %{model_name}: it was rejected"
+msgstr "No se pudo añadir %{model_name}: fue rechazado"
+
+#. Flash when linking a discovered model was rejected. %{field_name} is the internal field name, %{error_messages} its validation errors.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not link: %{field_name} %{error_messages}"
+msgstr "No se pudo enlazar: %{field_name} %{error_messages}"
+
+#. Flash when linking a discovered model was rejected.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not link: it was rejected"
+msgstr "No se pudo enlazar: fue rechazado"
+
+#. %{error_detail} is the network error's own text, in English.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not reach Hugging Face (%{error_detail})."
+msgstr "No se pudo contactar con Hugging Face (%{error_detail})."
+
+#. Flash when a form did not save because of invalid fields.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save — see the highlighted fields"
+msgstr "No se pudo guardar: revisa los campos resaltados"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Create an AI model first."
+msgstr "Primero crea un modelo de IA."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Days are in %{timezone}. Every job run counts: replies, regenerations and memory work."
+msgstr "Los días están en %{timezone}. Cuenta cada ejecución de tarea: respuestas, regeneraciones y trabajo de memoria."
+
+#. Confirm dialog before deleting an AI connection.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Delete %{connection_name}? Its model links go with it."
+msgstr "¿Eliminar %{connection_name}? Sus enlaces de modelos se eliminan con ella."
+
+#. Confirm dialog before deleting an AI model.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Delete %{model_name}? Its provider links go with it."
+msgstr "¿Eliminar %{model_name}? Sus enlaces de proveedores se eliminan con él."
+
+#. Flash when listing a connection's models fails. %{error_detail} is the network error's own text, in English.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Discovery failed: could not reach the provider (%{error_detail})"
+msgstr "El descubrimiento falló: no se pudo contactar con el proveedor (%{error_detail})"
+
+#. Flash when listing a connection's models fails.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Discovery failed: the provider answered HTTP %{http_status}"
+msgstr "El descubrimiento falló: el proveedor respondió HTTP %{http_status}"
+
+#. Flash when listing a connection's models fails.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Discovery failed: the provider's /models reply was unreadable"
+msgstr "El descubrimiento falló: la respuesta de /models del proveedor era ilegible"
+
+#. Flash when listing a connection's models fails.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Discovery failed: you're not allowed to do that"
+msgstr "El descubrimiento falló: no tienes permiso para hacer eso"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Dollars per million generated tokens, reasoning included, used like the prompt cost when the connection reports no charge. Unused by embedding models."
+msgstr "Dólares por millón de tokens generados, razonamiento incluido, usado como el coste de prompt cuando la conexión no informa de ningún cargo. No lo usan los modelos de embedding."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Dollars per million prompt tokens, used to estimate a reply's cost when the connection reports no charge of its own. Leave both costs empty to skip estimates. For an embedding model, this prices the text it embeds."
+msgstr "Dólares por millón de tokens de prompt, usado para estimar el coste de una respuesta cuando la conexión no informa de un cargo propio. Deja ambos costes vacíos para omitir las estimaciones. Para un modelo de embedding, fija el precio del texto que procesa."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Drops tokens less likely than this fraction of the top token's probability, so it cuts more when the model is sure. 0.05 to 0.1 is common for local models; 0 turns it off."
+msgstr "Descarta los tokens menos probables que esta fracción de la probabilidad del token principal, así que recorta más cuando el modelo está seguro. De 0.05 a 0.1 es habitual en modelos locales; 0 lo desactiva."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Drops tokens whose probability is below this value times the square of the top token's. Rarely needed; 0 turns it off. Read by OpenRouter and TabbyAPI, not llama.cpp."
+msgstr "Descarta los tokens cuya probabilidad está por debajo de este valor multiplicado por el cuadrado de la del token principal. Rara vez hace falta; 0 lo desactiva. Lo leen OpenRouter y TabbyAPI, no llama.cpp."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "Every user allowed to use the site's AI will be able to run %{row_name}; only site managers will edit it."
+msgstr "Todos los usuarios con permiso para usar la IA del sitio podrán usar %{row_name}; solo los gestores del sitio podrán editarlo."
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgid "Everything Hugging Face knows already matches this form."
+msgstr "Todo lo que sabe Hugging Face ya coincide con este formulario."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Extra request body (JSON object; overrides the model and the connection)"
+msgstr "Cuerpo de solicitud extra (objeto JSON; sobrescribe el modelo y la conexión)"
+
+#. Flash when Test connection is pressed while the form has invalid fields.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Fix the highlighted fields before testing"
+msgstr "Corrige los campos resaltados antes de probar"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Fixes the random seed, so the same prompt and settings give the same reply where the backend supports it. Empty picks a new seed every time."
+msgstr "Fija la semilla aleatoria, para que el mismo prompt y los mismos ajustes den la misma respuesta cuando el backend lo admite. Vacío elige una semilla nueva cada vez."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Generic (canonical names: vLLM, TabbyAPI, others)"
+msgstr "Genérico (nombres canónicos: vLLM, TabbyAPI, otros)"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How fast the penalty grows with each extra repeated token. 1.75 is the usual value."
+msgstr "Lo rápido que crece la penalización con cada token repetido adicional. 1.75 es el valor habitual."
+
+#. %{off} and %{backend_default} are the select's option names, in italics.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How hard a reasoning model thinks before it replies, translated for the backend by the connection's thinking dialect, and ignored when the connection has none. %{off} disables thinking where the backend allows it; %{backend_default} sends nothing."
+msgstr "Cuánto piensa un modelo de razonamiento antes de responder, traducido para el backend por el dialecto de razonamiento de la conexión, e ignorado si la conexión no tiene ninguno. %{off} desactiva el razonamiento donde el backend lo permite; %{backend_default} no envía nada."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How long a reply may go silent after its first token."
+msgstr "Cuánto tiempo de inactividad se permite a una respuesta tras su primer token."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How long a reply may wait for its first token, prompt processing included, before it stops."
+msgstr "Cuánto tiempo puede esperar una respuesta su primer token, incluido el procesamiento del prompt, antes de detenerse."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How many of the chat's newest messages with audio send their clips to the model; older clips go as their descriptions. Empty sends them all."
+msgstr "Cuántos de los mensajes más recientes del chat con audio envían sus clips al modelo; los clips más antiguos van como sus descripciones. Vacío los envía todos."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How many of the chat's newest messages with documents send them in full (as PDFs to a model that reads them, else as their text); older ones go as a short summary, written once by this model. Empty sends them all."
+msgstr "Cuántos de los mensajes más recientes del chat con documentos los envían completos (como PDF a un modelo que los lee, si no como su texto); los más antiguos van como un breve resumen, escrito una sola vez por este modelo. Vacío los envía todos."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How many of the chat's newest messages with images send their images to the model, every image of each; older ones go as their descriptions, so a long chat does not re-send every picture. Empty sends them all."
+msgstr "Cuántos de los mensajes más recientes del chat con imágenes envían sus imágenes al modelo, todas las de cada uno; los más antiguos van como sus descripciones, para que un chat largo no reenvíe todas las imágenes. Vacío los envía todos."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How many of the chat's newest messages with video send their clips to the model; older clips go as their descriptions. Empty sends them all."
+msgstr "Cuántos de los mensajes más recientes del chat con vídeo envían sus clips al modelo; los clips más antiguos van como sus descripciones. Vacío los envía todos."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How many of the most recent tokens the repetition penalty looks at. Backends differ on what 0 means: off, or the whole context."
+msgstr "Cuántos de los tokens más recientes examina la penalización por repetición. Los backends difieren en lo que significa 0: desactivado, o todo el contexto."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How many recent tokens DRY scans for repeats. 0 means the whole context."
+msgstr "Cuántos tokens recientes examina DRY en busca de repeticiones. 0 significa todo el contexto."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How many tokens the model can read at once, prompt and reply together. Recorded for reference: prompts are not yet trimmed to fit it."
+msgstr "Cuántos tokens puede leer el modelo a la vez, prompt y respuesta juntos. Se guarda como referencia: los prompts aún no se recortan para ajustarse."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How often XTC acts on a token. 0 turns it off; 0.5 is a common start."
+msgstr "Con qué frecuencia actúa XTC sobre un token. 0 lo desactiva; 0.5 es un valor inicial habitual."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How random each word choice is. Lower is focused and predictable, higher varied and creative; 0 always picks the likeliest token. Around 0.7 to 1.0 suits role-play."
+msgstr "Lo aleatoria que es cada elección de palabra. Más bajo es centrado y predecible, más alto variado y creativo; 0 elige siempre el token más probable. Entre 0.7 y 1.0 va bien para el rol."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "How sampler settings are named on the wire. llama.cpp renames repetition penalties and converts dynamic temperature; OpenAI (strict) sends only the parameters OpenAI accepts."
+msgstr "Cómo se nombran los ajustes del sampler en la solicitud. llama.cpp renombra las penalizaciones por repetición y convierte la temperatura dinámica; OpenAI (estricto) envía solo los parámetros que OpenAI acepta."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "How the temperature moves between the two; 1 is linear, higher stays near the minimum longer."
+msgstr "Cómo se mueve la temperatura entre ambos valores; 1 es lineal, un valor mayor se mantiene más tiempo cerca del mínimo."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Hugging Face answered HTTP %{http_status} for %{model_repo}."
+msgstr "Hugging Face respondió HTTP %{http_status} para %{model_repo}."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Hugging Face has no public model %{model_repo}. If it is gated or private, set HF_TOKEN and restart."
+msgstr "Hugging Face no tiene ningún modelo público %{model_repo}. Si es restringido o privado, configura HF_TOKEN y reinicia."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "Its links to connections are removed (link it again to a site connection): %{link_count}."
+msgid_plural "Its links to connections are removed (link it again to a site connection): %{link_count}."
+msgstr[0] "Se eliminan sus enlaces a conexiones (vuelve a enlazarlo a una conexión del sitio): %{link_count}."
+msgstr[1] "Se eliminan sus enlaces a conexiones (vuelve a enlazarlo a una conexión del sitio): %{link_count}."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Keeps only tokens within this many standard deviations of the top token's score, which stays stable at high temperature. 0 turns it off. llama.cpp only."
+msgstr "Conserva solo los tokens dentro de este número de desviaciones estándar de la puntuación del token principal, lo que se mantiene estable a temperatura alta. 0 lo desactiva. Solo llama.cpp."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Leave empty for everyone allowed to use site models."
+msgstr "Déjalo vacío para todos los que tienen permiso para usar los modelos del sitio."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Locally typical sampling: keeps tokens about as surprising as the model expects, cutting both the bland and the bizarre. 1 turns it off. Not sent to OpenAI or OpenRouter."
+msgstr "Muestreo típico local: conserva los tokens tan sorprendentes como el modelo espera, recortando tanto lo insulso como lo extravagante. 1 lo desactiva. No se envía a OpenAI ni a OpenRouter."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Makes tokens that already appeared less likely, to curb loops. 1 turns it off; 1.05 to 1.15 is typical, and higher can garble names and wording. Mainly read by local backends."
+msgstr "Hace menos probables los tokens que ya aparecieron, para frenar los bucles. 1 lo desactiva; de 1.05 a 1.15 es lo típico, y valores más altos pueden estropear nombres y redacción. Lo leen sobre todo los backends locales."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Median completion tokens per second after the first token."
+msgstr "Mediana de tokens de completion por segundo tras el primer token."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Median time to first token by model, with the 95th percentile"
+msgstr "Mediana del tiempo hasta el primer token por modelo, con el percentil 95"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Median tokens per second by model"
+msgstr "Mediana de tokens por segundo por modelo"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Median; the whisker reaches the 95th percentile. Timed from when the job started running, so queue time is left out."
+msgstr "Mediana; el bigote llega al percentil 95. Medido desde que la tarea empezó a ejecutarse, así que el tiempo en cola no cuenta."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Messages with audio sent inline"
+msgstr "Mensajes con audio enviado en línea"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Messages with documents sent in full"
+msgstr "Mensajes con documentos enviados completos"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Messages with images sent inline"
+msgstr "Mensajes con imágenes enviadas en línea"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Messages with video sent inline"
+msgstr "Mensajes con vídeo enviado en línea"
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "Models linked to it move with it: %{model_count}."
+msgid_plural "Models linked to it move with it: %{model_count}."
+msgstr[0] "Los modelos enlazados a ella se mueven con ella: %{model_count}."
+msgstr[1] "Los modelos enlazados a ella se mueven con ella: %{model_count}."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "No completed run in this range generated for a second or more."
+msgstr "Ninguna ejecución completada en este intervalo generó durante un segundo o más."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "No completed runs in this range."
+msgstr "No hay ejecuciones completadas en este intervalo."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "No connections match this search"
+msgstr "Ninguna conexión coincide con esta búsqueda"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "No models linked to this connection yet"
+msgstr "Aún no hay modelos enlazados a esta conexión"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "No models match this search"
+msgstr "Ningún modelo coincide con esta búsqueda"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "No prompt tokens in this range."
+msgstr "No hay tokens de prompt en este intervalo."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "No run in this range has a cost: its provider reported none (only OpenRouter does) and its model has no prices set."
+msgstr "Ninguna ejecución de este intervalo tiene coste: su proveedor no informó de ninguno (solo OpenRouter lo hace) y su modelo no tiene precios definidos."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "No runs in this range."
+msgstr "No hay ejecuciones en este intervalo."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "None (thinking setting not sent)"
+msgstr "Ninguno (no se envía el ajuste de razonamiento)"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Nucleus sampling: chooses only among the likeliest tokens whose probabilities add up to this. 1 turns it off; lower values cut unlikely words."
+msgstr "Muestreo de núcleo: elige solo entre los tokens más probables cuyas probabilidades suman este valor. 1 lo desactiva; valores más bajos recortan las palabras improbables."
+
+#. %{example_token} is an example special token, as code.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Off, the reply keeps the model's special tokens (such as %{example_token}) in its text. vLLM."
+msgstr "Desactivado, la respuesta conserva los tokens especiales del modelo (como %{example_token}) en su texto. vLLM."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "On, the model may not end its reply, so every reply runs to the response token limit or a stop sequence. llama.cpp, vLLM and TabbyAPI."
+msgstr "Activado, el modelo no puede terminar su respuesta, así que cada respuesta llega hasta el límite de tokens de respuesta o una secuencia de parada. llama.cpp, vLLM y TabbyAPI."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "OpenAI-style: penalizes a token more each time it has appeared, reducing repeated words. 0 turns it off."
+msgstr "Estilo OpenAI: penaliza un token más cada vez que ha aparecido, reduciendo las palabras repetidas. 0 lo desactiva."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "OpenAI-style: penalizes any token that has appeared at all, nudging the model toward new words and topics. 0 turns it off."
+msgstr "Estilo OpenAI: penaliza cualquier token que haya aparecido, empujando al modelo hacia palabras y temas nuevos. 0 lo desactiva."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "PDFs are sent to the model as files. Off, it reads their extracted text."
+msgstr "Los PDF se envían al modelo como archivos. Desactivado, lee su texto extraído."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Paste a Hugging Face model page or owner/name first."
+msgstr "Primero pega una página de modelo de Hugging Face o propietario/nombre."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Paste a Hugging Face model page or owner/name."
+msgstr "Pega una página de modelo de Hugging Face o propietario/nombre."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "Personal connection: only you see and run it."
+msgstr "Conexión personal: solo tú la ves y la usas."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "Personal model: only you see and run it."
+msgstr "Modelo personal: solo tú lo ves y lo usas."
+
+#. Flash when Link is pressed with no model chosen.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Pick a model to link"
+msgstr "Elige un modelo para enlazar"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Qwen/Qwen3-8B or a huggingface.co link"
+msgstr "Qwen/Qwen3-8B o un enlace de huggingface.co"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Records that the model can call tools (functions). Informational for now: replies do not use tools yet."
+msgstr "Indica que el modelo puede llamar a herramientas (funciones). Solo informativo por ahora: las respuestas aún no usan herramientas."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Report prompt progress (llama.cpp and TabbyAPI only)"
+msgstr "Informar del progreso del prompt (solo llama.cpp y TabbyAPI)"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgid "Review differences and apply only what you want."
+msgstr "Revisa las diferencias y aplica solo lo que quieras."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Runs by job type and outcome"
+msgstr "Ejecuciones por tipo de tarea y resultado"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Sampler dialect (overrides the connection)"
+msgstr "Dialecto del sampler (sobrescribe la conexión)"
+
+#. Flash after Neutralize samplers reset the sampler fields in the form, not yet saved.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Samplers neutralized — Save to keep them"
+msgstr "Samplers neutralizados: guarda para conservarlos"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Seconds. Chat covers replies, regenerates, continues, refines and the assistant; background covers memory work and image captions. Empty keeps the default shown, 0 means no limit. The connection's request timeout still ends a request that sends nothing at all for that long. Embedding models ignore these."
+msgstr "Segundos. Chat cubre respuestas, regeneraciones, continuaciones, refinamientos y el asistente; segundo plano cubre el trabajo de memoria y las descripciones de imágenes. Vacío mantiene el valor predeterminado mostrado, 0 significa sin límite. El tiempo de espera de solicitud de la conexión sigue terminando una solicitud que no envía nada durante ese tiempo. Los modelos de embedding los ignoran."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a connection, or create a new one."
+msgstr "Selecciona una conexión o crea una nueva."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a model, or create a new one."
+msgstr "Selecciona un modelo o crea uno nuevo."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "Site connection: every user allowed to use the site's AI can run it."
+msgstr "Conexión del sitio: todos los usuarios con permiso para usar la IA del sitio pueden usarla."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "Site model: every user allowed to use the site's AI can run it."
+msgstr "Modelo del sitio: todos los usuarios con permiso para usar la IA del sitio pueden usarlo."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Spend per day by model"
+msgstr "Gasto por día por modelo"
+
+#. %{example_list} is an example JSON list, as code.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Strings that end a repeated phrase for DRY's count. JSON list, e.g. %{example_list}; empty uses the backend's default."
+msgstr "Cadenas que terminan una frase repetida para el conteo de DRY. Lista JSON, p. ej. %{example_list}; vacío usa el valor predeterminado del backend."
+
+#. %{end_tag} and %{hash_marks} are example stop strings, as code.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Strings that end a reply where they appear, such as %{end_tag} or %{hash_marks}. They are sent to the backend and also enforced here, on top of the speaker-name stop strings in Settings."
+msgstr "Cadenas que terminan una respuesta donde aparecen, como %{end_tag} o %{hash_marks}. Se envían al backend y también se aplican aquí, además de las cadenas de parada con nombres de hablantes de Ajustes."
+
+#. Flash when adding a discovered model that is no longer in the discovered list.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "That model is no longer in the list"
+msgstr "Ese modelo ya no está en la lista"
+
+#. Flash when linking a discovered model whose model row was deleted.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "That model no longer exists"
+msgstr "Ese modelo ya no existe"
+
+#. Flash shown when the AI connection open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "The AI connection was deleted or moved elsewhere."
+msgstr "La conexión de IA se eliminó o se movió a otro lugar."
+
+#. Flash shown when the AI model open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The AI model was deleted or moved elsewhere."
+msgstr "El modelo de IA se eliminó o se movió a otro lugar."
+
+#. %{fill_button} is the name of the button next to the field, in italics.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The Hugging Face repo whose tokenizer counts this model's tokens, for the lore budget, prompt section sizes and cost estimates; without one, counts are estimated. %{fill_button} also reads the repo's context window, capabilities and recommended sampler values."
+msgstr "El repositorio de Hugging Face cuyo tokenizador cuenta los tokens de este modelo, para el presupuesto de lore, los tamaños de las secciones del prompt y las estimaciones de coste; sin él, los recuentos se estiman. %{fill_button} también lee la ventana de contexto, las capacidades y los valores de sampler recomendados del repositorio."
+
+#. %{reasoning_field} is the response field name, as code.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The backend returns the model's reasoning in its own field (%{reasoning_field}), shown apart from the reply. For a model that thinks inline in its text, set the reasoning prefix and suffix instead."
+msgstr "El backend devuelve el razonamiento del modelo en su propio campo (%{reasoning_field}), mostrado aparte de la respuesta. Para un modelo que razona dentro de su texto, configura en su lugar el prefijo y el sufijo de razonamiento."
+
+#. %{low}, %{high} and %{auto} are the detail values in bold; %{not_sent} is the select's blank option, in italics.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The detail hint OpenAI-style backends read with each image: %{low} is a fixed 85 tokens per image, %{high} reads fine detail for many more, %{auto} lets the backend choose. %{not_sent} leaves it out, for backends that reject it."
+msgstr "La indicación de detalle que los backends de estilo OpenAI leen con cada imagen: %{low} son 85 tokens fijos por imagen, %{high} lee el detalle fino por muchos más, %{auto} deja que el backend elija. %{not_sent} la omite, para backends que la rechazan."
+
+#. The placeholders are code examples: the request key and two model ids.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The exact model id the backend expects, sent as %{model_key} with every request (%{example_id}, %{example_routed_id}). A connection link can override it when one backend names the same model differently."
+msgstr "El ID de modelo exacto que espera el backend, enviado como %{model_key} con cada solicitud (%{example_id}, %{example_routed_id}). Un enlace de conexión puede sobrescribirlo cuando un backend llama de otra forma al mismo modelo."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The longest a description or summary this model writes may run. Longer descriptions cost more and take up more of the reading model's prompt."
+msgstr "La longitud máxima de una descripción o resumen que escribe este modelo. Las descripciones más largas cuestan más y ocupan más del prompt del modelo que las lee."
+
+#. %{caption_seconds} is a number of seconds.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The longest a memory or caption job may run. By default memory jobs have no limit and captions stop at %{caption_seconds} s."
+msgstr "El tiempo máximo que puede durar una tarea de memoria o de descripción. Por defecto, las tareas de memoria no tienen límite y las descripciones se detienen a los %{caption_seconds} s."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The longest a reply may run in all."
+msgstr "El tiempo máximo que puede durar una respuesta en total."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The longest repeat left unpenalized, so names and set phrases still work. 2 is the usual value."
+msgstr "La repetición más larga que no se penaliza, para que los nombres y las frases hechas sigan funcionando. 2 es el valor habitual."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The model reads images itself, so chat images are sent to it inline. Off, it reads them only as text descriptions written by a caption model."
+msgstr "El modelo lee imágenes por sí mismo, así que las imágenes del chat se le envían en línea. Desactivado, solo las lee como descripciones de texto escritas por un modelo de descripción."
+
+#. %{request_key} is the request key, as code.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The most tokens one reply may generate, sent as %{request_key}: the backend cuts the reply off there. Lower it to keep replies short, quicker and cheaper, and to leave a model less room to ramble or write other characters' turns; raise it if replies end mid-sentence. A thinking model spends its reasoning from the same budget, so give it room. Empty lets the backend decide, which can mean thousands of tokens."
+msgstr "El máximo de tokens que puede generar una respuesta, enviado como %{request_key}: el backend corta la respuesta ahí. Bájalo para que las respuestas sean cortas, rápidas y baratas, y para dejar al modelo menos margen para divagar o escribir los turnos de otros personajes; súbelo si las respuestas terminan a mitad de frase. Un modelo de razonamiento gasta su razonamiento del mismo presupuesto, así que dale margen. Vacío deja que decida el backend, lo que puede significar miles de tokens."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The name this model goes by in pickers and lists. It is never sent to the backend."
+msgstr "El nombre con el que aparece este modelo en selectores y listas. Nunca se envía al backend."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The order llama.cpp applies its samplers in; other backends ignore it. Moving Temperature last, for instance, makes it reshape only what Min p and the others keep."
+msgstr "El orden en que llama.cpp aplica sus samplers; los demás backends lo ignoran. Mover Temperatura al final, por ejemplo, hace que solo remodele lo que conservan Min p y los demás."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The prompt this model follows when it describes an image for another model or an avatar. The built-in instruction asks for one short, objective paragraph."
+msgstr "El prompt que sigue este modelo cuando describe una imagen para otro modelo o un avatar. La instrucción integrada pide un párrafo breve y objetivo."
+
+#. %{row_names} is a list of names the site already uses.
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "The site already has %{row_names}. Rename first."
+msgstr "El sitio ya tiene %{row_names}. Cambia el nombre primero."
+
+#. Flash when moving a personal AI connection or model to the site fails because the site already has rows with these names. %{row_names} is a list of names.
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "The site already has %{row_names}: rename first"
+msgstr "El sitio ya tiene %{row_names}: cambia el nombre primero"
+
+#. %{close_tag} and %{gemma_close_tag} are example tags, as code.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The tag that closes inline thinking, such as %{close_tag} (Gemma 4 raw output: %{gemma_close_tag}). A block that never closes is all reasoning."
+msgstr "La etiqueta que cierra el razonamiento en línea, como %{close_tag} (salida sin procesar de Gemma 4: %{gemma_close_tag}). Un bloque que nunca se cierra es todo razonamiento."
+
+#. %{open_tag} is an example tag, as code.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The tag that opens inline thinking, such as %{open_tag}. A reply that starts with it is reasoning up to the suffix, shown apart from the reply text. Leave both tags empty for a model without inline thinking."
+msgstr "La etiqueta que abre el razonamiento en línea, como %{open_tag}. Una respuesta que empieza con ella es razonamiento hasta el sufijo, mostrado aparte del texto de la respuesta. Deja ambas etiquetas vacías para un modelo sin razonamiento en línea."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The temperature used when the model is sure. Replaces Temperature when both are set; llama.cpp gets the midpoint ± half the range."
+msgstr "La temperatura usada cuando el modelo está seguro. Sustituye a Temperatura cuando ambas están definidas; llama.cpp recibe el punto medio ± la mitad del intervalo."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The temperature used when the model is unsure, so creativity rises where many words fit."
+msgstr "La temperatura usada cuando el modelo no está seguro, así que la creatividad aumenta donde encajan muchas palabras."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The tokenizer.json for %{model_repo} could not be saved to the cache."
+msgstr "No se pudo guardar en la caché el tokenizer.json de %{model_repo}."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The tokenizer.json in %{model_repo} could not be loaded."
+msgstr "No se pudo cargar el tokenizer.json de %{model_repo}."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "The tokenizer.json in %{model_repo} is larger than %{limit_megabytes}."
+msgstr "El tokenizer.json de %{model_repo} supera los %{limit_megabytes}."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Thinking dialect (overrides the connection)"
+msgstr "Dialecto de razonamiento (sobrescribe la conexión)"
+
+#. Warning under Supports thinking when the response token limit is low. Response tokens and Extra request body are field names.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Thinking tokens come out of Response tokens. Below %{token_floor} a thinking model can spend them all reasoning and reply with nothing. Raise Response tokens, or cap reasoning in Extra request body (llama.cpp: thinking_budget_tokens)."
+msgstr "Los tokens de razonamiento salen de Tokens de respuesta. Por debajo de %{token_floor}, un modelo de razonamiento puede gastarlos todos razonando y no responder nada. Sube Tokens de respuesta o limita el razonamiento en Cuerpo de solicitud extra (llama.cpp: thinking_budget_tokens)."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "This connection advertises no models."
+msgstr "Esta conexión no ofrece ningún modelo."
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgid "Those models' links to other connections are removed: %{link_count}."
+msgid_plural "Those models' links to other connections are removed: %{link_count}."
+msgstr[0] "Se eliminan los enlaces de esos modelos a otras conexiones: %{link_count}."
+msgstr[1] "Se eliminan los enlaces de esos modelos a otras conexiones: %{link_count}."
+
+#. %{false_value} is the JSON value false, as code.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Token id or text → bias from -100 to 100; %{false_value} bans. Text keys work only on llama.cpp; other backends get the numeric token ids only."
+msgstr "ID o texto del token → sesgo de -100 a 100; %{false_value} lo prohíbe. Las claves de texto solo funcionan en llama.cpp; los demás backends solo reciben los ID numéricos de los tokens."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Tokens by model: cached prompt, uncached prompt and completion"
+msgstr "Tokens por modelo: prompt en caché, prompt sin caché y completion"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgid "Tokens per day by model"
+msgstr "Tokens por día por modelo"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Video clips are sent to the model, every visible clip with every reply. Off, it sees only [Video: name]."
+msgstr "Los clips de vídeo se envían al modelo, todos los clips visibles con cada respuesta. Desactivado, solo ve [Vídeo: nombre]."
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgid "Weight (share of traffic within this priority tier)"
+msgstr "Peso (parte del tráfico dentro de este nivel de prioridad)"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "What users who are not admins see of this model. Only names: never its API model id, sampler, extras, reasoning tags, tokenizer, notes, time limits or caption prompt, in the assistant or exports; it still runs. Admins always see everything."
+msgstr "Lo que ven de este modelo los usuarios que no son administradores. Solo nombres: nunca su ID de modelo de API, sampler, extras, etiquetas de razonamiento, tokenizador, notas, límites de tiempo ni prompt de descripción, ni en el asistente ni en las exportaciones; sigue funcionando. Los administradores siempre lo ven todo."
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgid "Your own notes about this model. They are never sent anywhere."
+msgstr "Tus propias notas sobre este modelo. Nunca se envían a ningún sitio."
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: buttons choosing how many days the analytics cover"
+msgid "Range"
+msgstr "Intervalo"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: buttons choosing whose job runs the analytics count"
+msgid "Whose runs"
+msgstr "De quién son las ejecuciones"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: legend of job outcomes in an analytics chart"
+msgid "Outcomes"
+msgstr "Resultados"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: legend of the models in the analytics charts"
+msgid "Models"
+msgstr "Modelos"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: legend of the prompt token kinds in an analytics chart"
+msgid "Prompt token kinds"
+msgstr "Tipos de tokens de prompt"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: legend of the token kinds in an analytics chart"
+msgid "Token kinds"
+msgstr "Tipos de tokens"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of AI connections"
+msgid "AI connections"
+msgstr "Conexiones de IA"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of AI models"
+msgid "AI models"
+msgstr "Modelos de IA"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: undo using the Hugging Face value for this field"
+msgid "Keep current value"
+msgstr "Mantener el valor actual"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: use the Hugging Face value for this field"
+msgid "Use Hugging Face value"
+msgstr "Usar el valor de Hugging Face"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: AI model completion mode in the model list"
+msgid "chat"
+msgstr "chat"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: AI model completion mode in the model list"
+msgid "classifier"
+msgstr "clasificador"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: AI model completion mode in the model list"
+msgid "embedding"
+msgstr "embedding"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: AI model completion mode in the model list"
+msgid "text"
+msgstr "texto"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a discovered model accepts audio"
+msgid "audio"
+msgstr "audio"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a discovered model accepts files"
+msgid "files"
+msgstr "archivos"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a discovered model accepts images"
+msgid "images"
+msgstr "imágenes"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a discovered model accepts video"
+msgid "video"
+msgstr "vídeo"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a discovered model already exists as a model"
+msgid "known"
+msgstr "conocido"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a discovered model can call tools"
+msgid "tools"
+msgstr "herramientas"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a discovered model can reason before replying"
+msgid "thinking"
+msgstr "razonamiento"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a discovered model is a classifier"
+msgid "classifier"
+msgstr "clasificador"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a discovered model makes embeddings"
+msgid "embedding"
+msgstr "embedding"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a model link overrides the API model id"
+msgid "override"
+msgstr "alternativo"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a model link switched off"
+msgid "disabled"
+msgstr "desactivado"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a model link's traffic weight and use count"
+msgid "weight %{weight} · used %{use_count}x"
+msgstr "peso %{weight} · usado %{use_count} veces"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a personal AI connection"
+msgid "personal"
+msgstr "personal"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a personal AI model"
+msgid "personal"
+msgstr "personal"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: an AI connection switched off"
+msgid "disabled"
+msgstr "desactivada"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: an AI connection with no API key"
+msgid "no key"
+msgstr "sin clave"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: an AI model can call tools"
+msgid "tools"
+msgstr "herramientas"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: an AI model hears audio"
+msgid "audio"
+msgstr "audio"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: an AI model reads PDF files"
+msgid "files"
+msgstr "archivos"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: an AI model reads images"
+msgid "images"
+msgstr "imágenes"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: an AI model returns separate reasoning"
+msgid "thinking"
+msgstr "razonamiento"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: an AI model watches video"
+msgid "video"
+msgstr "vídeo"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: Hugging Face lookup in progress"
+msgid "Fetching…"
+msgstr "Obteniendo…"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add a discovered model as a classifier model"
+msgid "Add as classifier"
+msgstr "Añadir como clasificador"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add a discovered model as an embedding model"
+msgid "Add as embedding"
+msgstr "Añadir como embedding"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: analytics of every user's job runs"
+msgid "All users"
+msgstr "Todos los usuarios"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: analytics of my own job runs only"
+msgid "Mine"
+msgstr "Mías"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: analytics range length"
+msgid "%{day_count} day"
+msgid_plural "%{day_count} days"
+msgstr[0] "%{day_count} día"
+msgstr[1] "%{day_count} días"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: apply the chosen Hugging Face values to the model form"
+msgid "Apply to form"
+msgstr "Aplicar al formulario"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: check that an AI connection answers"
+msgid "Test connection"
+msgstr "Probar conexión"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the Hugging Face comparison without applying"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the move-to-site dialog without moving"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: connection test in progress"
+msgid "Testing…"
+msgstr "Probando…"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a model from a discovered one and link it"
+msgid "Add"
+msgstr "Añadir"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create an AI connection"
+msgid "New connection"
+msgstr "Nueva conexión"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create an AI model"
+msgid "New model"
+msgstr "Nuevo modelo"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete this AI connection"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete this AI model"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard edits to the AI connection form"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard edits to the AI model form"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: drop the custom sampler order"
+msgid "Use backend order"
+msgstr "Usar el orden del backend"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: fill model fields from Hugging Face"
+msgid "Fill from Hugging Face"
+msgstr "Rellenar desde Hugging Face"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: link an existing model to this connection"
+msgid "Link"
+msgstr "Enlazar"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: link the chosen model to this connection"
+msgid "Link"
+msgstr "Enlazar"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: list the connection's models again"
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: list the models an AI connection offers"
+msgid "Discover models"
+msgstr "Descubrir modelos"
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: move a personal AI connection to the site"
+msgid "Make site connection"
+msgstr "Convertir en conexión del sitio"
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: move a personal AI model to the site"
+msgid "Make site model"
+msgstr "Convertir en modelo del sitio"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the linked AI model's editor"
+msgid "Edit model"
+msgstr "Editar modelo"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove a model's link to this connection"
+msgid "Unlink"
+msgstr "Desenlazar"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: reset sampler truncation and penalties to neutral"
+msgid "Neutralize samplers"
+msgstr "Neutralizar samplers"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save a model link's settings"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the AI connection form"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the AI model form"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save which groups may use a site AI model"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: send a test message through a model link"
+msgid "Send test message"
+msgstr "Enviar mensaje de prueba"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: set a custom sampler order"
+msgid "Customize order"
+msgstr "Personalizar orden"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: switch a model link off"
+msgid "Disable"
+msgstr "Desactivar"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: switch a model link on"
+msgid "Enable"
+msgstr "Activar"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: test message in progress"
+msgid "Sending…"
+msgstr "Enviando…"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: use Hugging Face values for empty model fields"
+msgid "Copy missing"
+msgstr "Copiar lo que falta"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: use every Hugging Face value in the model form"
+msgid "Copy all"
+msgstr "Copiar todo"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Assistant"
+msgstr "Asistente"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Caption"
+msgstr "Descripción"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Compaction"
+msgstr "Compactación"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Consolidation"
+msgstr "Consolidación"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Continue"
+msgstr "Continuación"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Embedding"
+msgstr "Embedding"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Expression"
+msgstr "Expresión"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Memory"
+msgstr "Memoria"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Memory assistance"
+msgstr "Asistencia de memoria"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Refine"
+msgstr "Refinamiento"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Regenerate"
+msgstr "Regeneración"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Reply"
+msgstr "Respuesta"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Side prompt"
+msgstr "Prompt secundario"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: job type in the outcomes chart"
+msgid "Topical clip"
+msgstr "Fragmento temático"
+
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: median value row in a usage chart tooltip"
+msgid "Median"
+msgstr "Mediana"
+
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: sum row in a usage chart tooltip"
+msgid "Total"
+msgstr "Total"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: the model form's current values"
+msgid "Current"
+msgstr "Actual"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: values Hugging Face supplies"
+msgid "Hugging Face"
+msgstr "Hugging Face"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: AI connections affected by a bulk action"
+msgid "%{connection_count} connection"
+msgid_plural "%{connection_count} connections"
+msgstr[0] "%{connection_count} conexión"
+msgstr[1] "%{connection_count} conexiones"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: AI models affected by a bulk action"
+msgid "%{model_count} model"
+msgid_plural "%{model_count} models"
+msgstr[0] "%{model_count} modelo"
+msgstr[1] "%{model_count} modelos"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no AI connections exist"
+msgid "No AI connections yet"
+msgstr "Aún no hay conexiones de IA"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no AI models exist"
+msgid "No AI models yet"
+msgstr "Aún no hay modelos de IA"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI connection concurrency limit"
+msgid "Max concurrent generations"
+msgstr "Máximo de generaciones simultáneas"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI connection is switched on"
+msgid "Enabled"
+msgstr "Activada"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI connection reports prompt reading progress"
+msgid "Report prompt progress"
+msgstr "Informar del progreso del prompt"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI connection request timeout in milliseconds"
+msgid "Request timeout (ms)"
+msgstr "Tiempo de espera de solicitud (ms)"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI connection selection priority"
+msgid "Priority"
+msgstr "Prioridad"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model can call tools"
+msgid "Supports tools"
+msgstr "Admite herramientas"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model completion mode"
+msgid "Completion mode"
+msgstr "Modo de completion"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model continues a message by assistant prefill"
+msgid "Continue by assistant prefill"
+msgstr "Continuar con prefill del asistente"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model hears audio itself"
+msgid "Hears audio"
+msgstr "Oye audio"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model price per million completion tokens"
+msgid "Completion cost per Mtok"
+msgstr "Coste de completion por Mtok"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model price per million prompt tokens"
+msgid "Prompt cost per Mtok"
+msgstr "Coste de prompt por Mtok"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model reads PDF files itself"
+msgid "Reads PDFs"
+msgstr "Lee PDF"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model reads images itself"
+msgid "Supports images"
+msgstr "Admite imágenes"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model returns separate reasoning"
+msgid "Supports thinking"
+msgstr "Admite razonamiento"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model to link to a connection"
+msgid "Model"
+msgstr "Modelo"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model watches video itself"
+msgid "Watches video"
+msgstr "Ve vídeo"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: API type of an AI connection"
+msgid "Adapter"
+msgstr "Adaptador"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: DRY sampler allowed repeat length"
+msgid "Allowed length"
+msgstr "Longitud permitida"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: DRY sampler base"
+msgid "Base"
+msgstr "Base"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: DRY sampler multiplier"
+msgid "Multiplier"
+msgstr "Multiplicador"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: Hugging Face repo of an AI model's tokenizer"
+msgid "Tokenizer (Hugging Face repo)"
+msgstr "Tokenizador (repositorio de Hugging Face)"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: Hugging Face repository the compared values come from"
+msgid "Hugging Face:"
+msgstr "Hugging Face:"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: XTC sampler probability"
+msgid "Probability"
+msgstr "Probabilidad"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: XTC sampler threshold"
+msgid "Threshold"
+msgstr "Umbral"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: a model link is switched on"
+msgid "Enabled"
+msgstr "Activado"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: analytics median generation speed"
+msgid "Median tokens/s"
+msgstr "Mediana de tokens/s"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: analytics median time to first token"
+msgid "Median time to first token"
+msgstr "Mediana del tiempo hasta el primer token"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: analytics total of cached prompt tokens"
+msgid "Cached prompt tokens"
+msgstr "Tokens de prompt en caché"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: analytics total of completion tokens"
+msgid "Completion tokens"
+msgstr "Tokens de completion"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: analytics total of job runs"
+msgid "Runs"
+msgstr "Ejecuciones"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: analytics total of money spent"
+msgid "Spend"
+msgstr "Gasto"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: analytics total of prompt tokens"
+msgid "Prompt tokens"
+msgstr "Tokens de prompt"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: background job time limit for silence"
+msgid "Background: stall"
+msgstr "Segundo plano: inactividad"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: background job time limit for silence, in seconds"
+msgid "Background: stall (s)"
+msgstr "Segundo plano: inactividad (s)"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: background job time limit for the first token"
+msgid "Background: first token"
+msgstr "Segundo plano: primer token"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: background job time limit for the first token, in seconds"
+msgid "Background: first token (s)"
+msgstr "Segundo plano: primer token (s)"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: background job total time limit"
+msgid "Background: total"
+msgstr "Segundo plano: total"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: background job total time limit, in seconds"
+msgid "Background: total (s)"
+msgstr "Segundo plano: total (s)"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: base URL of an AI connection's API"
+msgid "Base URL"
+msgstr "URL base"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat time limit for silence"
+msgid "Chat: stall"
+msgstr "Chat: inactividad"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat time limit for silence, in seconds"
+msgid "Chat: stall (s)"
+msgstr "Chat: inactividad (s)"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat time limit for the first token"
+msgid "Chat: first token"
+msgstr "Chat: primer token"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat time limit for the first token, in seconds"
+msgid "Chat: first token (s)"
+msgstr "Chat: primer token (s)"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat total time limit"
+msgid "Chat: total"
+msgstr "Chat: total"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: chat total time limit, in seconds"
+msgid "Chat: total (s)"
+msgstr "Chat: total (s)"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: display name of an AI model"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: drop special tokens from reply text"
+msgid "Skip special tokens"
+msgstr "Omitir tokens especiales"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: dynamic temperature exponent"
+msgid "Exponent"
+msgstr "Exponente"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: dynamic temperature maximum"
+msgid "Maximum"
+msgstr "Máximo"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: dynamic temperature minimum"
+msgid "Minimum"
+msgstr "Mínimo"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: extra HTTP headers of an AI connection"
+msgid "Extra headers (JSON object)"
+msgstr "Cabeceras extra (objeto JSON)"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: extra JSON request body of an AI model"
+msgid "Extra request body"
+msgstr "Cuerpo de solicitud extra"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: extra JSON sampler keys"
+msgid "Extra sampler params"
+msgstr "Parámetros de sampler extra"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: extra request body of an AI connection"
+msgid "Extra body (JSON object)"
+msgstr "Cuerpo extra (objeto JSON)"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: forbid the end-of-sequence token"
+msgid "Ban EOS token"
+msgstr "Prohibir el token EOS"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: groups allowed to run a site AI model"
+msgid "Who may use it"
+msgstr "Quién puede usarlo"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how an AI connection names sampler settings"
+msgid "Sampler dialect"
+msgstr "Dialecto del sampler"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how an AI connection sends the thinking setting"
+msgid "Thinking dialect"
+msgstr "Dialecto de razonamiento"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how far back the DRY sampler looks"
+msgid "Penalty range"
+msgstr "Alcance de la penalización"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how far back the repetition penalty looks"
+msgid "Repetition penalty range"
+msgstr "Alcance de la penalización por repetición"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how many tokens an AI model reads at once"
+msgid "Context window"
+msgstr "Ventana de contexto"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: image detail hint an AI model sends"
+msgid "Image detail"
+msgstr "Detalle de imagen"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: longest description an AI model writes"
+msgid "Caption max tokens"
+msgstr "Tokens máximos de descripción"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: model id sent to the backend"
+msgid "API model id"
+msgstr "ID de modelo de API"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: most tokens one reply may generate"
+msgid "Response tokens"
+msgstr "Tokens de respuesta"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of an AI connection"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: per-token sampling bias"
+msgid "Logit bias"
+msgstr "Sesgo de logits"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt an AI model follows to describe images"
+msgid "Caption prompt"
+msgstr "Prompt de descripción"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: reasoning effort of a thinking model"
+msgid "Thinking"
+msgstr "Razonamiento"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler frequency penalty"
+msgid "Frequency penalty"
+msgstr "Penalización por frecuencia"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler min-p cutoff"
+msgid "Min p"
+msgstr "Min p"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler nucleus sampling cutoff"
+msgid "Top p"
+msgstr "Top p"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler presence penalty"
+msgid "Presence penalty"
+msgstr "Penalización por presencia"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler random seed"
+msgid "Seed"
+msgstr "Semilla"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler repetition penalty"
+msgid "Repetition penalty"
+msgstr "Penalización por repetición"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler temperature"
+msgid "Temperature"
+msgstr "Temperatura"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler top-a cutoff"
+msgid "Top a"
+msgstr "Top a"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler top-k cutoff"
+msgid "Top k"
+msgstr "Top k"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler top-n-sigma cutoff"
+msgid "Top nσ"
+msgstr "Top nσ"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler typical-p cutoff"
+msgid "Typical p"
+msgstr "Typical p"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: strings that break a DRY repeat"
+msgid "Sequence breakers"
+msgstr "Separadores de secuencia"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: strings that end a reply, comma separated"
+msgid "Stop sequences (comma separated)"
+msgstr "Secuencias de parada (separadas por comas)"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tag closing an AI model's inline reasoning"
+msgid "Reasoning suffix"
+msgstr "Sufijo de razonamiento"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tag opening an AI model's inline reasoning"
+msgid "Reasoning prefix"
+msgstr "Prefijo de razonamiento"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: the model form's current value, on phones"
+msgid "Current: "
+msgstr "Actual: "
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: the owner's private notes about an AI model"
+msgid "Notes"
+msgstr "Notas"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: the value Hugging Face supplies, on phones"
+msgid "Hugging Face: "
+msgstr "Hugging Face: "
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: what non-admins see of a site AI model"
+msgid "Visible to users"
+msgstr "Visible para los usuarios"
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: who owns a new AI connection or model"
+msgid "Owner"
+msgstr "Propietario"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: DRY sampler settings"
+msgid "DRY"
+msgstr "DRY"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: XTC sampler settings"
+msgid "XTC"
+msgstr "XTC"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: an AI model's default sampler settings"
+msgid "Default sampler"
+msgstr "Sampler predeterminado"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: an AI model's generation time limits"
+msgid "Time limits"
+msgstr "Límites de tiempo"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: analytics chart of cached prompt tokens"
+msgid "Prompt token caching"
+msgstr "Caché de tokens de prompt"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: analytics chart of generation speed"
+msgid "Generation speed"
+msgstr "Velocidad de generación"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: analytics chart of job outcomes"
+msgid "Outcomes by job type"
+msgstr "Resultados por tipo de tarea"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: analytics chart of money spent per day"
+msgid "Spend per day"
+msgstr "Gasto por día"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: analytics chart of time to first token"
+msgid "Time to first token"
+msgstr "Tiempo hasta el primer token"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: analytics chart of tokens by model"
+msgid "Tokens by model"
+msgstr "Tokens por modelo"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: analytics chart of tokens per day"
+msgid "Tokens per day"
+msgstr "Tokens por día"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: buttons choosing Hugging Face fields to apply"
+msgid "Select fields to apply"
+msgstr "Selecciona los campos que aplicar"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog comparing model form values with Hugging Face's"
+msgid "Compare with Hugging Face"
+msgstr "Comparar con Hugging Face"
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog confirming a personal AI connection's move to the site"
+msgid "Make this a site connection?"
+msgstr "¿Convertir en conexión del sitio?"
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog confirming a personal AI model's move to the site"
+msgid "Make this a site model?"
+msgstr "¿Convertir en modelo del sitio?"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dynamic temperature sampler settings"
+msgid "Dynamic temperature"
+msgstr "Temperatura dinámica"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form creating an AI connection"
+msgid "New connection"
+msgstr "Nueva conexión"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form creating an AI model"
+msgid "New model"
+msgstr "Nuevo modelo"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form linking a model to this connection"
+msgid "Link a model"
+msgstr "Enlazar un modelo"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of AI connections"
+msgid "Connections"
+msgstr "Conexiones"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of AI models"
+msgid "Models"
+msgstr "Modelos"
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: list of what moving a row to the site also changes"
+msgid "This also changes:"
+msgstr "Esto también cambia:"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: models a connection's API lists"
+msgid "Models this connection advertises"
+msgstr "Modelos que ofrece esta conexión"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: models linked to an AI connection"
+msgid "Model connections"
+msgstr "Conexiones de modelos"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: order llama.cpp applies samplers in"
+msgid "Sampler order"
+msgstr "Orden de los samplers"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: token-level sampler settings"
+msgid "Token control"
+msgstr "Control de tokens"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: usage analytics page"
+msgid "Analytics"
+msgstr "Analíticas"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: create an AI model"
+msgid "New model"
+msgstr "Nuevo modelo"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: switch to the AI connection editor"
+msgid "Connections"
+msgstr "Conexiones"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: switch to the AI model editor"
+msgid "Models"
+msgstr "Modelos"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: AI model completion mode"
+msgid "Chat"
+msgstr "Chat"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: AI model completion mode"
+msgid "Classifier"
+msgstr "Clasificador"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: AI model completion mode"
+msgid "Embedding"
+msgstr "Embedding"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: AI model completion mode"
+msgid "Text completion"
+msgstr "Completion de texto"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a model link uses its connection's dialect"
+msgid "Inherit from connection"
+msgstr "Heredar de la conexión"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a sampler switch is off"
+msgid "Off"
+msgstr "Desactivado"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: a sampler switch is on"
+msgid "On"
+msgstr "Activado"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: image detail hint left out of requests"
+msgid "Not sent"
+msgstr "No se envía"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: image detail hint left to the backend"
+msgid "Default"
+msgstr "Predeterminado"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: image detail value named inside a sentence"
+msgid "auto"
+msgstr "auto"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: image detail value named inside a sentence"
+msgid "high"
+msgstr "alto"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: image detail value named inside a sentence"
+msgid "low"
+msgstr "bajo"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of tokens in a usage chart"
+msgid "Cached prompt"
+msgstr "Prompt en caché"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of tokens in a usage chart"
+msgid "Completion"
+msgstr "Completion"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of tokens in a usage chart"
+msgid "Prompt, cache not reported"
+msgstr "Prompt, caché no informada"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: kind of tokens in a usage chart"
+msgid "Uncached prompt"
+msgstr "Prompt sin caché"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: leave a sampler setting to the backend"
+msgid "Backend default"
+msgstr "Predeterminado del backend"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: model reasoning effort"
+msgid "Extra high"
+msgstr "Muy alto"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: model reasoning effort"
+msgid "High"
+msgstr "Alto"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: model reasoning effort"
+msgid "Low"
+msgstr "Bajo"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: model reasoning effort"
+msgid "Max"
+msgstr "Máximo"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: model reasoning effort"
+msgid "Medium"
+msgstr "Medio"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: model reasoning effort"
+msgid "Minimal"
+msgstr "Mínimo"
+
+#: lib/mythweaver/ai/sampler_params.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: model reasoning effort"
+msgid "Off"
+msgstr "Desactivado"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no AI model chosen to link"
+msgid "Choose a model"
+msgstr "Elige un modelo"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no caption model chosen"
+msgid "None"
+msgstr "Ninguno"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no sampler dialect on an AI connection"
+msgid "None"
+msgstr "Ninguno"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no thinking dialect on an AI connection"
+msgid "None"
+msgstr "Ninguno"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: non-admins see all of a site AI model"
+msgid "Everything"
+msgstr "Todo"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: non-admins see only a site AI model's name"
+msgid "Only names (runtime-only)"
+msgstr "Solo nombres (solo ejecución)"
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: owner of a new AI connection or model"
+msgid "Personal (only me)"
+msgstr "Personal (solo yo)"
+
+#: lib/mythweaver_web/components/ai_ownership.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: owner of a new AI connection or model"
+msgid "Site (every user)"
+msgstr "Sitio (todos los usuarios)"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: sampler stage in the sampler order"
+msgid "DRY"
+msgstr "DRY"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: sampler stage in the sampler order"
+msgid "Min p"
+msgstr "Min p"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: sampler stage in the sampler order"
+msgid "Repetition penalties"
+msgstr "Penalizaciones por repetición"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: sampler stage in the sampler order"
+msgid "Temperature"
+msgstr "Temperatura"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: sampler stage in the sampler order"
+msgid "Top k"
+msgstr "Top k"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: sampler stage in the sampler order"
+msgid "Top nσ"
+msgstr "Top nσ"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: sampler stage in the sampler order"
+msgid "Top p"
+msgstr "Top p"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: sampler stage in the sampler order"
+msgid "Typical p"
+msgstr "Typical p"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: sampler stage in the sampler order"
+msgid "XTC"
+msgstr "XTC"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: the built-in caption instruction, no prompt chosen"
+msgid "Built-in instruction"
+msgstr "Instrucción integrada"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: thinking effort switched off"
+msgid "Off"
+msgstr "Desactivado"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: AI connection editor"
+msgid "AI connections"
+msgstr "Conexiones de IA"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: AI model editor"
+msgid "AI models"
+msgstr "Modelos de IA"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: usage analytics"
+msgid "Analytics"
+msgstr "Analíticas"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: a job time limit with no default"
+msgid "No limit"
+msgstr "Sin límite"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search AI connections"
+msgid "Name or URL"
+msgstr "Nombre o URL"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search AI models"
+msgid "Name or model id"
+msgstr "Nombre o ID de modelo"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a discovered model is linked to this connection"
+msgid "Linked"
+msgstr "Enlazado"
+
+#. Flash after a discovered model was linked to the connection.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a discovered model was linked to the connection"
+msgid "Linked"
+msgstr "Enlazado"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a job run ended, in the outcomes chart"
+msgid "Awaiting review"
+msgstr "Pendiente de revisión"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a job run ended, in the outcomes chart"
+msgid "Canceled"
+msgstr "Cancelada"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a job run ended, in the outcomes chart"
+msgid "Completed"
+msgstr "Completada"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a job run ended, in the outcomes chart"
+msgid "Failed"
+msgstr "Fallida"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how a job run ended, in the outcomes chart"
+msgid "Interrupted"
+msgstr "Interrumpida"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: no custom sampler order set"
+msgid "Backend default order"
+msgstr "Orden predeterminado del backend"
+
+#. Flash after saving which groups may use a site model.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the groups allowed to use a site model were saved"
+msgid "Saved"
+msgstr "Guardado"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: also list Hugging Face fields equal to the form's"
+msgid "Show unchanged"
+msgstr "Mostrar sin cambios"
+
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: 95th percentile of a usage chart range; the value is a formatted amount such as 1.2 s"
+msgid "95th percentile %{percentile_value}"
+msgstr "Percentil 95: %{percentile_value}"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: cached prompt tokens in a usage chart tooltip, after the number"
+msgid "cached"
+msgstr "en caché"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: completion price per million tokens of a discovered model"
+msgid "%{price}/Mtok out"
+msgstr "%{price}/Mtok salida"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: completion tokens in a usage chart tooltip, after the number"
+msgid "completion"
+msgstr "completion"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: context window of a discovered model"
+msgid "%{token_count} ctx"
+msgstr "%{token_count} ctx"
+
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: exact run total in a usage chart tooltip"
+msgid "%{run_count} run"
+msgid_plural "%{run_count} runs"
+msgstr[0] "%{run_count} ejecución"
+msgstr[1] "%{run_count} ejecuciones"
+
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: exact token total in a usage chart tooltip"
+msgid "%{token_count} token"
+msgid_plural "%{token_count} tokens"
+msgstr[0] "%{token_count} token"
+msgstr[1] "%{token_count} tokens"
+
+#: lib/mythweaver_web/client_strings.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: generation speed in a usage chart tooltip"
+msgid "%{speed} tokens/s"
+msgstr "%{speed} tokens/s"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: prompt price per million tokens of a discovered model"
+msgid "%{price}/Mtok in"
+msgstr "%{price}/Mtok entrada"
+
+#: lib/mythweaver_web/live/analytics_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: prompt tokens in a usage chart tooltip, after the number"
+msgid "prompt"
+msgstr "prompt"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: AI model returns separate reasoning"
+msgid "Separate reasoning"
+msgstr "Razonamiento separado"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: Hugging Face repo of an AI model's tokenizer"
+msgid "Tokenizer"
+msgstr "Tokenizador"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: model that describes media for an AI model"
+msgid "Describe images, audio and video with"
+msgstr "Describir imágenes, audio y vídeo con"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler min-p cutoff"
+msgid "Min P"
+msgstr "Min P"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler nucleus sampling cutoff"
+msgid "Top P"
+msgstr "Top P"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler top-k cutoff"
+msgid "Top K"
+msgstr "Top K"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sampler typical-p cutoff"
+msgid "Typical P"
+msgstr "Typical P"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tags that wrap an AI model's reasoning"
+msgid "Reasoning tags"
+msgstr "Etiquetas de razonamiento"
+
+#: lib/mythweaver/ai/adapters/openai_compatible.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: API type of an AI connection"
+msgid "OpenAI-compatible"
+msgstr "Compatible con OpenAI"
+
+#: lib/mythweaver/ai/sampler_dialects/generic.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: sampler dialect of an AI connection"
+msgid "Generic"
+msgstr "Genérico"
+
+#: lib/mythweaver/ai/sampler_dialects/openai.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: sampler dialect of an AI connection"
+msgid "OpenAI (strict)"
+msgstr "OpenAI (estricto)"
+
+#. reasoning_effort is an API field name; keep it as is.
+#: lib/mythweaver/ai/thinking_dialects/openai.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: thinking dialect of an AI connection"
+msgid "OpenAI reasoning_effort"
+msgstr "OpenAI reasoning_effort"
+
+#: lib/mythweaver/ai/thinking_dialects/openrouter.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: thinking dialect of an AI connection"
+msgid "OpenRouter reasoning"
+msgstr "Razonamiento de OpenRouter"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a Hugging Face comparison value is off"
+msgid "No"
+msgstr "No"
+
+#: lib/mythweaver/ai/hugging_face.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a Hugging Face comparison value is on"
+msgid "Yes"
+msgstr "Sí"
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: an AI model setting's value before applying Hugging Face data"
+msgid "Was %{previous_value}"
+msgstr "Antes: %{previous_value}"
+
+#. Confirm dialog before removing a model's link to an AI connection.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: confirm dialog before unlinking a model from an AI connection"
+msgid "Unlink %{model_name} from %{connection_name}?"
+msgstr "¿Desenlazar %{model_name} de %{connection_name}?"
+
+#. Flash when a model link's test message crashed. %{error_detail} is an internal error term.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a model link's test message crashed"
+msgid "Test message crashed: %{error_detail}"
+msgstr "El mensaje de prueba falló inesperadamente: %{error_detail}"
+
+#. Flash when a model link's test message fails. %{error_detail} is an internal error term.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a model link's test message failed"
+msgid "%{model_name} test failed: %{error_detail}"
+msgstr "La prueba de %{model_name} falló: %{error_detail}"
+
+#. Flash when the Test connection check crashed. %{error_detail} is an internal error term.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after an AI connection test crashed"
+msgid "Connection test crashed: %{error_detail}"
+msgstr "La prueba de conexión falló inesperadamente: %{error_detail}"
+
+#. Flash when the Test connection button's check fails. %{error_detail} is an internal error term.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after an AI connection test failed"
+msgid "Connection test failed: %{error_detail}"
+msgstr "La prueba de conexión falló: %{error_detail}"
+
+#. Flash after a discovered model was created and linked to the connection.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after creating a discovered model and linking it to an AI connection"
+msgid "%{model_name} added and linked"
+msgstr "%{model_name} añadido y enlazado"
+
+#. Flash after a model was linked to the connection.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after linking a model to an AI connection"
+msgid "%{model_name} linked"
+msgstr "%{model_name} enlazado"
+
+#. Flash when listing a connection's models crashed. %{error_detail} is an internal error term.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after listing a connection's models crashed"
+msgid "Discovery crashed: %{error_detail}"
+msgstr "El descubrimiento falló inesperadamente: %{error_detail}"
+
+#. Flash when listing a connection's models fails. %{error_detail} is an internal error term.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after listing a connection's models failed"
+msgid "Discovery failed: %{error_detail}"
+msgstr "El descubrimiento falló: %{error_detail}"
+
+#. Flash after a model link's settings were saved.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after saving a model link's settings"
+msgid "%{model_name} updated"
+msgstr "%{model_name} actualizado"
+
+#. Flash after an AI connection was saved.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after saving an AI connection"
+msgid "%{connection_name} saved"
+msgstr "%{connection_name} guardada"
+
+#. Flash after an AI model was saved.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after saving an AI model"
+msgid "%{model_name} saved"
+msgstr "%{model_name} guardado"
+
+#. Flash after a model was unlinked from the connection.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after unlinking a model from an AI connection"
+msgid "%{model_name} unlinked"
+msgstr "%{model_name} desenlazado"
+
+#. Flash when the AI connection in the address no longer exists or is not yours.
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when an AI connection could not be found"
+msgid "AI connection not found"
+msgstr "No se encontró la conexión de IA"
+
+#. Flash when the AI model in the address no longer exists or is not yours.
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when an AI model could not be found"
+msgid "Model not found"
+msgstr "No se encontró el modelo"
+
+#: lib/mythweaver_web/live/ai_provider_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: listing an AI connection's models is in progress"
+msgid "Querying %{models_url}…"
+msgstr "Consultando %{models_url}…"
+
+#: lib/mythweaver/analytics.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: name shown for usage of an AI model that was deleted"
+msgid "Deleted model"
+msgstr "Modelo eliminado"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: number of AI connections linking an AI model, and its completion mode"
+msgid "%{connection_count} connection · %{completion_mode}"
+msgid_plural "%{connection_count} connections · %{completion_mode}"
+msgstr[0] "%{connection_count} conexión · %{completion_mode}"
+msgstr[1] "%{connection_count} conexiones · %{completion_mode}"
+
+#: lib/mythweaver_web/live/ai_model_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the Hugging Face model lookup crashed"
+msgid "The lookup crashed."
+msgstr "La búsqueda falló inesperadamente."
+
+#: lib/mythweaver_web/components/ai/hf_compare.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the tokenizer comes from this base model repository"
+msgid "(base model of %{model_repo})"
+msgstr "(modelo base de %{model_repo})"

@@ -1,0 +1,537 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Flash after a moderator moved a user's lore book to the site.
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{book_name} is now a site book"
+msgstr ""
+
+#. The endpoint is the server's MCP URL and the header is the literal HTTP header Authorization: Bearer <token>, both shown as code.
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "Connect AI clients such as Claude, Cursor or Codex to Mythweaver over MCP. The endpoint is %{endpoint}; clients send %{auth_header}. A read-only token sees only reading tools. A full-access token can use every tool but never your site administration or moderation permissions; a site token, if you hold them, can. Write tools run as soon as the client calls them."
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "Copy this token now; it is not shown again."
+msgstr ""
+
+#: lib/mythweaver_web/live/user_setup_live.ex
+#, elixir-autogen, elixir-format
+msgid "Create the first account. Every account is an administrator."
+msgstr ""
+
+#: lib/mythweaver_web/sudo.ex
+#, elixir-autogen, elixir-format
+msgid "Enter your password to continue. You won't be asked again for 15 minutes."
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "MCP access is turned off for this account by an administrator. Existing tokens are listed so you can revoke them."
+msgstr ""
+
+#. Flash when creating an MCP token while an administrator has turned MCP off for the account.
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "MCP access is turned off for your account."
+msgstr ""
+
+#. Confirm dialog before a moderator moves a user's lore book to the site.
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgid "Move %{book_name} to the site? Its links to this user's other content are removed."
+msgstr ""
+
+#. Confirm dialog before revoking an MCP access token.
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgid "Revoke %{token_name}? Clients using it stop working."
+msgstr ""
+
+#: lib/mythweaver_web/sudo.ex
+#, elixir-autogen, elixir-format
+msgid "Set a password in Account settings first."
+msgstr ""
+
+#. Flash on the sign-in page after too many wrong passwords; the wait is rounded up to minutes.
+#: lib/mythweaver_web/controllers/user_session_controller.ex
+#, elixir-autogen, elixir-format
+msgid "Too many sign-in attempts. Try again in %{wait_minutes} minute."
+msgid_plural "Too many sign-in attempts. Try again in %{wait_minutes} minutes."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Flash on the sign-in page after too many wrong passwords; the wait is under a minute.
+#: lib/mythweaver_web/controllers/user_session_controller.ex
+#, elixir-autogen, elixir-format
+msgid "Too many sign-in attempts. Try again in %{wait_seconds} second."
+msgid_plural "Too many sign-in attempts. Try again in %{wait_seconds} seconds."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/sudo.ex
+#, elixir-autogen, elixir-format
+msgid "Too many tries. Try again in %{wait_minutes} minute."
+msgid_plural "Too many tries. Try again in %{wait_minutes} minutes."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/sudo.ex
+#, elixir-autogen, elixir-format
+msgid "Too many tries. Try again in %{wait_seconds} second."
+msgid_plural "Too many tries. Try again in %{wait_seconds} seconds."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Flash on the sign-in page after a signed-out visitor opened a page that needs an account.
+#: lib/mythweaver_web/user_auth.ex
+#, elixir-autogen, elixir-format
+msgid "You must log in to access this page."
+msgstr ""
+
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: back to the user's account page in moderation"
+msgid "Back to account"
+msgstr ""
+
+#: lib/mythweaver_web/sudo.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the password prompt without confirming"
+msgid "Cancel"
+msgstr ""
+
+#: lib/mythweaver_web/sudo.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: confirm the password and continue the change"
+msgid "Continue"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create an MCP access token"
+msgid "Create token"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_setup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create the first account"
+msgid "Create account"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_login_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: enter the app as the auto-login account without signing in"
+msgid "Continue without logging in"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: hide the new MCP token secret"
+msgid "Done"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: move a user's lore book to the site"
+msgid "Move to site"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the moderation pages"
+msgid "Moderation"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: revoke an MCP access token"
+msgid "Revoke"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save a first account password"
+msgid "Set password"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the account profile form"
+msgid "Save"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the changed account password"
+msgid "Change password"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_login_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: submit the sign-in form"
+msgid "Log in"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no MCP access tokens"
+msgid "No tokens yet."
+msgstr ""
+
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: the user has no chats"
+msgid "No chats"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: the user has no content of this kind"
+msgid "None"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: access level of a new MCP token"
+msgid "Access"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_login_live.ex
+#: lib/mythweaver_web/live/user_settings_live.ex
+#: lib/mythweaver_web/live/user_setup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: account email address"
+msgid "Email"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_login_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: account password"
+msgid "Password"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#: lib/mythweaver_web/live/user_setup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: account's optional display name"
+msgid "Nickname (optional)"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#: lib/mythweaver_web/live/user_setup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: account's unique public handle"
+msgid "Handle"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: current password, asked for only when the email changes"
+msgid "Current password (needed to change email)"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_login_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: keep the sign-in after the browser closes"
+msgid "Remember me"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a new MCP access token"
+msgid "Token name"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: new account password, with its minimum length"
+msgid "New password (at least 12 characters)"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_setup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: new account password, with its minimum length"
+msgid "Password (at least 12 characters)"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: repeat the new password"
+msgid "Confirm new password"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_setup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: repeat the new password"
+msgid "Confirm password"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: the account's current password"
+msgid "Current password"
+msgstr ""
+
+#: lib/mythweaver_web/sudo.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: the account's current password"
+msgid "Password"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a user's AI connections on their moderation data page"
+msgid "AI connections"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a user's characters on their moderation data page"
+msgid "Characters"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a user's chats on their moderation data page"
+msgid "Chats"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a user's lore books on their moderation data page"
+msgid "Lore books"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a user's prompts on their moderation data page"
+msgid "Prompts"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: a user's scripts on their moderation data page"
+msgid "Scripts"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: account profile section"
+msgid "Profile"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: account section for MCP access tokens"
+msgid "MCP access"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: account settings page"
+msgid "Account settings"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: an MCP token's recent tool calls, with how many are listed"
+msgid "Recent calls (%{call_count})"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_setup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: first-run setup, with the site's name"
+msgid "Welcome to %{site_name}"
+msgstr ""
+
+#: lib/mythweaver_web/sudo.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: password prompt before a sensitive change"
+msgid "Confirm it's you"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: section for changing the account password"
+msgid "Change password"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: section for setting a first account password"
+msgid "Set a password"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_login_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: sign-in page, with the site's name"
+msgid "Log in to %{site_name}"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: access level of a new MCP token"
+msgid "Full access"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: access level of a new MCP token"
+msgid "Full access, including site administration"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: access level of a new MCP token"
+msgid "Read only"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: account settings page"
+msgid "Account settings"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_setup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: first-run setup, with the site's name"
+msgid "Set up %{site_name}"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: moderation page listing a user's content"
+msgid "%{user_name}'s data"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_login_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: sign-in page"
+msgid "Log in"
+msgstr ""
+
+#. Flash after creating an MCP access token; its secret shows once below.
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a new MCP access token was created"
+msgid "Token created"
+msgstr ""
+
+#. Flash after signing up, as the new account is signed in.
+#: lib/mythweaver_web/controllers/user_session_controller.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a new account was just created"
+msgid "Account created"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: access level of an MCP token"
+msgid "Full access"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: access level of an MCP token"
+msgid "Full access + site"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: access level of an MCP token"
+msgid "Read only"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: an MCP token that was never used"
+msgid "· last used never"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: an MCP token's access level and last characters, then its creation date follows"
+msgid "%{access_level} · …%{token_hint} · created"
+msgstr ""
+
+#. Flash when the first-run setup form is sent after another first account was already created.
+#: lib/mythweaver_web/live/user_setup_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: first-run setup already done, with the site's name"
+msgid "%{site_name} is already set up"
+msgstr ""
+
+#. Flash after signing in.
+#: lib/mythweaver_web/controllers/user_session_controller.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: greeting after signing in"
+msgid "Welcome back!"
+msgstr ""
+
+#. Flash when moving a user's lore book to the site failed.
+#: lib/mythweaver_web/live/user_data_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: moving a user's lore book to the site failed"
+msgid "Could not move it"
+msgstr ""
+
+#. Flash on the sign-in page when the email or password is wrong; it never says which.
+#: lib/mythweaver_web/controllers/user_session_controller.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: sign-in refused, email or password wrong"
+msgid "Invalid email or password"
+msgstr ""
+
+#. Flash after signing out.
+#: lib/mythweaver_web/controllers/user_session_controller.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: signed out"
+msgid "Logged out"
+msgstr ""
+
+#. Flash when changing the account password fails.
+#: lib/mythweaver_web/controllers/user_session_controller.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the account password change failed"
+msgid "Could not update password"
+msgstr ""
+
+#. Flash after changing the account password.
+#: lib/mythweaver_web/controllers/user_session_controller.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the account password was changed"
+msgid "Password updated"
+msgstr ""
+
+#. Flash after saving the profile form on the account settings page.
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: the account profile was saved"
+msgid "Account saved"
+msgstr ""
+
+#: lib/mythweaver_web/live/user_settings_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: when an MCP token was last used, its date follows"
+msgid "· last used"
+msgstr ""
+
+#: lib/mythweaver_web/sudo.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: sudo prompt error when the entered password is wrong"
+msgid "That password is wrong."
+msgstr ""

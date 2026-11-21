@@ -1,0 +1,403 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Hint under the tag text field. %{tag_format} is the literal pattern "namespace:name" and %{example_tag} a literal example tag; neither is translated.
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{tag_format}, e.g. %{example_tag}; stored lowercase"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgid "A personal tag is yours alone: no other user, admin or not, sees it or its rules. Site tags, siblings and parents are seen by every user, and only admins edit them."
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgid "A sibling: wherever this tag appears, show that one instead."
+msgstr ""
+
+#. Error flash when the tag form has invalid fields.
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save — see the highlighted fields"
+msgstr ""
+
+#. Confirm dialog before deleting the open tag in the tag manager.
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgid "Delete this tag? It is removed from every item and filter."
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgid "Every item with this tag also counts as having these."
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgid "Items with this tag (%{tagged_item_count})"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a tag, or create a new one."
+msgstr ""
+
+#. Flash shown when the tag open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgid "The tag was deleted or moved elsewhere."
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/tag_input.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that removes a tag not yet named"
+msgid "Remove"
+msgstr ""
+
+#: lib/mythweaver_web/client_strings.ex
+#: lib/mythweaver_web/components/core_components/tag_input.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: button that removes this tag from the field"
+msgid "Remove %{tag_name}"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of tags in the tag manager"
+msgid "Tags"
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/tag_input.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: minus sign marking an excluded filter tag"
+msgid "not"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: a site-wide tag"
+msgid "Site"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a new tag"
+msgid "New tag"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the open tag"
+msgid "Delete"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard edits to the tag form"
+msgid "Cancel"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the tag form"
+msgid "Save"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: kind of a tagged item, a character"
+msgid "Character"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: kind of a tagged item, a chat"
+msgid "Chat"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: kind of a tagged item, a lore book"
+msgid "Lore book"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: kind of a tagged item, a lore entry"
+msgid "Lore entry"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: kind of a tagged item, a prompt"
+msgid "Prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: kind of a tagged item, a prompt block"
+msgid "Prompt block"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: kind of a tagged item, a script"
+msgid "Script"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "column header: kind of a tagged item, an AI model"
+msgid "AI model"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: tags affected by a bulk action"
+msgid "%{tag_count} tag"
+msgid_plural "%{tag_count} tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: a tagged item that has no name"
+msgid "Untitled"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no items carry the open tag"
+msgid "None"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no tags display as the open tag"
+msgid "None"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: tag manager with no tags"
+msgid "No tags yet"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: tag search with no results"
+msgid "No tags match this search"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: the open tag has no child tags"
+msgid "None"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: bulk edit, parent tags to add to the selected tags"
+msgid "Add parents"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: bulk edit, parent tags to remove from the selected tags"
+msgid "Remove parents"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: bulk edit, sibling tag the selected tags display as"
+msgid "Displays as"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: parent tags of a tag"
+msgid "Parents"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: sibling tag this tag displays as"
+msgid "Displays as"
+msgstr ""
+
+#: lib/mythweaver_web/tag_fields.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: site-wide tags of an item"
+msgid "Site tags"
+msgstr ""
+
+#: lib/mythweaver_web/tag_filter.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tag filter of a list"
+msgid "Tags"
+msgstr ""
+
+#: lib/mythweaver_web/components/core_components/tag_input.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tags implied by the field's parent rules"
+msgid "Implies:"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: the text of a tag"
+msgid "Tag"
+msgstr ""
+
+#: lib/mythweaver_web/tag_fields.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: the viewer's own tags of a site item"
+msgid "My tags"
+msgstr ""
+
+#: lib/mythweaver_web/tag_fields.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: the viewer's own tags of an item"
+msgid "Tags"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: who owns a new tag"
+msgid "Owner"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: tag form for a tag not yet created"
+msgid "New tag"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: tag manager list"
+msgid "Tags"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: tags that display as the open tag"
+msgid "Shown as this tag"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: tags whose parent is the open tag"
+msgid "Children"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: tag owner, the viewer alone"
+msgid "Personal (only me)"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: tag owner, the whole site"
+msgid "Site (every user)"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: tag manager"
+msgid "Tags"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search the tag list by tag text"
+msgid "Tag text"
+msgstr ""
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a typed tag was refused"
+msgid "%{tag_text}: * must be a namespace wildcard like series:*"
+msgstr ""
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a typed tag was refused"
+msgid "%{tag_text}: can't contain *"
+msgstr ""
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a typed tag was refused"
+msgid "%{tag_text}: can't start with -"
+msgstr ""
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a typed tag was refused"
+msgid "%{tag_text}: is too long"
+msgstr ""
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a typed tag was refused"
+msgid "%{tag_text}: needs a name"
+msgstr ""
+
+#: lib/mythweaver/tags.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: why a typed tag was refused"
+msgid "%{tag_text}: needs a tag"
+msgstr ""
+
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: number of items carrying this tag"
+msgid "Items with this tag"
+msgstr ""
+
+#: lib/mythweaver_web/tag_fields.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: hint under an item's site-wide tags, who sees them"
+msgid "Everyone sees these."
+msgstr ""
+
+#: lib/mythweaver_web/tag_fields.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: hint under the viewer's own tags of a site item, who sees them"
+msgid "Only you see these."
+msgstr ""
+
+#. Info flash after a tag is deleted; %{tag_name} is the tag's text, e.g. series:metroid.
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after deleting a tag"
+msgid "%{tag_name} deleted"
+msgstr ""
+
+#. Info flash after a tag is saved; %{tag_name} is the tag's text, e.g. series:metroid.
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after saving a tag"
+msgid "%{tag_name} saved"
+msgstr ""
+
+#. Error flash: the tag in the address does not exist or the viewer cannot edit it.
+#: lib/mythweaver_web/live/tag_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when the tag in the address does not exist"
+msgid "Tag not found"
+msgstr ""

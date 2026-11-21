@@ -1,0 +1,1569 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/mythweaver_web/components/hand_off.ex
+#, elixir-autogen, elixir-format
+msgid "%{item_name} has editors, so it is not deleted: one of them owns it from now on, and it leaves your account and your chats."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "AI model shared by %{owner_name} (@%{owner_handle})."
+msgstr ""
+
+#. Confirmation before removing a share. %{impact_list} is a list of counted things, e.g. "2 chat participants and 1 tag".
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Also removes from @%{user_handle}'s content: %{impact_list}."
+msgstr ""
+
+#. Confirmation before unpublishing a catalog listing. %{impact_list} is a list of counted things, e.g. "2 chat participants and 1 tag".
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Also removes from its subscribers' content: %{impact_list}."
+msgstr ""
+
+#. Confirmation before hiding a site item. %{impact_list} is a list of counted things, e.g. "2 chat participants and 1 tag".
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Also removes from your content: %{impact_list}."
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Anyone can subscribe to a published copy; each new release updates it for them."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Changed since you enabled it. Enable it again to run it."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Character shared by %{owner_name} (@%{owner_handle})."
+msgstr ""
+
+#. Flash when cloning a shared item would exceed the viewer's quotas.
+#: lib/mythweaver_web/flash.ex
+#, elixir-autogen, elixir-format
+msgid "Cloning this would go over your limits."
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Daily token limit for @%{user_handle}"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Everyone may use the site's content. Hide what you don't want in your lists; Restore brings it back."
+msgstr ""
+
+#: lib/mythweaver_web/components/hand_off.ex
+#, elixir-autogen, elixir-format
+msgid "Give and remove from my account"
+msgstr ""
+
+#. Confirm dialog before the viewer leaves a share.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Leave %{item_name}? You lose it and whatever of yours uses it."
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgid "Lore book published by %{publisher}."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Lore book shared by %{owner_name} (@%{owner_handle})."
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgid "Memory profile published by %{publisher}."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Memory profile shared by %{owner_name} (@%{owner_handle})."
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "No subscriber's content uses it."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "None of your connections runs it yet."
+msgstr ""
+
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgid "Nothing is waiting for review"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Nothing of theirs uses it."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Nothing of yours uses it."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Outlet shared by %{owner_name} (@%{owner_handle})."
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgid "Prompt block published by %{publisher}."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Prompt block shared by %{owner_name} (@%{owner_handle})."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Prompt shared by %{owner_name} (@%{owner_handle})."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Runs on your own connection: connect one of yours to use it."
+msgstr ""
+
+#. %{field_list} is a list of the item's protected field names, e.g. "description and personality".
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgid "Runtime-only: subscribers' models use its %{field_list}, but nobody can read them."
+msgstr ""
+
+#. %{field_list} is a list of the item's protected field names, e.g. "description and personality".
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Runtime-only: the model uses its %{field_list}, but you can't see them."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Script shared by %{owner_name} (@%{owner_handle})."
+msgstr ""
+
+#: lib/mythweaver_web/components/hand_off.ex
+#, elixir-autogen, elixir-format
+msgid "Share “%{prompt_name}” with %{user_handle} first."
+msgstr ""
+
+#. Flash when deleting hands an item to an editor who cannot use one of its prompts yet.
+#: lib/mythweaver_web/components/hand_off.ex
+#, elixir-autogen, elixir-format
+msgid "Share “%{prompt_name}” with its editor first."
+msgstr ""
+
+#: lib/mythweaver_web/components/hand_off.ex
+#, elixir-autogen, elixir-format
+msgid "Share “%{prompt_name}” with them first."
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgid "Side prompt published by %{publisher}."
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgid "Side prompt set published by %{publisher}."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Side prompt set shared by %{owner_name} (@%{owner_handle})."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "Side prompt shared by %{owner_name} (@%{owner_handle})."
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgid "Subscribe to read everything it holds."
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "The daily limit must be a whole number above 0."
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "The model still receives the content, so careful prompting can coax it into repeating parts of it."
+msgstr ""
+
+#. Confirm dialog before the viewer enables a shared script that uses no mw APIs.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "This script uses none of the mw APIs. Enable it?"
+msgstr ""
+
+#. Confirm dialog before the viewer enables a shared script. %{api_list} is a list of Lua API names, e.g. "mw.chat and mw.vars".
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "This script will be able to: %{api_list}. Enable it?"
+msgstr ""
+
+#. Confirm dialog before the viewer unsubscribes from a catalog listing.
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgid "Unsubscribe from %{listing_title}? You lose it and whatever of yours uses it."
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Whose connection @%{user_handle}'s runs use"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Whose connection their runs use"
+msgstr ""
+
+#. Confirm dialog before withdrawing a submission from review.
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgid "Withdraw “%{submission_title}”? It is discarded unsaved."
+msgstr ""
+
+#. %{shared_link} is a link with the text "Shared with me" to the viewer's shares page.
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgid "You are subscribed; it is listed under %{shared_link}."
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgid "You can't share your connection."
+msgstr ""
+
+#. Flash when the viewer may not subscribe to a catalog listing.
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgid "You can't subscribe to this"
+msgstr ""
+
+#. %{add_link} is a link with the text "Add one" to the new AI connection page.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgid "You have no connections of your own. %{add_link} to run it."
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: daily token limit field of a shared AI model"
+msgid "Daily token limit"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: select for the invited account's share role"
+msgid "Role"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: select for the invited subscriber's visibility"
+msgid "Visibility"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: visibility select of one subscriber share"
+msgid "Visibility for @%{user_handle}"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: catalog listing featured by the site"
+msgid "Featured"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: catalog listing visibility, contents can be inspected"
+msgid "Readable"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: catalog listing visibility, use only"
+msgid "Runtime-only"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a catalog listing's item"
+msgid "character"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a catalog listing's item"
+msgid "lore book"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a catalog listing's item"
+msgid "memory profile"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a catalog listing's item"
+msgid "outlet"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a catalog listing's item"
+msgid "prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a catalog listing's item"
+msgid "prompt block"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a catalog listing's item"
+msgid "script"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a catalog listing's item"
+msgid "side prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a catalog listing's item"
+msgid "side prompt set"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a shared item"
+msgid "AI model"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a shared item"
+msgid "character"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a shared item"
+msgid "lore book"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a shared item"
+msgid "memory profile"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a shared item"
+msgid "outlet"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a shared item"
+msgid "prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a shared item"
+msgid "prompt block"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a shared item"
+msgid "script"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a shared item"
+msgid "side prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of a shared item"
+msgid "side prompt set"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: release version of a catalog listing"
+msgid "v%{version_number}"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: share role that may edit the item"
+msgid "Editor"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: share role that may only use the item"
+msgid "Subscriber"
+msgstr ""
+
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: submission adds new content"
+msgid "New"
+msgstr ""
+
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: submission comes from an import"
+msgid "Import"
+msgstr ""
+
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: submission edits existing content"
+msgid "Edit"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: subscriber total of a catalog listing"
+msgid "%{subscriber_count} subscriber"
+msgid_plural "%{subscriber_count} subscribers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: viewer's role and visibility on a share"
+msgid "Subscriber, Readable"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: viewer's role and visibility on a share"
+msgid "Subscriber, Runtime-only"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: viewer's role on a share"
+msgid "Editor"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: clone a catalog listing's item into the viewer's own"
+msgid "Clone"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: clone a shared or site item into the viewer's own"
+msgid "Clone"
+msgstr ""
+
+#: lib/mythweaver_web/components/hand_off.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the dialog without acting"
+msgid "Cancel"
+msgstr ""
+
+#: lib/mythweaver_web/components/hand_off.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete this item"
+msgid "Delete"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: end this share"
+msgid "Remove"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: expand a site item's details"
+msgid "Details"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: feature a catalog listing"
+msgid "Feature"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: hide a site item from the viewer's lists"
+msgid "Hide"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: invite the account as a subscriber of this item"
+msgid "Invite subscriber"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: invite the account as an editor of this item"
+msgid "Invite as editor"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: keep the listing, dismiss the unpublish confirmation"
+msgid "Cancel"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: keep the share, dismiss the removal confirmation"
+msgid "Cancel"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: keep the site item, dismiss the hide confirmation"
+msgid "Cancel"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: leave a share someone gave the viewer"
+msgid "Leave"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: link a shared AI model to one of the viewer's connections"
+msgid "Connect to my connection"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the listed item's editor"
+msgid "Open editor"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the shared item's editor"
+msgid "Open editor"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: publish a new release of the catalog listing"
+msgid "New release"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: publish this item to the catalog"
+msgid "Publish"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove the link from the viewer's connection to a shared AI model"
+msgid "Remove"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: remove this item's listing from the catalog"
+msgid "Unpublish"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: report a catalog listing"
+msgid "Report"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: report a catalog listing's publisher"
+msgid "Report publisher"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show a hidden site item in the viewer's lists again"
+msgid "Restore"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: stop featuring a catalog listing"
+msgid "Unfeature"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: subscribe to a catalog listing"
+msgid "Subscribe"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: turn off a shared script for the viewer"
+msgid "Disable"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: turn on a shared script for the viewer"
+msgid "Enable"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: unsubscribe from a catalog listing"
+msgid "Unsubscribe"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: withdraw a pending share invite"
+msgid "Cancel invite"
+msgstr ""
+
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: withdraw a submission from review"
+msgid "Withdraw"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: catalog has no listings"
+msgid "Nothing is published yet"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no catalog listing selected"
+msgid "Select a listing to see what it offers."
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no catalog listings match the filters"
+msgid "No listings match these filters"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no share selected"
+msgid "Select something shared with you."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no shares match the search"
+msgid "No shares match this search"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: nothing shared with the viewer"
+msgid "Nothing is shared with you yet"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: the site has no shared content"
+msgid "The site has no content."
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: catalog filter by item kind"
+msgid "Type"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: catalog filter by tag"
+msgid "Tag"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: comma-separated tags of a catalog listing"
+msgid "Tags"
+msgstr ""
+
+#: lib/mythweaver_web/components/hand_off.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: editor who receives a deleted item"
+msgid "Give to"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: notes of a new catalog release"
+msgid "Release notes"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: summary of a catalog listing"
+msgid "Summary"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: title of a catalog listing"
+msgid "Title"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: visibility of a catalog listing"
+msgid "Visibility"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: blocks of a shared prompt"
+msgid "Blocks"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: catalog publishing section of an item editor"
+msgid "Catalog"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: entries of a shared lore book"
+msgid "Entries"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: release history of a catalog listing"
+msgid "Releases"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: report dialog for a catalog listing"
+msgid "Report %{listing_title}"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: report dialog for a listing's publisher"
+msgid "Report @%{user_handle}"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: sharing section of an item editor"
+msgid "Sharing"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the site's own shared content"
+msgid "Site content"
+msgstr ""
+
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the user's submissions awaiting review"
+msgid "Submissions"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: whose connection a shared AI model runs on"
+msgid "Connection"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: add a new AI connection"
+msgid "Add one"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: the viewer's shares page"
+msgid "Shared with me"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog filter, any item kind"
+msgid "All types"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog filter, any tag"
+msgid "All tags"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog listing item kind filter"
+msgid "Character"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog listing item kind filter"
+msgid "Lore book"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog listing item kind filter"
+msgid "Memory profile"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog listing item kind filter"
+msgid "Outlet"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog listing item kind filter"
+msgid "Prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog listing item kind filter"
+msgid "Prompt block"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog listing item kind filter"
+msgid "Script"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog listing item kind filter"
+msgid "Side prompt"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog listing item kind filter"
+msgid "Side prompt set"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: catalog listing visibility, contents can be inspected"
+msgid "Readable (can inspect, clone and export)"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: share role that may edit the item"
+msgid "Editor"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: share role that may only use the item"
+msgid "Subscriber"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: share visibility, contents can be inspected"
+msgid "Readable (can inspect and export)"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: share visibility, use only"
+msgid "Runtime-only (use only)"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: shared AI model runs on the subscriber's own connection"
+msgid "Their own connection"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: shared AI model runs on the viewer's (owner's) connection"
+msgid "My connection"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: shared item visibility, contents can be inspected"
+msgid "Readable"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: shared item visibility, use only"
+msgid "Runtime-only"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: items other accounts share with the viewer"
+msgid "Shared with me"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: the catalog of published listings"
+msgid "Catalog"
+msgstr ""
+
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: the user's submissions awaiting review"
+msgid "Submissions"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: account handle to share with"
+msgid "@handle"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: example tags of a catalog listing"
+msgid "fantasy, sci-fi"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: optional daily token limit of a shared AI model"
+msgid "Tokens per day (optional)"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search catalog listings"
+msgid "Title, summary or tag"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search shares by item name or owner"
+msgid "Name or owner"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: AI mode of a share, then its daily limit"
+msgid "%{ai_mode} · %{daily_limit}"
+msgstr ""
+
+#. %{api_list} is a list of Lua API names a script uses, e.g. "mw.chat and mw.vars".
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: Lua APIs a shared script reaches"
+msgid "Uses: %{api_list}"
+msgstr ""
+
+#. Flash when the catalog listing in the URL no longer exists or isn't visible.
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: catalog listing missing"
+msgid "Listing not found"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: catalog listing's current version and subscriber total"
+msgid "v%{version_number} · %{subscriber_count} subscriber"
+msgid_plural "v%{version_number} · %{subscriber_count} subscribers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: catalog listing's subscriber total"
+msgid "%{subscriber_count} subscriber"
+msgid_plural "%{subscriber_count} subscribers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Flash when cloning a shared item fails.
+#: lib/mythweaver_web/flash.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: cloning a shared item failed"
+msgid "Could not clone this."
+msgstr ""
+
+#. Flash when the viewer may not clone a shared item.
+#: lib/mythweaver_web/flash.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: cloning a shared item refused"
+msgid "You can't clone this."
+msgstr ""
+
+#. Flash after the viewer removes a shared AI model's link to one of their connections.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: connection link removed"
+msgid "Removed %{provider_name}"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: daily token limit of a shared AI model"
+msgid "Daily limit: %{token_limit} token"
+msgid_plural "Daily limit: %{token_limit} tokens"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Flash when the viewer may not feature catalog listings.
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: featuring a catalog listing refused"
+msgid "You can't feature listings"
+msgstr ""
+
+#. Flash after the viewer restores a hidden site item to their lists.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: hidden site item restored for the viewer"
+msgid "%{item_name} is back"
+msgstr ""
+
+#. Flash when the viewer may not hide a site item.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: hiding a site item refused"
+msgid "You can't hide that"
+msgstr ""
+
+#. Flash after the viewer clones a catalog, shared or site item; the editor of the copy opens.
+#: lib/mythweaver_web/flash.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: item cloned"
+msgid "Cloned %{item_name} as %{copy_name}"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: kind of a site item the viewer hid"
+msgid "%{item_kind} · Hidden"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: kind, owner handle and viewer's role of a share"
+msgid "%{item_kind} · @%{owner_handle} · %{share_role}"
+msgstr ""
+
+#. Flash when linking a shared AI model to a connection fails.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: linking a shared AI model failed"
+msgid "Could not connect that"
+msgstr ""
+
+#. Flash after the owner publishes a new release of their catalog listing.
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: new catalog release published"
+msgid "Released version %{version_number}"
+msgstr ""
+
+#. Flash when the share the viewer has open ends elsewhere.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: open share ended"
+msgid "That share has ended"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: owner of a shared item, with their handle"
+msgid "Owned by %{owner_name} (@%{owner_handle})"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: publisher of a catalog listing, by handle"
+msgid "@%{user_handle}"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: publisher of a catalog listing, name and handle"
+msgid "%{user_nickname} (@%{user_handle})"
+msgstr ""
+
+#. Flash when publishing a new release of a catalog listing fails.
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: publishing a catalog release failed"
+msgid "Could not release this"
+msgstr ""
+
+#. Flash when removing a shared AI model's connection link fails.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: removing a connection link failed"
+msgid "Could not remove that"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: share invite not yet answered"
+msgid "Pending"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: share invite the invitee declined"
+msgid "Declined"
+msgstr ""
+
+#. Flash when the share in the URL or being left no longer exists.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: share missing"
+msgid "Share not found"
+msgstr ""
+
+#. Flash after the viewer links a shared AI model to one of their connections.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: shared AI model linked to a connection"
+msgid "Connected %{model_name} to %{provider_name}"
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: shared AI model runs on its owner's connection"
+msgid "Owner's connection"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: shared AI model runs on its owner's connection"
+msgid "Runs on @%{owner_handle}'s connection."
+msgstr ""
+
+#: lib/mythweaver_web/components/share_panel.ex
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: shared AI model without a daily token limit"
+msgid "No daily limit"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: shared script reaches none of the Lua APIs"
+msgid "Uses: no mw APIs"
+msgstr ""
+
+#. Flash after the viewer hides a site item from their lists.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: site item hidden for the viewer"
+msgid "%{item_name} is hidden"
+msgstr ""
+
+#. Flash when the site item to clone no longer exists.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: site item missing"
+msgid "That item is gone"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: site item the viewer can't hide or switch off"
+msgid "Required by the site"
+msgstr ""
+
+#. Flash when withdrawing a submission a moderator already approved or rejected.
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: submission already approved or rejected"
+msgid "It was already decided"
+msgstr ""
+
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: submission awaiting review"
+msgid "Waiting for a moderator"
+msgstr ""
+
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: submission being scanned automatically"
+msgid "Checking"
+msgstr ""
+
+#. Flash after the user withdrew a submission from moderator review.
+#: lib/mythweaver_web/live/submission_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: submission withdrawn"
+msgid "Withdrawn"
+msgstr ""
+
+#. Flash when the viewer may not switch a shared entry, block or script on or off.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: switching a shared row refused"
+msgid "You can't switch that"
+msgstr ""
+
+#. Flash after the viewer leaves an item someone shared with them.
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: viewer left a share"
+msgid "You left %{item_name}"
+msgstr ""
+
+#. Flash after the viewer subscribes to a catalog listing.
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: viewer subscribed to a catalog listing"
+msgid "Subscribed to %{listing_title}"
+msgstr ""
+
+#. Flash after the viewer unsubscribes from a catalog listing.
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: viewer unsubscribed from a catalog listing"
+msgid "Unsubscribed from %{listing_title}"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: viewer's role and visibility on a share, as a sentence"
+msgid "Subscriber, Readable."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: viewer's role and visibility on a share, as a sentence"
+msgid "Subscriber, Runtime-only."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: viewer's role on a share, as a sentence"
+msgid "Editor."
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: shared entry or block is off for the viewer"
+msgid "Off"
+msgstr ""
+
+#: lib/mythweaver_web/live/shared_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: shared entry or block is on for the viewer"
+msgid "On"
+msgstr ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: AI models whose caption model a lost share clears"
+msgid "%{model_count} AI model caption model"
+msgid_plural "%{model_count} AI model caption models"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: AI models whose caption prompt a lost share clears"
+msgid "%{prompt_count} AI model caption prompt"
+msgid_plural "%{prompt_count} AI model caption prompts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: blocks placed in prompts that a lost share removes"
+msgid "%{block_count} block in a prompt"
+msgid_plural "%{block_count} blocks in prompts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: character memory book links a lost share deletes"
+msgid "%{book_count} character memory book"
+msgid_plural "%{book_count} character memory books"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: characters whose expression profile a lost share clears"
+msgid "%{character_count} character's expression profile"
+msgid_plural "%{character_count} characters' expression profiles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: chat lore book bindings a lost share deletes"
+msgid "%{binding_count} chat lore binding"
+msgid_plural "%{binding_count} chat lore bindings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: chat participants a lost share removes"
+msgid "%{participant_count} chat participant"
+msgid_plural "%{participant_count} chat participants"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: chat participants whose model a lost share clears"
+msgid "%{participant_count} chat participant's model"
+msgid_plural "%{participant_count} chat participants' models"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: chats whose memory settings a lost share changes"
+msgid "%{chat_count} chat's memory settings"
+msgid_plural "%{chat_count} chats' memory settings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: chats whose model a lost share clears"
+msgid "%{chat_count} chat's model"
+msgid_plural "%{chat_count} chats' models"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: default settings a lost share clears"
+msgid "%{setting_count} default setting"
+msgid_plural "%{setting_count} default settings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: links from AI connections a lost share deletes"
+msgid "%{link_count} AI connection link"
+msgid_plural "%{link_count} AI connection links"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: lore book activation rule conditions a lost share clears"
+msgid "%{condition_count} lore book activation rule condition"
+msgid_plural "%{condition_count} lore book activation rule conditions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: lore book character bindings a lost share deletes"
+msgid "%{binding_count} lore book character binding"
+msgid_plural "%{binding_count} lore book character bindings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: lore entry character filters a lost share deletes"
+msgid "%{filter_count} entry character filter"
+msgid_plural "%{filter_count} entry character filters"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: memory profiles whose model a lost share clears"
+msgid "%{profile_count} memory profile's model"
+msgid_plural "%{profile_count} memory profiles' models"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: memory profiles whose prompts a lost share clears"
+msgid "%{profile_count} memory profile's prompts"
+msgid_plural "%{profile_count} memory profiles' prompts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: memory topic suggestions a lost share deletes"
+msgid "%{suggestion_count} topic suggestion"
+msgid_plural "%{suggestion_count} topic suggestions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: prompt bindings a lost share deletes"
+msgid "%{binding_count} prompt binding"
+msgid_plural "%{binding_count} prompt bindings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: script dependencies a lost share deletes"
+msgid "%{dependency_count} script dependency"
+msgid_plural "%{dependency_count} script dependencies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: side prompt set rows a lost share deletes"
+msgid "%{row_count} side prompt set row"
+msgid_plural "%{row_count} side prompt set rows"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: side prompts a lost share deletes"
+msgid "%{side_prompt_count} side prompt"
+msgid_plural "%{side_prompt_count} side prompts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: side prompts whose memory profile a lost share clears"
+msgid "%{profile_count} side prompt profile"
+msgid_plural "%{profile_count} side prompt profiles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: side prompts whose target book a lost share clears"
+msgid "%{book_count} side prompt target book"
+msgid_plural "%{book_count} side prompt target books"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver/sharing/fallout.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: tags a lost share removes from items"
+msgid "%{tag_count} tag"
+msgid_plural "%{tag_count} tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/mythweaver_web/components/hand_off.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog asking to give an item away to one of its editors"
+msgid "Give %{item_name} away?"
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: catalog listing byline for a character"
+msgid "Character published by %{publisher}."
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: catalog listing byline for a prompt"
+msgid "Prompt published by %{publisher}."
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: catalog listing byline for a prompt outlet"
+msgid "Outlet published by %{publisher}."
+msgstr ""
+
+#: lib/mythweaver_web/live/catalog_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: catalog listing byline for a script"
+msgid "Script published by %{publisher}."
+msgstr ""
+
+#. Flash after deleting an item that had editors: it now belongs to this user (an @handle).
+#: lib/mythweaver_web/components/hand_off.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after a deleted item was given to one of its editors"
+msgid "Given to %{user_handle}"
+msgstr ""
+
+#. Flash after an item was deleted.
+#: lib/mythweaver_web/components/hand_off.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after deleting an item"
+msgid "%{item_name} deleted"
+msgstr ""

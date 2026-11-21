@@ -1,0 +1,29 @@
+# HTTPS for a deployment: the same front-door nginx terminates TLS and gets its certificate from
+# Let's Encrypt itself (`docker/nginx/tls.conf.template`, ngx_http_acme_module).
+#
+#   docker compose -f compose.yml -f compose.tls.yml up -d
+#
+# or put `COMPOSE_FILE=compose.yml:compose.tls.yml` in `.env` and run plain `docker compose up -d`.
+# MYTHWEAVER_DOMAIN (the site's public hostname, whose DNS points at this host) and
+# MYTHWEAVER_ACME_EMAIL (Let's Encrypt's contact) are required. Ports 80 and 443 must reach this
+# host from the internet: Let's Encrypt checks the domain over port 80 (HTTP-01). Certificates
+# persist in the `nginx-acme` volume. Once `-f` or COMPOSE_FILE is used, `compose.override.yml` is
+# no longer read automatically; list it too if it is wanted.
+services:
+  nginx:
+    environment:
+      MYTHWEAVER_DOMAIN: ${MYTHWEAVER_DOMAIN:?set MYTHWEAVER_DOMAIN to the site's public hostname}
+      MYTHWEAVER_ACME_EMAIL: ${MYTHWEAVER_ACME_EMAIL:?set MYTHWEAVER_ACME_EMAIL for Let's Encrypt notices}
+      # The image's entrypoint sets NGINX_LOCAL_RESOLVERS from /etc/resolv.conf, for the ACME
+      # client's `resolver`.
+      NGINX_ENTRYPOINT_LOCAL_RESOLVERS: "1"
+    ports:
+      - 80:8080
+      - 443:8443
+    volumes:
+      - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./docker/nginx/tls.conf.template:/etc/nginx/templates/tls.conf.template:ro
+      - nginx-acme:/var/cache/nginx/acme
+
+volumes:
+  nginx-acme:

@@ -1,0 +1,204 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#. Error flash when a global variable form has invalid fields.
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save — see the highlighted fields"
+msgstr "No se pudo guardar: revisa los campos resaltados"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgid "No variables match this search"
+msgstr "Ninguna variable coincide con esta búsqueda"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a variable, or create a new one."
+msgstr "Selecciona una variable o crea una nueva."
+
+#. Flash shown when the variable open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgid "The variable was deleted or moved elsewhere."
+msgstr "La variable se eliminó o se movió a otro lugar."
+
+#: lib/mythweaver_web/components/chat/variables.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that deletes this chat variable"
+msgid "Delete %{variable_key}"
+msgstr "Eliminar %{variable_key}"
+
+#: lib/mythweaver_web/components/chat/variables.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that edits this chat variable"
+msgid "Edit %{variable_key}"
+msgstr "Editar %{variable_key}"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of global variables"
+msgid "Variables"
+msgstr "Variables"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a global variable"
+msgid "New variable"
+msgstr "Nueva variable"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: delete the open global variable"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard edits to a global variable"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/variables.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the chat variable form"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the open form"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/components/chat/variables.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: start a new chat variable"
+msgid "New variable"
+msgstr "Nueva variable"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: global variables affected by a bulk action"
+msgid "%{variable_count} variable"
+msgid_plural "%{variable_count} variables"
+msgstr[0] "%{variable_count} variable"
+msgstr[1] "%{variable_count} variables"
+
+#: lib/mythweaver_web/components/chat/variables.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: chat variables list"
+msgid "No variables in this chat"
+msgstr "No hay variables en este chat"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no global variables exist"
+msgid "No global variables yet"
+msgstr "Aún no hay variables globales"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: key of a global variable"
+msgid "Key"
+msgstr "Clave"
+
+#: lib/mythweaver_web/components/chat/variables.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a chat variable"
+msgid "Key"
+msgstr "Clave"
+
+#: lib/mythweaver_web/components/chat/variables.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: value of a chat variable"
+msgid "Value (JSON, or plain text)"
+msgstr "Valor (JSON o texto sin formato)"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: value of a global variable"
+msgid "Value (JSON, or plain text)"
+msgstr "Valor (JSON o texto sin formato)"
+
+#: lib/mythweaver_web/components/chat/variables.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog listing a chat's variables"
+msgid "Variables"
+msgstr "Variables"
+
+#: lib/mythweaver_web/components/chat/variables.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form creating a chat variable"
+msgid "New variable"
+msgstr "Nueva variable"
+
+#: lib/mythweaver_web/components/chat/variables.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form editing an existing chat variable"
+msgid "Edit variable"
+msgstr "Editar variable"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form for a global variable not yet saved"
+msgid "New variable"
+msgstr "Nueva variable"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: global variable manager"
+msgid "Variables"
+msgstr "Variables"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: global variable manager"
+msgid "Variables"
+msgstr "Variables"
+
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search global variables"
+msgid "Key or value"
+msgstr "Clave o valor"
+
+#. Confirm dialog before deleting a chat or global variable; the placeholder is its key.
+#: lib/mythweaver_web/components/chat/variables.ex
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: confirm dialog before deleting a variable"
+msgid "Delete %{variable_key}?"
+msgstr "¿Eliminar %{variable_key}?"
+
+#. Flash after deleting a global variable; the placeholder is the variable's key.
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after deleting a global variable"
+msgid "%{variable_key} deleted"
+msgstr "%{variable_key} eliminada"
+
+#. Flash after saving a global variable; the placeholder is the variable's key.
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after saving a global variable"
+msgid "%{variable_key} saved"
+msgstr "%{variable_key} guardada"
+
+#. Error flash when opening a global variable that no longer exists.
+#: lib/mythweaver_web/live/global_variable_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash when the global variable in the address does not exist"
+msgid "Variable not found"
+msgstr "Variable no encontrada"

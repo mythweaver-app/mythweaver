@@ -1,0 +1,112 @@
+services:
+  db:
+    # `-trixie`, not `-bookworm`: bookworm is glibc 2.36 while the stock `postgres:18` images
+    # (which initialized existing `db-data` volumes) are trixie/glibc 2.41. Mixing them raises a
+    # collation version mismatch and silently invalidates text index ordering.
+    image: pgvector/pgvector:pg18-trixie
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5432:5432
+    # Named, so recreating the container keeps the data. The image declares an anonymous volume
+    # here otherwise, which a recreated container may not get back.
+    volumes:
+      - db-data:/var/lib/postgresql
+
+  # Optional image proxy for dev thumbnails, xtandard-image (xi): `docker compose up -d`, then run
+  # the app with MYTHWEAVER_IMAGE_PROXY=xtandard MYTHWEAVER_XI_URL=/img
+  # MYTHWEAVER_XI_INTERNAL_URL=http://localhost:4080/img MYTHWEAVER_XI_SOURCE_PREFIX=xi://uploads/
+  # and the keys below as MYTHWEAVER_XI_KEY/_SALT/_ENCRYPTION_KEY (`mise.toml` sets all of them),
+  # and open the app at http://localhost:4080. xi reads the uploads dir directly (its `uploads`
+  # filesystem source) and is reachable only through `nginx`.
+  #
+  # Signed URLs only (`XI_SECURITY_UNSIGNED_POLICY`), from the uploads dir only: unsigned, xi resizes
+  # any source at any size for anyone. The app encrypts every source (`enc/`, `XI_ENCRYPTION_KEYS`),
+  # so a URL does not reveal the storage key. The signing pair and the encryption key are dev-only
+  # and public; a deployment generates its own (`openssl rand -hex 32`) and gives the same values to
+  # the app. XI_CACHE_HEADERS_TTL matches the app's link window (`link_window_seconds`), so no
+  # cache keeps a response long past its link's expiry. XI_DETECT_ENABLED (face-aware `g:sm` crops)
+  # and XI_VIDEO_ENABLED (video poster frames) make start-up fail if the image lacks them, instead
+  # of degrading silently. AVIF/WebP negotiation is on by default; xi rejects unknown variables, so
+  # set nothing else here.
+  xi:
+    image: ghcr.io/xantiagoma/xtandard-image:0.1.1-full
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m
+    environment:
+      XI_SOURCES: uploads
+      XI_SOURCES_UPLOADS_TYPE: fs
+      XI_SOURCES_UPLOADS_ROOT: /uploads
+      XI_SIGNING_KEYS: 6465762d6f6e6c792d696d6770726f78792d6b6579
+      XI_SIGNING_SALTS: 6465762d6f6e6c792d696d6770726f78792d73616c74
+      XI_ENCRYPTION_KEYS: 6465762d6f6e6c792d7874616e646172642d656e6372797074696f6e2d6b6579
+      XI_SECURITY_UNSIGNED_POLICY: deny
+      XI_CACHE_HEADERS_TTL: 86400s
+      XI_DETECT_ENABLED: "true"
+      XI_VIDEO_ENABLED: "true"
+    volumes:
+      - ./priv/uploads:/uploads:ro
+
+  # The dev front door (`docker/nginx.conf.template`): the app at `/` and cached xi at `/img/` on
+  # one origin, so image links are relative and work from other devices. `X-Cache-Status` reports
+  # HIT/MISS. Clear the cache with `docker compose down nginx && docker volume rm
+  # <project>_xi-cache`.
+  #
+  # 4080, beside Phoenix's 4000: 8080 is llama-swap's default. Published on loopback unless
+  # MYTHWEAVER_NGINX_BIND names another address (shell or `.env`): `0.0.0.0` reaches it from other
+  # devices (LAN, tailnet) and from localhost alike. To publish on a few specific addresses
+  # instead (loopback plus a tailnet IP and a LAN IP), leave the variable unset and list the
+  # extras in a git-ignored `compose.override.yml`, whose `ports` Compose appends to these:
+  #
+  #   services:
+  #     nginx:
+  #       ports:
+  #         - 100.64.0.1:4080:80
+  #
+  # Never combine `0.0.0.0` with another address, or one address twice: Docker refuses the second
+  # bind. A bind address that replaces loopback drops localhost, so the app then needs
+  # MYTHWEAVER_XI_INTERNAL_URL=http://<that address>:4080/img for vision-model images and blurhashes.
+  #
+  # Phoenix itself stays on loopback; nginx reaches it through `host.docker.internal`, which Docker
+  # Desktop routes to the host's loopback. Docker on Linux routes it to the bridge instead, where
+  # Phoenix must listen too (`PHX_BIND_ALL=1`).
+  #
+  # Client IPs: nginx hands the app the address it saw (`X-Forwarded-For $remote_addr`) and drops
+  # any X-Forwarded-For a client sent, so the app trusts the whole compose network
+  # (MYTHWEAVER_TRUSTED_PROXIES in `mise.toml`). With another TLS proxy in front of nginx (Tailscale
+  # Serve, Caddy on the host), set MYTHWEAVER_NGINX_TRUSTED_UPSTREAM to the address that proxy
+  # reaches nginx from, so nginx believes its X-Forwarded-For: on Docker Desktop that is the network
+  # gateway `172.30.250.1/32`, on Linux Docker Engine the host's address on the bridge. Docker
+  # Desktop shows every direct client of a published port as that same gateway, so trusting it
+  # also trusts them: nginx must then be published on loopback only. For HTTPS without another
+  # proxy, see `compose.tls.yml`.
+  nginx:
+    image: nginx:alpine
+    depends_on:
+      - xi
+    environment:
+      APP_UPSTREAM: host.docker.internal:4000
+      TRUSTED_UPSTREAM: ${MYTHWEAVER_NGINX_TRUSTED_UPSTREAM:-127.0.0.1/32}
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    ports:
+      - ${MYTHWEAVER_NGINX_BIND:-127.0.0.1}:4080:80
+    volumes:
+      - ./docker/nginx.conf.template:/etc/nginx/templates/default.conf.template:ro
+      - ./docker/nginx/app-locations.conf:/etc/nginx/mythweaver/app-locations.conf:ro
+      - xi-cache:/var/cache/nginx/xi
+
+# A fixed subnet, so the app can trust the nginx container's address (`mise.toml`,
+# MYTHWEAVER_TRUSTED_PROXIES).
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 172.30.250.0/24
+
+volumes:
+  db-data:
+  xi-cache:

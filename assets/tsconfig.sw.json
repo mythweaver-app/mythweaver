@@ -1,0 +1,16 @@
+// Type-checks the push service worker (`sw/sw.ts`) against the WebWorker library. It cannot share
+// `tsconfig.json`: the DOM and WebWorker libraries declare conflicting globals.
+//
+// Run with: bun run typecheck:sw
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "lib": ["esnext", "webworker"],
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["sw/**/*"]
+}

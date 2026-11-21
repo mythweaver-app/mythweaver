@@ -1,0 +1,8 @@
+# jj always checks out LF, but git on Windows defaults to core.autocrlf=true.
+# Without this, .devcontainer/post-create.sh lands with CRLF and its shebang
+# fails inside the container as: /usr/bin/env: 'bash\r': No such file or directory.
+* text=auto eol=lf
+
+# Real binary assets: never eol-convert these.
+*.ttf binary
+*.ico binary

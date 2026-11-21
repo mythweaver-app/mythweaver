@@ -1,0 +1,37 @@
+# HTTPS for MYTHWEAVER_DOMAIN with a Let's Encrypt certificate (ngx_http_acme_module, loaded by
+# docker/nginx/nginx.conf). Only `compose.tls.yml` mounts this; it is rendered into `conf.d`
+# beside `docker/nginx.conf.template`, whose upstream, maps, cache and realip settings it shares.
+resolver ${NGINX_LOCAL_RESOLVERS};
+
+acme_issuer letsencrypt {
+  uri https://acme-v02.api.letsencrypt.org/directory;
+  contact ${MYTHWEAVER_ACME_EMAIL};
+  state_path /var/cache/nginx/acme/letsencrypt;
+  accept_terms_of_service;
+}
+
+# Host port 80: the module answers the HTTP-01 challenge here; everything else goes to HTTPS.
+server {
+  listen 8080;
+  server_name ${MYTHWEAVER_DOMAIN};
+
+  location / {
+    return 301 https://$host$request_uri;
+  }
+}
+
+server {
+  listen 8443 ssl;
+  http2 on;
+  server_name ${MYTHWEAVER_DOMAIN};
+
+  acme_certificate letsencrypt;
+  ssl_certificate $acme_certificate;
+  ssl_certificate_key $acme_certificate_key;
+  ssl_certificate_cache max=2;
+
+  # Phoenix enforces its own request limits (`MYTHWEAVER_MAX_UPLOAD_BYTES`, Plug.Parsers).
+  client_max_body_size 0;
+
+  include /etc/nginx/mythweaver/app-locations.conf;
+}

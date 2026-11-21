@@ -1,0 +1,99 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    command: sleep infinity
+    # `forwardPorts` in devcontainer.json only covers editor-side forwarding;
+    # the devcontainer CLI does not publish it. Publish 4000 here so
+    # http://localhost:4000 works in every client. Postgres stays unpublished to
+    # avoid clashing with the root compose.yml's 5432:5432.
+    ports:
+      - 4000:4000
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ..:/workspaces/mythweaver:cached
+      - mise-data:/mnt/mise-data
+      - build-cache:/workspaces/mythweaver/_build
+      - deps-cache:/workspaces/mythweaver/deps
+      - node-modules:/workspaces/mythweaver/assets/node_modules
+      # Downloaded Hugging Face tokenizer.json files (`MYTHWEAVER_TOKENIZER_CACHE` in
+      # devcontainer.json), so a rebuilt container counts tokens without re-downloading.
+      - tokenizer-cache:/mnt/tokenizer-cache
+
+  db:
+    # See the note in the root `compose.yml`: trixie matches the glibc/collation version of the
+    # stock `postgres:18` image, bookworm does not.
+    image: pgvector/pgvector:pg18-trixie
+    restart: unless-stopped
+    shm_size: 128mb
+    environment:
+      POSTGRES_PASSWORD: postgres
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - db-data:/var/lib/postgresql
+
+  # Resizes locally stored attachments for the browser (`MYTHWEAVER_IMAGE_PROXY` in
+  # devcontainer.json): xtandard-image (xi), reachable only through `nginx`, which stores what it
+  # renders. Signed, encrypted, local-only and TTL-bounded like the root compose.yml's, with the
+  # same dev-only keys.
+  xi:
+    image: ghcr.io/xantiagoma/xtandard-image:0.1.1-full
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m
+    environment:
+      XI_SOURCES: uploads
+      XI_SOURCES_UPLOADS_TYPE: fs
+      XI_SOURCES_UPLOADS_ROOT: /uploads
+      XI_SIGNING_KEYS: 6465762d6f6e6c792d696d6770726f78792d6b6579
+      XI_SIGNING_SALTS: 6465762d6f6e6c792d696d6770726f78792d73616c74
+      XI_ENCRYPTION_KEYS: 6465762d6f6e6c792d7874616e646172642d656e6372797074696f6e2d6b6579
+      XI_SECURITY_UNSIGNED_POLICY: deny
+      XI_CACHE_HEADERS_TTL: 86400s
+      XI_DETECT_ENABLED: "true"
+      XI_VIDEO_ENABLED: "true"
+    volumes:
+      - ../priv/uploads:/uploads:ro
+
+  # The same front door as the root compose.yml (`docker/nginx.conf.template`): the app at `/` and
+  # cached xi at `/img/` on http://localhost:4081. 4081, not 4080, so it cannot clash with
+  # the root compose.yml's.
+  nginx:
+    image: nginx:alpine
+    restart: unless-stopped
+    depends_on:
+      - xi
+    environment:
+      APP_UPSTREAM: app:4000
+      TRUSTED_UPSTREAM: ${MYTHWEAVER_NGINX_TRUSTED_UPSTREAM:-127.0.0.1/32}
+    ports:
+      - 4081:80
+    volumes:
+      - ../docker/nginx.conf.template:/etc/nginx/templates/default.conf.template:ro
+      - ../docker/nginx/app-locations.conf:/etc/nginx/mythweaver/app-locations.conf:ro
+      - xi-cache:/var/cache/nginx/xi
+
+# A fixed subnet, so the app trusts the nginx container's X-Forwarded-For
+# (MYTHWEAVER_TRUSTED_PROXIES in devcontainer.json); not the root compose.yml's, so both run at once.
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 172.30.251.0/24
+
+volumes:
+  db-data:
+  mise-data:
+  build-cache:
+  deps-cache:
+  node-modules:
+  tokenizer-cache:
+  xi-cache:

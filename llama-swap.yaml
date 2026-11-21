@@ -1,0 +1,138 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mostlygeek/llama-swap/refs/heads/main/config-schema.json
+
+globalTTL: 300
+
+macros:
+  hf-cache: "${env.HOME}/.cache/huggingface/hub"
+  ai-models: "${env.HOME}/Documents/ai_models"
+  llama: "mise exec llama.cpp -- llama-server --port ${PORT}"
+
+models:
+  # Currently Artemis is my _favorite_ RP model
+  # Has really good roleplay dialog, rule adherence, thinking (!!!) and more
+  # Can do vision too, which is a nice bonus
+  #
+  # Model: https://huggingface.co/bartowski/TheDrummer_Artemis-31B-v1.2-GGUF/resolve/main/TheDrummer_Artemis-31B-v1.2-Q6_K_L.gguf
+  # Mmproj: https://huggingface.co/bartowski/TheDrummer_Artemis-31B-v1.2-GGUF/resolve/main/mmproj-TheDrummer_Artemis-31B-v1.2-f16.gguf
+  artemis-31b:
+    name: "Artemis 31B"
+    ttl: 1800
+    aliases:
+      - artemis
+      - artemis-31b
+    cmd: >
+      ${llama}
+      --model "${ai-models}/bartowski/Artemis-31B/TheDrummer_Artemis-31B-v1.2-Q6_K_L.gguf"
+      --mmproj "${ai-models}/bartowski/Artemis-31B/mmproj-TheDrummer_Artemis-31B-v1.2-f16.gguf"
+      --checkpoint-min-step 512
+      --cache-ram 16384
+    capabilities:
+      tools: true
+      in:
+        - text
+        - image
+        - video
+      out:
+        - text
+
+  # Simple, reliable image captioning. Might be faster than Artemis for image
+  # captions, but the caption quality is a bit lower. Still excellent, but less
+  # "aware"
+  #
+  # https://github.com/fpgaminer/joycaption
+  joycaption-b1:
+    name: "Joycaption Beta One (Q4_K)"
+    ttl: 120
+    aliases:
+      - joy
+      - joycaption
+    cmd: >
+      ${llama}
+      --model "${ai-models}/Llama-Joycaption-Beta-One-Hf-Llava-Q4_K.gguf"
+      --mmproj "${ai-models}/llama-joycaption-beta-one-llava-mmproj-model-f16.gguf"
+      capabilities:
+        in:
+          - image
+          - text
+        out:
+         - text
+
+  # Mythweaver can take advantage of an embedding model to generate vector embeddings
+  # This gives you _much_ better lore matching, for essentially no cost
+  #
+  # While other programs typically run these embeddings in the browser, this
+  # lets you run it in your llama host, which lets you do them in the
+  # background, just like everything else in MythWeaver
+  #
+  # https://huggingface.co/mradermacher/Qwen3-Embedding-0.6B-GGUF/resolve/main/Qwen3-Embedding-0.6B.Q4_K_M.gguf
+  qwen-3-embedding:
+    name: "Qwen3 Embedding 0.6B (Q4_K_M)"
+    aliases:
+      - qwen-embedding
+      - qwen3-embedding
+      - qwen3.6-embedding
+    cmd: >
+      ${llama}
+      --model "${ai-models}/mradermacher/Qwen3-Embedding-0.6B-GGUF/Qwen3-Embedding-0.6B.Q4_K_M.gguf"
+      --embedding
+      --pooling last
+      -ub 8192
+      -c 8192
+      -ngl 99
+    capabilities:
+      embeddings: true
+
+  # A GoEmotions emotion classifier for character expressions (Settings → Expressions → Classifier
+  # model). Add it in Mythweaver with "Add as classifier" (or completion mode Classifier): each
+  # message is scored in a few milliseconds, without queueing behind Artemis.
+  #
+  # Model: https://huggingface.co/cirimus/modernbert-large-go-emotions (no GGUF is published).
+  # Convert it with llama.cpp's converter, then set the output length to its 28 labels so
+  # /v1/embeddings returns exactly the 28 logits (otherwise it pads to the hidden size, 1024):
+  #
+  #   python convert_hf_to_gguf.py modernbert-large-go-emotions --outtype f16 \
+  #     --outfile modernbert-large-go-emotions-raw.gguf
+  #   python -c 'import gguf, sys; from gguf.scripts.gguf_new_metadata import *
+  #   r = gguf.GGUFReader(sys.argv[1]); w = gguf.GGUFWriter(sys.argv[2], arch="modern-bert")
+  #   copy_with_new_metadata(r, w, {"modern-bert.embedding_length_out": MetadataDetails(gguf.GGUFValueType.UINT32, 28)}, [])' \
+  #     modernbert-large-go-emotions-raw.gguf modernbert-large-go-emotions-f16.gguf
+  #
+  # (Use two different file names: on macOS's case-insensitive disk, -F16/-f16 are the same file.)
+  # -ub must hold a whole message: an encoder can't split its input across batches.
+  go-emotions:
+    name: "ModernBERT-large GoEmotions (F16)"
+    aliases:
+      - go-emotions
+    cmd: >
+      ${llama}
+      --model "${ai-models}/cirimus/modernbert-large-go-emotions-f16.gguf"
+      --embedding
+      --pooling rank
+      -ub 8192
+      -c 8192
+      -ngl 99
+    capabilities:
+      embeddings: true
+
+# I use an explicit routing matrix, and not groups, because I found groups, even
+# with persist true and swap false, tend to unload the chat model, load the
+# embedding model, then swap them back, regardless of how its configured. Might
+# be my fault, but matrices work and are honestly a bit simpler to set up
+
+routing:
+  router:
+    use: matrix
+    settings:
+      matrix:
+        vars:
+          a: artemis-31b
+          e: qwen-3-embedding
+          i: joycaption-b1
+          g: go-emotions
+        evict_costs:
+          a: 70
+          e: 1
+          i: 5
+          g: 1
+        sets:
+          standard: "(a) & (g) & (e | i)"

@@ -1,0 +1,2872 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Machine translation, unreviewed\n"
+
+#. Confirm dialog when saving a consolidation draft that left some source entries out.
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "%{entry_count} source entry is left out and stays unconsolidated. Save anyway?"
+msgid_plural "%{entry_count} source entries are left out and stay unconsolidated. Save anyway?"
+msgstr[0] "%{entry_count} entrada de origen queda fuera y sin consolidar. ¿Guardar de todos modos?"
+msgstr[1] "%{entry_count} entradas de origen quedan fuera y sin consolidar. ¿Guardar de todos modos?"
+
+#. Flash after a topical clip job was queued; %{job_label} is the job's name, such as Topical clip — Mira's sword.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "%{job_label} queued: review it under Reviews"
+msgstr "%{job_label} en cola: revísalo en Revisiones"
+
+#. Flash after a memory profile was made the default.
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "%{profile_name} is now the default"
+msgstr "%{profile_name} es ahora el predeterminado"
+
+#. Flash after every row of a side prompt set was queued.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "%{run_count} side prompt run queued"
+msgid_plural "%{run_count} side prompt runs queued"
+msgstr[0] "%{run_count} ejecución de prompt secundario en cola"
+msgstr[1] "%{run_count} ejecuciones de prompt secundario en cola"
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "A draft for that topic is already in progress."
+msgstr "Ya hay un borrador en curso para ese tema."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "A locked book follows the character into your other chats."
+msgstr "Un libro bloqueado acompaña al personaje en tus otros chats."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "A picked source is no longer eligible: reload and pick again."
+msgstr "Una fuente elegida ya no es válida: recarga y vuelve a elegir."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Added %{line_count} clip line automatically."
+msgid_plural "Added %{line_count} clip lines automatically."
+msgstr[0] "Se añadió %{line_count} línea de fragmento automáticamente."
+msgstr[1] "Se añadieron %{line_count} líneas de fragmento automáticamente."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "After a memory is saved, hide the messages it covers from the AI: every processed message, or only the scene just saved."
+msgstr "Después de guardar una memoria, oculta a la IA los mensajes que cubre: todos los mensajes procesados o solo la escena recién guardada."
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "After each saved memory, over the memory's messages"
+msgstr "Después de cada memoria guardada, sobre los mensajes de la memoria"
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Already consolidated: regenerate the consolidation instead."
+msgstr "Ya está consolidado: regenera la consolidación en su lugar."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Characters present in every new memory of this chat besides whoever speaks: the memory names them, is filtered to them, and is copied into their character books."
+msgstr "Personajes presentes en cada nueva memoria de este chat además de quien habla: la memoria los nombra, se filtra para ellos y se copia en sus libros de personaje."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Chunk size must be 5 to 250 messages."
+msgstr "El tamaño del bloque debe ser de 5 a 250 mensajes."
+
+#. Flash after a job that combines topical clips was queued.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Combining clips; the draft will appear in Reviews."
+msgstr "Combinando fragmentos; el borrador aparecerá en Revisiones."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Could not add those entries."
+msgstr "No se pudieron añadir esas entradas."
+
+#. Flash when removing a memory context entry failed.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Could not remove that entry."
+msgstr "No se pudo quitar esa entrada."
+
+#. Flash when saving an editor form fails validation; the invalid fields are highlighted.
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgid "Could not save — see the highlighted fields"
+msgstr "No se pudo guardar: revisa los campos resaltados"
+
+#. Confirm dialog before dismissing a topic the model suggested for a topical clip.
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Dismiss the suggested topic “%{topic_name}”?"
+msgstr "¿Descartar el tema sugerido «%{topic_name}»?"
+
+#. Flash after a suggested topic was sent to be drafted into a topical clip.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Drafting that topical clip; it will appear in Reviews."
+msgstr "Redactando ese fragmento temático; aparecerá en Revisiones."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Each new memory is also copied into the book of every character in it (every character, when none of them speaks), filtered to that character; on that character's turn the copy stands in for the shared memory. The chat's own memory book may be one. Lock a character to its book to carry the book into your other chats with them."
+msgstr "Cada nueva memoria también se copia en el libro de cada personaje que aparece en ella (de todos los personajes, si ninguno habla), filtrada para ese personaje; en el turno de ese personaje, la copia sustituye a la memoria compartida. El propio libro de memoria del chat puede ser uno de ellos. Bloquea un personaje a su libro para llevar el libro a tus otros chats con él."
+
+#. Shown, in the memory dialog or as a flash, when no message is left to write a memory of.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Every message is already processed."
+msgstr "Todos los mensajes ya están procesados."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Fill in every macro this side prompt uses."
+msgstr "Rellena todas las macros que usa este prompt secundario."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "How many of the newest messages an automatic memory leaves out of its scene. Blank follows /settings/memory."
+msgstr "Cuántos de los mensajes más recientes deja fuera de su escena una memoria automática. En blanco sigue /settings/memory."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "How many of the newest processed messages auto-hide leaves visible to the AI."
+msgstr "Cuántos de los mensajes procesados más recientes deja visibles para la IA la ocultación automática."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Its source messages or entries are gone."
+msgstr "Sus mensajes o entradas de origen ya no existen."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Keep at least one summary, or discard the draft."
+msgstr "Conserva al menos un resumen o descarta el borrador."
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Keep numbered versions (needs versioning on in Memory settings)"
+msgstr "Conservar versiones numeradas (requiere activar el control de versiones en los ajustes de memoria)"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "Limit each memory to the characters who spoke in it"
+msgstr "Limitar cada memoria a los personajes que hablaron en ella"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Lock this book to %{character_name}"
+msgstr "Bloquear este libro a %{character_name}"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Locked to %{character_name}: this book follows %{character_name} into your other chats."
+msgstr "Bloqueado a %{character_name}: este libro acompaña a %{character_name} en tus otros chats."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Lore entries sent with every memory request for this chat."
+msgstr "Entradas de lore enviadas con cada solicitud de memoria de este chat."
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "Most tokens a memory response may use; 0 uses the model's own response limit."
+msgstr "Máximo de tokens que puede usar una respuesta de memoria; 0 usa el límite de respuesta del propio modelo."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "No memory profile: create one and make it the default."
+msgstr "No hay perfil de memoria: crea uno y hazlo predeterminado."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "No messages to summarize in that range."
+msgstr "No hay mensajes que resumir en ese rango."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "No model: set one on the memory profile or the chat."
+msgstr "No hay modelo: elige uno en el perfil de memoria o en el chat."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Nothing new or changed since this clip was written: pick more sources, or rebuild."
+msgstr "Nada nuevo ni modificado desde que se escribió este fragmento: elige más fuentes o reconstrúyelo."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Only a failed memory or consolidation can be corrected."
+msgstr "Solo se puede corregir una memoria o consolidación fallida."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Only group chats have character books. A solo chat locks its memory book to its character under Settings."
+msgstr "Solo los chats de grupo tienen libros de personaje. Un chat individual bloquea su libro de memoria a su personaje en Ajustes."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Pick a character and a book."
+msgstr "Elige un personaje y un libro."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Pick a character book first."
+msgstr "Elige primero un libro de personaje."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Pick at least one entry."
+msgstr "Elige al menos una entrada."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Pick at least one memory, or include messages."
+msgstr "Elige al menos una memoria o incluye mensajes."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Pick at least one source."
+msgstr "Elige al menos una fuente."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Pick at least two topical clips."
+msgstr "Elige al menos dos fragmentos temáticos."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Pick present characters from this chat's participants."
+msgstr "Elige personajes presentes entre los participantes de este chat."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Rebuild from every picked source (otherwise only new and changed ones are sent)"
+msgstr "Reconstruir a partir de todas las fuentes elegidas (si no, solo se envían las nuevas y modificadas)"
+
+#. Confirm dialog before removing a character's memory book from a group chat, when the character is locked to that book.
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Remove %{character_name}'s character book? This also unlocks %{character_name} in your other chats."
+msgstr "¿Quitar el libro de personaje de %{character_name}? Esto también desbloquea a %{character_name} en tus otros chats."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Runs after memories and on intervals in this chat"
+msgstr "Se ejecuta después de las memorias y a intervalos en este chat"
+
+#. %{macro_syntax} is the literal macro syntax {{ name }}, left untranslated.
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Runtime macros, comma separated, used as %{macro_syntax}"
+msgstr "Macros de ejecución, separadas por comas, usadas como %{macro_syntax}"
+
+#. Confirm dialog when saving a memory draft whose messages changed while it was being written.
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Save this memory anyway? It summarizes the messages as they were when it was written."
+msgstr "¿Guardar esta memoria de todos modos? Resume los mensajes tal como eran cuando se escribió."
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a memory profile, or create a new one."
+msgstr "Selecciona un perfil de memoria o crea uno nuevo."
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a side prompt set, or create a new one."
+msgstr "Selecciona un conjunto de prompts secundarios o crea uno nuevo."
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "Select a side prompt, or create a new one."
+msgstr "Selecciona un prompt secundario o crea uno nuevo."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Several models could be the default: pick one on the memory profile, or set a default model in Settings."
+msgstr "Varios modelos podrían ser el predeterminado: elige uno en el perfil de memoria o define un modelo predeterminado en Ajustes."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "That character is no longer in this chat."
+msgstr "Ese personaje ya no está en este chat."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "That is still not valid JSON for this job."
+msgstr "Eso sigue sin ser JSON válido para esta tarea."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "That topic is no longer pending."
+msgstr "Ese tema ya no está pendiente."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "That topical clip is gone."
+msgstr "Ese fragmento temático ya no existe."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "The book each side prompt saves its new entries to in this chat. Side prompt's own target uses the book the side prompt names."
+msgstr "El libro en el que cada prompt secundario guarda sus nuevas entradas en este chat. Destino propio del prompt secundario usa el libro que indica el prompt secundario."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "The draft needs a title and content (and keywords for keyword activation)."
+msgstr "El borrador necesita un título y contenido (y palabras clave para la activación por palabra clave)."
+
+#. Every placeholder is a code snippet shown as code: %{title_tag} and %{tier_tag} are literal template tags, the others example number tokens. %{tier_examples} are literal tier tokens, left untranslated.
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "The first number token (%{bracket_number}, %{tier_number}, %{paren_number}, %{brace_number}, %{hash_number} or a bare %{bare_number}) takes the entry's number. %{title_tag} is the title the model wrote; %{tier_tag} is a consolidation's type (%{tier_examples})."
+msgstr "El primer token numérico (%{bracket_number}, %{tier_number}, %{paren_number}, %{brace_number}, %{hash_number} o un %{bare_number} suelto) recibe el número de la entrada. %{title_tag} es el título que escribió el modelo; %{tier_tag} es el tipo de una consolidación (%{tier_examples})."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "The locked book is no longer available. Unlock to choose another."
+msgstr "El libro bloqueado ya no está disponible. Desbloquéalo para elegir otro."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "The lore book this chat's memories are saved to. Create automatically makes one, bound to this chat, on the first save."
+msgstr "El libro de lore en el que se guardan las memorias de este chat. Crear automáticamente crea uno, vinculado a este chat, al guardar por primera vez."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "The memory profile has no prompt for this job."
+msgstr "El perfil de memoria no tiene prompt para esta tarea."
+
+#. Flash shown when the memory profile open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgid "The memory profile was deleted or moved elsewhere."
+msgstr "El perfil de memoria se eliminó o se movió a otro lugar."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "The model, prompts and entry settings this chat's memories use. Default uses your default memory profile."
+msgstr "El modelo, los prompts y los ajustes de entrada que usan las memorias de este chat. Predeterminado usa tu perfil de memoria predeterminado."
+
+#. Flash when the next-scene command would send more tokens than the warning limit.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "The next scene is about %{token_count} token, over the warning limit. Create it from the memory dialog to confirm."
+msgid_plural "The next scene is about %{token_count} tokens, over the warning limit. Create it from the memory dialog to confirm."
+msgstr[0] "La siguiente escena tiene unos %{token_count} token, por encima del límite de advertencia. Créala desde el diálogo de memoria para confirmar."
+msgstr[1] "La siguiente escena tiene unos %{token_count} tokens, por encima del límite de advertencia. Créala desde el diálogo de memoria para confirmar."
+
+#. Flash shown when the side prompt set open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgid "The side prompt set was deleted or moved elsewhere."
+msgstr "El conjunto de prompts secundarios se eliminó o se movió a otro lugar."
+
+#. Flash shown when the side prompt open in the editor was deleted or moved by someone else.
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgid "The side prompt was deleted or moved elsewhere."
+msgstr "El prompt secundario se eliminó o se movió a otro lugar."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "The source changed since this was generated."
+msgstr "La fuente cambió desde que se generó esto."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "This chat's side prompt set is gone, so no side prompts run automatically. Pick another in Settings."
+msgstr "El conjunto de prompts secundarios de este chat ya no existe, así que ningún prompt secundario se ejecuta automáticamente. Elige otro en Ajustes."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "This is a character's copy; regenerate the chat's memory instead."
+msgstr "Esta es la copia de un personaje; regenera la memoria del chat en su lugar."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "This job cannot be regenerated."
+msgstr "Esta tarea no se puede regenerar."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "This kind of entry cannot be regenerated."
+msgstr "Este tipo de entrada no se puede regenerar."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "This memory request is about %{token_count} token, over the %{threshold_tokens} token warning."
+msgid_plural "This memory request is about %{token_count} tokens, over the %{threshold_tokens} token warning."
+msgstr[0] "Esta solicitud de memoria tiene unos %{token_count} token, por encima de la advertencia de %{threshold_tokens} tokens."
+msgstr[1] "Esta solicitud de memoria tiene unos %{token_count} tokens, por encima de la advertencia de %{threshold_tokens} tokens."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "This review is no longer pending."
+msgstr "Esta revisión ya no está pendiente."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Those messages overlap an existing memory."
+msgstr "Esos mensajes se solapan con una memoria existente."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "What starts an automatic memory: a count of new messages, or their tokens. Default follows the setting on /settings/memory."
+msgstr "Qué inicia una memoria automática: un número de mensajes nuevos o sus tokens. Predeterminado sigue el ajuste de /settings/memory."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "With the message trigger, how many new messages past the boundary (buffer not counted) make a memory. Blank follows /settings/memory."
+msgstr "Con el disparador por mensajes, cuántos mensajes nuevos tras el límite (sin contar el búfer) crean una memoria. En blanco sigue /settings/memory."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "With the token trigger, how many tokens of new messages past the boundary (buffer not counted) make a memory. Blank follows /settings/memory."
+msgstr "Con el disparador por tokens, cuántos tokens de mensajes nuevos tras el límite (sin contar el búfer) crean una memoria. En blanco sigue /settings/memory."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "Write a memory of the newest scene by itself whenever the trigger below is reached."
+msgstr "Escribe una memoria solo de la escena más reciente cada vez que se alcance el disparador de abajo."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgid "You've spent today's budget on the site's AI connections."
+msgstr "Has gastado el presupuesto de hoy en las conexiones de IA del sitio."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that removes a character's memory book"
+msgid "Remove %{character_name}'s character book"
+msgstr "Quitar el libro de personaje de %{character_name}"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that removes a context entry"
+msgid "Remove %{entry_name}"
+msgstr "Quitar %{entry_name}"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: icon button that removes an unavailable context entry"
+msgid "Remove entry"
+msgstr "Quitar entrada"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of memory profiles"
+msgid "Memory profiles"
+msgstr "Perfiles de memoria"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of side prompt sets"
+msgid "Side prompt sets"
+msgstr "Conjuntos de prompts secundarios"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: list of side prompts"
+msgid "Side prompts"
+msgstr "Prompts secundarios"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: move a side prompt set row down"
+msgid "Move down"
+msgstr "Bajar"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: move a side prompt set row up"
+msgid "Move up"
+msgstr "Subir"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "aria label: tab list of the chat memory modal"
+msgid "Memory"
+msgstr "Memoria"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: character book locked to its character"
+msgid "Locked"
+msgstr "Bloqueado"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of clip a suggested update is for"
+msgid "Clip"
+msgstr "Fragmento"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: kind of clip a suggested update is for"
+msgid "Topical clip"
+msgstr "Fragmento temático"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: memory entry copied into a character's book"
+msgid "Character copy"
+msgstr "Copia del personaje"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: message hidden from the AI"
+msgid "Hidden"
+msgstr "Oculto"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: side prompt is turned off"
+msgid "Off"
+msgstr "Desactivado"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "badge: the default memory profile"
+msgid "Default"
+msgstr "Predeterminado"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add a character memory book"
+msgid "Add character book"
+msgstr "Añadir libro de personaje"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add a row to a side prompt set"
+msgid "Add row"
+msgstr "Añadir fila"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add memory context entries"
+msgid "Add context entries"
+msgstr "Añadir entradas de contexto"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add the character book"
+msgid "Add"
+msgstr "Añadir"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: add the picked context entries"
+msgid "Add"
+msgstr "Añadir"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: cancel adding a character book"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: cancel adding context entries"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: cancel editing a memory profile"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: cancel editing a side prompt"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: cancel editing a side prompt set"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: clear the memory processed boundary"
+msgid "Clear"
+msgstr "Borrar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: close the clip dialog"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: combine the picked topical clips"
+msgid "Combine"
+msgstr "Combinar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: consolidate the picked memory entries"
+msgid "Consolidate"
+msgstr "Consolidar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a memory"
+msgid "Create"
+msgstr "Crear"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a memory despite the token warning"
+msgid "Create anyway"
+msgstr "Crear de todos modos"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a memory of the scene after the boundary"
+msgid "Next scene"
+msgstr "Siguiente escena"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a memory profile"
+msgid "New profile"
+msgstr "Nuevo perfil"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a new topical clip"
+msgid "Create clip"
+msgstr "Crear fragmento"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a side prompt"
+msgid "New side prompt"
+msgstr "Nuevo prompt secundario"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: create a side prompt set"
+msgid "New set"
+msgstr "Nuevo conjunto"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: discard a memory draft"
+msgid "Discard"
+msgstr "Descartar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: dismiss a suggested topic"
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: draft a clip from a suggested topic"
+msgid "Draft"
+msgstr "Redactar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: edit a memory entry"
+msgid "Edit"
+msgstr "Editar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: load more search results"
+msgid "More"
+msgstr "Más"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: lock a character to its book"
+msgid "Lock"
+msgstr "Bloquear"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: make this the default memory profile"
+msgid "Make default"
+msgstr "Hacer predeterminado"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the side prompt list"
+msgid "Manage side prompts"
+msgstr "Gestionar prompts secundarios"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: open the side prompt set list"
+msgid "Manage sets"
+msgstr "Gestionar conjuntos"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: pick every listed message"
+msgid "Pick all shown"
+msgstr "Elegir todos los mostrados"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: run a side prompt now"
+msgid "Run"
+msgstr "Ejecutar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: run every row of a side prompt set"
+msgid "Run every row"
+msgstr "Ejecutar todas las filas"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: run one row of a side prompt set"
+msgid "Run"
+msgstr "Ejecutar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save a memory draft whose messages changed"
+msgid "Save anyway"
+msgstr "Guardar de todos modos"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save a memory profile"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save a reviewed memory draft"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save a side prompt"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save a side prompt set"
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the chat's memory settings"
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: save the clip"
+msgid "Save clip"
+msgstr "Guardar fragmento"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: set the memory processed boundary"
+msgid "Set"
+msgstr "Establecer"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: shorten a memory entry"
+msgid "Compact"
+msgstr "Compactar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show a message's full text"
+msgid "Full text"
+msgstr "Texto completo"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show the current text of a topical clip"
+msgid "Current"
+msgstr "Actual"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: show the model's raw reply for a draft"
+msgid "View raw response"
+msgstr "Ver respuesta sin procesar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: unlock a character from its book"
+msgid "Unlock"
+msgstr "Desbloquear"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: unlock the chat's memory book from its character"
+msgid "Unlock from %{character_name}"
+msgstr "Desbloquear de %{character_name}"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: unpick every message"
+msgid "Clear picks"
+msgstr "Borrar selección"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: update the picked topical clip"
+msgid "Update clip"
+msgstr "Actualizar fragmento"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: write a memory draft again"
+msgid "Regenerate"
+msgstr "Regenerar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: write a memory entry again"
+msgid "Regenerate"
+msgstr "Regenerar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: write a memory entry again despite the token warning"
+msgid "Regenerate anyway"
+msgstr "Regenerar de todos modos"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: write memories for a range of past messages"
+msgid "Catch up"
+msgstr "Ponerse al día"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "button: write one consolidation summary again"
+msgid "Regenerate this summary"
+msgstr "Regenerar este resumen"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: memory profiles affected by a bulk action"
+msgid "%{profile_count} profile"
+msgid_plural "%{profile_count} profiles"
+msgstr[0] "%{profile_count} perfil"
+msgstr[1] "%{profile_count} perfiles"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: side prompt sets affected by a bulk action"
+msgid "%{set_count} set"
+msgid_plural "%{set_count} sets"
+msgstr[0] "%{set_count} conjunto"
+msgstr[1] "%{set_count} conjuntos"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "count phrase: side prompts affected by a bulk action"
+msgid "%{side_prompt_count} side prompt"
+msgid_plural "%{side_prompt_count} side prompts"
+msgstr[0] "%{side_prompt_count} prompt secundario"
+msgstr[1] "%{side_prompt_count} prompts secundarios"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: chat has no characters to pick"
+msgid "No characters"
+msgstr "No hay personajes"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: chat has no memory context entries"
+msgid "No context entries"
+msgstr "No hay entradas de contexto"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: chat has no participants to pick"
+msgid "No participants"
+msgstr "No hay participantes"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: chat's memory book has no records"
+msgid "No memories yet"
+msgstr "Aún no hay memorias"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: group chat has no character books"
+msgid "No character books"
+msgstr "No hay libros de personaje"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: lore book has no memories to pick"
+msgid "No memories in this book yet"
+msgstr "Aún no hay memorias en este libro"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: lore book has no topical clips"
+msgid "No topical clips in this book yet"
+msgstr "Aún no hay fragmentos temáticos en este libro"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no entries to consolidate into the tier"
+msgid "Nothing to consolidate into Arc yet"
+msgstr "Aún no hay nada que consolidar en Arco"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no entries to consolidate into the tier"
+msgid "Nothing to consolidate into Book yet"
+msgstr "Aún no hay nada que consolidar en Libro"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no entries to consolidate into the tier"
+msgid "Nothing to consolidate into Chapter yet"
+msgstr "Aún no hay nada que consolidar en Capítulo"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no entries to consolidate into the tier"
+msgid "Nothing to consolidate into Epic yet"
+msgstr "Aún no hay nada que consolidar en Épica"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no entries to consolidate into the tier"
+msgid "Nothing to consolidate into Legend yet"
+msgstr "Aún no hay nada que consolidar en Leyenda"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no entries to consolidate into the tier"
+msgid "Nothing to consolidate into Series yet"
+msgstr "Aún no hay nada que consolidar en Serie"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no lore entries to pick"
+msgid "No lore entries"
+msgstr "No hay entradas de lore"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no memory drafts awaiting review"
+msgid "Nothing to review"
+msgstr "Nada que revisar"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no memory profiles match the search"
+msgid "No profiles match this search"
+msgstr "Ningún perfil coincide con esta búsqueda"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no side prompt sets match the search"
+msgid "No sets match this search"
+msgstr "Ningún conjunto coincide con esta búsqueda"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: no side prompts match the search"
+msgid "No side prompts match this search"
+msgstr "Ningún prompt secundario coincide con esta búsqueda"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: side prompt set has no rows"
+msgid "This set has no rows."
+msgstr "Este conjunto no tiene filas."
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: user has no memory profiles"
+msgid "No memory profiles yet"
+msgstr "Aún no hay perfiles de memoria"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: user has no side prompt sets"
+msgid "No side prompt sets yet"
+msgstr "Aún no hay conjuntos de prompts secundarios"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "empty state: user has no side prompts"
+msgid "No side prompts yet"
+msgstr "Aún no hay prompts secundarios"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: book each side prompt saves to in this chat"
+msgid "Side prompt books"
+msgstr "Libros de prompts secundarios"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: character a memory book is for"
+msgid "Character"
+msgstr "Personaje"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: characters in every memory of a group chat"
+msgid "Always present (silent witnesses)"
+msgstr "Siempre presentes (testigos silenciosos)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: characters present in a new memory"
+msgid "Present (none selected: whoever speaks)"
+msgstr "Presentes (ninguno seleccionado: quien hable)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: clip the highlighted text is added to"
+msgid "Add to"
+msgstr "Añadir a"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: custom outlet name of a side prompt's entry"
+msgid "Custom outlet"
+msgstr "Outlet personalizado"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: custom outlet name of memory entries"
+msgid "Custom outlet"
+msgstr "Outlet personalizado"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: depth a memory entry is inserted at"
+msgid "Depth"
+msgstr "Profundidad"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: depth a side prompt's entry is inserted at"
+msgid "Depth"
+msgstr "Profundidad"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: earlier memories a side prompt reads"
+msgid "Previous memories"
+msgstr "Memorias anteriores"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: entries sent in one consolidation pass"
+msgid "Max entries per pass"
+msgstr "Máximo de entradas por pasada"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: first message number of a range"
+msgid "From #"
+msgstr "Desde #"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: fixed order of memory entries"
+msgid "Fixed order"
+msgstr "Orden fijo"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how a new clip is activated"
+msgid "Activation"
+msgstr "Activación"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how a side prompt's entry is activated"
+msgid "Activation"
+msgstr "Activación"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how chat messages are chosen for a topical clip"
+msgid "Messages"
+msgstr "Mensajes"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how far the chat's memory has processed"
+msgid "Processed"
+msgstr "Procesado"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how many earlier memories a new memory is given as context"
+msgid "Previous memories"
+msgstr "Memorias anteriores"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how memory entries are activated"
+msgid "Activation"
+msgstr "Activación"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: how memory entries are ordered"
+msgid "Order"
+msgstr "Orden"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: insertion order of a side prompt's entry"
+msgid "Order"
+msgstr "Orden"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: keywords of a consolidation summary"
+msgid "Keywords"
+msgstr "Palabras clave"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: keywords of a memory draft"
+msgid "Keywords"
+msgstr "Palabras clave"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: keywords of a side prompt's entry"
+msgid "Keywords"
+msgstr "Palabras clave"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: keywords of a topical clip"
+msgid "Keywords"
+msgstr "Palabras clave"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: label of a side prompt set row, used in its entry's name"
+msgid "Label (names the entry)"
+msgstr "Etiqueta (da nombre a la entrada)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: last message number of a range"
+msgid "To #"
+msgstr "Hasta #"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book a character's memories go to"
+msgid "Book"
+msgstr "Libro"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book a chat's memories are saved to"
+msgid "Memory book"
+msgstr "Libro de memoria"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book a side prompt saves to"
+msgid "Lore book"
+msgstr "Libro de lore"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book a topical clip is saved to"
+msgid "Book"
+msgstr "Libro"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore book whose entries are consolidated"
+msgid "Source book"
+msgstr "Libro de origen"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: lore entries to add as memory context"
+msgid "Entries"
+msgstr "Entradas"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memories used as topical clip sources"
+msgid "Memories"
+msgstr "Memorias"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory book of the chat"
+msgid "Book"
+msgstr "Libro"
+
+#. %{source_names} is a comma-separated list of memory entry names.
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory entries a consolidation summary was built from"
+msgid "From: %{source_names}"
+msgstr "De: %{source_names}"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory entries to consolidate"
+msgid "Sources"
+msgstr "Fuentes"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory entry placement around its outlet"
+msgid "Placement"
+msgstr "Ubicación"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile of the chat"
+msgid "Profile"
+msgstr "Perfil"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile prompt"
+msgid "Character memory prompt"
+msgstr "Prompt de memoria de personaje"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile prompt"
+msgid "Combine clips prompt"
+msgstr "Prompt para combinar fragmentos"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile prompt"
+msgid "Compaction prompt"
+msgstr "Prompt de compactación"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile prompt"
+msgid "Consolidation prompt"
+msgstr "Prompt de consolidación"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile prompt"
+msgid "Group memory prompt"
+msgstr "Prompt de memoria de grupo"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile prompt"
+msgid "Memory assistance prompt"
+msgstr "Prompt de asistencia de memoria"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile prompt"
+msgid "Memory prompt"
+msgstr "Prompt de memoria"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile prompt"
+msgid "Topic suggestions prompt"
+msgstr "Prompt de sugerencias de temas"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile prompt"
+msgid "Topical clip prompt"
+msgstr "Prompt de fragmento temático"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile temperature, blank uses the model's"
+msgid "Temperature (blank: model's)"
+msgstr "Temperatura (en blanco: la del modelo)"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory profile whose model a side prompt uses"
+msgid "Profile (model)"
+msgstr "Perfil (modelo)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: memory tier to consolidate into"
+msgid "Consolidate into"
+msgstr "Consolidar en"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: message a suggested clip line comes from"
+msgid "From message #%{message_number}"
+msgstr "Del mensaje #%{message_number}"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: message number the memory processed boundary is set to"
+msgid "Processed through #"
+msgstr "Procesado hasta #"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: messages between side prompt runs"
+msgid "Messages"
+msgstr "Mensajes"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: messages each catch-up memory covers"
+msgid "Messages per memory"
+msgstr "Mensajes por memoria"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: model a memory profile uses"
+msgid "Model"
+msgstr "Modelo"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: most tokens a memory response may use"
+msgid "Max tokens"
+msgstr "Máximo de tokens"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a memory profile"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a side prompt"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: name of a side prompt set"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: new messages that start an automatic memory"
+msgid "Interval"
+msgstr "Intervalo"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: new tokens that start an automatic memory"
+msgid "Token threshold"
+msgstr "Umbral de tokens"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: newest messages an automatic memory leaves out"
+msgid "Buffer"
+msgstr "Búfer"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: newest processed messages auto-hide keeps visible"
+msgid "Leave unhidden"
+msgstr "Dejar sin ocultar"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt a side prompt runs"
+msgid "Prompt"
+msgstr "Prompt"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: prompt used to consolidate memories"
+msgid "Prompt"
+msgstr "Prompt"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: search chat messages to pick"
+msgid "Search messages"
+msgstr "Buscar mensajes"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: side prompt a set row runs"
+msgid "Side prompt"
+msgstr "Prompt secundario"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: side prompt entry placement around its outlet"
+msgid "Placement"
+msgstr "Ubicación"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: side prompt set that runs automatically"
+msgid "Side prompt set"
+msgstr "Conjunto de prompts secundarios"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: suggested line to add to a clip"
+msgid "New clip line"
+msgstr "Nueva línea de fragmento"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: suggested new text of a topical clip"
+msgid "Revised clip"
+msgstr "Fragmento revisado"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: text of a clip"
+msgid "Text"
+msgstr "Texto"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: text of a consolidation summary"
+msgid "Summary"
+msgstr "Resumen"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: text of a memory draft"
+msgid "Content"
+msgstr "Contenido"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: text of a topical clip or side prompt draft"
+msgid "Draft"
+msgstr "Borrador"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: title format of consolidated entries"
+msgid "Consolidation title format"
+msgstr "Formato del título de consolidación"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: title format of memory entries"
+msgid "Title format"
+msgstr "Formato del título"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: title of a consolidation summary"
+msgid "Title"
+msgstr "Título"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: title of a memory draft"
+msgid "Title"
+msgstr "Título"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: title of a new clip"
+msgid "Title"
+msgstr "Título"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: title of a side prompt's entry, blank uses the name"
+msgid "Entry title (blank: the name)"
+msgstr "Título de la entrada (en blanco: el nombre)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: title of the combined clip"
+msgid "Title"
+msgstr "Título"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: tokens sent in one consolidation pass"
+msgid "Token budget per pass"
+msgstr "Presupuesto de tokens por pasada"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: topic of a topical clip"
+msgid "Topic"
+msgstr "Tema"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: topical clip to update"
+msgid "Clip"
+msgstr "Fragmento"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: what starts an automatic memory"
+msgid "Trigger"
+msgstr "Disparador"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: where a side prompt's entry is inserted"
+msgid "Outlet"
+msgstr "Outlet"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: where memory entries are inserted"
+msgid "Outlet"
+msgstr "Outlet"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: which processed messages are hidden from the AI"
+msgid "Auto-hide processed messages"
+msgstr "Ocultar automáticamente los mensajes procesados"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "field label: which side prompts run automatically in the chat"
+msgid "Side prompts that run automatically"
+msgstr "Prompts secundarios que se ejecutan automáticamente"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: add a topic to the suggested topical clips"
+msgid "Add a topic"
+msgstr "Añadir un tema"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: chat memory modal"
+msgid "Memory"
+msgstr "Memoria"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: compacted draft of an entry"
+msgid "Draft"
+msgstr "Borrador"
+
+#. Confirm dialog before deleting a memory profile.
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting a memory profile"
+msgid "Delete %{profile_name}?"
+msgstr "¿Eliminar %{profile_name}?"
+
+#. Confirm dialog before deleting a side prompt.
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting a side prompt"
+msgid "Delete %{side_prompt_name}?"
+msgstr "¿Eliminar %{side_prompt_name}?"
+
+#. Confirm dialog before deleting a side prompt set.
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: confirm dialog before deleting a side prompt set"
+msgid "Delete %{set_name}?"
+msgstr "¿Eliminar %{set_name}?"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: dialog that saves highlighted text as a clip"
+msgid "Clip"
+msgstr "Fragmento"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form that creates a memory from a message range"
+msgid "Create a memory"
+msgstr "Crear una memoria"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: form that writes memories for a range of past messages"
+msgid "Catch up"
+msgstr "Ponerse al día"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: group of clip entries"
+msgid "Clips"
+msgstr "Fragmentos"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: group of side prompt entries"
+msgid "Side prompts"
+msgstr "Prompts secundarios"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: group of topical clip entries"
+msgid "Topical clips"
+msgstr "Fragmentos temáticos"
+
+#: lib/mythweaver/memory/clips.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that combines topical clips"
+msgid "Combine clips — %{clip_title}"
+msgstr "Combinar fragmentos — %{clip_title}"
+
+#: lib/mythweaver/memory.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that compacts a lore entry"
+msgid "Compact %{entry_name}"
+msgstr "Compactar %{entry_name}"
+
+#: lib/mythweaver/memory.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that compacts an untitled entry"
+msgid "Compact entry"
+msgstr "Compactar entrada"
+
+#: lib/mythweaver/memory/consolidation.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that consolidates arcs into a Chapter"
+msgid "Chapter from %{entry_count} arc"
+msgid_plural "Chapter from %{entry_count} arcs"
+msgstr[0] "Capítulo a partir de %{entry_count} arco"
+msgstr[1] "Capítulo a partir de %{entry_count} arcos"
+
+#: lib/mythweaver/memory/consolidation.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that consolidates books into a Legend"
+msgid "Legend from %{entry_count} book"
+msgid_plural "Legend from %{entry_count} books"
+msgstr[0] "Leyenda a partir de %{entry_count} libro"
+msgstr[1] "Leyenda a partir de %{entry_count} libros"
+
+#: lib/mythweaver/memory/consolidation.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that consolidates chapters into a Book"
+msgid "Book from %{entry_count} chapter"
+msgid_plural "Book from %{entry_count} chapters"
+msgstr[0] "Libro a partir de %{entry_count} capítulo"
+msgstr[1] "Libro a partir de %{entry_count} capítulos"
+
+#: lib/mythweaver/memory/consolidation.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that consolidates legends into a Series"
+msgid "Series from %{entry_count} legend"
+msgid_plural "Series from %{entry_count} legends"
+msgstr[0] "Serie a partir de %{entry_count} leyenda"
+msgstr[1] "Serie a partir de %{entry_count} leyendas"
+
+#: lib/mythweaver/memory/consolidation.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that consolidates memories into an Arc"
+msgid "Arc from %{entry_count} memory"
+msgid_plural "Arc from %{entry_count} memories"
+msgstr[0] "Arco a partir de %{entry_count} memoria"
+msgstr[1] "Arco a partir de %{entry_count} memorias"
+
+#: lib/mythweaver/memory/consolidation.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that consolidates series into an Epic"
+msgid "Epic from %{entry_count} series"
+msgid_plural "Epic from %{entry_count} series"
+msgstr[0] "Épica a partir de %{entry_count} serie"
+msgstr[1] "Épica a partir de %{entry_count} series"
+
+#: lib/mythweaver/memory/clips.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that drafts a topical clip"
+msgid "Topical clip — %{topic_name}"
+msgstr "Fragmento temático — %{topic_name}"
+
+#: lib/mythweaver/memory/clips.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that suggests topical clips for a book"
+msgid "Topic suggestions — %{book_name}"
+msgstr "Sugerencias de temas — %{book_name}"
+
+#: lib/mythweaver/memory/clips.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that updates the clips of a book"
+msgid "Memory assistance — %{book_name}"
+msgstr "Asistencia de memoria — %{book_name}"
+
+#: lib/mythweaver/memory.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that writes a memory of a message range"
+msgid "Memory #%{first_message_number}–#%{last_message_number}"
+msgstr "Memoria #%{first_message_number}–#%{last_message_number}"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: lore entries sent with every memory request of the chat"
+msgid "Additional context entries"
+msgstr "Entradas de contexto adicionales"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: memory jobs currently running"
+msgid "In progress"
+msgstr "En curso"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: memory profile being created"
+msgid "New profile"
+msgstr "Nuevo perfil"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: memory section"
+msgid "Memory"
+msgstr "Memoria"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: memory settings of the open chat"
+msgid "This chat's memory settings"
+msgstr "Ajustes de memoria de este chat"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: merge several topical clips into one"
+msgid "Combine clips"
+msgstr "Combinar fragmentos"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: original text of an entry being compacted"
+msgid "Original"
+msgstr "Original"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: per-character memory books of a group chat"
+msgid "Character memory books"
+msgstr "Libros de memoria de personajes"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: rows of a side prompt set"
+msgid "Rows"
+msgstr "Filas"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: side prompt being created"
+msgid "New side prompt"
+msgstr "Nuevo prompt secundario"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: side prompt set being created"
+msgid "New side prompt set"
+msgstr "Nuevo conjunto de prompts secundarios"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: side prompt set the chat runs"
+msgid "Set: %{set_name}"
+msgstr "Conjunto: %{set_name}"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: side prompt sets page"
+msgid "Side prompt sets"
+msgstr "Conjuntos de prompts secundarios"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: side prompts page"
+msgid "Side prompts"
+msgstr "Prompts secundarios"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: source records a consolidation left out, with their count"
+msgid "Left out (%{record_count})"
+msgstr "Dejados fuera (%{record_count})"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: the entry a side prompt writes"
+msgid "The entry it writes"
+msgstr "La entrada que escribe"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: topical clips the model suggests"
+msgid "Suggested topical clips"
+msgstr "Fragmentos temáticos sugeridos"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: topics the model suggests for topical clips"
+msgid "Suggested topics"
+msgstr "Temas sugeridos"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: what a side prompt reads"
+msgid "What it reads"
+msgstr "Qué lee"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: when a side prompt runs"
+msgid "When it runs"
+msgstr "Cuándo se ejecuta"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: memory profiles page"
+msgid "Profiles"
+msgstr "Perfiles"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: memory section side prompts page"
+msgid "Side prompts"
+msgstr "Prompts secundarios"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: memory settings page"
+msgid "Settings"
+msgstr "Ajustes"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "link: side prompt sets page"
+msgid "Sets"
+msgstr "Conjuntos"
+
+#: lib/mythweaver/memory/tiers.ex
+#, elixir-autogen, elixir-format
+msgctxt "memory tier name"
+msgid "Arc"
+msgstr "Arco"
+
+#: lib/mythweaver/memory/tiers.ex
+#, elixir-autogen, elixir-format
+msgctxt "memory tier name"
+msgid "Book"
+msgstr "Libro"
+
+#: lib/mythweaver/memory/tiers.ex
+#, elixir-autogen, elixir-format
+msgctxt "memory tier name"
+msgid "Chapter"
+msgstr "Capítulo"
+
+#: lib/mythweaver/memory/tiers.ex
+#, elixir-autogen, elixir-format
+msgctxt "memory tier name"
+msgid "Epic"
+msgstr "Épica"
+
+#: lib/mythweaver/memory/tiers.ex
+#, elixir-autogen, elixir-format
+msgctxt "memory tier name"
+msgid "Legend"
+msgstr "Leyenda"
+
+#: lib/mythweaver/memory/tiers.ex
+#, elixir-autogen, elixir-format
+msgctxt "memory tier name"
+msgid "Memory"
+msgstr "Memoria"
+
+#: lib/mythweaver/memory/tiers.ex
+#, elixir-autogen, elixir-format
+msgctxt "memory tier name"
+msgid "Series"
+msgstr "Serie"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: add the highlighted text to a new clip"
+msgid "New clip"
+msgstr "Nuevo fragmento"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: auto-hide processed messages"
+msgid "All processed"
+msgstr "Todos los procesados"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: auto-hide processed messages"
+msgid "Last scene only"
+msgstr "Solo la última escena"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: auto-hide processed messages"
+msgid "Off"
+msgstr "Desactivado"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: automatic memory trigger"
+msgid "Every N messages"
+msgstr "Cada N mensajes"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: automatic memory trigger"
+msgid "Token threshold"
+msgstr "Umbral de tokens"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat messages chosen as a range"
+msgid "A range"
+msgstr "Un rango"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: chat messages chosen one by one"
+msgid "Picked messages"
+msgstr "Mensajes elegidos"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: create a new topical clip"
+msgid "New topical clip"
+msgstr "Nuevo fragmento temático"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: group chats use the memory prompt"
+msgid "Same as memory prompt"
+msgstr "Igual que el prompt de memoria"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how a new clip is activated"
+msgid "Always"
+msgstr "Siempre"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how a new clip is activated"
+msgid "By keyword (the title)"
+msgstr "Por palabra clave (el título)"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how memory entries are ordered"
+msgid "By sequence"
+msgstr "Por secuencia"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: how memory entries are ordered"
+msgid "Fixed"
+msgstr "Fijo"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: make a memory book for the chat on the first save"
+msgid "Create automatically"
+msgstr "Crear automáticamente"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: memory entry name with the message range it covers"
+msgid "%{entry_name} (#%{first_message_number}–#%{last_message_number})"
+msgstr "%{entry_name} (#%{first_message_number}–#%{last_message_number})"
+
+#. %{tier_name} is a memory tier name such as Memory, Arc or Chapter.
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: memory entry offered as a topical clip source"
+msgid "%{tier_name}: %{entry_label}"
+msgstr "%{tier_name}: %{entry_label}"
+
+#. %{tier_name} is a memory tier name such as Memory, Arc or Chapter.
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: memory entry offered as a topical clip source, already in the clip"
+msgid "%{tier_name}: %{entry_label} (already in this clip)"
+msgstr "%{tier_name}: %{entry_label} (ya está en este fragmento)"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: memory profile uses the chat's model"
+msgid "Chat model"
+msgstr "Modelo del chat"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: memory tier to consolidate into"
+msgid "Arc (from memories)"
+msgstr "Arco (a partir de memorias)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: memory tier to consolidate into"
+msgid "Book (from chapters)"
+msgstr "Libro (a partir de capítulos)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: memory tier to consolidate into"
+msgid "Chapter (from arcs)"
+msgstr "Capítulo (a partir de arcos)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: memory tier to consolidate into"
+msgid "Epic (from series)"
+msgstr "Épica (a partir de series)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: memory tier to consolidate into"
+msgid "Legend (from books)"
+msgstr "Leyenda (a partir de libros)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: memory tier to consolidate into"
+msgid "Series (from legends)"
+msgstr "Serie (a partir de leyendas)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no book picked yet"
+msgid "Pick a book"
+msgstr "Elige un libro"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no character picked yet"
+msgid "Pick a character"
+msgstr "Elige un personaje"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no prompt picked for this memory profile job"
+msgid "None"
+msgstr "Ninguno"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no prompt picked yet"
+msgid "Pick a prompt"
+msgstr "Elige un prompt"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no side prompt picked yet"
+msgid "Pick a side prompt"
+msgstr "Elige un prompt secundario"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: no side prompt set picked yet"
+msgid "Pick a set"
+msgstr "Elige un conjunto"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: side prompt saves to the book it names itself"
+msgid "Side prompt's own target"
+msgstr "Destino propio del prompt secundario"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: side prompt saves to the chat's memory book"
+msgid "The chat's memory book"
+msgstr "El libro de memoria del chat"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: side prompt uses the chat's memory profile"
+msgid "The chat's profile"
+msgstr "El perfil del chat"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: the chat's memory book, made when the clip is saved"
+msgid "Chat memory book (created on save)"
+msgstr "Libro de memoria del chat (se crea al guardar)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: topical clip that is turned off"
+msgid "%{clip_name} (off)"
+msgstr "%{clip_name} (desactivado)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: use the default automatic memory trigger"
+msgid "Default (Every N messages)"
+msgstr "Predeterminado (cada N mensajes)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: use the default automatic memory trigger"
+msgid "Default (Token threshold)"
+msgstr "Predeterminado (umbral de tokens)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: use the default memory profile"
+msgid "Default"
+msgstr "Predeterminado"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: which side prompts run automatically"
+msgid "A set"
+msgstr "Un conjunto"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: which side prompts run automatically"
+msgid "Default"
+msgstr "Predeterminado"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "option: which side prompts run automatically"
+msgid "Individually enabled side prompts"
+msgstr "Prompts secundarios activados individualmente"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: list of memory profiles"
+msgid "Memory profiles"
+msgstr "Perfiles de memoria"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: list of side prompt sets"
+msgid "Side prompt sets"
+msgstr "Conjuntos de prompts secundarios"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "page title: list of side prompts"
+msgid "Side prompts"
+msgstr "Prompts secundarios"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: blank uses the default automatic memory buffer"
+msgid "Default (%{message_count})"
+msgstr "Predeterminado (%{message_count})"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: blank uses the default automatic memory interval"
+msgid "Default (%{message_count})"
+msgstr "Predeterminado (%{message_count})"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: blank uses the default automatic memory token threshold"
+msgid "Default (%{token_count})"
+msgstr "Predeterminado (%{token_count})"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: example topic of a topical clip"
+msgid "e.g. Mira's sword"
+msgstr "p. ej., la espada de Mira"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: keyword chip input"
+msgid "Type a keyword, then Enter or comma"
+msgstr "Escribe una palabra clave y pulsa Intro o coma"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search memory profiles by name"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search side prompt sets by name"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: search side prompts by name"
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: side prompt range ends at the latest message"
+msgid "Latest"
+msgstr "Último"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: side prompt range starts after its last run"
+msgid "After the last run"
+msgstr "Después de la última ejecución"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "placeholder: topical clip keywords default to the topic"
+msgid "Default: the topic"
+msgstr "Predeterminado: el tema"
+
+#. Flash after a character memory book was added to a group chat.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a character memory book was added"
+msgid "Character book added."
+msgstr "Libro de personaje añadido."
+
+#. Flash after a character was locked to its memory book.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a character was locked to its memory book"
+msgid "Locked."
+msgstr "Bloqueado."
+
+#. Flash after a character was unlocked from its memory book.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a character was unlocked from its memory book"
+msgid "Unlocked."
+msgstr "Desbloqueado."
+
+#. Flash after a reviewed compaction draft was saved over its entry.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a compaction draft was saved"
+msgid "Entry compacted"
+msgstr "Entrada compactada"
+
+#. Flash after a reviewed consolidation draft was saved.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a consolidation draft was saved"
+msgid "Consolidation saved"
+msgstr "Consolidación guardada"
+
+#. %{error_detail} is the internal error term, shown verbatim.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a memory action failed"
+msgid "Failed: %{error_detail}"
+msgstr "Error: %{error_detail}"
+
+#. Flash after a reviewed memory draft was saved.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a memory draft was saved"
+msgid "Memory saved"
+msgstr "Memoria guardada"
+
+#. Flash after a memory job was queued; %{job_label} is the job's name, such as Memory #3–#12.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a memory job was queued"
+msgid "%{job_label} queued"
+msgstr "%{job_label} en cola"
+
+#. Flash after a memory profile was saved.
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a memory profile was saved"
+msgid "%{profile_name} saved"
+msgstr "%{profile_name} guardado"
+
+#. Flash after a reviewed side prompt draft was saved.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a side prompt draft was saved"
+msgid "Side prompt saved"
+msgstr "Prompt secundario guardado"
+
+#. Flash after a side prompt set was saved.
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a side prompt set was saved"
+msgid "%{set_name} saved"
+msgstr "%{set_name} guardado"
+
+#. Flash after a side prompt was saved.
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a side prompt was saved"
+msgid "%{side_prompt_name} saved"
+msgstr "%{side_prompt_name} guardado"
+
+#. Flash after a reviewed topical clip draft was saved.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: a topical clip draft was saved"
+msgid "Topical clip saved"
+msgstr "Fragmento temático guardado"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: character book that was deleted or is unreadable"
+msgid "Unavailable book"
+msgstr "Libro no disponible"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: chat has no memory book yet"
+msgid "None yet (created on first save)"
+msgstr "Ninguno aún (se crea al guardar por primera vez)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: chat has no memory profile"
+msgid "None"
+msgstr "Ninguno"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: chat memory has processed no messages"
+msgid "Nothing processed yet"
+msgstr "Aún no se ha procesado nada"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: clip entry that was deleted"
+msgid "(the entry is gone)"
+msgstr "(la entrada ya no existe)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: context entry that was deleted or is unreadable"
+msgid "Unavailable entry"
+msgstr "Entrada no disponible"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: last message a side prompt has run through"
+msgid "Run through #%{message_number}"
+msgstr "Ejecutado hasta #%{message_number}"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: last message number the chat's memory covers"
+msgid "Processed through #%{message_number}"
+msgstr "Procesado hasta #%{message_number}"
+
+#. Flash after the reviewed memory assistance updates were applied.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: memory assistance updates were applied"
+msgid "Memory assistance applied."
+msgstr "Asistencia de memoria aplicada."
+
+#. Flash after lore entries were added to the chat's memory context.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: memory context entries were added"
+msgid "Context entries added."
+msgstr "Entradas de contexto añadidas."
+
+#: lib/mythweaver/memory.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: memory draft the user discarded"
+msgid "Discarded."
+msgstr "Descartado."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: memory entry"
+msgid "Disabled"
+msgstr "Desactivada"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: memory entry"
+msgid "Enabled"
+msgstr "Activada"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: memory entry merged into a higher tier"
+msgid "Consolidated"
+msgstr "Consolidada"
+
+#. Flash when the memory profile being opened no longer exists or is not editable.
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: memory profile was not found"
+msgid "Profile not found"
+msgstr "Perfil no encontrado"
+
+#. Flash after the chat's memory settings were saved.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: memory settings were saved"
+msgid "Memory settings saved"
+msgstr "Ajustes de memoria guardados"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: message range a memory entry covers"
+msgid "#%{first_message_number}–#%{last_message_number}"
+msgstr "#%{first_message_number}–#%{last_message_number}"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: number of passes a consolidation run takes"
+msgid "%{pass_count} pass"
+msgid_plural "%{pass_count} passes"
+msgstr[0] "%{pass_count} pasada"
+msgstr[1] "%{pass_count} pasadas"
+
+#. Flash after one summary of a consolidation draft was sent to be written again.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: one consolidation summary is being written again"
+msgid "Regenerating that summary."
+msgstr "Regenerando ese resumen."
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: side prompt has not run in this chat"
+msgid "Not run in this chat yet"
+msgstr "Aún no se ha ejecutado en este chat"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: side prompt never runs automatically"
+msgid "Manual only"
+msgstr "Solo manual"
+
+#. Flash when the side prompt set being opened no longer exists or is not editable.
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: side prompt set was not found"
+msgid "Side prompt set not found"
+msgstr "Conjunto de prompts secundarios no encontrado"
+
+#. Flash when the side prompt being opened no longer exists or is not editable.
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: side prompt was not found"
+msgid "Side prompt not found"
+msgstr "Prompt secundario no encontrado"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: source memory entry that was deleted"
+msgid "(deleted)"
+msgstr "(eliminada)"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: suggested topic being drafted into a clip"
+msgid "Drafting…"
+msgstr "Redactando…"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: when a side prompt runs automatically"
+msgid "After each memory"
+msgstr "Después de cada memoria"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: when a side prompt runs automatically"
+msgid "After each memory · Every %{message_count} message"
+msgid_plural "After each memory · Every %{message_count} messages"
+msgstr[0] "Después de cada memoria · Cada %{message_count} mensaje"
+msgstr[1] "Después de cada memoria · Cada %{message_count} mensajes"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: when a side prompt runs automatically"
+msgid "Every %{message_count} message"
+msgid_plural "Every %{message_count} messages"
+msgstr[0] "Cada %{message_count} mensaje"
+msgstr[1] "Cada %{message_count} mensajes"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: consolidate memories into the next tier"
+msgid "Consolidate"
+msgstr "Consolidar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: gather one topic into a clip"
+msgid "Topical clip"
+msgstr "Fragmento temático"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: lore entries sent with memory requests"
+msgid "Context"
+msgstr "Contexto"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: memory drafts awaiting review"
+msgid "Reviews"
+msgstr "Revisiones"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: memory status and create forms"
+msgid "Memory"
+msgstr "Memoria"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: per-character memory books"
+msgid "Character books"
+msgstr "Libros de personaje"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: records of the chat's memory book"
+msgid "Entries"
+msgstr "Entradas"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: side prompts of the chat"
+msgid "Side prompts"
+msgstr "Prompts secundarios"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "tab: the chat's memory settings"
+msgid "Settings"
+msgstr "Ajustes"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: ask the model for JSON"
+msgid "Request structured JSON output"
+msgstr "Solicitar salida JSON estructurada"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: create this suggested topical clip"
+msgid "Create this topical clip"
+msgstr "Crear este fragmento temático"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: disable source entries after consolidating them"
+msgid "Disable the sources once consolidated"
+msgstr "Desactivar las fuentes una vez consolidadas"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: disable the clips that were combined"
+msgid "Disable the original clips after saving"
+msgstr "Desactivar los fragmentos originales después de guardar"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: entry a side prompt writes"
+msgid "Exclude from recursion"
+msgstr "Excluir de la recursión"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: entry a side prompt writes"
+msgid "Ignore the lore budget"
+msgstr "Ignorar el presupuesto de lore"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: entry a side prompt writes"
+msgid "Prevent recursion"
+msgstr "Evitar la recursión"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: keep this consolidation summary"
+msgid "Keep this summary"
+msgstr "Conservar este resumen"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: keep this suggested clip update"
+msgid "Keep this update"
+msgstr "Conservar esta actualización"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: list only messages hidden from the AI"
+msgid "Hidden messages only"
+msgstr "Solo mensajes ocultos"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: lock the character to this book"
+msgid "Lock to this book"
+msgstr "Bloquear a este libro"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: memory entry"
+msgid "Exclude from recursion"
+msgstr "Excluir de la recursión"
+
+#: lib/mythweaver_web/live/memory_profile_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: memory entry"
+msgid "Prevent recursion"
+msgstr "Evitar la recursión"
+
+#: lib/mythweaver_web/live/side_prompt_set_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: remove a side prompt set row on save"
+msgid "Remove"
+msgstr "Quitar"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: side prompt is off"
+msgid "Off"
+msgstr "Desactivado"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: side prompt is on"
+msgid "On"
+msgstr "Activado"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: side prompt reads the chat's memory context entries"
+msgid "Include the chat's Additional Context"
+msgstr "Incluir el contexto adicional del chat"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: side prompt runs automatically"
+msgid "Enabled"
+msgstr "Activado"
+
+#: lib/mythweaver_web/live/side_prompt_live.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: side prompt runs every few messages"
+msgid "Every N messages"
+msgstr "Cada N mensajes"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: use chat messages as topical clip sources"
+msgid "Include chat messages"
+msgstr "Incluir mensajes del chat"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: use memories as topical clip sources"
+msgid "Include memories"
+msgstr "Incluir memorias"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "toggle: write memories of the chat automatically"
+msgid "Create memories automatically"
+msgstr "Crear memorias automáticamente"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: button that creates a memory of the next scene"
+msgid "From the boundary to the latest message"
+msgstr "Desde el límite hasta el último mensaje"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "tooltip: on/off switch of a side prompt"
+msgid "Turns this side prompt on or off in every chat"
+msgstr "Activa o desactiva este prompt secundario en todos los chats"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "unit: token count of a text"
+msgid "%{token_count} token"
+msgid_plural "%{token_count} tokens"
+msgstr[0] "%{token_count} token"
+msgstr[1] "%{token_count} tokens"
+
+#: lib/mythweaver/memory/side_prompts.ex
+#, elixir-autogen, elixir-format
+msgid "Side prompt — %{side_prompt_name} — %{row_label}"
+msgstr "Prompt secundario — %{side_prompt_name} — %{row_label}"
+
+#. %{character_names} is a list of character names.
+#: lib/mythweaver/memory.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that copies a memory of a message range to other characters"
+msgid "Memory #%{first_message_number}–#%{last_message_number} for %{character_names}"
+msgstr "Memoria #%{first_message_number}–#%{last_message_number} para %{character_names}"
+
+#: lib/mythweaver/memory/side_prompts.ex
+#, elixir-autogen, elixir-format
+msgctxt "heading: job that runs a side prompt"
+msgid "Side prompt — %{side_prompt_name}"
+msgstr "Prompt secundario — %{side_prompt_name}"
+
+#. Confirm dialog before discarding a memory draft awaiting review.
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: confirm dialog before discarding a memory draft"
+msgid "Discard this draft?"
+msgstr "¿Descartar este borrador?"
+
+#. Confirm dialog before removing a character's memory book from a group chat.
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: confirm dialog before removing a character's memory book from a group chat"
+msgid "Remove %{character_name}'s character book?"
+msgstr "¿Quitar el libro de personaje de %{character_name}?"
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error when a memory draft has no content"
+msgid "The draft is empty."
+msgstr "El borrador está vacío."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error when a memory has no title"
+msgid "Enter a title."
+msgstr "Escribe un título."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error when a topical memory has no topic"
+msgid "Enter a topic."
+msgstr "Escribe un tema."
+
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: error when the message numbers for a memory are missing"
+msgid "Enter message numbers."
+msgstr "Escribe los números de mensaje."
+
+#. Flash after catch-up memories were queued for a message range.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after catch-up memories were queued"
+msgid "Catch-up queued: %{memory_count} memory"
+msgid_plural "Catch-up queued: %{memory_count} memories"
+msgstr[0] "Puesta al día en cola: %{memory_count} memoria"
+msgstr[1] "Puesta al día en cola: %{memory_count} memorias"
+
+#. Flash after a consolidation run was queued.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after consolidation passes were queued"
+msgid "Consolidation queued: %{pass_count} pass"
+msgid_plural "Consolidation queued: %{pass_count} passes"
+msgstr[0] "Consolidación en cola: %{pass_count} pasada"
+msgstr[1] "Consolidación en cola: %{pass_count} pasadas"
+
+#. Flash after a character's memory book was removed from a group chat.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after removing a character's memory book from a chat"
+msgid "Character book removed."
+msgstr "Libro de personaje eliminado."
+
+#. Flash after a lore entry was removed from the chat's memory context.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after removing an entry from the chat's memory context"
+msgid "Context entry removed."
+msgstr "Entrada de contexto eliminada."
+
+#. Flash when turning a side prompt on or off failed.
+#: lib/mythweaver_web/live/main_chat_live/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: flash after turning a side prompt on or off failed"
+msgid "Could not update %{side_prompt_name}"
+msgstr "No se pudo actualizar %{side_prompt_name}"
+
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how many chat messages are picked for a topical memory"
+msgid "%{message_count} message picked"
+msgid_plural "%{message_count} messages picked"
+msgstr[0] "%{message_count} mensaje elegido"
+msgstr[1] "%{message_count} mensajes elegidos"
+
+#. %{message_numbers} is a comma-separated list of message numbers such as #3, #7.
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: how many chat messages are picked for a topical memory, and which"
+msgid "%{message_count} message picked: %{message_numbers}"
+msgid_plural "%{message_count} messages picked: %{message_numbers}"
+msgstr[0] "%{message_count} mensaje elegido: %{message_numbers}"
+msgstr[1] "%{message_count} mensajes elegidos: %{message_numbers}"
+
+#. %{tier_names} is a list of memory tier names such as Arc and Chapter.
+#: lib/mythweaver_web/components/chat/memory_panel.ex
+#, elixir-autogen, elixir-format
+msgctxt "status: memory tiers that have enough entries to consolidate"
+msgid "Ready to consolidate: %{tier_names}"
+msgstr "Listo para consolidar: %{tier_names}"

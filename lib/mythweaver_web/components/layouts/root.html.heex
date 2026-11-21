@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html
+  lang={Mythweaver.Locale.html_lang()}
+  data-locale={Mythweaver.Locale.format_tag()}
+  style={tint_style(assigns[:current_scope])}
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content"
+    />
+    <meta name="csrf-token" content={get_csrf_token()} /> <.live_title
+      default={Branding.name()}
+      suffix={" • " <> Branding.name()}
+      phx-no-format
+    >{assigns[:page_title]}</.live_title>
+    <link rel="icon" href={~p"/favicon.ico"} />
+    <link rel="manifest" href={~p"/manifest.webmanifest"} />
+    <link rel="apple-touch-icon" href={~p"/images/icons/apple-touch-icon.png"} />
+    <meta name="theme-color" content="#f3f6ff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#10141c" media="(prefers-color-scheme: dark)" />
+    <link phx-track-static rel="stylesheet" href={~p"/assets/css/app.css"} />
+    <%!-- After app.css: its `@layer … userstyles;` must come first, so `userstyles` stays last. --%>
+    <style id="custom-styles">
+      <%= custom_style_imports(assigns[:current_scope], assigns[:safe_mode?] == true) %>
+    </style>
+    <%!--
+      `type="module"`, not a classic script: app.js is Bun's ESM output, and a classic script puts every
+      top-level declaration on `window`. SortableJS's internal `function dispatchEvent` then shadowed
+      `window.dispatchEvent` and silently cancelled every LiveView link. Module scripts get their own
+      scope and are deferred by default.
+    --%>
+    <script phx-track-static type="module" src={~p"/assets/js/app.js"}>
+    </script>
+  </head>
+
+  <body data-client-strings={Jason.encode!(MythweaverWeb.ClientStrings.catalog())}>
+    {Iconex.sprite_tag()}
+    <.avatar_placeholder_sprite />
+    {@inner_content}
+  </body>
+</html>
