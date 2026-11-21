@@ -199,6 +199,17 @@ if config_env() == :prod do
       Set it to the public host name, e.g. mythweaver.example.org
       """
 
+  # The scheme and port of public links (`url/1`). Plain http works only on localhost:
+  # `config/prod.exs`' force_ssl exempts just localhost and 127.0.0.1.
+  scheme =
+    case System.get_env("PHX_SCHEME", "https") do
+      scheme when scheme in ~w(http https) -> scheme
+      other -> raise "PHX_SCHEME must be http or https, got: #{inspect(other)}"
+    end
+
+  url_port =
+    String.to_integer(System.get_env("PHX_URL_PORT") || if(scheme == "https", do: "443", else: "80"))
+
   config :mythweaver, Mythweaver.Repo,
     # ssl: true,
     url: database_url,
@@ -217,7 +228,7 @@ if config_env() == :prod do
         """)
 
   config :mythweaver, MythweaverWeb.Endpoint,
-    url: [host: host, port: 443, scheme: "https"],
+    url: [host: host, port: url_port, scheme: scheme],
     http: [
       # Enable IPv6 and bind on all interfaces.
       # Set it to  {0, 0, 0, 0, 0, 0, 0, 1} for local network only access.

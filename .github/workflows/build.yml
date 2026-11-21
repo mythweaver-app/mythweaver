@@ -1,0 +1,56 @@
+# Generated from Workflow.pkl. DO NOT EDIT.
+name: Build
+'on':
+  push:
+    branches-ignore:
+    - main
+    - release/*
+    - dependabot/**
+    tags-ignore:
+    - '**'
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  test:
+    permissions:
+      checks: write
+    runs-on: ubuntu-24.04
+    env:
+      MIX_ENV: test
+    steps:
+    - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      with:
+        persist-credentials: false
+    - name: Install tools
+      uses: jdx/mise-action@924e7c586e33d7d4bae9c14e26c5d22e2beb6e78 # v5
+    - uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5
+      with:
+        path: |-
+          deps
+          _build
+          priv/localize
+        key: mix-${{ runner.os }}-${{ hashFiles('mix.lock', 'mise.lock') }}
+        restore-keys: mix-${{ runner.os }}-
+    - name: Fetch dependencies
+      run: mix deps.get
+    - name: Download locales
+      run: mix localize.download_locales
+    - name: Check and test
+      run: mix ci
+    - name: Publish test results
+      if: '!cancelled()'
+      uses: EnricoMi/publish-unit-test-result-action@da5b7be67623cd59bbbd1a0ce4f022050a55605f # v2
+      with:
+        comment_mode: 'off'
+        files: test-results/**/*.xml
+    services:
+      postgres:
+        env:
+          POSTGRES_PASSWORD: postgres
+        image: pgvector/pgvector:pg18-trixie
+        options: --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 20
+        ports:
+        - 5432:5432

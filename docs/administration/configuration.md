@@ -22,7 +22,10 @@ In development, `mise.toml` sets the image proxy and trusted proxy variables for
 | `DATABASE_URL` | Yes (prod) | None | The PostgreSQL database, for example `ecto://USER:PASS@HOST/DATABASE`. The database needs the `vector` extension. |
 | `SECRET_KEY_BASE` | Yes (prod) | None | Signs and encrypts cookies, sessions and `/uploads` links. Generate with `mix phx.gen.secret`. Changing it logs everyone out and invalidates outstanding links. |
 | `MYTHWEAVER_VAULT_KEY` | Yes (prod) | None | Encrypts AI connection API keys at rest. Generate with `openssl rand -base64 32`. Losing it loses every stored key. |
-| `PHX_HOST` | Yes (prod) | None | The public host name, for example `mythweaver.example.org`. A wrong value breaks the live connection's origin check. Production links use `https` on port 443. |
+| `PHX_HOST` | Yes (prod) | None | The public host name, for example `mythweaver.example.org`. A wrong value breaks the live connection's origin check. Production links use it with `PHX_SCHEME` and `PHX_URL_PORT`. |
+| `PHX_SCHEME` | No | `https` | The scheme of the site's public links, `https` or `http`. `http` works only when `PHX_HOST` is `localhost`, because production redirects every other host to HTTPS. |
+| `PHX_URL_PORT` | No | `443` for `https`, `80` for `http` | The port of the site's public links, for example the MCP address in user settings. Set it when visitors reach the site on another port. |
+| `MYTHWEAVER_SECRETS_DIR` | No | `/data/secrets` in Docker | Where the Docker image keeps the secrets it generates on first start: `app.env` (`SECRET_KEY_BASE` and `MYTHWEAVER_VAULT_KEY`) and `xi.env` (the image resizer's keys, used when `MYTHWEAVER_IMAGE_PROXY=xtandard`). A file there is never rewritten, and a variable you set yourself wins over it. |
 | `PORT` | No | `4000` | The HTTP port the server listens on. |
 | `PHX_SERVER` | For releases | Unset | Starts the web server in a release. `bin/server` sets it for you. |
 | `POOL_SIZE` | No | `10` | Number of database connections. |
@@ -89,6 +92,16 @@ See [GeoIP](geoip.md).
 | `MYTHWEAVER_MAXMIND_ACCOUNT_ID` | For GeoIP | Unset | Your MaxMind GeoLite account ID, used by `mix mythweaver.geoip.download`. |
 | `MYTHWEAVER_MAXMIND_LICENSE_KEY` | For GeoIP | Unset | Your MaxMind licence key. |
 | `MYTHWEAVER_GEOIP_DIR` | No | `priv/geoip` (`/data/tokenizers` in Docker) | Where the GeoLite2 databases are stored and read from. |
+
+## Compose file (deploy)
+
+These are read by `docker compose` from a `.env` file beside the end-user compose file in [To run with Docker Compose](installation.md#to-run-with-docker-compose), not by the app.
+
+| Variable | Required | Default | What it does |
+| --- | --- | --- | --- |
+| `MYTHWEAVER_PORT` | No | `4000` | The port on this computer the site is served on. |
+| `MYTHWEAVER_BIND` | No | `127.0.0.1` | The address that port is published on. `0.0.0.0` publishes it on every interface. |
+| `POSTGRES_PASSWORD` | No | `mythweaver` | The database password. Set it before the first start: the database keeps the password it was created with. |
 
 ## Compose stack (nginx)
 

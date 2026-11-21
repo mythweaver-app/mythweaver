@@ -7,6 +7,8 @@ erlang = "latest"
 # Standalone oxfmt (GitHub release binary, no Node.js); mise's registry `oxfmt` is npm-backed and would need node.
 "github:oxc-project/oxc" = { version = "0.75.0", version_prefix = "oxfmt_v", matching = "oxfmt", rename_exe = "oxfmt" }
 oxlint = "1.90.0"
+# PklCI's check-pkl-github-actions job evaluates with this version, so local output matches CI.
+pkl = "0.30.0"
 
 [settings]
 lockfile = true
@@ -44,3 +46,8 @@ description = "Build the static user docs into docs_site/_site"
 dir = "{{config_root}}/docs_site"
 env = { MIX_ENV = "prod" }
 run = ["bun install --cwd assets --frozen-lockfile", "mix deps.get", "mix build"]
+
+[tasks."ci:generate"]
+description = "Regenerate .github/workflows and .github/dependabot.yml from .github/index.pkl"
+dir = "{{config_root}}"
+run = "pkl eval -m .github/ --project-dir .github/ .github/index.pkl"

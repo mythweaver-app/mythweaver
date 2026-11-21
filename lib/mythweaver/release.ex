@@ -5,8 +5,10 @@ defmodule Mythweaver.Release do
 
       bin/mythweaver eval "Mythweaver.Release.migrate()"   # bin/migrate
       bin/mythweaver eval "Mythweaver.Release.seed()"      # bin/seed
+      bin/mythweaver eval "Mythweaver.Release.prepare()"   # bin/boot, before the server
 
   - `migrate/0` runs every pending migration; run it before starting a new version.
+  - `prepare/0` migrates, and seeds only a database that had no migrations before.
   - `rollback/2` migrates one repo down to `version`.
   - `seed/0` loads the built-in content a fresh install needs: the default prompt (only while no
     prompt exists, since `prompts.exs` replaces every prompt), then the memory, caption and
@@ -26,6 +28,25 @@ defmodule Mythweaver.Release do
       {:ok, _, _} = Ecto.Migrator.with_repo(repo, &Ecto.Migrator.run(&1, :up, all: true))
     end
 
+    :ok
+  end
+
+  @doc """
+  Migrates, and seeds when the database had no migrations before (a fresh install). Seeding only
+  then keeps a restart from resetting edited built-in prompts, which the seeds restore.
+  """
+  @spec prepare() :: :ok
+  def prepare do
+    load_app()
+
+    fresh? =
+      Enum.all?(repos(), fn repo ->
+        {:ok, versions, _} = Ecto.Migrator.with_repo(repo, &Ecto.Migrator.migrated_versions/1)
+        versions == []
+      end)
+
+    migrate()
+    if fresh?, do: seed()
     :ok
   end
 

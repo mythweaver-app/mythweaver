@@ -1,0 +1,142 @@
+# Mythweaver. Put this file in an empty directory, run `docker compose up -d`, then open
+# http://localhost:4000 and create the owner account. The first start creates the database,
+# generates the secrets (in the `data` volume, under `secrets/`) and loads the built-in prompts.
+#
+# Optional settings go in a `.env` file beside this one:
+#   MYTHWEAVER_PORT=4000          the port on this computer
+#   MYTHWEAVER_BIND=127.0.0.1     the address it is published on
+#   POSTGRES_PASSWORD=...         the database password; set it before the first start
+#
+# Plain http works only at http://localhost. Back up both volumes: `data` holds the uploads and
+# the key that encrypts stored AI API keys.
+services:
+  db:
+    image: pgvector/pgvector:pg18-trixie
+    restart: unless-stopped
+    shm_size: 128mb
+    environment:
+      POSTGRES_DB: mythweaver
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-mythweaver}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d mythweaver"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - db:/var/lib/postgresql
+
+  # Generates the secrets once, before the app and xi start.
+  secrets:
+    image: ghcr.io/mythweaver-app/mythweaver:latest
+    command: ["/app/bin/secrets"]
+    volumes:
+      - data:/data
+
+  mythweaver:
+    image: ghcr.io/mythweaver-app/mythweaver:latest
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      secrets:
+        condition: service_completed_successfully
+    environment:
+      DATABASE_URL: ecto://postgres:${POSTGRES_PASSWORD:-mythweaver}@db/mythweaver
+      PHX_HOST: localhost
+      PHX_SCHEME: http
+      PHX_URL_PORT: ${MYTHWEAVER_PORT:-4000}
+      # Only containers on this network reach the app; nginx is the one that forwards clients.
+      MYTHWEAVER_TRUSTED_PROXIES: 10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,fc00::/7
+      MYTHWEAVER_IMAGE_PROXY: xtandard
+      MYTHWEAVER_XI_URL: /img
+      MYTHWEAVER_XI_INTERNAL_URL: http://nginx/img
+      MYTHWEAVER_XI_SOURCE_PREFIX: xi://uploads/
+    volumes:
+      - data:/data
+
+  # Resizes uploaded images. Signed and encrypted URLs only, with the keys from `secrets/xi.env`.
+  xi:
+    image: ghcr.io/xantiagoma/xtandard-image:0.1.1-full
+    restart: unless-stopped
+    user: "65534:65534"
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m
+    entrypoint: ["/bin/sh", "-c", "set -a && . /data/secrets/xi.env && exec /usr/local/bin/xtandard-image serve"]
+    depends_on:
+      secrets:
+        condition: service_completed_successfully
+    environment:
+      XI_SOURCES: uploads
+      XI_SOURCES_UPLOADS_TYPE: fs
+      XI_SOURCES_UPLOADS_ROOT: /data/uploads
+      XI_SECURITY_UNSIGNED_POLICY: deny
+      XI_CACHE_HEADERS_TTL: 86400s
+      XI_DETECT_ENABLED: "true"
+      XI_VIDEO_ENABLED: "true"
+    volumes:
+      - data:/data:ro
+
+  # The front door: the app at / and cached, resized images at /img/.
+  nginx:
+    image: nginx:alpine
+    restart: unless-stopped
+    depends_on:
+      - mythweaver
+      - xi
+    ports:
+      - ${MYTHWEAVER_BIND:-127.0.0.1}:${MYTHWEAVER_PORT:-4000}:80
+    configs:
+      - source: nginx
+        target: /etc/nginx/conf.d/default.conf
+    volumes:
+      - xi-cache:/var/cache/nginx/xi
+
+configs:
+  nginx:
+    content: |
+      proxy_cache_path /var/cache/nginx/xi levels=1:2 keys_zone=xi:10m max_size=2g inactive=3d use_temp_path=off;
+
+      map $$http_accept $$xi_format {
+        default "";
+        "~*image/avif" "avif";
+        "~*image/webp" "webp";
+      }
+
+      map $$http_upgrade $$connection_upgrade {
+        default upgrade;
+        "" close;
+      }
+
+      server {
+        listen 80;
+        client_max_body_size 0;
+
+        location /img/ {
+          proxy_pass http://xi:8080/;
+          proxy_http_version 1.1;
+          proxy_cache xi;
+          proxy_cache_key "$$request_uri|$$xi_format";
+          proxy_ignore_headers Vary;
+          proxy_cache_valid 200 1d;
+          proxy_cache_valid 404 1m;
+          proxy_cache_lock on;
+          proxy_cache_use_stale error timeout updating http_500 http_502 http_503 http_504;
+        }
+
+        location / {
+          proxy_pass http://mythweaver:4000;
+          proxy_http_version 1.1;
+          proxy_set_header Host $$http_host;
+          proxy_set_header X-Forwarded-For $$remote_addr;
+          proxy_set_header X-Forwarded-Proto $$scheme;
+          proxy_set_header Upgrade $$http_upgrade;
+          proxy_set_header Connection $$connection_upgrade;
+          proxy_read_timeout 1h;
+        }
+      }
+
+volumes:
+  db:
+  data:
+  xi-cache:

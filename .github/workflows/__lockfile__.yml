@@ -1,0 +1,50 @@
+#file: noinspection MandatoryParamsAbsent,UndefinedAction
+# This is a fake workflow that never runs.
+# It's used to pin actions to specific git SHAs when generating actual workflows.
+# It also gets updated by dependabot (see .github/dependabot.yml).
+# Generated from Workflow.pkl. DO NOT EDIT.
+name: __lockfile__
+'on':
+  push:
+    branches-ignore:
+    - '**'
+    tags-ignore:
+    - '**'
+permissions: {}
+jobs:
+  locks:
+    if: 'false'
+    runs-on: nothing
+    steps:
+    - name: EnricoMi/publish-unit-test-result-action@v2
+      uses: EnricoMi/publish-unit-test-result-action@da5b7be67623cd59bbbd1a0ce4f022050a55605f # v2
+    - name: actions/cache@v5
+      uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5
+    - name: actions/checkout@v6
+      uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+    - name: actions/configure-pages@v5
+      uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+    - name: actions/deploy-pages@v4
+      uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+    - name: actions/download-artifact@v6
+      uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6
+    - name: actions/upload-artifact@v5
+      uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
+    - name: actions/upload-pages-artifact@v4
+      uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+    - name: dawidd6/action-download-artifact@v11
+      uses: dawidd6/action-download-artifact@ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5 # v11
+    - name: docker/build-push-action@v7
+      uses: docker/build-push-action@c3c9e263c25d99ce0380d002d59b67737d91b0dc # v7
+    - name: docker/login-action@v4
+      uses: docker/login-action@8aa5831fb8d48d8f76594c7ddde61ae58019f550 # v4
+    - name: docker/metadata-action@v6
+      uses: docker/metadata-action@dc802804100637a589fabce1cb79ff13a1411302 # v6
+    - name: docker/setup-buildx-action@v4
+      uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4
+    - name: github/codeql-action/analyze@v4
+      uses: github/codeql-action/analyze@1bd86f2fdb4b86187fa4059f16f31a3202acc9ea # v4
+    - name: github/codeql-action/init@v4
+      uses: github/codeql-action/init@1bd86f2fdb4b86187fa4059f16f31a3202acc9ea # v4
+    - name: jdx/mise-action@v5
+      uses: jdx/mise-action@924e7c586e33d7d4bae9c14e26c5d22e2beb6e78 # v5

@@ -103,3 +103,10 @@ config :phoenix,
 # Enable helpful, but potentially expensive runtime checks
 config :phoenix_live_view,
   enable_expensive_runtime_checks: true
+
+# JUnit XML for CI's test reports (`test/test_helper.exs` adds the formatter only when CI is set).
+config :junit_formatter,
+  report_dir: "test-results",
+  report_file: "exunit.xml",
+  automatic_create_dir?: true,
+  include_filename?: true

@@ -34,7 +34,7 @@ defmodule Mythweaver.MixProject do
 
   def cli do
     [
-      preferred_envs: [precommit: :test]
+      preferred_envs: [precommit: :test, ci: :test]
     ]
   end
 
@@ -62,6 +62,7 @@ defmodule Mythweaver.MixProject do
       {:iconex, "~> 0.1.0"},
       {:igniter, "~> 0.8.4", only: [:dev, :test]},
       {:jason, "~> 1.4"},
+      {:junit_formatter, "~> 3.4", only: :test},
       {:lazy_html, "~> 0.1.13", only: :test},
       {:localize, "~> 1.8"},
       {:localize_web, "~> 1.3"},
@@ -117,6 +118,16 @@ defmodule Mythweaver.MixProject do
         "cmd mise exec oxlint -- oxlint --deny-warnings assets/js _build/test/phoenix-colocated/mythweaver",
         "deps.unlock --unused",
         "format",
+        "credo --strict",
+        "test"
+      ],
+      # `precommit` without the fixes: what CI runs.
+      ci: [
+        "compile --warnings-as-errors",
+        "cmd env MIX_ENV=test MIX_BUILD_PATH=_build/gettext mix gettext.extract --check-up-to-date",
+        "cmd mise exec oxlint -- oxlint --deny-warnings assets/js _build/test/phoenix-colocated/mythweaver",
+        "deps.unlock --check-unused",
+        "format --check-formatted",
         "credo --strict",
         "test"
       ],

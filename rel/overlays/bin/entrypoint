@@ -1,0 +1,25 @@
+#!/bin/sh
+# The image's entrypoint: makes sure the secrets exist, exports them unless the environment already
+# sets them, then runs the command (`bin/boot` by default).
+set -eu
+
+bin=$(cd -P -- "$(dirname -- "$0")" && pwd)
+"$bin/secrets"
+dir="${MYTHWEAVER_SECRETS_DIR:-/data/secrets}"
+value() { sed -n "s/^$1=//p" "$dir/$2"; }
+
+: "${SECRET_KEY_BASE:=$(value SECRET_KEY_BASE app.env)}"
+: "${MYTHWEAVER_VAULT_KEY:=$(value MYTHWEAVER_VAULT_KEY app.env)}"
+export SECRET_KEY_BASE MYTHWEAVER_VAULT_KEY
+
+if [ "${MYTHWEAVER_IMAGE_PROXY:-none}" = xtandard ]; then
+  : "${MYTHWEAVER_XI_KEY:=$(value XI_SIGNING_KEYS xi.env)}"
+  : "${MYTHWEAVER_XI_SALT:=$(value XI_SIGNING_SALTS xi.env)}"
+  : "${MYTHWEAVER_XI_ENCRYPTION_KEY:=$(value XI_ENCRYPTION_KEYS xi.env)}"
+  export MYTHWEAVER_XI_KEY MYTHWEAVER_XI_SALT MYTHWEAVER_XI_ENCRYPTION_KEY
+fi
+
+# xtandard-image serves this directory and refuses to start while it is missing.
+if [ -n "${MYTHWEAVER_UPLOADS_DIR:-}" ]; then mkdir -p "$MYTHWEAVER_UPLOADS_DIR"; fi
+
+exec "$@"

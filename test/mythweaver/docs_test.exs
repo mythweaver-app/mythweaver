@@ -102,4 +102,15 @@ defmodule Mythweaver.DocsTest do
       end
     end
   end
+
+  test "the installation page's compose file is deploy/compose.yml" do
+    {_, blocks} =
+      MDEx.traverse_and_update(body_doc(Path.join(@docs, "administration/installation.md")), [], fn
+        %MDEx.CodeBlock{info: "yaml", literal: literal} = node, acc -> {node, [literal | acc]}
+        node, acc -> {node, acc}
+      end)
+
+    assert blocks == [File.read!(Path.expand("../../deploy/compose.yml", __DIR__))],
+           "administration/installation.md must hold exactly one yaml block, a copy of deploy/compose.yml"
+  end
 end

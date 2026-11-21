@@ -1,0 +1,7 @@
+#!/bin/sh
+# The image's default command: migrates (seeding a brand-new database), then starts the server.
+set -eu
+
+cd -P -- "$(dirname -- "$0")"
+./mythweaver eval "Mythweaver.Release.prepare()"
+exec ./server

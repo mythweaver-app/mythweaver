@@ -37,16 +37,23 @@ COPY config/runtime.exs config/
 COPY rel rel
 RUN mix release
 
+# The bare release, for `docker build --target release --output type=local,dest=…` (the release
+# workflow's Linux tarballs). Needs the runner image's libraries: glibc ≥ 2.39, OpenSSL 3, ncurses 6.
+FROM scratch AS release
+COPY --from=builder /app/_build/prod/rel/mythweaver /mythweaver
+
 FROM ${RUNNER_IMAGE}
 RUN apt-get update -y && apt-get install -y --no-install-recommends libstdc++6 openssl libncurses6 locales ca-certificates \
  && apt-get clean && rm -rf /var/lib/apt/lists/* \
  && sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && locale-gen
 ENV LANG=en_US.UTF-8 LANGUAGE=en_US:en LC_ALL=en_US.UTF-8 MIX_ENV=prod \
-    MYTHWEAVER_UPLOADS_DIR=/data/uploads MYTHWEAVER_GEOIP_DIR=/data/geoip MYTHWEAVER_TOKENIZER_CACHE=/data/tokenizers
+    MYTHWEAVER_UPLOADS_DIR=/data/uploads MYTHWEAVER_GEOIP_DIR=/data/geoip MYTHWEAVER_TOKENIZER_CACHE=/data/tokenizers \
+    MYTHWEAVER_SECRETS_DIR=/data/secrets
 WORKDIR /app
 RUN mkdir -p /data && chown nobody /app /data
 COPY --from=builder --chown=nobody:root /app/_build/prod/rel/mythweaver ./
 USER nobody
 VOLUME /data
 EXPOSE 4000
-CMD ["/app/bin/server"]
+ENTRYPOINT ["/app/bin/entrypoint"]
+CMD ["/app/bin/boot"]

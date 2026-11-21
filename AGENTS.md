@@ -283,8 +283,10 @@ per-screen handle or ghost CSS.
 
 - `docs/` is Markdown user and admin documentation, published by `docs_site/` (a standalone Tableau
   Mix project: HEEx layouts, MDEx + Lumis, MiniSearch) to GitHub Pages by
-  `.github/workflows/docs.yml`. Preview with `mise run docs:server` (http://localhost:4999); build
-  with `mise run docs:build`.
+  `.github/workflows/docs.yml`, which, like every file under `.github/workflows/` and
+  `.github/dependabot.yml`, is generated from `.github/index.pkl` (Pkl, `pkl.impl.ghactions`) by
+  `mise run ci:generate` and never edited by hand. Preview with `mise run docs:server`
+  (http://localhost:4999); build with `mise run docs:build`.
 - Layout rules:
   - `docs/index.md`: home page, permalink `/`. Front matter: `title` (required).
   - `docs/<section>/index.md`: required for every section directory, permalink `/<section>/`.
