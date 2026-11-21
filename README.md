@@ -1,5 +1,7 @@
 # Mythweaver
 
+![Main mythweaver chat ui](docs/screenshots/main_chat.png)
+
 Mythweaver is a self-hosted app for AI role-play, in the vein of
 [SillyTavern](https://docs.sillytavern.app). You can run group chats with several characters, give
 them lore books, memory and prompt templates, and connect any OpenAI-compatible model provider,
