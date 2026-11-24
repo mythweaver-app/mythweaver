@@ -44,7 +44,6 @@ defmodule MythweaverWeb.CoreComponents.Markdown do
     <style :type={MythweaverWeb.ColocatedScopedCSS}>
       div:scope {
         overflow-wrap: anywhere;
-        max-inline-size: 65ch;
       }
       div:scope:has(> .md-reveal-caret) {
         position: relative;
